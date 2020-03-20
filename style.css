@@ -6,7 +6,7 @@
 
 body {
   background-color: rgb(249,249,249);
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Nunito', sans-serif;
 }
 
 li {
@@ -648,10 +648,9 @@ button {
   color: #fff;
 }
 .main-footer .container .right-content .container {
-  padding: 0 0 0 50px;
-  display: grid;
-  grid-template-columns: repeat(5, 20%);
-  grid-gap: 0;
+  padding: 0 0 0 100px;
+  display: flex;
+  justify-content: space-between;
 }
 
 /* .main-footer .container .right-content .container .mini-section {
