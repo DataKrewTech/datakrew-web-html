@@ -28,40 +28,71 @@
           </div>
           <div class="nav-items">
             <div class="item-container">
-              <li class="item">HOME</li>
+              <li class="item"><a href="index.html">HOME</a></li>
             </div>
             <div class="item-container">
-              <li class="item">
-                MADS
-              </li>
+              <li class="item"><a href="mads.html">MADS</a></li>
             </div>
             <div class="item-container">
               <li class="item">
                 <span class="txt">CUSTOMERS</span>
               </li>
               <ul class="item-dropdown">
-                <li class="item-drop-ele">Applications</li>
-                <li class="item-drop-ele">Solutions</li>
+                <li class="item-drop-ele">
+                  <a href="applications.html">Applications</a>
+                </li>
+                <li class="item-drop-ele">
+                  <a href="solutions.html">Solutions</a>
+                </li>
               </ul>
             </div>
             <div class="item-container">
-              <li class="item">
-                <span class="txt">
-                  COMPANY
-                </span>
-              </li>
+              <li class="item"><span class="txt">COMPANY</span></li>
               <ul class="item-dropdown">
-                <li class="item-drop-ele">About</li>
-                <li class="item-drop-ele">Team</li>
-                <li class="item-drop-ele">Partners</li>
+                <li class="item-drop-ele"><a href="about.html">About</a></li>
+                <li class="item-drop-ele"><a href="#">Team</a></li>
+                <li class="item-drop-ele"><a href="#">Partners</a></li>
               </ul>
             </div>
             <div class="item-container">
-              <li class="item">CONTACT</li>
+              <li class="item"><a href="contact.html">CONTACT</a></li>
             </div>
+          </div>
+          <div class="res-menu">
+            <img src="./assets/menu-white.png" class="menu" />
           </div>
         </div>
       </nav>
+      <ul class="res-nav-items">
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="mads.html">MADS</a></li>
+        <li class="subdown subdownOne">
+          <span>CUSTOMERS</span
+          ><img
+            class="cus-down block"
+            src="https://img.icons8.com/android/24/000000/sort-down.png"
+          />
+          <img
+            class="cus-up none"
+            src="https://img.icons8.com/android/24/000000/sort-up.png"
+          />
+        </li>
+        <div class="sub-cust"><a href="solutions.html">SOLUTIONS</a></div>
+        <div class="sub-cust"><a href="applications.html">APPLICATIONS</a></div>
+        <li class="subdown subdownTwo">
+          <span>COMPANY</span
+          ><img
+            class="comp-down block"
+            src="https://img.icons8.com/android/24/000000/sort-down.png"
+          />
+          <img
+            class="comp-up none"
+            src="https://img.icons8.com/android/24/000000/sort-up.png"
+          />
+        </li>
+        <div class="sub-comp"><a href="about.html">ABOUT</a></div>
+        <li><a href="contact.html">CONTACT</a></li>
+      </ul>
       <header class="solutions-header">
         <div class="container">
           <h1 class="title">Solutions</h1>
@@ -109,7 +140,7 @@
               </p>
             </div>
           </div>
-          <div class="sub-section">
+          <div class="sub-section rev">
             <div class="details-container">
               <h2 class="title">
                 MADS to <span class="highlight red">AUTOMATE</span>
@@ -169,7 +200,7 @@
               </p>
             </div>
           </div>
-          <div class="sub-section">
+          <div class="sub-section rev">
             <div class="details-container">
               <h2 class="title">
                 MADS to <span class="hightlight green">SECURE</span>
@@ -253,5 +284,6 @@
         </div>
       </footer>
     </div>
+    <script src="index.js"></script>
   </body>
 </html>
