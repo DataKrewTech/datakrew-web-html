@@ -1181,6 +1181,15 @@ button {
     padding: 0;
   }
 
+  .partners .brands {
+    display: grid;
+    grid-template-columns: repeat(4, 33.33%);
+  }
+
+  .partners .brands .brand {
+    width: 100% !important;
+  }
+
   .partners .brands .brand:nth-child(4) {
     display: block;
   }
