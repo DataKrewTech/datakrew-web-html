@@ -46,6 +46,7 @@ button {
   position: relative;
 }
 
+
 /* topbar */
 
 .topbar {
@@ -79,7 +80,7 @@ button {
 .main-container .res-nav-items {
   display: none;
   position: fixed;
-  top: 74.16px;
+  top: 100px;
   left: 0;
   background-color: #fff;
   color: #000;
@@ -225,14 +226,6 @@ button {
   .topbar .container .res-menu .menu {
     width: 100%;
   }
-}
-
-@media (max-width: 700px) {
-  .topbar {
-    padding: 15px 20px;
-    height: auto;
-  }
-
   .main-container .res-nav-items {
     z-index: 10;
   }
@@ -258,13 +251,53 @@ button {
     border-bottom: 1px solid #e6e6e6;
     font-weight: bold;
   }
-  
 
   .sub-cust a,
   .sub-comp a {
     width: 100%;
-    display: block;
     color: rgb(71, 71, 71);
+    display: block;
+  }
+}
+
+@media (max-width: 700px) {
+  .topbar {
+    padding: 15px 20px;
+    height: auto;
+  }
+
+  .main-container .res-nav-items {
+    z-index: 10;
+    top: 74.16px;
+  }
+
+  .main-container .res-nav-items li a,
+  .main-container .res-nav-items .subdown {
+    text-decoration: none;
+    color: rgb(71, 71, 71);
+    display: block;
+    padding: 20px 20px;
+    font-size: 1.3rem;
+    border-bottom: 1px solid #e6e6e6;
+    font-weight: bold;
+  }
+
+  .main-container .res-nav-items .sub-cust,
+  .main-container .res-nav-items .sub-comp {
+    background-color: #eee;
+    text-decoration: none;
+    color: rgb(71, 71, 71);
+    padding: 20px 20px;
+    font-size: 1.3rem;
+    border-bottom: 1px solid #e6e6e6;
+    font-weight: bold;
+  }
+
+  .sub-cust a,
+  .sub-comp a {
+    width: 100%;
+    color: rgb(71, 71, 71);
+    display: block;
   }
 
   .topbar .container .logo-container .logo {
@@ -276,6 +309,7 @@ button {
     width: 100%;
   }
 }
+
 
 
 /* contact header */
@@ -330,10 +364,12 @@ button {
   padding-left: 30px;
 }
 
-.contact-header .container .address .map-cont .map {
+.contact-header .container .address .map-cont {
   width: 100%;
+  height: 300px;
   margin-bottom: 20px;
 }
+
 
 .contact-header .container .address .subtitle {
   font-size: 2rem;
@@ -374,6 +410,14 @@ button {
 
 .contact-header .container .address .social .social-cont .icon {
   width: 100%;
+}
+
+.err {
+  color: red;
+  font-weight: bold;
+  margin:  0  0 20px 0 !important;
+  text-align: center;
+  display: block;
 }
 
 @media (max-width: 1100px) {
@@ -479,6 +523,12 @@ button {
   color: #fff;
   margin-bottom: 40px;
   font-size: 20px;
+}
+
+.main-footer .container .right-content .container .mini-section .title a {
+  color: #fff;
+  width: 100%;
+  text-decoration: none;
 }
 
 .main-footer .container .right-content .container .mini-section .link {

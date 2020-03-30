@@ -76,7 +76,7 @@ button {
 .main-container .res-nav-items {
   display: none;
   position: fixed;
-  top: 74.16px;
+  top: 100px;
   left: 0;
   background-color: #fff;
   color: #000;
@@ -222,6 +222,38 @@ button {
   .topbar .container .res-menu .menu {
     width: 100%;
   }
+  .main-container .res-nav-items {
+    z-index: 10;
+  }
+
+  .main-container .res-nav-items li a,
+  .main-container .res-nav-items .subdown {
+    text-decoration: none;
+    color: rgb(71, 71, 71);
+    display: block;
+    padding: 20px 20px;
+    font-size: 1.3rem;
+    border-bottom: 1px solid #e6e6e6;
+    font-weight: bold;
+  }
+
+  .main-container .res-nav-items .sub-cust,
+  .main-container .res-nav-items .sub-comp {
+    background-color: #eee;
+    text-decoration: none;
+    color: rgb(71, 71, 71);
+    padding: 20px 20px;
+    font-size: 1.3rem;
+    border-bottom: 1px solid #e6e6e6;
+    font-weight: bold;
+  }
+
+  .sub-cust a,
+  .sub-comp a {
+    width: 100%;
+    color: rgb(71, 71, 71);
+    display: block;
+  }
 }
 
 @media (max-width: 700px) {
@@ -232,6 +264,7 @@ button {
 
   .main-container .res-nav-items {
     z-index: 10;
+    top: 74.16px;
   }
 
   .main-container .res-nav-items li a,
@@ -289,6 +322,10 @@ button {
   padding-top: 25vh;
 }
 
+.homepage-header .container .res-detail {
+  display: none;
+}
+
 .homepage-header .container .hero-showcase .hero-showcase-container img {
   width: 100%;
 }
@@ -317,8 +354,9 @@ button {
   .hero-details-container
   .hero-explore {
   display: flex;
+
   align-items: center;
-  padding: 13px 30px;
+  padding: 13px 30px 13px 20px;
   background-color: #203864;
   color: #fff;
   border-radius: 50px;
@@ -337,6 +375,7 @@ button {
   font-weight: bold;
   font-size: 20px;
   font-family: 'Nunito', sans-serif;
+  margin-left: 10px;
 }
 
 .homepage-header
@@ -344,21 +383,64 @@ button {
   .hero-details
   .hero-details-container
   .hero-explore
+  .icon
   .explore-img {
-  width: 60px;
+  width: 80%;
 }
 
 .homepage-header
   .container
   .hero-details
   .hero-details-container
-  .demo-request {
+  .hero-explore
+  .icon {
+  height: 40px;
+  width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: #fff;
+}
+
+.homepage-header .container .hero-details .hero-details-container .demo-request,
+.homepage-header
+  .container
+  .hero-details
+  .hero-details-container
+  .success-email-cont {
   background: #cad5e6;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0px 0px 0 20px;
   border-radius: 50px;
+}
+
+.homepage-header
+  .container
+  .hero-details
+  .hero-details-container
+  .demo-request
+  .email-success {
+  display: none;
+  color: #4eb6bc;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  width: 100%;
+}
+
+.homepage-header
+  .container
+  .hero-details
+  .hero-details-container
+  .success-email-cont {
+  padding: 20px;
+  background-color: transparent;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
 }
 
 .homepage-header
@@ -443,10 +525,31 @@ button {
   .homepage-header .container {
     display: flex;
     flex-direction: column;
-    padding-top: 20vh;
+    padding-top: 150px;
   }
+
+  .homepage-header .container .res-detail {
+    display: block;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .homepage-header .container .res-detail .res-hero-title {
+    font-size: 3rem;
+    margin-bottom: 15px;
+  }
+
+  .homepage-header .container .res-detail .res-detail {
+    font-size: 2rem;
+    line-height: 30px;
+  }
+
+  .homepage-header .container .hero-showcase {
+    margin-bottom: 30px;
+  }
+
   .homepage-header .container .hero-details {
-    order: -1;
+    order: 1;
     margin-bottom: 50px;
   }
   .homepage-header .container .hero-details .hero-details-container {
@@ -458,9 +561,11 @@ button {
     .hero-details-container
     .hero-title {
     text-align: center;
+    display: none;
   }
   .homepage-header .container .hero-details .hero-details-container .detail {
     text-align: center;
+    display: none;
   }
   .homepage-header
     .container
@@ -502,6 +607,16 @@ button {
     .hero-details
     .hero-details-container
     .hero-explore
+    .icon {
+    height: 27px;
+    width: 27px;
+  }
+
+  .homepage-header
+    .container
+    .hero-details
+    .hero-details-container
+    .hero-explore
     .text {
     font-size: 16px;
   }
@@ -533,6 +648,14 @@ button {
     font-size: 16px;
     padding: 10px 20px;
   }
+
+  .homepage-header
+    .container
+    .hero-details
+    .hero-details-container
+    .success-email-cont {
+    padding: 10px 20px;
+  }
 }
 
 @media (max-width: 700px) {
@@ -550,7 +673,27 @@ button {
     .hero-details
     .hero-details-container
     .hero-explore {
-    padding: 10px 30px;
+    padding: 10px 30px 10px 20px;
+  }
+
+  .homepage-header
+    .container
+    .hero-details
+    .hero-details-container
+    .hero-explore
+    .icon {
+    height: 20px;
+    width: 20px;
+  }
+
+  .homepage-header
+    .container
+    .hero-details
+    .hero-details-container
+    .hero-explore
+    .icon
+    .explore-img {
+    width: 90%;
   }
 
   .homepage-header
@@ -590,6 +733,22 @@ button {
     font-size: 12px;
     padding: 10px 20px;
     width: 40%;
+  }
+}
+
+@media (max-width: 600px) {
+  .homepage-header .container {
+    padding-top: 100px;
+  }
+
+  .homepage-header .container .res-detail .res-hero-title {
+    font-size: 2.7rem;
+    margin-bottom: 15px;
+  }
+
+  .homepage-header .container .res-detail .res-detail {
+    font-size: 1.6rem;
+    line-height: 30px;
   }
 }
 
@@ -640,12 +799,13 @@ button {
   text-align: center;
   margin-bottom: 100px;
   font-family: 'Montserrat', sans-serif;
+  line-height: 35px;
 }
 
 .homepage-middle-content .container .configuration {
   display: grid;
   grid-template-columns: 50% 50%;
-  margin-bottom: 130px;
+  margin-bottom: 70px;
 }
 
 .homepage-middle-content .container .configuration .img-container img {
@@ -743,7 +903,7 @@ button {
 .homepage-middle-content .container .easy-use {
   display: grid;
   grid-template-columns: 50% 50%;
-  margin-bottom: 130px;
+  margin-bottom: 70px;
 }
 
 .homepage-middle-content .container .easy-use .img-container {
@@ -960,6 +1120,10 @@ button {
 }
 
 @media (max-width: 1100px) {
+  .homepage-middle-content .container .quick-deployment {
+    margin-bottom: 0px;
+  }
+
   .homepage-middle-content .container .title {
     font-size: 30px;
   }
@@ -1174,8 +1338,14 @@ button {
 }
 
 @media (max-width: 800px) {
+  .partners {
+    padding: 70px 0 60px 0;
+    background-color: rgb(255, 255, 255);
+  }
+
   .partners .container .title {
     font-size: 25px;
+    margin-bottom: 30px;
   }
   .partners .container {
     padding: 0;
@@ -1271,6 +1441,12 @@ button {
   color: #fff;
   margin-bottom: 40px;
   font-size: 20px;
+}
+
+.main-footer .container .right-content .container .mini-section .title a {
+  color: #fff;
+  width: 100%;
+  text-decoration: none;
 }
 
 .main-footer .container .right-content .container .mini-section .link {

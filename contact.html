@@ -97,27 +97,40 @@
         <h1 class="title">Contact</h1>
         <div class="container">
           <div class="form">
-            <input type="text" placeholder="Your Name" class="form-input" />
-            <input type="text" placeholder="Email Address" class="form-input" />
-            <input type="text" placeholder="Subject" class="form-input" />
+            <input
+              name="name"
+              type="text"
+              placeholder="Your Name"
+              class="form-input name-in"
+            />
+            <span class="err name-err"></span>
+            <input
+              name="email"
+              type="text"
+              placeholder="Email Address"
+              class="form-input email-in"
+            />
+            <span class="err email-err"></span>
+            <input
+              name="subject"
+              type="text"
+              placeholder="Subject"
+              class="form-input subj-in"
+            />
+            <span class="err subj-err"></span>
             <textarea
               name="message"
               placeholder="Your Message"
               rows="7"
-              class="message-field"
+              class="message-field msg-in"
             ></textarea>
-            <button class="submit">
+            <span class="err msg-err"></span>
+            <button name="submit" class="submit submit-btn">
               Send Message
             </button>
           </div>
           <div class="address">
-            <div class="map-cont">
-              <img
-                src="https://cdn.zeplin.io/5e6a432713239d166440621b/assets/545C2098-5BA8-4854-B394-F4A03D914AB9.png"
-                alt="map"
-                class="map"
-              />
-            </div>
+            <div class="map-cont"></div>
             <h3 class="subtitle">
               Stop By For A Visit
             </h3>
@@ -206,30 +219,33 @@
           <div class="right-content">
             <div class="container">
               <div class="mini-section">
-                <h3 class="title">Home</h3>
+                <h3 class="title"><a href="index.html">HOME</a></h3>
               </div>
               <div class="mini-section">
-                <h3 class="title">MADS</h3>
+                <h3 class="title"><a href="index.html">MADS</a></h3>
               </div>
               <div class="mini-section">
                 <h3 class="title">CUSTOMERS</h3>
-                <a href="#" class="link">Applications</a>
-                <a href="#" class="link">Solutions</a>
+                <a href="applications.html" class="link">Applications</a>
+                <a href="solutions.html" class="link">Solutions</a>
               </div>
               <div class="mini-section">
                 <h3 class="title">COMPANY</h3>
-                <a href="#" class="link">About</a>
+                <a href="about.html" class="link">About</a>
                 <a href="#" class="link">Team</a>
                 <a href="#" class="link">Partners</a>
               </div>
               <div class="mini-section">
-                <h3 class="title">CONTACT</h3>
+                <h3 class="title"><a href="contact.html">CONTACT</a></h3>
               </div>
             </div>
           </div>
         </div>
       </footer>
     </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC9Eo0E5l0Vs1CWrPtCEGirXdg09aKSFWo"></script>
     <script src="index.js"></script>
+    <script src="contact.js"></script>
   </body>
 </html>
