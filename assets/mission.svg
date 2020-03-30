@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="670.66" height="171.988" viewBox="0 0 670.66 171.988">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.981" y1="0.452" x2="0.009" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#497157"/>
+      <stop offset="1" stop-color="#74aa86"/>
+    </linearGradient>
+    <filter id="Ellipse_304" x="9.154" y="16.762" width="127.464" height="127.464" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_16138" data-name="Group 16138" transform="translate(-42 -238)">
+    <rect id="Rectangle_437" data-name="Rectangle 437" width="618.185" height="154.828" transform="translate(42 238)" fill="url(#linear-gradient)"/>
+    <text id="Mission" transform="translate(302.805 279.367)" fill="#fff" font-size="37" font-family="Montserrat-Regular, Montserrat"><tspan x="0" y="0">Mission</tspan></text>
+    <path id="Path_51270" data-name="Path 51270" d="M654.353,0H-9.18V116.287H602.559Z" transform="translate(58.307 293.701)" fill="#cee8d5"/>
+    <text id="To_empower_customers_through_cost-effective_Durable_and_value_driven_solutions_using_loT_AI_And_data_security_technology" data-name="To empower customers through cost-effective,
+Durable and value driven solutions using loT, AI
+And data security technology" transform="translate(208.712 326.928)" fill="#1e1e1e" font-size="20" font-family="Nunito-Regular, Nunito"><tspan x="0" y="0">To empower customers through cost-effective,</tspan><tspan x="0" y="27">Durable and value driven solutions using loT, AI</tspan><tspan x="0" y="54">And data security technology</tspan></text>
+    <g id="Group_16136" data-name="Group 16136" transform="translate(42 238)">
+      <g id="Rectangle_436" data-name="Rectangle 436" fill="#fff" stroke="#7caa8b" stroke-width="8">
+        <rect width="148.785" height="171.988" stroke="none"/>
+        <rect x="4" y="4" width="140.785" height="163.988" fill="none"/>
+      </g>
+      <g id="target_2_" data-name="target (2)" transform="translate(39.154 42.788)">
+        <path id="Path_51268" data-name="Path 51268" d="M.615,0H8.446l-1.5,20.557L0,23.087Z" transform="translate(17.044 61.746) rotate(20)" fill="#c5b9a7"/>
+        <path id="Path_51269" data-name="Path 51269" d="M.615,23.087H8.446L6.949,2.529,0,0Z" transform="translate(56.304 83.44) rotate(160)" fill="#c5b9a7"/>
+        <g transform="matrix(1, 0, 0, 1, -39.15, -42.79)" filter="url(#Ellipse_304)">
+          <circle id="Ellipse_304-2" data-name="Ellipse 304" cx="33.732" cy="33.732" r="33.732" transform="translate(39.15 46.76)" fill="#332f2b"/>
+        </g>
+        <path id="Path_51265" data-name="Path 51265" d="M292.8,125.232C292.8,106.6,276.325,91.5,256,91.5v67.464C276.325,158.964,292.8,143.862,292.8,125.232Z" transform="translate(-224.636 -87.526)" fill="#1f1e1c"/>
+        <circle id="Ellipse_305" data-name="Ellipse 305" cx="25.743" cy="25.743" r="25.743" transform="translate(7.989 11.963)" fill="#786e65"/>
+        <circle id="Ellipse_306" data-name="Ellipse 306" cx="17.67" cy="17.67" r="17.67" transform="translate(16.062 20.036)" fill="#94897d"/>
+        <circle id="Ellipse_307" data-name="Ellipse 307" cx="6.497" cy="6.497" r="6.497" transform="translate(27.236 31.209)" fill="#bcb09e"/>
+        <path id="Path_51266" data-name="Path 51266" d="M77.95,41.966a1.224,1.224,0,0,0-1.733,0L59.771,58.411a1.226,1.226,0,1,0,1.734,1.733L77.95,43.7a1.224,1.224,0,0,0,0-1.733Z" transform="translate(-26.906 -21.571)" fill="#f6e4cf"/>
+        <path id="Path_51267" data-name="Path 51267" d="M90.1,37.533l-8.267-1.867L79.971,27.4,94.371,13l1.867,8.267,8.267,1.867Z" transform="translate(-33.066 -13)" fill="#6d655b"/>
+      </g>
+    </g>
+  </g>
+</svg>
