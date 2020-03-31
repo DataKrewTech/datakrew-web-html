@@ -49,7 +49,6 @@ button {
   }
 }
 
-
 /* topbar */
 
 .topbar {
@@ -313,8 +312,6 @@ button {
   }
 }
 
-
-
 /* header */
 
 .header-about {
@@ -404,6 +401,24 @@ button {
 
 .team {
   margin-bottom: 100px;
+  padding: 100px 0 120px 0;
+  background: linear-gradient(
+    to right,
+    #1c4a86 0%,
+    #1c4e87 4%,
+    #1b5289 9%,
+    #1b538a 9%,
+    #1b578b 14%,
+    #1a5d8e 20%,
+    #186994 31%,
+    #177499 41%,
+    #167b9c 48%,
+    #1486a1 60%,
+    #1390a6 68%,
+    #129aab 78%,
+    #10a7b0 89%,
+    #0fafb4 100%
+  );
 }
 
 .team .container {
@@ -417,6 +432,40 @@ button {
   font-size: 2.5rem;
   margin-bottom: 70px;
   font-family: 'Montserrat', sans-serif;
+  color: #fff;
+}
+
+.team .container .main {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  color: #fff;
+}
+
+.team .container .main .member {
+  text-align: center;
+  width: 15%;
+}
+
+.team .container .main .member .pic-cont {
+  width: 90%;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.team .container .main .member .name {
+  margin-bottom: 50px;
+  font-size: 1.5rem;
+  line-height: 40px;
+}
+
+.team .container .main .member .role {
+  font-size: 1.4rem;
+}
+
+.team .container .main .member .pic-cont .pic {
+  width: 100%;
 }
 
 .team .container .res-img-cont {
@@ -425,6 +474,22 @@ button {
 
 .team .container .img-container .team-img {
   width: 100%;
+}
+
+@media (max-width: 1200px) {
+  .team .container .main .member {
+    margin-bottom: 70px;
+    width: 30%;
+  }
+  .team .container .main .member .name {
+    margin-bottom: 40px;
+    font-size: 1.5rem;
+    line-height: 30px;
+  }
+
+  .team .container .main .member .role {
+    font-size: 1.4rem;
+  }
 }
 
 @media (max-width: 800px) {
@@ -444,6 +509,37 @@ button {
   }
   .team .container .res-img-cont .res-img img {
     width: 100%;
+  }
+}
+
+@media (max-width: 500px) {
+  .team {
+    margin-bottom: 50px;
+    padding: 50px 0 50px 0;
+  }
+
+  .team .container .title {
+    font-size: 2rem;
+    margin-bottom: 40px;
+  }
+
+  .team .container .main .member {
+    margin-bottom: 50px;
+    width: 30%;
+  }
+
+  .team .container .main .member .pic-cont {
+    margin-bottom: 00px;
+  }
+
+  .team .container .main .member .name {
+    margin-bottom: 25px;
+    font-size: 1.2rem;
+    line-height: 25px;
+  }
+
+  .team .container .main .member .role {
+    font-size: 1rem;
   }
 }
 
@@ -507,6 +603,12 @@ button {
 
   .partners .container .row-around {
     width: 100%;
+  }
+}
+
+@media (max-width: 500px) {
+  .partners {
+    margin-bottom: 0px;
   }
 }
 

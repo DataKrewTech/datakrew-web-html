@@ -894,7 +894,23 @@ button {
   font-family: 'Nunito', sans-serif;
   font-size: 25px;
   color: #fff;
-  background-color: #4eb6bc;
+  background: linear-gradient(
+    to right,
+    #1c4a86 0%,
+    #1c4e87 4%,
+    #1b5289 9%,
+    #1b538a 9%,
+    #1b578b 14%,
+    #1a5d8e 20%,
+    #186994 31%,
+    #177499 41%,
+    #167b9c 48%,
+    #1486a1 60%,
+    #1390a6 68%,
+    #129aab 78%,
+    #10a7b0 89%,
+    #0fafb4 100%
+  );
   border-radius: 50px;
   -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
@@ -987,7 +1003,23 @@ button {
   padding: 15px 30px;
   font-size: 25px;
   color: #fff;
-  background-color: #4eb6bc;
+  background: linear-gradient(
+    to right,
+    #1c4a86 0%,
+    #1c4e87 4%,
+    #1b5289 9%,
+    #1b538a 9%,
+    #1b578b 14%,
+    #1a5d8e 20%,
+    #186994 31%,
+    #177499 41%,
+    #167b9c 48%,
+    #1486a1 60%,
+    #1390a6 68%,
+    #129aab 78%,
+    #10a7b0 89%,
+    #0fafb4 100%
+  );
   border-radius: 50px;
 }
 
@@ -1087,7 +1119,23 @@ button {
   font-family: 'Nunito', sans-serif;
   font-size: 25px;
   color: #fff;
-  background-color: #4eb6bc;
+  background: linear-gradient(
+    to right,
+    #1c4a86 0%,
+    #1c4e87 4%,
+    #1b5289 9%,
+    #1b538a 9%,
+    #1b578b 14%,
+    #1a5d8e 20%,
+    #186994 31%,
+    #177499 41%,
+    #167b9c 48%,
+    #1486a1 60%,
+    #1390a6 68%,
+    #129aab 78%,
+    #10a7b0 89%,
+    #0fafb4 100%
+  );
   border-radius: 50px;
 }
 

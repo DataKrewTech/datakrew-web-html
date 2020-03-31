@@ -487,6 +487,11 @@ button {
     margin-bottom: 30px;
   }
 
+
+  .about-mads .container .details-container .title {
+    text-align: center;
+  }
+
   .about-mads .container .details-container .detail {
     text-align: justify;
   }
@@ -817,6 +822,7 @@ button {
     grid-template-columns: repeat(3, 30%);
     grid-gap: 0;
   }
+  
 
   .apps .container .apps-details .categories .indi-cat {
     margin-bottom: 50px;
@@ -831,6 +837,7 @@ button {
   }
   .apps .container .apps-details .category-apps {
     grid-template-columns: 100%;
+    grid-gap: 1%;
   }
 
   .apps .container .apps-details .category-apps .app-detail .upper .app-icon {
@@ -885,8 +892,8 @@ button {
 
 @media (max-width: 700px) {
   .apps {
-    padding-bottom: 250px;
-    margin-bottom: 250px;
+    padding-bottom: 100px;
+    margin-bottom: 100px;
   }
 
   .apps .container .apps-details .wrapper .categories {
@@ -934,7 +941,7 @@ button {
   .apps .container .apps-details .wrapper .left,
   .apps .container .apps-details .wrapper .right {
     left: 0;
-    top: 18%;
+    top: 15%;
     width: 30px;
     text-align: center;
     height: 30px;
