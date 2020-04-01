@@ -105,15 +105,18 @@ const footerContent = `
     <div class="container">
       <div class="left-content">
         <div class="brand-icon">
-          <img src="./assets/datakrew-logo.png" alt="brand" />
+          <img src="./assets/datakrew-logo.png" alt="Datakrew" />
         </div>
         <div class="txt">
-          Pellentesque nuns, sit amet tempor justo odio blandir ex tincidunt
-          tempus rutrum.
+          <b>Datakrew</b> is an innovative deep technology startup 
+            with strong roots in IoT, AI & data security. We enable 
+            large-scale secure IoT applications through data-driven 
+            <i>Monitoring</i>, <i>Automation</i>, <i>Diagnostics</i> 
+            and <i>Security</i> – MADS!
         </div>
         <div class="social">
           <div class="link">
-            <img src="./assets/fb.svg" alt="twitter" />
+            <img src="./assets/fb.svg" alt="facebook" />
           </div>
           <div class="link">
             <img src="./assets/twitter.png" alt="twitter" />
