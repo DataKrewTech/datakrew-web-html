@@ -44,6 +44,9 @@ button {
 }
 
 /* homepage header */
+.text-heading-1{
+  
+}
 
 
 .homepage-header {
@@ -1376,6 +1379,7 @@ button {
   justify-content: center;
   -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
 }
 
 .partners .left img,
@@ -1440,6 +1444,7 @@ button {
 
   .partners .brands .brand {
     width: 100% !important;
+  
   }
 
   .partners .brands .brand:nth-child(4) {

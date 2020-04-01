@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="common.css">
+    <link rel="stylesheet" href="common.css" />
     <link
       href="https://fonts.googleapis.com/css?family=Nunito&display=swap"
       rel="stylesheet"
@@ -18,14 +18,20 @@
       href="https://fonts.googleapis.com/css?family=Montserrat&display=swap"
       rel="stylesheet"
     />
-    
-    <link rel="shortcut icon" href="datakrew-favicon.ico" type="image/x-icon">
-    <link rel="icon" href="datakrew-favicon.ico" type="image/x-icon">
 
-    <meta name="description" content="Datakrew is an innovative deep technology startup with strong roots in Internet-of-Thing (IoT), Artificial Intelligence (AI) and Data Security. We enable large-scale secure IoT applications through data-driven Monitoring, Automation, Diagnostics and Security – MADS! Our vision is to realise a ‘Smart Secure Tomorrow’ through MADS."/>
-    <meta name="author" content="Datakrew">
-    
-    <title>Datakrew – Dedicated IoT, AI and security apps, for a Smart Secure Tomorrow</title>
+    <link rel="shortcut icon" href="datakrew-favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="datakrew-favicon.ico" type="image/x-icon" />
+
+    <meta
+      name="description"
+      content="Datakrew is an innovative deep technology startup with strong roots in Internet-of-Thing (IoT), Artificial Intelligence (AI) and Data Security. We enable large-scale secure IoT applications through data-driven Monitoring, Automation, Diagnostics and Security – MADS! Our vision is to realise a ‘Smart Secure Tomorrow’ through MADS."
+    />
+    <meta name="author" content="Datakrew" />
+
+    <title>
+      Datakrew – Dedicated IoT, AI and security apps, for a Smart Secure
+      Tomorrow
+    </title>
   </head>
   <body>
     <div class="main-container">
@@ -86,7 +92,8 @@
       <section class="homepage-middle-content">
         <div class="container">
           <div class="title">
-            A fully customizable IoT platform<br> that brings everything together
+            A fully customizable IoT platform<br />
+            that brings everything together
             <!-- Simple Configuration, Easy Use, Quick Deployment -->
           </div>
           <div class="configuration">
@@ -238,18 +245,6 @@
               <img src="./assets/left.svg" alt="left" />
             </div>
             <div class="brands">
-              <div class="brand">
-                <img src="./assets/ntu-uni.png" alt="brand" />
-              </div>
-              <div class="brand">
-                <img src="./assets/inservia.png" alt="brand" />
-              </div>
-              <div class="brand">
-                <img src="./assets/pub.png" alt="brand" />
-              </div>
-              <div class="brand">
-                <img src="./assets/rytle.png" alt="brand" />
-              </div>
             </div>
             <div class="right">
               <img src="./assets/right.svg" alt="right" />
@@ -292,6 +287,72 @@
         } else {
           alert('Please Enter a Valid Email')
         }
+      })
+
+      // Partners Carousel
+
+      let brandsContainer = document.querySelector(
+        '.partners .container .content .brands'
+      )
+      let leftClick = document.querySelector(
+        '.partners .container .content .left'
+      )
+      let rightClick = document.querySelector(
+        '.partners .container .content .right'
+      )
+      let brands = [
+        {
+          img: './assets/ntu-uni.png'
+        },
+        {
+          img: './assets/inservia.png'
+        },
+        {
+          img: './assets/pub.png'
+        },
+        {
+          img: './assets/rytle.png'
+        }
+      ]
+
+      const renderPartners = () => {
+        for (let i = 0; i < brands.length; i++) {
+          let indiBrand = document.createElement('div')
+          indiBrand.classList.add('brand')
+          indiBrand.innerHTML = `
+        <img src=${brands[i].img} alt="brand" />
+    `
+          brandsContainer.appendChild(indiBrand)
+        }
+      }
+      renderPartners()
+
+      leftClick.addEventListener('click', () => {
+        let newArr = []
+        for (let i = 0; i < brands.length; i++) {
+          if (i === brands.length - 1) {
+            newArr[0] = brands[i]
+          } else {
+            newArr[i + 1] = brands[i]
+          }
+        }
+        brands = newArr
+        brandsContainer.innerHTML = null
+        renderPartners()
+      })
+
+      rightClick.addEventListener('click', () => {
+        let newArr = []
+        for (let i = 0; i < brands.length; i++) {
+          if (i === 0) {
+            newArr[brands.length - 1] = brands[i]
+          } else {
+            newArr[i - 1] = brands[i]
+          }
+        }
+        brands = newArr
+        brandsContainer.innerHTML = null
+        renderPartners()
       })
     </script>
   </body>
