@@ -2,7 +2,6 @@
 
 let mainContainer = document.querySelector('.main-container')
 
-
 // topbar
 
 const topbarContent = `
@@ -98,7 +97,6 @@ navDropdownEle.classList.add('res-nav-items')
 navDropdownEle.innerHTML = navDropdownCont
 topbarEle.after(navDropdownEle)
 
-
 // Footer
 
 const footerContent = `
@@ -157,7 +155,6 @@ let footerEle = document.createElement('footer')
 footerEle.classList.add('main-footer')
 footerEle.innerHTML = footerContent
 mainContainer.appendChild(footerEle)
-
 
 // nav dropdown
 let dropDownOpen = false
@@ -230,6 +227,3 @@ subdownTwo.addEventListener('click', () => {
     })
   }
 })
-
-
-

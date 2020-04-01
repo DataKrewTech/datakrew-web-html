@@ -1,4 +1,4 @@
-const categories = [
+let categories = [
   {
     name: 'Core',
     img:
@@ -217,3 +217,45 @@ const renderApps = () => {
 }
 
 renderApps()
+
+// carousel
+let leftClick = document.querySelector(
+  '.apps .container .apps-details .wrapper .left'
+)
+
+let rightClick = document.querySelector(
+  '.apps .container .apps-details .wrapper .right'
+)
+
+leftClick.addEventListener('click', () => {
+  let newArr = []
+  for (let i = 0; i < categories.length; i++) {
+    if (i === categories.length - 1) {
+      newArr[0] = categories[i]
+    } else {
+      newArr[i + 1] = categories[i]
+    }
+  }
+  categories = newArr
+  catContainer.innerHTML = null
+  appsContainer.innerHTML = null
+  renderCategories()
+  renderApps()
+})
+
+rightClick.addEventListener('click', () => {
+  let newArr = []
+  for (let i = 0; i < categories.length; i++) {
+    if (i === 0) {
+      newArr[categories.length - 1] = categories[i]
+    } else {
+      newArr[i - 1] = categories[i]
+    }
+  }
+
+  categories = newArr
+  catContainer.innerHTML = null
+  appsContainer.innerHTML = null
+  renderCategories()
+  renderApps()
+})
