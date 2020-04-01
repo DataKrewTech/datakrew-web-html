@@ -52,7 +52,7 @@ button {
 .homepage-header {
   height: 100vh;
   /* background-color: rgb(255, 255, 255); */
-  background: linear-gradient(to right, rgb(232, 227, 245), #dffcf3);
+  background: linear-gradient(to right, rgb(209, 197, 240), #dffcf3);
   /* opacity: 0.5; */
 
 }
