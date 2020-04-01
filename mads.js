@@ -189,6 +189,8 @@ const renderApps = () => {
   for (let i = 0; i < categories[selectedAppCatIndex].apps.length; i++) {
     let indiApp = document.createElement('div')
     indiApp.classList.add('app-detail')
+    indiApp.classList.add('animated')
+    indiApp.classList.add('bounceInRight')
     indiApp.innerHTML = `
             <div class="upper">
                 <div class="app-icon">
