@@ -48,14 +48,17 @@ button {
 
 .homepage-header {
   height: 100vh;
-  background-color: rgb(255, 255, 255);
-}
-.gradinet{
-  max-height: 50vh;
-  /* background: linear-gradient(to right, #8360c3, #2ebf91); */
-  background: linear-gradient(to right, #B49EE7, #2ebf91);
+  /* background-color: rgb(255, 255, 255); */
+  background: linear-gradient(to right, rgb(232, 227, 245), #dffcf3);
+  /* opacity: 0.5; */
 
 }
+/* .gradinet{
+  max-height: 50vh;
+  background: linear-gradient(to right, #8360c3, #2ebf91);
+  background: linear-gradient(to right, #B49EE7, #2ebf91);
+
+} */
 .text-heading1{
   font-family: 'Montserrat', sans-serif;
   color: #242424;
