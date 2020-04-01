@@ -44,9 +44,7 @@ button {
 }
 
 /* homepage header */
-.check{
-  
-}
+
 
 .homepage-header {
   height: 100vh;
@@ -143,7 +141,8 @@ button {
   display: flex;
 
   align-items: center;
-  padding: 13px 30px 13px 20px;
+  /* padding: 13px 30px 13px 20px; */
+  padding: 2px 22px 2px 2px;
   background-color: #203864;
   color: #fff;
   border-radius: 50px;
@@ -151,6 +150,8 @@ button {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   margin: 0 0 50px 0;
   font-family: 'Nunito', sans-serif;
+  height: 50px;
+  border-radius: 43px;
 }
 
 .homepage-header
@@ -198,10 +199,12 @@ button {
   .success-email-cont {
   background: #cad5e6;
   display: flex;
-  justify-content: space-between;
+  /* justify-content: center; */
   align-items: center;
   padding: 0px 0px 0 20px;
   border-radius: 50px;
+  height: 50px;
+  width: 78%;
 }
 
 .homepage-header
@@ -240,7 +243,8 @@ button {
   border: none;
   padding: 10px 20px;
   background: transparent;
-  width: 60%;
+  /* width: 60%; */
+  width: 65%;
   font-size: 20px;
   font-weight: bold;
 }
@@ -261,13 +265,16 @@ button {
   .demo-request
   .demo-req-btn {
   font-family: 'Nunito', sans-serif;
-  background-color: #203864;
+  /* background-color: #203864; */
+  background-color: #2f3490;
   color: #fff;
   font-weight: bold;
   font-size: 20px;
-  padding: 20px 20px;
-  width: 35%;
+  /* padding: 20px 20px; */
+  width: 48%;
   border-radius: 50px;
+  height: 50px;
+
 }
 
 @media (max-width: 1500px) {
