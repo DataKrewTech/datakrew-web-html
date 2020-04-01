@@ -53,6 +53,7 @@ button {
 
 .mads-header {
   height: 100vh;
+  background-color: #ffffff;
 }
 
 .mads-header .container {
@@ -124,6 +125,15 @@ button {
   border-radius: 10px;
   -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.mads-demo .container .single-demo .demo-cont:hover{
+  background: #1c4784;
+  background: -webkit-linear-gradient(to right, #0da6ad, #1c4784);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #0da6ad, #1c4784); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  -webkit-transform: translateY(-10px);
+  transform: translateY(-10px);
+  border-color: transparent;
 }
 
 .mads-demo .container .single-demo .demo-cont .img-cont .demo {
@@ -351,7 +361,7 @@ button {
 
 .apps {
   padding: 100px 0 100px 0;
-  margin-bottom: 150px;
+  /* margin-bottom: 150px; */
   background: linear-gradient(
     to right,
     #1c4a86 0%,
@@ -429,12 +439,16 @@ button {
   border: 5px solid #ffdf79;
   border-radius: 5px;
 }
-
+.apps .container .apps-details .categories .indi-cat .wrapper:hover {
+  border: 5px solid #ffdf79;
+  border-radius: 5px;
+}
 
 .apps .container .apps-details .categories .indi-cat .apps-count {
   text-align: center;
   font-weight: bold;
-  color: #4eb6bc;
+  /* color: #4eb6bc; */
+  color: #ffffff;
   font-size: 1.5rem;
   visibility: hidden;
 }
@@ -472,6 +486,15 @@ button {
   padding: 30px;
   border-radius: 5px;
   background-color: #fff;
+  box-shadow: inset 0 0 15px yellow;
+}
+.apps .container .apps-details .category-apps .app-detail:hover {
+  -webkit-transform: translateY(-5px);
+  transform: translateY(-5px);
+  border-color: transparent;
+  border: 5px solid #ffdf79;
+  border-radius: 5px;
+  box-shadow: none;
 }
 
 .apps .container .apps-details .category-apps .app-detail .upper {
@@ -595,6 +618,14 @@ button {
   .apps .container .apps-details .category-apps .app-detail .detail {
     font-size: 1.2rem;
   }
+  .apps .container .apps-details .category-apps .app-detail .detail:hover {
+    background: #1c4784;
+    background: -webkit-linear-gradient(to right, #0da6ad, #1c4784);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #0da6ad, #1c4784); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px);
+    border-color: transparent;
+  }
 
   .apps
     .container
@@ -709,4 +740,8 @@ button {
   .apps .container .apps-details .categories .indi-cat .cat-name {
     font-size: 8px;
   }
+}
+
+.mads-laptop-img:hover{
+  animation-name: "pulse";
 }

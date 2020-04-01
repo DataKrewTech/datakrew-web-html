@@ -9,7 +9,7 @@
     } */
 
 body {
-  background-color: #fff;
+  background-color: rgb(249, 249, 249);
   font-family: 'Nunito', sans-serif;
 }
 
@@ -74,6 +74,7 @@ button {
 
 .applications-header {
   margin-bottom: 100px;
+  background-color: #ffffff;
 }
 
 .applications-header .container {
@@ -341,6 +342,7 @@ button {
   max-width: 1600px;
   padding: 0 50px;
   margin: 0 auto 50px auto;
+
 }
 
 .middle-section .container .sub-section {
