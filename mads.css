@@ -52,7 +52,7 @@ button {
 /* mads header */
 
 .mads-header {
-  height: 100vh;
+  /* height: 100vh; */
   background-color: #ffffff;
 }
 
@@ -798,7 +798,16 @@ button {
     font-size: 8px;
   }
 }
-
+.mads-laptop-img{
+  max-width: 100% !important;
+  height: auto;
+  text-align: center;
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+}
 .mads-laptop-img:hover{
   animation-name: "pulse";
 }
