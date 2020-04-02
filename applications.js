@@ -1,14 +1,3 @@
-
-// let madsLaptopImg = document.querySelector('.mads-laptop-img'
-// )
-
-// madsLaptopImg.addEventListener('mouseover', () => {
-//   madsLaptopImg.classList.add('pulse')
-// })
-// madsLaptopImg.addEventListener('mouseout', () => {
-//   madsLaptopImg.classList.remove('pulse')
-// })
-
 window.addEventListener('scroll', function() {  
   var animationElements = document.querySelectorAll('.application-animation')
   animationElements.forEach(function(element) {

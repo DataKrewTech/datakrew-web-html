@@ -337,4 +337,24 @@ window.addEventListener('scroll', function() {
       }
     }
   })
+  var leftApplicationElements = document.querySelectorAll('.application-ani-left')
+  var rightApplicationElements = document.querySelectorAll('.application-ani-right')
+  leftApplicationElements.forEach(function(element) {
+    var position = element.getBoundingClientRect();
+    if(position.top < window.innerHeight && position.bottom >= 0) {
+        element.classList.add('bounceInRight');
+    }else{
+        element.classList.remove('bounceInRight');
+    }
+  })
+
+  rightApplicationElements.forEach(function(element) {
+    var position = element.getBoundingClientRect();
+    if(position.top < window.innerHeight && position.bottom >= 0) {
+    // if(position.top >= 0 && position.bottom <= window.innerHeight) {
+        element.classList.add('bounceInLeft');
+    }else{
+        element.classList.remove('bounceInLeft');
+    }
+  })
 });
