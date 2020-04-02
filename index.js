@@ -7,7 +7,7 @@ let mainContainer = document.querySelector('.main-container')
 const topbarContent = `
 <div class="container">
 <a href="index.html" class="logo-container">
-  <img src="assets/datakrew-logo.png" class="logo" alt="logo" />
+  <img src="assets/datakrew-logo.png" class="logo" id="logo" alt="logo" />
 </a>
 <div class="nav-items">
   <div class="item-container">
@@ -53,6 +53,7 @@ const topbarContent = `
 
 let topbarEle = document.createElement('nav')
 topbarEle.classList.add('topbar')
+topbarEle.setAttribute('id', 'nav')
 topbarEle.innerHTML = topbarContent
 mainContainer.prepend(topbarEle)
 
@@ -230,3 +231,14 @@ subdownTwo.addEventListener('click', () => {
     })
   }
 })
+
+window.onscroll = function() {scrollFunction()};
+function scrollFunction() {
+  if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+    document.getElementById("nav").style.height = "60px";
+    document.getElementById("logo").style.maxWidth = "100px";
+  } else {
+    document.getElementById("nav").style.height = "100px";
+    document.getElementById("logo").style.maxWidth = "150px";
+  }
+}
