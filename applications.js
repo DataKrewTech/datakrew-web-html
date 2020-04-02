@@ -36,6 +36,7 @@ window.addEventListener('scroll', function() {
         element.classList.remove('bounceInRight');
     }
   })
+
   RightApplicationElements.forEach(function(element) {
     var position = element.getBoundingClientRect();
     if(position.top < window.innerHeight && position.bottom >= 0) {
