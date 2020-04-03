@@ -147,7 +147,9 @@ button {
   -webkit-transform: translateY(-10px);
   transform: translateY(-10px);
   border-color: transparent;
-  box-shadow: none;
+  /* box-shadow: none; */
+  box-shadow:  0 0 10px #1c4784;
+
 }
 
 .mads-demo .container .single-demo .demo-cont .img-cont .demo {
