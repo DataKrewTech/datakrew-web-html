@@ -18,7 +18,7 @@
       href="https://fonts.googleapis.com/css?family=Montserrat&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <link rel="stylesheet" href="animate.css">
     <title>Document</title>
   </head>
   <body>
@@ -29,8 +29,8 @@
           <h3 class="subtitle">
             “Neque porro quisquam est qui dolorem ipsum quia…”
           </h3>
-          <div class="header-content application-animation">
-            <div class="indi-application animated slow">
+          <div class="header-content">
+            <div class="indi-application wow bounceInRight slow">
               <div class="img-container">
                 <img
                   src="https://cdn.zeplin.io/5e6a432713239d166440621b/assets/3A331130-0B0F-46FF-9407-36CA46E18A1F.png"
@@ -39,7 +39,7 @@
               </div>
               <span class="click"><a href="#utilities">Utilities</a></span>
             </div>
-            <div class="indi-application animated slow">
+            <div class="indi-application wow bounceInRight slow">
               <div class="img-container">
                 <img
                   src="https://cdn.zeplin.io/5e6a432713239d166440621b/assets/2D860DC3-F8BF-4C1A-8992-3836A7FC754F.png"
@@ -48,7 +48,7 @@
               </div>
               <span class="click"><a href="#manufacturing">MANUFACTURING</a></span>
             </div>
-            <div class="indi-application animated slow">
+            <div class="indi-application wow bounceInRight slow">
               <div class="img-container">
                 <img
                   src="https://cdn.zeplin.io/5e6a432713239d166440621b/assets/1D27448C-C350-4803-AE05-089BB8245674.png"
@@ -57,7 +57,7 @@
               </div>
               <span class="click"><a href="#cities">CITIES</a></span>
             </div>
-            <div class="indi-application animated slow">
+            <div class="indi-application wow bounceInRight slow">
               <div class="img-container">
                 <img
                   src="https://cdn.zeplin.io/5e6a432713239d166440621b/assets/3B27B804-5EFC-4264-B37A-7F6A44704F79.png"
@@ -74,12 +74,12 @@
           <div id="utilities" class="sub-section">
             <div class="image-container">
               <img
-                class="about-img application-ani-right animated slow"
+                class="about-img wow bounceInLeft slow"
                 src="./assets/hero-showcase.png"
                 alt="about"
               />
             </div>
-            <div class="details-container application-ani-left animated slow">
+            <div class="details-container wow bounceInRight slow">
               <h2 class="title">
                 MADS for <span class="highlight blue">SMART UTILITIES</span>
               </h2>
@@ -102,7 +102,7 @@
             </div>
           </div>
           <div id="manufacturing" class="sub-section rev">
-            <div class="details-container application-ani-right animated slow">
+            <div class="details-container wow bounceInLeft slow">
               <h2 class="title">
                 MADS for <span class="highlight red">SMART MANUFACTURING</span>
               </h2>
@@ -125,7 +125,7 @@
             </div>
             <div class="image-container">
               <img
-                class="about-img application-ani-left animated slow"
+                class="about-img wow bounceInRight slow"
                 src="./assets/hero-showcase.png"
                 alt="about"
               />
@@ -134,12 +134,12 @@
           <div id="cities" class="sub-section">
             <div class="image-container">
               <img
-                class="about-img application-ani-right animated slow"
+                class="about-img wow bounceInLeft slow"
                 src="./assets/hero-showcase.png"
                 alt="about"
               />
             </div>
-            <div class="details-container application-ani-left animated slow">
+            <div class="details-container wow bounceInRight slow">
               <h2 class="title">
                 MADS for <span class="highlight gold">SMART CITIES</span>
               </h2>
@@ -162,7 +162,7 @@
             </div>
           </div>
           <div id="energy" class="sub-section rev">
-            <div class="details-container application-ani-right animated slow">
+            <div class="details-container wow bounceInLeft slow">
               <h2 class="title">
                 MADS for <span class="hightlight green">SMART ENERGY</span>
               </h2>
@@ -185,7 +185,7 @@
             </div>
             <div class="image-container">
               <img
-                class="about-img application-ani-left animated slow"
+                class="about-img wow bounceInRight slow"
                 src="./assets/hero-showcase.png"
                 alt="about"
               />
@@ -195,6 +195,8 @@
       </section>
     </div>
     <script src="index.js"></script>
-    <script src="applications.js"></script>
+    <!-- <script src="applications.js"></script> -->
+    <script src="wow.min.js"></script>
+    <script>new WOW().init();</script>
   </body>
 </html>

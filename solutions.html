@@ -18,7 +18,7 @@
       href="https://fonts.googleapis.com/css?family=Montserrat&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <link rel="stylesheet" href="animate.css">
     <title>Document</title>
   </head>
   <body>
@@ -43,12 +43,12 @@
           <div class="sub-section">
             <div class="image-container">
               <img
-                class="about-img application-ani-right animated slow"
+                class="about-img wow bounceInLeft slow"
                 src="./assets/hero-showcase.png"
                 alt="about"
               />
             </div>
-            <div class="details-container application-ani-left animated slow">
+            <div class="details-container wow bounceInRight slow">
               <h2 class="title">
                 MADS to <span class="highlight blue">MONITOR</span>
               </h2>
@@ -71,7 +71,7 @@
             </div>
           </div>
           <div class="sub-section rev">
-            <div class="details-container application-ani-right animated slow">
+            <div class="details-container wow bounceInLeft slow">
               <h2 class="title">
                 MADS to <span class="highlight red">AUTOMATE</span>
               </h2>
@@ -94,7 +94,7 @@
             </div>
             <div class="image-container">
               <img
-                class="about-img application-ani-left animated slow"
+                class="about-img wow bounceInRight slow"
                 src="./assets/hero-showcase.png"
                 alt="about"
               />
@@ -103,12 +103,12 @@
           <div class="sub-section">
             <div class="image-container">
               <img
-                class="about-img application-ani-right animated slow"
+                class="about-img wow bounceInLeft slow"
                 src="./assets/hero-showcase.png"
                 alt="about"
               />
             </div>
-            <div class="details-container application-ani-left animated slow">
+            <div class="details-container wow bounceInRight slow">
               <h2 class="title">
                 MADS to <span class="highlight gold">DIAGNOSE</span>
               </h2>
@@ -131,7 +131,7 @@
             </div>
           </div>
           <div class="sub-section rev">
-            <div class="details-container application-ani-right animated slow">
+            <div class="details-container wow bounceInLeft slow">
               <h2 class="title">
                 MADS to <span class="hightlight green">SECURE</span>
               </h2>
@@ -154,7 +154,7 @@
             </div>
             <div class="image-container">
               <img
-                class="about-img application-ani-left animated slow"
+                class="about-img wow bounceInRight slow"
                 src="./assets/hero-showcase.png"
                 alt="about"
               />
@@ -164,6 +164,7 @@
       </section>
     </div>
     <script src="index.js"></script>
-    <script src="applications.js"></script>
+    <script src="wow.min.js"></script>
+    <script>new WOW().init();</script>
   </body>
 </html>
