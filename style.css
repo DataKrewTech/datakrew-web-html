@@ -375,7 +375,7 @@ button {
   .hero-details-container
   .demo-request
   .demo-req-btn:hover {
-  /* font-weight: bold;
+  font-weight: bold;
     background: -webkit-linear-gradient(
       to right,
       #1c4a86 0%,
@@ -415,7 +415,7 @@ button {
     );
     -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    border: solid 1px #0FAFB4; */
+    border: solid 1px #0FAFB4;
 }
 
 @media (max-width: 1500px) {
