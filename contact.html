@@ -27,40 +27,52 @@
         <h1 class="title">Contact</h1>
         <div class="container">
           <div class="form">
+
             <input
               name="name"
               type="text"
-              placeholder="Your Name"
+              placeholder="Name"
               class="form-input name-in"
             />
             <span class="err name-err"></span>
             <input
               name="email"
               type="text"
-              placeholder="Email Address"
+              placeholder="Work Email Address"
               class="form-input email-in"
+              style="margin-left: 20px;"
             />
             <span class="err email-err"></span>
             <input
-              name="subject"
+            name="mobile"
+            type="text"
+            placeholder="Mobile"
+            class="form-input mob-in"
+          />
+          <span class="err mob-err"></span>
+            <input
+              name="orgnisation"
               type="text"
-              placeholder="Subject"
-              class="form-input subj-in"
+              placeholder="Organsation Name"
+              class="form-input org-in"
+              style="margin-left: 16px;"
+              
             />
-            <span class="err subj-err"></span>
+            <span class="err org-err"></span>
             <textarea
               name="message"
-              placeholder="Your Message"
-              rows="7"
+              placeholder="Your Message..."
+              rows="10"
+              cols="40"
               class="message-field msg-in"
+              style="width: 100%; height: 170px;"
             ></textarea>
-            <span class="err msg-err"></span>
+            <!-- <span class="err msg-err"></span> -->
             <button name="submit" class="submit submit-btn">
               Send Message
             </button>
           </div>
           <div class="address">
-            <div class="map-cont"></div>
             <h3 class="subtitle">
               Stop By For A Visit
             </h3>
@@ -117,7 +129,13 @@
               </div>
             </div>
           </div>
+
         </div>
+       
+
+      </div>
+      <div class="contact-map"> 
+        <div class="map-cont"></div>
       </div>
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js"></script>
