@@ -32,12 +32,12 @@ const topbarContent = `
   <div class="item-container">
     <li class="item"><span class="txt">COMPANY</span></li>
     <ul class="item-dropdown">
-      <li class="item-drop-ele"><a href="about.html">About</a></li>
+      <li class="item-drop-ele"><a href="company.html#about">About</a></li>
       <li class="item-drop-ele">
-        <a href="about.html#team">Team</a>
+        <a href="company.html#team">Team</a>
       </li>
       <li class="item-drop-ele">
-        <a href="about.html#partners">Partners</a>
+        <a href="company.html#partners">Partners</a>
       </li>
     </ul>
   </div>

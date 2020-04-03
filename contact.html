@@ -18,12 +18,12 @@
       href="https://fonts.googleapis.com/css?family=Montserrat&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <link rel="stylesheet" href="animate.css">
     <title>Document</title>
   </head>
   <body>
     <div class="main-container">
-      <div class="contact-header bounceInUp animated slow">
+      <div class="contact-header wow bounceInUp slow">
         <h1 class="title">Contact</h1>
         <div class="container">
           <div class="form">
@@ -131,10 +131,8 @@
           </div>
 
         </div>
-       
-
       </div>
-      <div class="contact-map"> 
+      <div class="contact-map wow bounceInUp slow"> 
         <div class="map-cont"></div>
       </div>
     </div>
@@ -142,5 +140,7 @@
     <script src="https://maps.googleapis.com/maps/api/js?key="></script>
     <script src="index.js"></script>
     <script src="contact.js"></script>
+    <script src="wow.min.js"></script>
+    <script>new WOW().init();</script>
   </body>
 </html>
