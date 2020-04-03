@@ -262,3 +262,10 @@ rightClick.addEventListener('click', () => {
   renderCategories()
   renderApps()
 })
+
+// $(document).ready(function(){
+//   $(document).on('mouseover', '.app-detail', function () {
+//   });
+//   $(document).on('mouseout', '.app-detail', function () {
+//   });
+// });
