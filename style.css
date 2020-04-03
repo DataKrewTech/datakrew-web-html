@@ -876,6 +876,7 @@ button {
   );
   -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border: solid 1px #0FAFB4;
 }
 
 .homepage-middle-content .container .easy-use {
