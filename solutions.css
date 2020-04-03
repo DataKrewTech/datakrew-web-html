@@ -9,7 +9,7 @@
   } */
 
 body {
-  background-color: #fff;
+  background-color: rgb(249, 249, 249);
   font-family: 'Nunito', sans-serif;
 }
 
@@ -37,18 +37,42 @@ button {
 
 .blue {
   color: #2f3490;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 36px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.22;
 }
 
 .red {
   color: #b20a1b;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 36px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.22;
 }
 
 .gold {
   color: #deb83f;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 36px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.22;
 }
 
 .green {
   color: #1eb589;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 36px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.22;
 }
 
 @media (max-width: 1500px) {
@@ -77,6 +101,7 @@ button {
 
 .solutions-header {
   margin-bottom: 100px;
+  background-color: #ffffff;
 }
 
 .solutions-header .container {
@@ -86,16 +111,29 @@ button {
 }
 
 .solutions-header .container .title {
-  font-size: 3rem;
+  /* font-size: 3rem; */
   text-align: center;
   margin-bottom: 30px;
   font-family: 'Montserrat', sans-serif;
+  color: #242424;
+  font-size: 36px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.22;
 }
 
 .solutions-header .container .subtitle {
   margin-bottom: 50px;
   text-align: center;
-  font-size: 1.5rem;
+  /* font-size: 1.5rem; */
+  font-family: 'Montserrat', sans-serif;
+  color: #646464;
+  font-size: 18px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.22;
 }
 
 .solutions-header .container .header-img-container .header-img {
@@ -140,9 +178,14 @@ button {
 }
 
 .middle-section .container .sub-section .details-container .title {
-  font-size: 2.5rem;
   margin-bottom: 20px;
   font-family: 'Montserrat', sans-serif;
+  color: #242424;
+  font-size: 36px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.22;
 }
 
 .middle-section .container .sub-section .details-container hr {
@@ -151,9 +194,13 @@ button {
 }
 
 .middle-section .container .sub-section .details-container .detail {
-  font-size: 1.3rem;
+  font-family: 'Montserrat', sans-serif;
+  color: #646464;
+  font-size: 18px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
   line-height: 30px;
-  color: grey;
 }
 
 
