@@ -181,6 +181,16 @@
   display: none;
 }
 
+.applications-header .container .header-content .indi-application:hover {
+  background: #1c4784;
+  background: -webkit-linear-gradient(to right, #0da6ad, #1c4784);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #0da6ad, #1c4784); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  -webkit-transform: translateY(-10px);
+  transform: translateY(-10px);
+  border-color: transparent;
+}
+
 @media (max-width: 1100px) {
   .topbar .container .nav-items {
     display: none;

@@ -153,6 +153,9 @@ button {
   .solutions-header .container .subtitle {
     font-size: 1.2rem;
   }
+  .applications-header .container {
+    padding: 120px 20px 0 20px;
+}
 }
 
 /* Middle Section */
@@ -240,3 +243,236 @@ button {
     font-size: 1.2rem;
   }
 }
+
+
+.applications-header .container {
+  max-width: 1600px;
+  padding: 150px 50px 0 50px;
+  margin: auto;
+}
+
+.applications-header .container .title {
+  text-align: center;
+  margin-bottom: 30px;
+  font-family: 'Montserrat', sans-serif;
+  color: #242424;
+  font-size: 36px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.22;
+}
+
+.applications-header .container .subtitle {
+  margin-bottom: 50px;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  color: #646464;
+  font-size: 18px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.22;
+}
+
+.applications-header .container .header-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.applications-header .container .header-content .indi-application {
+  width: 22%;
+  padding: 40px 20px;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.applications-header
+  .container
+  .header-content
+  .indi-application
+  .img-container {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 80px;
+  border-width: 3px;
+  border-style: solid;
+  padding: 20px;
+  border-radius: 100%;
+  border-width: 10px;
+  border-color: #1c4a86;
+}
+
+.applications-header
+  .container
+  .header-content
+  .indi-application
+  .img-container
+  img {
+  width: 70%;
+}
+
+.applications-header .container .header-content .indi-application .click {
+  background: linear-gradient(
+    to right,
+    #1c4a86 0%,
+    #1c4e87 4%,
+    #1b5289 9%,
+    #1b538a 9%,
+    #1b578b 14%,
+    #1a5d8e 20%,
+    #186994 31%,
+    #177499 41%,
+    #167b9c 48%,
+    #1486a1 60%,
+    #1390a6 68%,
+    #129aab 78%,
+    #10a7b0 89%,
+    #0fafb4 100%
+  );
+  width: 100%;
+  display: block;
+  border-radius: 50px;
+}
+
+.applications-header .container .header-content .indi-application .click a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  width: 100%;
+  text-align: center;
+  display: block;
+  padding: 10px;
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+}
+
+@media (max-width: 800px) {
+  .applications-header .container .header-content .indi-application {
+    width: 22%;
+    padding: 30px 5px 10px 5px;
+    -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 23%;
+  }
+
+  .applications-header
+    .container
+    .header-content
+    .indi-application
+    .img-container {
+    margin-bottom: 50px;
+    width: 100px;
+    height: 100px;
+    padding: 15px;
+    border-width: 5px;
+  }
+
+  .applications-header
+    .container
+    .header-content
+    .indi-application
+    .img-container
+    img {
+    width: 70%;
+  }
+
+  .applications-header .container .header-content .indi-application .click a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+    display: block;
+    padding: 10px;
+    font-size: 1rem;
+    letter-spacing: 1px;
+  }
+  .applications-header .container{
+    padding: 0 !important;
+  }
+}
+
+
+@media (max-width: 600px) {
+  .applications-header .container .header-content .indi-application {
+    width: 22%;
+    padding: 20px 5px 10px 5px;
+    -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 23%;
+  }
+
+  .applications-header
+    .container
+    .header-content
+    .indi-application
+    .img-container {
+    width: 80%;
+    margin-bottom: 50px;
+  }
+
+  .applications-header
+    .container
+    .header-content
+    .indi-application
+    .img-container
+    img {
+    width: 85%;
+  }
+
+  .applications-header
+    .container
+    .header-content
+    .indi-application
+    .img-container {
+    width: 60px;
+    height: 60px;
+    padding: 10px;
+    border-width: 4px;
+    margin-bottom: 30px;
+  }
+
+  .applications-header .container .header-content .indi-application .click a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+    display: block;
+    padding: 5px;
+    font-size: 0.5rem;
+    letter-spacing: 1px;
+  }
+  .applications-header .container{
+    padding: 0 !important;
+  }
+}
+
+
+/* .img-monitor{
+
+  max-width: 100% !important;
+  height: auto;
+}
+.img-automate{
+
+  max-width: 100% !important;
+  height: auto;
+}
+.img-diagnose{
+  max-width: 100% !important;
+  height: auto;
+
+}
+.img-secure{
+  max-width: 100% !important;
+  height: auto;
+
+} */
+
