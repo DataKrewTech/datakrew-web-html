@@ -274,7 +274,9 @@ button {
   .hero-details
   .hero-details-container
   .success-email-cont {
-  background: #cad5e6;
+  /* background: #cad5e6; */
+  background: white;
+
   display: flex;
   /* justify-content: center; */
   align-items: center;
