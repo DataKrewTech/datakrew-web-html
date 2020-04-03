@@ -89,6 +89,7 @@ button {
 
 .header-about .container .res-img-cont .img {
   width: 56.2%;
+  box-shadow: 10px 21px 46px -20px #111;
 }
 
 .header-about .container .header-img-container .header-img {
