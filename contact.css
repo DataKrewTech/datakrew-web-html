@@ -24,6 +24,7 @@ button {
   cursor: pointer;
 }
 
+
 @media (max-width: 1500px) {
   html {
     font-size: 13px;
@@ -162,6 +163,8 @@ background: -webkit-linear-gradient(
 );
 -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+border: solid 1px #0FAFB4;
+
 }
 
 .contact-header .container .address {
@@ -222,7 +225,16 @@ box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   margin: 0 0 20px 0 !important;
   /* text-align: center; */
   /* display: block; */
+  white-space: pre;
 }
+/* .div{
+  display: inline-block;
+  width: 50%;
+}
+.field{
+  display: inline-flex;
+
+} */
 
 @media (max-width: 1100px) {
   .contact-header .container {

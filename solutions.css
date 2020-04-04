@@ -170,6 +170,7 @@ button {
   grid-template-columns: 48% 48%;
   grid-gap: 4%;
   margin-bottom: 80px;
+  padding-top: 64px;
 }
 
 .middle-section .container .sub-section .image-container .about-img {
@@ -305,7 +306,9 @@ button {
   padding: 20px;
   border-radius: 100%;
   border-width: 10px;
-  border-color: #1c4a86;
+  /* border-color: #1c4a86; */
+  border-color: #9cb2cf;
+
 }
 
 .applications-header
@@ -340,7 +343,7 @@ button {
   border-radius: 50px;
 }
 
-.applications-header .container .header-content .indi-application .click a {
+.applications-header .container .header-content .indi-application .click {
   color: #fff;
   text-decoration: none;
   font-weight: bold;

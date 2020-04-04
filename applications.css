@@ -28,6 +28,10 @@ button {
 .main-container {
   position: relative;
 }
+/* #utilities{
+  position: relative;
+  top:150px
+} */
 
 .blue,
 .red,
@@ -144,12 +148,16 @@ button {
 }
 .applications-header .container .header-content .indi-application:hover {
   background: #1c4784;
-  background: -webkit-linear-gradient(to right, #0da6ad, #1c4784);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #0da6ad, #1c4784); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  /* background: -webkit-linear-gradient(to right, #0da6ad, #1c4784); 
+  background: linear-gradient(to right, #0da6ad, #1c4784); */
 
   -webkit-transform: translateY(-10px);
   transform: translateY(-10px);
   border-color: transparent;
+  /* background:  #b3c6e2; */
+  background: -webkit-linear-gradient(to  #84e1e6, #b3c6e2); 
+  background: linear-gradient(to right,  #84e1e6, #b3c6e2);
+ 
 }
 
 .applications-header
@@ -170,7 +178,9 @@ button {
   padding: 20px;
   border-radius: 100%;
   border-width: 10px;
-  border-color: #1c4a86;
+  /* border-color: #1c4a86; */
+  border-color: #9cb2cf;
+
 }
 
 .applications-header
@@ -205,8 +215,52 @@ button {
   display: block;
   border-radius: 50px;
 }
+/* .applications-header .container .header-content .indi-application .click:hover{
 
-.applications-header .container .header-content .indi-application .click a {
+    font-weight: bold;
+    background: -webkit-linear-gradient(
+      to right,
+      #1c4a86 0%,
+      #1c4e87 4%,
+      #1b5289 9%,
+      #1b538a 9%,
+      #1b578b 14%,
+      #1a5d8e 20%,
+      #186994 31%,
+      #177499 41%,
+      #167b9c 48%,
+      #1486a1 60%,
+      #1390a6 68%,
+      #129aab 78%,
+      #10a7b0 89%,
+      #0fafb4 100%
+    );
+    background-color: #fff;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-border-image: -webkit-linear-gradient(
+      to right,
+      #1c4a86 0%,
+      #1c4e87 4%,
+      #1b5289 9%,
+      #1b538a 9%,
+      #1b578b 14%,
+      #1a5d8e 20%,
+      #186994 31%,
+      #177499 41%,
+      #167b9c 48%,
+      #1486a1 60%,
+      #1390a6 68%,
+      #129aab 78%,
+      #10a7b0 89%,
+      #0fafb4 100%
+    );
+    -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border: solid 1px #0FAFB4;
+} */
+
+.applications-header .container .header-content .indi-application .click  {
   color: #fff;
   text-decoration: none;
   font-weight: bold;
@@ -383,6 +437,7 @@ button {
 }
 
 /* Middle Section */
+
 .middle-section .container {
   max-width: 1600px;
   padding: 0 50px;
@@ -395,6 +450,7 @@ button {
   grid-template-columns: 48% 48%;
   grid-gap: 4%;
   margin-bottom: 80px;
+  padding-top: 64px;
 }
 
 .middle-section .container .sub-section .image-container .about-img {

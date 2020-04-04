@@ -128,7 +128,13 @@ button {
 }
 
 .mads-demo .container .single-demo {
-  width: 15%;
+  /* width: 15%; */
+  width: 11%;
+
+}
+.mads-demo .container .single-demo .img-cont img{
+        height: 100%;
+        width: 100%;
 }
 
 .mads-demo .container .single-demo .demo-cont {
@@ -345,8 +351,9 @@ button {
 }
 
 .features .container .wrapper {
-  max-width: 90%;
-  margin: auto;
+  /* max-width: 90%; */
+  max-width: 100%;
+  /* margin: auto; */
   display: flex;
   justify-content: space-between;
 }
@@ -546,15 +553,18 @@ button {
   padding: 30px;
   border-radius: 5px;
   background-color: #fff;
-  box-shadow: inset 0 0 15px #c56d3a;
+  /* box-shadow: inset 0 0 15px #c56d3a; */
+
+  
 }
 .apps .container .apps-details .category-apps .app-detail:hover {
-  /* -webkit-transform: translateY(-5px); */
-  /* transform: translateY(-5px); */
-  /* border-color: transparent; */
-  /* border: 5px solid #c56d3a; */
-  /* border-radius: 5px; */
-  /* box-shadow: none; */
+   /* -webkit-transform: translateY(-5px); 
+   transform: translateY(-5px);  */
+   border-color: transparent; 
+   border: 5px solid #c56d3a; 
+   border-radius: 5px; 
+   /* box-shadow: none;  */
+   transform: scale(1.1);
 }
 
 .apps .container .apps-details .category-apps .app-detail .upper {
@@ -565,6 +575,11 @@ button {
 
 .apps .container .apps-details .category-apps .app-detail .upper .app-icon {
   width: 100%;
+}
+.apps .container .apps-details .category-apps .app-detail .upper .app-icon .icon:hover {
+  /* width: auto;
+  position:relative; 
+  top:5px;     */
 }
 
 .apps
@@ -680,8 +695,8 @@ button {
   }
   .apps .container .apps-details .category-apps .app-detail .detail:hover {
     background: #1c4784;
-    background: -webkit-linear-gradient(to right, #0da6ad, #1c4784);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #0da6ad, #1c4784); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: -webkit-linear-gradient(to right, #0da6ad, #1c4784); 
+    background: linear-gradient(to right, #0da6ad, #1c4784); 
     -webkit-transform: translateY(-10px);
     transform: translateY(-10px);
     border-color: transparent;
@@ -810,7 +825,8 @@ button {
   align-items: center;
   flex-direction: column;
 }
-}
+
 .mads-laptop-img:hover{
   animation-name: "pulse";
+  transform: scale(1.1);
 }
