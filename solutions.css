@@ -85,6 +85,9 @@ button {
   html {
     font-size: 12px;
   }
+  .applications-header .container .header-content .indi-application .img-container{
+    width: auto !important;
+  }
 }
 
 @media (max-width: 900px) {
@@ -440,6 +443,10 @@ button {
     padding: 10px;
     border-width: 4px;
     margin-bottom: 30px;
+    padding-left: 18px !important;
+  }
+  .applications-header .container .header-content .indi-application .click {
+    font-size: 10px;
   }
 
   .applications-header .container .header-content .indi-application .click a {

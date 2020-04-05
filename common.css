@@ -212,7 +212,9 @@
     text-decoration: none;
     color: rgb(71, 71, 71);
     display: block;
-    padding: 20px 20px;
+    /* padding: 20px 20px; */
+    padding: 20px 60px;
+
     font-size: 1.3rem;
     border-bottom: 1px solid #e6e6e6;
     font-weight: bold;
@@ -223,7 +225,9 @@
     background-color: #eee;
     text-decoration: none;
     color: rgb(71, 71, 71);
-    padding: 20px 20px;
+    /* padding: 20px 20px; */
+    padding: 20px 60px;
+
     font-size: 1.3rem;
     border-bottom: 1px solid #e6e6e6;
     font-weight: bold;
@@ -253,7 +257,8 @@
     text-decoration: none;
     color: rgb(71, 71, 71);
     display: block;
-    padding: 20px 20px;
+    /* padding: 20px 20px; */
+    padding: 20px 60px;
     font-size: 1.3rem;
     border-bottom: 1px solid #e6e6e6;
     font-weight: bold;
@@ -264,7 +269,8 @@
     background-color: #eee;
     text-decoration: none;
     color: rgb(71, 71, 71);
-    padding: 20px 20px;
+    /* padding: 20px 20px; */
+    padding: 20px 60px;
     font-size: 1.3rem;
     border-bottom: 1px solid #e6e6e6;
     font-weight: bold;
