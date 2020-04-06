@@ -27,6 +27,12 @@ button {
   display: inline-block;
   width: 48%;
 }
+.con-info{
+  margin-right: 132px !important;
+}
+.soc-info{
+  margin-right: 100px !important;
+}
 
 
 @media (max-width: 1500px) {
@@ -254,6 +260,7 @@ border: solid 1px #0FAFB4;
   margin-top: 20px;
   display: flex;
   align-items: center;
+  margin-right: 48px;
 }
 
 .contact-header .container .address .social .social-cont {
