@@ -126,7 +126,8 @@ button {
 
 .contact-header .container .form .submit {
   width: auto;
-  padding: 15px 66px;
+  height: 52px;
+  padding: 0px 66px;
   /* text-align: center !important; */
   font-family: 'Nunito', sans-serif;
   font-size: 25px;

@@ -28,11 +28,11 @@ button {
 .main-container {
   position: relative;
 }
-/* #banner{
+#bg{
   background-color: #f3f8ff;
   position: relative;
   z-index: -1;
-} */
+}
 
 @media (max-width: 1500px) {
   html {
