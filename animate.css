@@ -3623,3 +3623,6 @@
     animation-iteration-count: 1 !important;
   }
 }
+html{
+  scroll-behavior: smooth;
+}
