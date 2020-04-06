@@ -233,6 +233,7 @@ button {
 
 .about-mads {
   margin: 50px 0 100px 0;
+  padding-top: 101px !important;
 }
 
 .about-mads .container {
@@ -313,6 +314,7 @@ button {
 
 .in-action {
   margin-bottom: 100px;
+  padding-top: 101px !important;
 }
 
 .in-action .container {
@@ -352,6 +354,8 @@ button {
 
 .features {
   margin-bottom: 100px;
+  padding-top: 101px !important;
+
 }
 
 .features .container {
