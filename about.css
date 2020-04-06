@@ -214,13 +214,14 @@ button {
 }
 
 .team .container .main .member .pic-cont {
-  width: 90%;
+  width: 100%;
   margin: auto;
   margin-bottom: 0px;
 }
 
 .team .container .main .member .name {
-  margin-bottom: 30px;
+  /* margin-bottom: 30px; */
+  margin-bottom: 8px;
   font-size: 1.5rem;
   line-height: 30px;
   font-weight: 700;
@@ -240,26 +241,29 @@ button {
 .team .container .main .member .pic-cont .pic {
   width: 100%;
 }
-.social-icon{
+.socialprof-icon{
   font-size: 24px;
 }
 
-.social-icon a i {
+.socialprof-icon a i {
   font-size: 20px;
     line-height: 50px;
     display: block;
     width: 50px;
     height: 50px;
     transition: all .3s;
-    color: #fff;
+    color:#2f3490;;
     border-radius: 100%;
     outline: 0;
-    background-color: #212529;
+    background-color: #ffffff;
     margin: 0 auto;
   
 }
-.social-icon a i:hover{
-  background-color: #fed136;
+.socialprof-icon a i:hover{
+  background-color: #000000;
+  color: #ffffff;
+
+
 }
 
 .team .container .res-img-cont {

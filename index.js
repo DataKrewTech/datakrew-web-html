@@ -110,21 +110,25 @@ const footerContent = `
           <b>Datakrew</b> is an innovative deep technology startup 
             with strong roots in IoT, AI & data security. We enable 
             large-scale secure IoT applications through data-driven 
-            <i>Monitoring</i>, <i>Automation</i>, <i>Diagnostics</i> 
-            and <i>Security</i> – MADS!
+            <span>Monitoring</span>, <span>Automation</span>, <span>Diagnostics</span> 
+            and <span>Security</span> – MADS!
         </div>
         <div class="social">
           <div class="link">
-            <img src="./assets/fb.svg" alt="facebook" />
+            <span class="social-icon"><a href="#"><i class="fa fa-facebook"></i></a></span> 
+
           </div>
           <div class="link">
-            <img src="./assets/twitter.png" alt="twitter" />
+            <span class="social-icon"><a href="#"><i class="fa fa-twitter"></i></a></span> 
+
           </div>
           <div class="link">
-            <img src="./assets/linkedin.png" alt="linkedin" />
+            <span class="social-icon"><a href="#"><i class="fa fa-linkedin"></i></a></span> 
+
           </div>
           <div class="link">
-            <img src="./assets/github.png" alt="github" />
+            <span class="social-icon"><a href="#"><i class="fa fa-github"></i></a></span> 
+
           </div>
         </div>
       </div>
@@ -245,4 +249,29 @@ function scrollFunction() {
     // document.getElementById("nav").classList.remove("animated")
     // document.getElementById("logo").style.maxWidth = "150px";
   }
+}
+
+//Get the button
+var mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+
+function validateEmail(email) {
+  var re = /\S+@\S+\.\S+/
+  return re.test(email)
 }
