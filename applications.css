@@ -425,11 +425,11 @@ button {
 }
 
 .middle-section .container .sub-section {
-	display: grid;
-	grid-template-columns: 48% 48%;
-	grid-gap: 4%;
-	margin-bottom: 80px;
-	padding-top: 64px;
+  display: grid;
+  grid-template-columns: 48% 48%;
+  grid-gap: 4%;
+  margin-bottom: 80px;
+  padding-top: 100px;
 }
 
 .middle-section .container .sub-section .image-container .about-img {

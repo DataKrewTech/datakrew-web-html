@@ -28,10 +28,17 @@ button {
 .main-container {
 	position: relative;
 }
+<<<<<<< Updated upstream
 #bg {
 	background-color: #f3f8ff;
 	position: relative;
 	z-index: -1;
+=======
+#b{
+  background-color: #f3f8ff;
+  position: relative;
+  z-index: -1;
+>>>>>>> Stashed changes
 }
 
 @media (max-width: 1500px) {
@@ -233,7 +240,8 @@ button {
 /* about mads */
 
 .about-mads {
-	margin: 50px 0 100px 0;
+  margin: 50px 0 100px 0;
+  padding-top: 101px;
 }
 
 .about-mads .container {
@@ -312,7 +320,8 @@ button {
 /* in action */
 
 .in-action {
-	margin-bottom: 100px;
+  margin-bottom: 100px;
+  padding-top: 101px;
 }
 
 .in-action .container {
@@ -350,7 +359,8 @@ button {
 /* features */
 
 .features {
-	margin-bottom: 100px;
+  margin-bottom: 100px;
+  padding-top: 101px;
 }
 
 .features .container {
