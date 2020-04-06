@@ -254,6 +254,10 @@ border: solid 1px #0FAFB4;
 .contact-header .container .address .social .social-cont .icon {
   width: 100%;
 }
+/* .contact-header .container .address .social .social-cont .icon:hover {
+  color: #1C477D;
+  background-color: hotpink;
+} */
 
 .err {
   color: red;

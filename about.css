@@ -222,8 +222,13 @@ button {
 .team .container .main .member .name {
   margin-bottom: 30px;
   font-size: 1.5rem;
-  line-height: 40px;
-  font-weight: lighter;
+  line-height: 30px;
+  font-weight: 700;
+  height: 50px;
+}
+.designation {
+  margin-bottom: 16px;
+  font-size: 18px;
 }
 
 
@@ -252,6 +257,9 @@ button {
     background-color: #212529;
     margin: 0 auto;
   
+}
+.social-icon a i:hover{
+  background-color: #fed136;
 }
 
 .team .container .res-img-cont {
