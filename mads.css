@@ -165,6 +165,24 @@ button {
 
 .mads-demo .container .single-demo .demo-cont .img-cont .demo {
   width: 100%;
+  padding: 16px;
+}
+
+.mads-demo .container .single-demo .demo-cont .img-cont  path:hover {
+  fill: #ffffff !important;
+}
+.mads-demo .container .single-demo .demo-cont .img-cont  svg:hover {
+  fill: #ffffff;
+}
+.mads-demo .container .single-demo .demo-cont .img-cont  svg{
+  padding: 24px;
+  fill:url(#linear-gradient) !important;
+
+}
+.mads-demo .container .single-demo .demo-cont .img-cont  svg:hover{
+  fill: #ffffff !important;
+
+
 }
 
 .mads-demo .container .single-demo .name {

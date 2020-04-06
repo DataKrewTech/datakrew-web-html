@@ -27,6 +27,18 @@ button {
 .main-container {
   position: relative;
 }
+.applications-header .container .header-content .indi-application .img-container path:hover {
+  fill: #ffffff !important;
+}
+.applications-header .container .header-content .indi-application .img-container svg:hover {
+  fill: #ffffff;
+}
+.applications-header .container .header-content .indi-application .img-container svg{
+  padding: 24px;
+  fill:url(#linear-gradient);
+
+}
+
 .blue,
 .red,
 .gold,
@@ -309,8 +321,8 @@ button {
   padding: 20px;
   border-radius: 100%;
   border-width: 10px;
-  /* border-color: #1c4a86; */
-  border-color: #9cb2cf;
+  border-color: #1c4a86;
+  /* border-color: #9cb2cf; */
 
 }
 

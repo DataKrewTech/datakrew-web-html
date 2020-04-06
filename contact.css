@@ -246,7 +246,7 @@ border: solid 1px #0FAFB4;
 .contact-header .container .address .contact-hint .txt {
   margin-left: 30px;
   font-size: 1.2rem;
-  text-align: justify;
+  /* text-align: justify; */
 }
 
 .contact-header .container .address .social {
