@@ -52,6 +52,10 @@ button {
   html {
     font-size: 12px;
   }
+  .contact-header .container .address .contact-hint1{
+    width: 33% !important;
+  }
+
 
 }
 
@@ -304,6 +308,9 @@ border: solid 1px #0FAFB4;
   .contact-header .container .form .submit{
     width: 101% !important;
   }
+  .contact-header .container .address .contact-hint1{
+    width: 45% !important;
+  }
 }
 
 @media (max-width: 950px) {
@@ -482,6 +489,10 @@ border: solid 1px #0FAFB4;
   }
   .contact-header .container .address .contact-hint3{
     margin-right: 20px;
+  }
+  .contact-header .container .address .contact-hint2{
+    margin-right: 4px;
+
   }
 }
 

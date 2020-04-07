@@ -241,13 +241,13 @@ function scrollFunction() {
   if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
     document.getElementById("nav").style.height = "60px";
     document.getElementById("logo").style.maxWidth = "100px";
-    // document.getElementById("nav").classList.add("fadeInUp")
-    // document.getElementById("nav").classList.add("animated")
+    document.getElementById("nav").classList.add("fadeInUp")
+    document.getElementById("nav").classList.add("animated")
   } else {
     document.getElementById("nav").style.height = "100px";
     document.getElementById("nav").classList.remove("fadeInUp")
-    // document.getElementById("nav").classList.remove("animated")
-    // document.getElementById("logo").style.maxWidth = "150px";
+    document.getElementById("nav").classList.remove("animated")
+    document.getElementById("logo").style.maxWidth = "150px";
   }
 }
 
