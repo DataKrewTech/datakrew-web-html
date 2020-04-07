@@ -43,7 +43,7 @@ button {
     width: 101% !important;
   } */
   .contact-header .container .address .contact-hint1{
-    width: 33% !important;
+    max-width: 33% !important;
   }
 
 }
@@ -53,7 +53,7 @@ button {
     font-size: 12px;
   }
   .contact-header .container .address .contact-hint1{
-    width: 33% !important;
+    max-width: 42% !important;
   }
 
 
@@ -91,14 +91,14 @@ button {
 }
 
 .contact-header .container {
-  /* max-width: 1600px;
+  display: flex;
+  max-width: 1600px;
+  padding: 0 50px;
+  margin: auto;
+  /* width: 100%;
   padding: 0 50px;
   margin: auto;
   display: flex; */
-  width: 100%;
-  padding: 0 50px;
-  margin: auto;
-  display: flex;
 }
 
 .contact-header .container .form,
@@ -242,7 +242,7 @@ border: solid 1px #0FAFB4;
   margin-right: 30px ;
 }
 .contact-header .container .address .contact-hint1{
-  width: 30%;
+  max-width: 35%;
 }
 
 .contact-header .container .address .icon-cont {
@@ -303,13 +303,13 @@ border: solid 1px #0FAFB4;
 
 @media (max-width: 1100px) {
   .contact-header .container {
-    padding: 0 20px;
+    padding: 0 60px;
   }
   .contact-header .container .form .submit{
     width: 101% !important;
   }
   .contact-header .container .address .contact-hint1{
-    width: 45% !important;
+    max-width: 46% !important;
   }
 }
 
@@ -485,7 +485,8 @@ border: solid 1px #0FAFB4;
     justify-content: space-between;
   }
   .contact-header .container .address .contact-hint1{
-    margin-left: 185px;
+    /* margin-left: 185px; */
+    max-width: 35% !important;
   }
   .contact-header .container .address .contact-hint3{
     margin-right: 20px;
@@ -494,12 +495,16 @@ border: solid 1px #0FAFB4;
     margin-right: 4px;
 
   }
+  .socialcon-icon a i{
+    width: 40px !important;
+  }
 }
 
 @media (max-width: 600px) {
 
   .contact-header .container .address .contact-hint1{
-    width: 80% !important;
+    max-width: 75% !important;
+    margin-left: 0px !important;
   }
   .main-footer .container .right-content .container .mini-section .title {
     color: #fff;
@@ -601,12 +606,16 @@ border: solid 1px #0FAFB4;
 }
 
 .contact-map{
-  width: 100%;
+  /* width: 100%; */
   height: 460px;
-  margin-bottom: 60px;
+  margin-bottom: 60px !important;
   /* display: inline-flex;
   justify-content: center; */
-padding: 0 50px;
+/* padding: 0 50px; */
+display: flex;
+  max-width: 1600px;
+  padding: 0 50px;
+  margin: auto;
 
 }
 .contact-map .map-cont{
