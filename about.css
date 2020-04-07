@@ -60,15 +60,15 @@ button {
 } */
 
 .header-about .container {
-  padding: 150px 50px 0 50px;
+  /* padding: 150px 50px 0 50px;
   margin: auto;
-  max-width: 1600px;
+  max-width: 1600px; */
 }
 
 .header-about .container .title {
   text-align: center;
   /* font-size: 3rem; */
-  margin-bottom: 35px;
+  /* margin-bottom: 35px; */
   font-family: 'Montserrat', sans-serif;
   color: #242424;
   font-size: 36px;
@@ -76,12 +76,13 @@ button {
   font-stretch: normal;
   font-style: normal;
   line-height: 1.22;
+  padding-top: 150px;
+  background-color: seashell;
 }
 
 .header-about .container .res-detail {
   /* font-size: 2rem;
   line-height: 50px; */
-  margin-bottom: 70px !important;
   font-family: 'Montserrat', sans-serif;
   color: #646464;
   font-size: 18px;
@@ -89,14 +90,26 @@ button {
   font-stretch: normal;
   font-style: normal;
   line-height: 30px;
-  width: 60%;
-  margin: 0 auto;
+  /* width: 60%;
+  margin: 0 auto; */
+  background-color: seashell;
+  padding: 35px 0px;
+
+
+  
+
 }
+.header-about .container .res-detail .about-info{
+    width: 60% !important;
+    margin: 0 auto;
+    /* margin-bottom: 70px !important; */
+  }
 
 .header-about .container .res-img-cont {
   margin-bottom: 0px;
   margin-left: 20%;
   margin-right:  20%;
+  padding-top: 35px !important;
 
 }
 .margin-left {

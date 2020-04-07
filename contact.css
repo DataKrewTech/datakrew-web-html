@@ -77,8 +77,10 @@ button {
 
 .contact-header .title {
   padding-top: 140px;
+  padding-bottom: 50px !important;
+
   text-align: center;
-  margin-bottom: 50px;
+  /* margin-bottom: 50px; */
   /* font-family: 'Montserrat', sans-serif;
   font-size: 3rem; */
   font-family: 'Montserrat', sans-serif;
@@ -88,6 +90,7 @@ button {
   font-stretch: normal;
   font-style: normal;
   line-height: 1.22;
+  background-color: seashell;
 }
 
 .contact-header .container {
@@ -99,6 +102,7 @@ button {
   padding: 0 50px;
   margin: auto;
   display: flex; */
+  padding-top: 50px !important;
 }
 
 .contact-header .container .form,

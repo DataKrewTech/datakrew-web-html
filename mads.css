@@ -60,9 +60,9 @@ button {
 }
 
 .mads-header .container {
-	padding: 150px 50px 0 50px;
+	/* padding: 150px 50px 0 50px;
 	max-width: 1600px;
-	margin: auto;
+	margin: auto; */
 }
 
 .mads-header .container .header-title {
@@ -75,11 +75,13 @@ button {
 	font-stretch: normal;
 	font-style: normal;
 	line-height: 1.22;
+	padding-top: 150px;
+	background-color: seashell;
 }
 
 .mads-header .container .header-subtitle {
 	padding-top: 35px;
-	margin-bottom: 35px;
+	/* margin-bottom: 35px; */
 	/* font-size: 1.5rem;
   font-family: 'Montserrat', sans-serif;
   line-height: 30px; */
@@ -91,10 +93,18 @@ button {
 	font-stretch: normal;
 	font-style: normal;
 	line-height: 1.22;
+	background-color: seashell;
+	padding: 35px 0px;
 }
+.mads-header .container .header-subtitle .mad-info{
+	width: 60%;
+	  margin: 0 auto;
+	  /* margin-bottom: 70px !important; */
+	}
 
 .mads-header .container .hero-img-container {
 	text-align: center;
+	padding-top: 40px;
 }
 
 .mads-header .container .hero-img-container .hero {

@@ -122,14 +122,14 @@ button {
 }
 
 .applications-header .container {
-	max-width: 1600px;
+	/* max-width: 1600px;
 	padding: 150px 50px 0 50px;
-	margin: auto;
+	margin: auto; */
 }
 
 .applications-header .container .title {
 	text-align: center;
-	margin-bottom: 30px;
+	/* margin-bottom: 30px; */
 	font-family: 'Montserrat', sans-serif;
 	color: #242424;
 	font-size: 36px;
@@ -137,10 +137,12 @@ button {
 	font-stretch: normal;
 	font-style: normal;
 	line-height: 1.22;
+	padding-top: 150px;
+	background-color: seashell;
 }
 
 .applications-header .container .subtitle {
-	margin-bottom: 50px;
+	/* margin-bottom: 50px; */
 	text-align: center;
 	font-family: 'Montserrat', sans-serif;
 	color: #646464;
@@ -149,11 +151,22 @@ button {
 	font-stretch: normal;
 	font-style: normal;
 	line-height: 1.22;
+	background-color: seashell;
+	padding: 35px 0px;
 }
+.applications-header .container .subtitle .appl-info{
+    width: 60% !important;
+    margin: 0 auto;
+    /* margin-bottom: 70px !important; */
+  }
 
 .applications-header .container .header-content {
 	display: flex;
 	justify-content: space-between;
+	    width: 80%;
+    margin: 0 auto;
+    padding-top: 24px !important;
+
 }
 
 .applications-header .container .header-content .indi-application {

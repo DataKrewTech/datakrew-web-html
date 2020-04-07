@@ -121,15 +121,15 @@ a {
 }
 
 .solutions-header .container {
-	max-width: 1600px;
+	/* max-width: 1600px;
 	padding: 150px 50px 0 50px;
-	margin: auto;
+	margin: auto; */
 }
 
 .solutions-header .container .title {
 	/* font-size: 3rem; */
 	text-align: center;
-	margin-bottom: 30px;
+	/* margin-bottom: 30px; */
 	font-family: 'Montserrat', sans-serif;
 	color: #242424;
 	font-size: 36px;
@@ -137,10 +137,12 @@ a {
 	font-stretch: normal;
 	font-style: normal;
 	line-height: 1.22;
+	padding-top: 150px;
+	background-color: seashell;
 }
 
 .solutions-header .container .subtitle {
-	margin-bottom: 50px;
+	/* margin-bottom: 50px; */
 	text-align: center;
 	/* font-size: 1.5rem; */
 	font-family: 'Montserrat', sans-serif;
@@ -150,7 +152,22 @@ a {
 	font-stretch: normal;
 	font-style: normal;
 	line-height: 1.22;
+	background-color: seashell;
+	padding: 35px 0px;
 }
+.applications-header .container .subtitle .appl-info{
+    width: 60% !important;
+    margin: 0 auto;
+    /* margin-bottom: 70px !important; */
+  }
+  .applications-header {
+	  padding-top: 30px;
+  }
+  .applications-header .container{
+	width: 80%;
+    margin: 0 auto;
+    padding-top: 24px !important;
+  }
 
 .solutions-header .container .header-img-container .header-img {
 	width: 100%;
@@ -261,9 +278,9 @@ a {
 }
 
 .applications-header .container {
-	max-width: 1600px;
+	/* max-width: 1600px;
 	padding: 0px 50px 0 50px;
-	margin: auto;
+	margin: auto; */
 }
 
 .applications-header .container .title {
