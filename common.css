@@ -16,6 +16,13 @@
 .res-topbar {
   display: none;
 }
+a:active{
+  color: red !important;
+}
+/* .active-tab:active{
+  color: green !important;
+
+} */
 
 .topbar .container {
   padding: 0 50px;

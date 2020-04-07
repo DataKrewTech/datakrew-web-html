@@ -563,6 +563,7 @@ button {
 	display: grid;
 	grid-template-columns: 22% 22% 22% 22%;
 	grid-gap: 4%;
+	height: 340px;
 }
 
 .apps .container .apps-details .category-apps .app-detail {
@@ -582,6 +583,8 @@ button {
 	border-radius: 5px;
 	/* box-shadow: none;  */
 	transform: scale(1.1);
+	max-height: 340px  !important;
+	width: 297px;
 }
 
 .apps .container .apps-details .category-apps .app-detail .upper {
