@@ -218,7 +218,7 @@ button {
 
 .team .container .main {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   flex-wrap: wrap;
   align-items: center;
   color: #fff;
@@ -226,7 +226,9 @@ button {
 
 .team .container .main .member {
   text-align: center;
-  width: 15%;
+  /* width: 15%; */
+  width: 27%;
+
 }
 
 .team .container .main .member .pic-cont {
@@ -237,15 +239,18 @@ button {
 
 .team .container .main .member .name {
   /* margin-bottom: 30px; */
-  margin-bottom: 8px;
+  /* margin-bottom: 8px; */
   font-size: 1.5rem;
   line-height: 30px;
   font-weight: 700;
-  height: 50px;
+  font-family: 'Montserrat', sans-serif;
+  /* height: 50px; */
 }
 .designation {
-  margin-bottom: 16px;
+  margin-bottom: 8px;
   font-size: 18px;
+  padding-top: 8px;
+
 }
 
 
@@ -259,6 +264,7 @@ button {
 }
 .socialprof-icon{
   font-size: 24px;
+
 }
 
 .socialprof-icon a i {
@@ -268,16 +274,19 @@ button {
     width: 50px;
     height: 50px;
     transition: all .3s;
-    color:#2f3490;;
+    /* color:#2f3490; */
+    color:#fff;
     border-radius: 100%;
     outline: 0;
-    background-color: #ffffff;
+    /* background-color: #ffffff; */
+    background-color: #000000;
+
     margin: 0 auto;
   
 }
 .socialprof-icon a i:hover{
-  background-color: #000000;
-  color: #ffffff;
+ color: #ffffff;
+ background-color: #fed136;
 
 
 }
@@ -293,12 +302,20 @@ button {
 @media (max-width: 1200px) {
   .team .container .main .member {
     margin-bottom: 70px;
-    width: 30%;
+    /* width: 30%; */
+    width: 48%;
+
   }
   .team .container .main .member .name {
-    margin-bottom: 40px;
+    /* margin-bottom: 40px;
     font-size: 1.5rem;
-    line-height: 30px;
+    line-height: 30px; */
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.22;
   }
 
   .team .container .main .member .role {
@@ -339,7 +356,9 @@ button {
 
   .team .container .main .member {
     margin-bottom: 50px;
-    width: 30%;
+    /* width: 30%; */
+    width: 100%;
+
   }
 
   .team .container .main .member .pic-cont {
@@ -347,9 +366,15 @@ button {
   }
 
   .team .container .main .member .name {
-    margin-bottom: 25px;
+    /* margin-bottom: 25px;
     font-size: 1.2rem;
-    line-height: 25px;
+    line-height: 25px; */
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.22;
   }
 
   .team .container .main .member .role {
