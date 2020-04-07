@@ -76,7 +76,7 @@ button {
 	font-style: normal;
 	line-height: 1.22;
 	padding-top: 150px;
-	background-color: seashell;
+	background-color: #f3f8ff;
 }
 
 .mads-header .container .header-subtitle {
@@ -93,7 +93,7 @@ button {
 	font-stretch: normal;
 	font-style: normal;
 	line-height: 1.22;
-	background-color: seashell;
+	background-color: #f3f8ff;
 	padding: 35px 0px;
 }
 .mads-header .container .header-subtitle .mad-info{
@@ -116,7 +116,7 @@ button {
 		height: auto;
 	}
 	.mads-header .container {
-		padding: 120px 20px 0 20px;
+		/* padding: 120px 20px 0 20px; */
 	}
 }
 
