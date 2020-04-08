@@ -41,6 +41,7 @@ button {
 
 .main-container {
   position: relative;
+  background-color: #ffffff !important;
 }
 
 /* homepage header */

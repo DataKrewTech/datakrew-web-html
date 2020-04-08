@@ -37,6 +37,7 @@ button {
 
 .main-container {
 	position: relative;
+	background-color: #ffffff !important;
 }
 /* #banner{
   background-color: #f3f8ff;
@@ -470,6 +471,9 @@ button {
 	}
 
 	.features .container .wrapper .feature .feature-detail {
+		font-size: 1.2rem;
+	}
+	.about-mads .container .details-container .detail{
 		font-size: 1.2rem;
 	}
 }
