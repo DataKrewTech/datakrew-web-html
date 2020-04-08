@@ -27,6 +27,7 @@ button {
 
 .main-container {
 	position: relative;
+	background-color: #ffffff !important;
 }
 /* #utilities{
   position: relative;

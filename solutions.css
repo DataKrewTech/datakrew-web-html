@@ -27,6 +27,7 @@ a {
 }
 .main-container {
 	position: relative;
+	background-color: #ffffff !important;
 }
 
 .applications-header .container .header-content .indi-application:hover .img-container {

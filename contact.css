@@ -75,6 +75,7 @@ button {
 
 .main-container {
   position: relative;
+  background-color: #ffffff !important;
 }
 
 /* contact header */
@@ -538,6 +539,10 @@ border: solid 1px #0FAFB4;
     display: flex;
     width: 100% !important;
   }
+  .contact-header .container .form .submit{
+    width: 70% !important;
+    padding-left: 144px !important;
+  }
   
 }
 
@@ -611,6 +616,10 @@ border: solid 1px #0FAFB4;
       display: flex;
       width: 100% !important;
     }
+    .contact-header .container .form .submit{
+      width: 70% !important;
+      padding-left: 34px !important;
+    }
     
 }
 
@@ -653,12 +662,20 @@ border: solid 1px #0FAFB4;
     padding: 0px 20px;
   }
   .contact-header .container .form .submit{
-    width: 60% !important;
-    padding-left: 20px !important;
+    width: 70% !important;
+    padding-left: 34px !important;
   }
   .contact-header .container .address .contact-hint1 .icon-cont img{
     padding: 0px 0px 0px 20px;
   }
+  .contact-header .container .form .submit{
+    width: 80% !important;
+    padding-left: 34px !important;
+  }
+  .contact-header .container .address .contact-hint1 {
+    max-width: 90% !important;
+    margin-left: 0px !important;
+}
 
 }
 @media (max-width: 1500px) {
