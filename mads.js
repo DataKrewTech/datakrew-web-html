@@ -159,7 +159,7 @@ const renderCategories = () => {
       />
     </div>
   </div>
-  <div class="cat-name">${categories[i].name}</div>
+  <div class="cat-name  ${selectedAppCatIndex === i ? 'apps-count-active' : ''}">${categories[i].name}</div>
   <div class="apps-count ${
     selectedAppCatIndex === i ? 'apps-count-active' : ''
   }">

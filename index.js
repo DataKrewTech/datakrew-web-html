@@ -11,10 +11,10 @@ const topbarContent = `
 </a>
 <div class="nav-items">
   <div class="item-container">
-    <li class="item"><a href="index.html">HOME</a></li>
+    <li class="item"><a href="index.html" name="home" id="act-tab" >HOME</a></li>
   </div>
   <div class="item-container">
-    <li class="item"><a href="mads.html">MADS</a></li>
+    <li class="item"><a href="mads.html" name="mads" id="act-tab">MADS</a></li>
   </div>
   <div class="item-container">
     <li class="item">
@@ -30,9 +30,9 @@ const topbarContent = `
     </ul>
   </div>
   <div class="item-container">
-    <li class="item"><span class="txt">COMPANY</span></li>
+    <li class="item"><span class="txt" >COMPANY</span></li>
     <ul class="item-dropdown">
-      <li class="item-drop-ele"><a href="company.html#about">About</a></li>
+      <li class="item-drop-ele"><a href="company.html#about" >About</a></li>
       <li class="item-drop-ele">
         <a href="company.html#team">Team</a>
       </li>
@@ -42,7 +42,7 @@ const topbarContent = `
     </ul>
   </div>
   <div class="item-container">
-    <li class="item"><a href="contact.html">CONTACT</a></li>
+    <li class="item"><a href="contact.html"  name="contact" id="act-tab">CONTACT</a></li>
   </div>
 </div>
 <div class="res-menu">
@@ -259,4 +259,14 @@ function topFunction() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 }
+
+
+// let activeNavElement = "home";
+// let navItem  = document.querySelector('.topbar .container .nav-items .item-container .item a');
+// console.log(navItem);
+// navItem.addEventListener('click',()=>{
+//   console.log("clicked");
+// });
+
+
 

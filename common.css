@@ -16,13 +16,20 @@
 .res-topbar {
   display: none;
 }
-a:active{
-  color: red !important;
-}
+  /* a:active{
+    color: red !important;
+  } */
 /* .active-tab:active{
   color: green !important;
 
 } */
+
+.topbar .container .nav-items .item-container .item #act-tab:active{
+	color: red !important;
+}
+.topbar .container .nav-items .item-container .item a .button-clicked {
+  background: red;
+}
 
 .topbar .container {
   padding: 0 50px;
