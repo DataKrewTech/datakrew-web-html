@@ -39,7 +39,7 @@ button {
 .applications-header .container .header-content .indi-application .img-container svg:hover {
   fill: #ffffff;
 } */
- svg {
+.applications-header .container .header-content .indi-application svg {
 	padding: 24px;
 	fill: url(#linear-gradient);
 }
