@@ -35,6 +35,9 @@ button {
   html {
     font-size: 13px;
   }
+  .designation{
+    font-weight: 500;
+  }
 }
 
 @media (max-width: 1350px) {
@@ -222,17 +225,22 @@ button {
   flex-wrap: wrap;
   align-items: center;
   color: #fff;
+  width: 80%;
+  margin: 0 auto;
 }
 
 .team .container .main .member {
   text-align: center;
   /* width: 15%; */
   width: 27%;
+  margin-bottom: 16px;
 
 }
 
 .team .container .main .member .pic-cont {
   width: 100%;
+  /* width: 80%; */
+
   margin: auto;
   margin-bottom: 0px;
   /* border: 7px solid rgba(0,0,0,.1); */
@@ -322,6 +330,9 @@ button {
 
   .team .container .main .member .role {
     font-size: 1.4rem;
+  }
+  .designation{
+    font-weight: 500;
   }
 }
 

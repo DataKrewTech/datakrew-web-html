@@ -189,7 +189,7 @@ const renderApps = () => {
     let indiApp = document.createElement('div')
     indiApp.classList.add('app-detail')
     indiApp.classList.add('wow')
-    indiApp.classList.add('bounceInRight')
+    indiApp.classList.add('bounceInUp')
     indiApp.classList.add('slow')
     indiApp.innerHTML = `
             <div class="upper">

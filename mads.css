@@ -12,6 +12,13 @@ body {
 	background-color: rgb(249, 249, 249);
 	font-family: 'Nunito', sans-serif;
 }
+.padding-0{
+	padding: 0 !important;
+
+}
+.margin-0{
+	margin: 0 !important;
+}
 
 li {
 	list-style: none;
@@ -47,12 +54,16 @@ button {
 	html {
 		font-size: 12px;
 	}
+	.mads-demo .container{
+		width: 100% !important;
+	}
 }
 
 @media (max-width: 900px) {
 	html {
 		font-size: 11px;
 	}
+	
 }
 
 /* mads header */
@@ -127,6 +138,9 @@ button {
 	.mads-header .container .hero-img-container .hero {
 		width: 100%;
 	}
+	.about-mads{
+		padding-top: 0px !important;
+	}
 }
 
 /* mads demo */
@@ -135,16 +149,17 @@ button {
 }
 
 .mads-demo .container {
-	max-width: 1600px;
+	/* max-width: 1600px; */
 	padding: 0 50px;
-	margin: 0 auto 100px auto;
+	margin: 0 auto;
 	display: flex;
 	justify-content: space-around;
 	flex-wrap: wrap;
+	width: 80%;
 }
 
 .mads-demo .container .single-demo {
-	width: 17%;
+	width: 12%;
 	/* width: 11%; */
 }
 .mads-demo .container .single-demo .img-cont img {
@@ -155,7 +170,7 @@ button {
 .mads-demo .container .single-demo .demo-cont {
 	background-color: #fff;
 	margin-bottom: 30px;
-	padding: 20px 40px;
+	/* padding: 20px 40px; */
 	border-radius: 10px;
 	-webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
@@ -178,7 +193,7 @@ button {
 
 .mads-demo .container .single-demo .demo-cont .img-cont .demo {
 	width: 100%;
-	padding: 16px;
+	padding: 24px;
 }
 
 .mads-demo .container .single-demo .demo-cont .img-cont svg {
@@ -205,15 +220,18 @@ button {
 		display: grid;
 		grid-template-columns: 22% 22% 22% 22%;
 		padding: 0 10px;
-		margin: 0 auto 50px auto;
+		margin: 0 auto;
+		width: 80%;
 	}
 	.mads-demo .container .single-demo {
 		margin-bottom: 50px;
 		width: auto;
+		
 	}
 	.mads-demo .container .single-demo .demo-cont {
 		padding: 10px 15px;
 	}
+	
 }
 
 @media (max-width: 800px) {
@@ -230,6 +248,12 @@ button {
 	.mads-demo .container {
 		padding: 0 20px;
 		margin: 0 auto 50px auto;
+	}
+	.mads-demo .container .single-demo .demo-cont .img-cont .demo{
+		padding: 0 !important;
+	}
+	.mads-demo .container .single-demo .demo-cont .img-cont svg{
+		padding: 0 !important;
 	}
 }
 
@@ -801,6 +825,9 @@ button {
 	.apps .container .apps-details .categories .indi-cat .cat-name {
 		font-size: 8px;
 	}
+	.about-mads{
+		padding-top: 0px !important;
+	}	
 }
 .mads-laptop-img {
 	max-width: 100% !important;
@@ -815,4 +842,5 @@ button {
 .mads-laptop-img:hover {
 	animation-name: "pulse";
 	transform: scale(1.1);
+	transition: transform 330ms ease-in-out;
 }

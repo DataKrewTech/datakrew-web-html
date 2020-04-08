@@ -261,12 +261,16 @@ function topFunction() {
 }
 
 
-// let activeNavElement = "home";
-// let navItem  = document.querySelector('.topbar .container .nav-items .item-container .item a');
+let activeNavElement = "home";
+let navItem  = document.querySelector('.topbar .container .nav-items .item-container .item a');
 // console.log(navItem);
 // navItem.addEventListener('click',()=>{
-//   console.log("clicked");
+//   console.log("cli");
 // });
+
+document.querySelector('.topbar .container .nav-items .item-container .item a').addEventListener('click',(e)=>{
+e.target.style.color = "red"; 
+});
 
 
 
