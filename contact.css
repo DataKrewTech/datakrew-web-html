@@ -674,7 +674,10 @@ border: solid 1px #0FAFB4;
   }
   .contact-header .container .address .contact-hint1 {
     max-width: 90% !important;
-    margin-left: 0px !important;
+    margin-left: 44px !important;
+}
+.socialcon-icon a i{
+  font-size: 25px !important;
 }
 
 }
