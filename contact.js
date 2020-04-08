@@ -46,7 +46,7 @@ let validateForm = () => {
     hasErr = true
   }
   if (!orgnisation.value.length) {
-    errors.orgErr = 'Please Enter Organisation'
+    errors.orgErr = 'Enter Organisation'
     hasErr = true
   }
   
