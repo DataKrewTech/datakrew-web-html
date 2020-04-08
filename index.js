@@ -11,13 +11,13 @@ const topbarContent = `
 </a>
 <div class="nav-items">
   <div class="item-container">
-    <li class="item"><a href="index.html" name="home" id="act-tab" >HOME</a></li>
+    <li class="item"><a href="index.html" class="act-tab index" name="home" id="act-tab" >HOME</a></li>
   </div>
   <div class="item-container">
-    <li class="item"><a href="mads.html" name="mads" id="act-tab">MADS</a></li>
+    <li class="item"><a href="mads.html" class="act-tab mads" name="mads" id="act-tab">MADS</a></li>
   </div>
   <div class="item-container">
-    <li class="item">
+    <li class="item act-tab customer">
       <span class="txt">CUSTOMERS</span>
     </li>
     <ul class="item-dropdown">
@@ -30,7 +30,7 @@ const topbarContent = `
     </ul>
   </div>
   <div class="item-container">
-    <li class="item"><span class="txt" >COMPANY</span></li>
+    <li class="item"><span class="act-tab company txt" >COMPANY</span></li>
     <ul class="item-dropdown">
       <li class="item-drop-ele"><a href="company.html#about" >About</a></li>
       <li class="item-drop-ele">
@@ -42,7 +42,7 @@ const topbarContent = `
     </ul>
   </div>
   <div class="item-container">
-    <li class="item"><a href="contact.html"  name="contact" id="act-tab">CONTACT</a></li>
+    <li class="item"><a href="contact.html" class="act-tab contact"  name="contact" id="act-tab">CONTACT</a></li>
   </div>
 </div>
 <div class="res-menu">
@@ -268,9 +268,6 @@ let navItem  = document.querySelector('.topbar .container .nav-items .item-conta
 //   console.log("cli");
 // });
 
-document.querySelector('.topbar .container .nav-items .item-container .item a').addEventListener('click',(e)=>{
-e.target.style.color = "red"; 
-});
-
-
-
+// document.querySelector('.topbar .container .nav-items .item-container .item a').addEventListener('click',(e)=>{
+// e.target.style.color = "red"; 
+// });

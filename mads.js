@@ -263,13 +263,6 @@ rightClick.addEventListener('click', () => {
   renderApps()
 })
 
-// $(document).ready(function(){
-//   $(document).on('mouseover', '.app-detail', function () {
-//   });
-//   $(document).on('mouseout', '.app-detail', function () {
-//   });
-// });
-
 var mybutton = document.getElementById("myBtn");
 window.onscroll = function() {scrollFunction()};
 function scrollFunction() {

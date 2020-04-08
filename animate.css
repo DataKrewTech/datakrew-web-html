@@ -3626,3 +3626,6 @@
 html{
   scroll-behavior: smooth;
 }
+.active-tab {
+  color: #4eb6bc !important;
+}
