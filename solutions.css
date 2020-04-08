@@ -40,8 +40,8 @@ a {
 .applications-header .container .header-content .indi-application .img-container svg:hover {
 	fill: #ffffff !important;
 }
-.applications-header .container .header-content .indi-application .img-container svg {
-	padding: 24px;
+ svg {
+	padding: 0px !important;
 	fill: url(#linear-gradient);
 }
 
@@ -440,7 +440,7 @@ a {
 		padding-left: 18px !important;
 	}
 	.applications-header .container .header-content .indi-application .click {
-		font-size: 10px;
+		font-size: 8px;
 	}
 
 	.applications-header .container .header-content .indi-application .click a {

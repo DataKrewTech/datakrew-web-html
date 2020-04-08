@@ -38,7 +38,7 @@ button {
 .applications-header .container .header-content .indi-application .img-container svg:hover {
   fill: #ffffff;
 } */
-.applications-header .container .header-content .indi-application .img-container svg {
+ svg {
 	padding: 24px;
 	fill: url(#linear-gradient);
 }
@@ -393,6 +393,7 @@ button {
 	.applications-header .container .header-content .indi-application .click {
 		font-size: 5px;
 	}
+
 }
 
 @media (max-width: 400px) {
@@ -506,6 +507,9 @@ button {
 	}
 	.middle-section .container .sub-section .details-container {
 		margin: 0;
+	}
+	svg{
+		padding: 0 !important;
 	}
 }
 

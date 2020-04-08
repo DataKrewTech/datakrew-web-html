@@ -21,11 +21,8 @@ const topbarContent = `
       <span class="txt">CUSTOMERS</span>
     </li>
     <ul class="item-dropdown">
-      <li class="item-drop-ele">
-        <a href="applications.html">Applications</a>
-      </li>
-      <li class="item-drop-ele">
-        <a href="solutions.html">Solutions</a>
+      <li class="item-drop-ele"><a href="applications.html">Applications</a></li>
+      <li class="item-drop-ele">   <a href="solutions.html">Solutions</a>
       </li>
     </ul>
   </div>
@@ -33,12 +30,8 @@ const topbarContent = `
     <li class="item"><span class="txt" >COMPANY</span></li>
     <ul class="item-dropdown">
       <li class="item-drop-ele"><a href="company.html#about" >About</a></li>
-      <li class="item-drop-ele">
-        <a href="company.html#team">Team</a>
-      </li>
-      <li class="item-drop-ele">
-        <a href="company.html#partners">Partners</a>
-      </li>
+      <li class="item-drop-ele"><a href="company.html#team">Team</a> </li>
+      <li class="item-drop-ele"><a href="company.html#partners">Partners</a> </li>
     </ul>
   </div>
   <div class="item-container">
@@ -253,24 +246,6 @@ function scrollFunction() {
     mybutton.style.display = "none";
   }
 }
-
-// When the user clicks on the button, scroll to the top of the document
-function topFunction() {
-  document.body.scrollTop = 0;
-  document.documentElement.scrollTop = 0;
-}
-
-
-let activeNavElement = "home";
-let navItem  = document.querySelector('.topbar .container .nav-items .item-container .item a');
-// console.log(navItem);
-// navItem.addEventListener('click',()=>{
-//   console.log("cli");
-// });
-
-document.querySelector('.topbar .container .nav-items .item-container .item a').addEventListener('click',(e)=>{
-e.target.style.color = "red"; 
-});
 
 
 

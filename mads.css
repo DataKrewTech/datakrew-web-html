@@ -472,6 +472,9 @@ button {
 	.features .container .wrapper .feature .feature-detail {
 		font-size: 1.2rem;
 	}
+	.about-mads .container .details-container .detail{
+		font-size: 1.2rem;
+	}
 }
 
 /* apps */
