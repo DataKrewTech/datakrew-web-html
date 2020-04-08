@@ -550,7 +550,7 @@ border: solid 1px #0FAFB4;
 
   .contact-header .container .address .contact-hint1{
     max-width: 75% !important;
-    margin-left: 0px !important;
+    margin-left: 44px !important;
   }
   .main-footer .container .right-content .container .mini-section .title {
     color: #fff;
@@ -672,7 +672,7 @@ border: solid 1px #0FAFB4;
     width: 80% !important;
     padding-left: 34px !important;
   }
-  .contact-header .container .address .contact-hint1 {
+ .contact-hint1 {
     max-width: 90% !important;
     margin-left: 44px !important;
 }
