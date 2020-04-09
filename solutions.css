@@ -106,7 +106,13 @@ a {
 		font-size: 12px;
 	}
 	.applications-header .container .header-content .indi-application .img-container {
-		width: auto !important;
+		height: 70% !important;
+		width: 100% !important;
+		padding: 12px !important;
+
+	}
+	.applications-header .container .header-content .indi-application .click{
+		font-size: 7px !important;
 	}
 }
 
@@ -167,7 +173,7 @@ a {
 	  padding-top: 30px;
   }
   .applications-header .container{
-	width: 80%;
+	width: 78%;
     margin: 0 auto;
     padding-top: 24px !important;
   }
@@ -316,14 +322,14 @@ a {
 }
 
 .applications-header .container .header-content .indi-application {
-	width: 22%;
+	width: 16%;
 	padding: 40px 20px;
 	-webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
 .applications-header .container .header-content .indi-application .img-container {
-	width: 200px;
+	/* width: 200px;
 	height: 200px;
 	display: flex;
 	align-items: center;
@@ -336,8 +342,22 @@ a {
 	padding: 20px;
 	border-radius: 100%;
 	border-width: 10px;
+	border-color: #1c4a86; */
+	
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 20px;
+    border-width: 3px;
+    border-style: solid;
+    padding: 20px;
+    border-radius: 100%;
+    border-width: 10px;
 	border-color: #1c4a86;
-	/* border-color: #9cb2cf; */
+	height: 195px;
+	width: 195px;
 }
 
 .applications-header .container .header-content .indi-application .img-container img {
@@ -375,7 +395,7 @@ a {
 	text-align: center;
 	display: block;
 	padding: 10px;
-	font-size: 1.3rem;
+	font-size: 14px;
 	letter-spacing: 1px;
 }
 
@@ -440,7 +460,7 @@ a {
 		padding: 10px;
 		border-width: 4px;
 		margin-bottom: 30px;
-		padding-left: 18px !important;
+		padding-left: 12px !important;
 	}
 	.applications-header .container .header-content .indi-application .click {
 		font-size: 8px;
@@ -459,6 +479,12 @@ a {
 	}
 	.applications-header .container {
 		padding: 0 !important;
+	}
+	.applications-header .container .header-content .indi-application .img-container {
+		height: 50% !important;
+		width: 100% !important;
+		padding: 12px !important;
+
 	}
 }
 
