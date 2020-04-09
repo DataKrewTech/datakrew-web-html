@@ -91,13 +91,15 @@
   display: none;
   position: absolute;
   top: 100%;
-  min-width: 100%;
+  /* min-width: 100%; */
   background-color: black;
   border-bottom-left-radius: 3px;
   border-bottom-right-radius: 3px;
   -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   border-top: solid 4px #ffffff;
+  width: 84%;
+  left: 10%;
 }
 .topbar .container .nav-items .item-container .item-dropdown .item-drop-ele {
   letter-spacing: 1px;

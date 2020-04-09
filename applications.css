@@ -6,7 +6,13 @@
 
 /* html {
         font-size: 13px;
-    } */
+	} */
+
+button svg{
+	width: 25px !important;
+	height: 25px !important;
+}
+	
 
 body {
 	background-color: rgb(249, 249, 249);
@@ -42,6 +48,8 @@ button {
 .applications-header .container .header-content .indi-application svg {
 	padding: 24px;
 	fill: url(#linear-gradient);
+	height: 100% !important;
+	width: 100% !important;
 }
 .applications-header .container .header-content .indi-application svg:hover {
 	fill: #ffffff !important;
