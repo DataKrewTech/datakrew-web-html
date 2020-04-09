@@ -147,16 +147,18 @@ button {
 /* mads demo */
 .mads-demo {
 	padding-top: 70px;
+	width: 70%;
+    margin: 0 auto;
 }
 
 .mads-demo .container {
 	/* max-width: 1600px; */
 	padding: 0 50px;
-	margin: 0 auto;
+	/* margin: 0 auto; */
 	display: flex;
 	justify-content: space-around;
 	flex-wrap: wrap;
-	width: 80%;
+	/* width: 80%; */
 }
 
 .mads-demo .container .single-demo {
@@ -266,12 +268,15 @@ button {
 }
 
 .about-mads .container {
-	max-width: 1600px;
+	/* max-width: 1600px; */
+	width: 70%;
 	padding: 0 50px;
 	margin: auto;
 	display: grid;
 	grid-template-columns: 48% 48%;
-	grid-gap: 4%;
+	/* grid-gap: 4%; */
+	grid-gap: 10%;
+
 }
 
 .about-mads .container .image-container .about-img {
@@ -346,7 +351,8 @@ button {
 }
 
 .in-action .container {
-	max-width: 1600px;
+	/* max-width: 1600px; */
+	width: 70%;
 	padding: 0 50px;
 	margin: auto;
 }
@@ -386,7 +392,8 @@ button {
 
 .features .container {
 	padding: 0 50px;
-	max-width: 1600px;
+	/* max-width: 1600px; */
+	width: 70%;
 	margin: auto;
 }
 
@@ -503,7 +510,8 @@ button {
 }
 
 .apps .container {
-	max-width: 1600px;
+	/* max-width: 1600px; */
+	width: 70%;
 	padding: 0 50px;
 	margin: auto;
 }
@@ -601,8 +609,9 @@ button {
 .apps .container .apps-details .category-apps {
 	display: grid;
 	grid-template-columns: 22% 22% 22% 22%;
-	grid-gap: 4%;
+	grid-gap: 5%;
 	height: 340px;
+	width: auto;
 }
 
 .apps .container .apps-details .category-apps .app-detail {
@@ -622,9 +631,10 @@ button {
 	border-radius: 5px;
 	/* box-shadow: none;  */
 	transform: scale(1.1);
-	max-height: 340px  !important;
-	max-width: 297px !important;
+
 	transition: transform 330ms ease-in-out;
+	/* max-height: 340px  !important;
+	max-width: 297px !important; */
 }
 
 .apps .container .apps-details .category-apps .app-detail .upper {

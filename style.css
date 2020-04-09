@@ -94,7 +94,8 @@ button {
 .homepage-header .container {
   display: grid;
   grid-template-columns: 50% 50%;
-  max-width: 1600px;
+  /* max-width: 1600px; */
+  width: 70%;
   margin: auto;
   padding: 0 50px;
   padding-top: 25vh;
@@ -284,7 +285,7 @@ button {
   padding: 0px 0px 0 20px;
   border-radius: 50px;
   height: 50px;
-  width: 78%;
+  width: 100%;
 }
 
 .homepage-header
@@ -806,7 +807,8 @@ button {
 /* homepage middle content */
 
 .homepage-middle-content .container {
-  max-width: 1600px;
+  /* max-width: 1600px; */
+  width: 70%;
   padding: 0 50px;
   margin: 50px auto 0 auto;
 }
@@ -831,6 +833,7 @@ button {
   display: grid;
   grid-template-columns: 50% 50%;
   margin-bottom: 70px;
+  grid-gap: 4%;
 }
 
 .homepage-middle-content .container .configuration .img-container img {
@@ -1013,6 +1016,7 @@ button {
   display: grid;
   grid-template-columns: 50% 50%;
   margin-bottom: 70px;
+  grid-gap: 4%;
 }
 
 .homepage-middle-content .container .easy-use .img-container {
@@ -1142,6 +1146,7 @@ button {
   display: grid;
   grid-template-columns: 50% 50%;
   margin-bottom: 150px;
+  grid-gap: 4%;
 }
 
 .homepage-middle-content .container .quick-deployment .img-container img {
@@ -1470,7 +1475,8 @@ button {
 }
 
 .partners .container {
-  max-width: 1600px;
+  /* max-width: 1600px; */
+  width: 70%;
   margin: auto;
   padding: 0 50px;
 }

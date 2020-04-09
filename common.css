@@ -302,7 +302,8 @@
 }
 
 .main-footer .container {
-  max-width: 1600px;
+  /* max-width: 1600px; */
+  width: 70%;
   margin: auto;
   padding: 80px 50px;
   display: grid;
