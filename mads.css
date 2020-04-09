@@ -610,8 +610,8 @@ button {
 	display: grid;
 	grid-template-columns: 22% 22% 22% 22%;
 	grid-gap: 5%;
-	height: 340px;
-	width: auto;
+	/* height: 340px; */
+
 }
 
 .apps .container .apps-details .category-apps .app-detail {
