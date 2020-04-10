@@ -100,11 +100,9 @@ const footerContent = `
           <img src="./assets/datakrew-logo.png" alt="Datakrew" />
         </div>
         <div class="txt">
-          <b>Datakrew</b> is an innovative deep technology startup 
-            with strong roots in IoT, AI & data security. We enable 
-            large-scale secure IoT applications through data-driven 
-            <span>Monitoring</span>, <span>Automation</span>, <span>Diagnostics</span> 
-            and <span>Security</span> – MADS!
+          <b>Datakrew</b> is a deep tech startup with strong roots 
+          in IoT, AI & data security – we are a spin-off from NTU 
+          Singapore, supported by Enterprise Singapore.
         </div>
         <div class="social">
           <div class="link">
