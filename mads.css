@@ -31,6 +31,12 @@ button {
 	border: none;
 	cursor: pointer;
 }
+.margin-left-40{
+	margin-left: 40px;
+}
+.padding-left-40{
+	padding-left: 48px !important;
+}
 /* .topbar .container .nav-items .item-container .item a:active{
 	color: red !important;
 } */
@@ -156,7 +162,7 @@ button {
 	display: flex;
 	justify-content: space-around;
 	flex-wrap: wrap;
-	width: 80%;
+	max-width: 1500px;
 }
 
 .mads-demo .container .single-demo {
@@ -266,12 +272,14 @@ button {
 }
 
 .about-mads .container {
-	max-width: 1600px;
+	/* max-width: 1600px; */
+	max-width: 1500px;
+
 	padding: 0 50px;
 	margin: auto;
 	display: grid;
 	grid-template-columns: 48% 48%;
-	grid-gap: 4%;
+	grid-gap: 5%;
 }
 
 .about-mads .container .image-container .about-img {
@@ -346,7 +354,9 @@ button {
 }
 
 .in-action .container {
-	max-width: 1600px;
+	/* max-width: 1600px; */
+	max-width: 1500px;
+
 	padding: 0 50px;
 	margin: auto;
 }
@@ -386,7 +396,8 @@ button {
 
 .features .container {
 	padding: 0 50px;
-	max-width: 1600px;
+	/* max-width: 1600px; */
+	max-width: 1500px;
 	margin: auto;
 }
 
@@ -503,7 +514,9 @@ button {
 }
 
 .apps .container {
-	max-width: 1600px;
+	/* max-width: 1600px; */
+	max-width: 1500px;
+
 	padding: 0 50px;
 	margin: auto;
 }
@@ -601,8 +614,9 @@ button {
 .apps .container .apps-details .category-apps {
 	display: grid;
 	grid-template-columns: 22% 22% 22% 22%;
-	grid-gap: 4%;
-	height: 340px;
+	grid-gap: 5%;
+	/* height: 340px; */
+
 }
 
 .apps .container .apps-details .category-apps .app-detail {

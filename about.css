@@ -206,7 +206,9 @@ button {
 }
 
 .team .container {
-  max-width: 1600px;
+  /* max-width: 1600px; */
+  max-width: 1500px;
+
   margin: auto;
   padding: 0 50px;
 }
@@ -405,7 +407,9 @@ button {
 }
 
 .partners .container {
-  max-width: 1600px;
+  /* max-width: 1600px; */
+  max-width: 1500px;
+
   /* padding: 0 50px; */
   padding: 60px 50px;
   margin: auto;
