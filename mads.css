@@ -139,6 +139,13 @@ button {
 	.mads-header .container {
 		/* padding: 120px 20px 0 20px; */
 	}
+	.padding-left-40 {
+		padding: 0 !important;
+	}
+	.mads-demo{
+
+		margin: 0px 100px;
+	}
 }
 
 @media (max-width: 600px) {
@@ -147,6 +154,9 @@ button {
 	}
 	.about-mads{
 		padding-top: 0px !important;
+	}
+	.padding-left-40 {
+		padding: 0 !important;
 	}
 }
 
@@ -238,6 +248,7 @@ button {
 	}
 	.mads-demo .container .single-demo .demo-cont {
 		padding: 10px 15px;
+
 	}
 	
 }
@@ -462,9 +473,18 @@ button {
 @media (max-width: 1000px) {
 	.features {
 		margin: 0px 0 50px 0;
+		padding: 0 !important;
 	}
 	.features .container {
 		padding: 0 20px;
+	}
+	.about-mads{
+		padding: 0 !important;
+
+	}
+	.in-action{
+		padding: 0 !important;
+
 	}
 }
 
