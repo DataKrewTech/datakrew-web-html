@@ -233,12 +233,12 @@ var mybutton = document.getElementById("myBtn");
 window.onscroll = function() {scrollFunction()};
 function scrollFunction() {
   if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
-    document.getElementById("nav").style.height = "60px";
-    document.getElementById("logo").style.maxWidth = "100px";
+    // document.getElementById("nav").style.height = "60px";
+    // document.getElementById("logo").style.maxWidth = "100px";
   } else {
-    document.getElementById("nav").style.height = "100px";
-    document.getElementById("nav").classList.remove("fadeInUp")
-    document.getElementById("logo").style.maxWidth = "150px";
+    // document.getElementById("nav").style.height = "100px";
+    // document.getElementById("nav").classList.remove("fadeInUp")
+    // document.getElementById("logo").style.maxWidth = "150px";
   }
   if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
     mybutton.style.display = "block";
