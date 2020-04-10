@@ -95,12 +95,13 @@ button {
   display: grid;
   grid-template-columns: 50% 50%;
   /* max-width: 1600px; */
-  max-width: 1500px;
+  /* max-width: 1500px; */
+  width: 70%;
   margin: auto;
   /* padding: 0 50px; */
-  padding: 150px 50px;
+  padding: 150px 0px;
 
-  padding-top: 25vh;
+  /* padding-top: 25vh; */
 }
 
 .homepage-header .container .res-detail {
@@ -108,7 +109,7 @@ button {
 }
 
 .homepage-header .container .hero-showcase .hero-showcase-container {
-  text-align: right;
+  /* text-align: right; */
 }
 
 .homepage-header .container .hero-showcase .hero-showcase-container img {
@@ -145,7 +146,7 @@ button {
   font-style: normal;
   line-height: 1.66;
   width: 305px;
-  height: 44px;
+  /* height: 44px; */
 
 }
 
@@ -424,7 +425,7 @@ button {
 
 @media (max-width: 1500px) {
   .homepage-header .container .hero-showcase .hero-showcase-container img {
-    width: 90%;
+    width: 10 0%;
   }
 
   .homepage-header
@@ -432,7 +433,7 @@ button {
     .hero-details
     .hero-details-container
     .hero-title {
-    font-size: 50px;
+    font-size: 36px;
   }
   .homepage-header .container .hero-details .hero-details-container .detail {
     font-size: 20px;
@@ -445,7 +446,8 @@ button {
     .hero-details
     .hero-details-container
     .demo-request {
-    width: 80%;
+    width: 100%;
+    font-size: 1rem;
   }
 
   .homepage-header
@@ -810,7 +812,9 @@ button {
 
 .homepage-middle-content .container {
   /* max-width: 1600px; */
-  max-width: 1500px;
+  /* max-width: 1500px; */
+  width: 70%;
+
   padding: 0 50px;
   margin: 50px auto 0 auto;
 }
@@ -842,7 +846,8 @@ button {
 }
 
 .homepage-middle-content .container .configuration .info {
-  padding: 20px 80px;
+  /* padding: 20px 80px; */
+  padding-left: 80px;
 }
 
 .homepage-middle-content .container .configuration .info .subtitle {
@@ -1292,7 +1297,7 @@ button {
   .homepage-middle-content .container .configuration .info,
   homepage-middle-content .container .easy-use .info,
   homepage-middle-content .container .quick-deployment .info {
-    padding: 0px 80px;
+    /* padding: 0px 80px; */
   }
 
   .homepage-middle-content .container .configuration .info .subtitle,
@@ -1306,15 +1311,25 @@ button {
     font-size: 17px;
     padding: 10px 20px;
   }
+  /* .homepage-header
+  .container
+  .hero-details
+  .hero-details-container
+  .demo-request
+  .demo-req-btn {
+    font-size: 1rem;
+  } */
+
+  
 }
 
 @media (max-width: 1400px) {
   .homepage-middle-content .container .configuration .info {
-    padding: 0 50px;
+    /* padding: 0 50px; */
   }
 
   .homepage-middle-content .container .easy-use .info {
-    padding: 0 50px;
+    /* padding: 0 50px; */
   }
 
   .homepage-middle-content .container .easy-use .info .read-cs-btn {
@@ -1475,7 +1490,8 @@ button {
 
 .partners .container {
   /* max-width: 1600px; */
-  max-width: 1500px;
+  /* max-width: 1500px; */
+  width: 70%;
 
   margin: auto;
   padding: 0 50px;

@@ -314,7 +314,7 @@
 
 .main-footer .container {
   /* max-width: 1600px; */
-  max-width: 1500px;
+  /* max-width: 1500px; */
   margin: auto;
   display: grid;
   grid-template-columns: 35% 65%;
@@ -358,7 +358,7 @@
 }
 
 .main-footer .container .right-content .container {
-  padding: 0 0 0 100px;
+  /* padding: 0 0 0 100px; */
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
