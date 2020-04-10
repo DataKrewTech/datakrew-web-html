@@ -475,7 +475,7 @@ border: solid 1px #0FAFB4;
   color: #fff;
 }
 .main-footer .container .right-content .container {
-  padding: 0 0 0 100px;
+  /* padding: 0 0 0 100px; */
   display: flex;
   justify-content: space-between;
 }

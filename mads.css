@@ -158,6 +158,11 @@ button {
 	.padding-left-40 {
 		padding: 0 !important;
 	}
+	.mads-demo{
+
+		margin: 0px !important;
+	}
+
 }
 
 /* mads demo */
@@ -299,7 +304,7 @@ button {
 }
 
 .about-mads .container .details-container {
-	padding: 20px 0;
+	/* padding: 20px 0; */
 }
 
 .about-mads .container .details-container .title {

@@ -303,11 +303,12 @@
 
 .main-footer .container {
   /* max-width: 1600px; */
-  max-width: 1500px;
+  /* max-width: 1500px; */
   margin: auto;
   padding: 80px 50px;
   display: grid;
   grid-template-columns: 35% 65%;
+  width: 70%;
 }
 
 .main-footer .container .left-content .brand-icon {
@@ -345,7 +346,7 @@
   color: #fff;
 }
 .main-footer .container .right-content .container {
-  padding: 0 0 0 100px;
+  /* padding: 0 0 0 100px; */
   display: flex;
   justify-content: space-between;
 }
