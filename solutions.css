@@ -25,6 +25,12 @@ button {
 a {
 	text-decoration: none;
 }
+.margin-left-40{
+	margin-left: 40px;
+}
+.padding-left-40{
+	padding-left: 48px !important;
+}
 .main-container {
 	position: relative;
 	background-color: #ffffff !important;

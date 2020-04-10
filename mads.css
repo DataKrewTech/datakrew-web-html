@@ -31,6 +31,12 @@ button {
 	border: none;
 	cursor: pointer;
 }
+.margin-left-40{
+	margin-left: 40px;
+}
+.padding-left-40{
+	padding-left: 48px !important;
+}
 /* .topbar .container .nav-items .item-container .item a:active{
 	color: red !important;
 } */
