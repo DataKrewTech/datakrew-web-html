@@ -51,7 +51,7 @@ button {
 
 
 .homepage-header {
-  height: 100vh;
+  /* height: 100vh; */
   /* background-color: rgb(255, 255, 255); */
   background: linear-gradient(to right, rgb(232, 227, 245), #dffcf3);
   /* opacity: 0.5; */
@@ -94,9 +94,12 @@ button {
 .homepage-header .container {
   display: grid;
   grid-template-columns: 50% 50%;
-  max-width: 1600px;
+  /* max-width: 1600px; */
+  max-width: 1500px;
   margin: auto;
-  padding: 0 50px;
+  /* padding: 0 50px; */
+  padding: 150px 50px;
+
   padding-top: 25vh;
 }
 
@@ -806,7 +809,8 @@ button {
 /* homepage middle content */
 
 .homepage-middle-content .container {
-  max-width: 1600px;
+  /* max-width: 1600px; */
+  max-width: 1500px;
   padding: 0 50px;
   margin: 50px auto 0 auto;
 }
@@ -1470,7 +1474,9 @@ button {
 }
 
 .partners .container {
-  max-width: 1600px;
+  /* max-width: 1600px; */
+  max-width: 1500px;
+
   margin: auto;
   padding: 0 50px;
 }

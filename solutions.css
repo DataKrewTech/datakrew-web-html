@@ -173,9 +173,11 @@ a {
 	  padding-top: 30px;
   }
   .applications-header .container{
-	width: 78%;
+	/* width: 78%; */
+	max-width: 1500px;
     margin: 0 auto;
-    padding-top: 24px !important;
+	/* padding-top: 24px !important; */
+	padding: 24px 50px 0px;
   }
 
 .solutions-header .container .header-img-container .header-img {
@@ -202,9 +204,10 @@ a {
 
 /* Middle Section */
 .middle-section .container {
-	max-width: 1600px;
+	/* max-width: 1600px; */
+	max-width: 1500px;
 	padding: 0 50px;
-	margin: 0 auto 0px auto;
+	margin: 0 auto;
 }
 
 .middle-section .container .sub-section {
@@ -434,6 +437,11 @@ a {
 	.applications-header .container {
 		padding: 0 !important;
 	}
+	.applications-header .container {
+		padding: 0 !important;
+		margin: 12px !important; 
+	}
+
 }
 
 @media (max-width: 600px) {
