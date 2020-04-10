@@ -105,8 +105,8 @@ button {
 .contact-header .container {
   display: flex;
   /* max-width: 1600px; */
-  max-width: 1500px;
-
+  /* max-width: 1500px; */
+  width: 70%;
   padding: 0 50px;
   margin: auto;
 
@@ -708,8 +708,8 @@ border: solid 1px #0FAFB4;
 /* padding: 0 50px; */
 display: flex;
   /* max-width: 1600px; */
-  max-width: 1500px;
-
+  /* max-width: 1500px; */
+  width: 70%;
   padding: 0 50px;
   margin: auto;
 
