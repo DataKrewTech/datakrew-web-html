@@ -41,9 +41,11 @@ a {
 .applications-header .container .header-content .indi-application .img-container svg:hover {
 	fill: #ffffff !important;
 }
- svg {
+.applications-header .container .header-content .indi-application .img-container svg {
 	padding: 0px !important;
 	fill: url(#linear-gradient);
+	height: 100% !important;
+	width: 100% !important;
 }
 
 .blue,
