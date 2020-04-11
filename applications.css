@@ -455,6 +455,12 @@ button {
 	}
 	.applications-header .container .header-content .indi-application .click {
 		font-size: 4px !important;
+		
+	}
+	.applications-header .container .header-content .indi-application .font-text {
+		padding-left: 4px !important;
+
+
 	}
 	.applications-header .container .header-content {
 		padding: 12px 0px !important;
