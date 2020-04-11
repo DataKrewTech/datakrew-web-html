@@ -7,42 +7,35 @@ let mainContainer = document.querySelector('.main-container')
 const topbarContent = `
 <div class="container">
 <a href="index.html" class="logo-container">
-  <img src="assets/datakrew-logo.png" class="logo" alt="logo" />
+  <img src="assets/datakrew-logo.png" class="logo" id="logo" alt="logo" />
 </a>
 <div class="nav-items">
   <div class="item-container">
-    <li class="item"><a href="index.html">HOME</a></li>
+    <li class="item"><a href="index.html" class="act-tab index" name="home" id="act-tab" >HOME</a></li>
   </div>
   <div class="item-container">
-    <li class="item"><a href="mads.html">MADS</a></li>
+    <li class="item"><a href="mads.html" class="act-tab mads" name="mads" id="act-tab">MADS</a></li>
   </div>
   <div class="item-container">
-    <li class="item">
+    <li class="item act-tab customer">
       <span class="txt">CUSTOMERS</span>
     </li>
     <ul class="item-dropdown">
-      <li class="item-drop-ele">
-        <a href="applications.html">Applications</a>
-      </li>
-      <li class="item-drop-ele">
-        <a href="solutions.html">Solutions</a>
+      <li class="item-drop-ele"><a href="applications.html">Applications</a></li>
+      <li class="item-drop-ele">   <a href="solutions.html">Solutions</a>
       </li>
     </ul>
   </div>
   <div class="item-container">
-    <li class="item"><span class="txt">COMPANY</span></li>
+    <li class="item"><span class="act-tab company txt" >COMPANY</span></li>
     <ul class="item-dropdown">
-      <li class="item-drop-ele"><a href="about.html">About</a></li>
-      <li class="item-drop-ele">
-        <a href="about.html#team">Team</a>
-      </li>
-      <li class="item-drop-ele">
-        <a href="about.html#partners">Partners</a>
-      </li>
+      <li class="item-drop-ele"><a href="company.html#about" >About</a></li>
+      <li class="item-drop-ele"><a href="company.html#team">Team</a> </li>
+      <li class="item-drop-ele"><a href="company.html#partners">Partners</a> </li>
     </ul>
   </div>
   <div class="item-container">
-    <li class="item"><a href="contact.html">CONTACT</a></li>
+    <li class="item"><a href="contact.html" class="act-tab contact"  name="contact" id="act-tab">CONTACT</a></li>
   </div>
 </div>
 <div class="res-menu">
@@ -53,6 +46,7 @@ const topbarContent = `
 
 let topbarEle = document.createElement('nav')
 topbarEle.classList.add('topbar')
+topbarEle.setAttribute('id', 'nav')
 topbarEle.innerHTML = topbarContent
 mainContainer.prepend(topbarEle)
 
@@ -109,21 +103,25 @@ const footerContent = `
           <b>Datakrew</b> is an innovative deep technology startup 
             with strong roots in IoT, AI & data security. We enable 
             large-scale secure IoT applications through data-driven 
-            <i>Monitoring</i>, <i>Automation</i>, <i>Diagnostics</i> 
-            and <i>Security</i> – MADS!
+            <span>Monitoring</span>, <span>Automation</span>, <span>Diagnostics</span> 
+            and <span>Security</span> – MADS!
         </div>
         <div class="social">
           <div class="link">
-            <img src="./assets/fb.svg" alt="facebook" />
+            <span class="social-icon"><a href="#"><i class="fa fa-facebook"></i></a></span> 
+
           </div>
           <div class="link">
-            <img src="./assets/twitter.png" alt="twitter" />
+            <span class="social-icon"><a href="#"><i class="fa fa-twitter"></i></a></span> 
+
           </div>
           <div class="link">
-            <img src="./assets/linkedin.png" alt="linkedin" />
+            <span class="social-icon"><a href="#"><i class="fa fa-linkedin"></i></a></span> 
+
           </div>
           <div class="link">
-            <img src="./assets/github.png" alt="github" />
+            <span class="social-icon"><a href="#"><i class="fa fa-github"></i></a></span> 
+
           </div>
         </div>
       </div>
@@ -230,3 +228,28 @@ subdownTwo.addEventListener('click', () => {
     })
   }
 })
+
+var mybutton = document.getElementById("myBtn");
+window.onscroll = function() {scrollFunction()};
+function scrollFunction() {
+  if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+    // document.getElementById("nav").style.height = "60px";
+    // document.getElementById("logo").style.maxWidth = "100px";
+  } else {
+    // document.getElementById("nav").style.height = "100px";
+    // document.getElementById("nav").classList.remove("fadeInUp")
+    // document.getElementById("logo").style.maxWidth = "150px";
+  }
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+

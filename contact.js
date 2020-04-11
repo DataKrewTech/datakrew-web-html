@@ -2,6 +2,7 @@
 
 // Email Validator
 
+
 function validateEmail(email) {
   var re = /\S+@\S+\.\S+/
   return re.test(email)
@@ -9,19 +10,22 @@ function validateEmail(email) {
 
 let name = document.querySelector('.name-in')
 let email = document.querySelector('.email-in')
-let subject = document.querySelector('.subj-in')
+let mobile = document.querySelector('.mob-in')
+let orgnisation = document.querySelector('.org-in')
 let message = document.querySelector('.msg-in')
 let submitBtn = document.querySelector('.submit-btn')
 let nameErr = document.querySelector('.name-err')
 let emailErr = document.querySelector('.email-err')
-let subjErr = document.querySelector('.subj-err')
+let mobErr = document.querySelector('.mob-err')
+let orgErr = document.querySelector('.org-err')
 let msgErr = document.querySelector('.msg-err')
 
 let validateForm = () => {
   let errors = {
     nameErr: '',
     emailErr: '',
-    subjErr: '',
+    mobErr: '',
+    orgErr: '',
     msgErr: ''
   }
 
@@ -37,10 +41,15 @@ let validateForm = () => {
     hasErr = true
   }
 
-  if (!subject.value.length) {
-    errors.subjErr = 'Subject is Not Valid'
+  if (!mobile.value.length) {
+    errors.mobErr = 'Mobile no is Not Valid'
     hasErr = true
   }
+  if (!orgnisation.value.length) {
+    errors.orgErr = 'Enter Organisation'
+    hasErr = true
+  }
+  
 
   if (message.value.length < 14) {
     errors.msgErr = 'Message Should be Atleast 15 Characters'
@@ -48,7 +57,9 @@ let validateForm = () => {
   }
   nameErr.innerHTML = errors.nameErr
   emailErr.innerHTML = errors.emailErr
-  subjErr.innerHTML = errors.subjErr
+  mobErr.innerHTML = errors.mobErr
+  mobErr.innerHTML = errors.mobErr
+  orgErr.innerHTML = errors.orgErr
   msgErr.innerHTML = errors.msgErr
   return hasErr
 }
@@ -57,11 +68,13 @@ submitBtn.addEventListener('click', () => {
   if (!validateForm()) {
     nameErr.innerHTML = ''
     emailErr.innerHTML = ''
-    subjErr.innerHTML = ''
+    mobErr.innerHTML = ''
+    orgErr.innerHTML = ''
     msgErr.innerHTML = ''
     name.value = ''
     email.value = ''
-    subject.value = ''
+    mobile.value = ''
+    orgnisation.value = ''
     message.value = ''
     setTimeout(() => {
       swal('Submitted successfully! We will get back to you :)', {
@@ -87,3 +100,30 @@ function initialize() {
   )
 }
 google.maps.event.addDomListener(window, 'load', initialize)
+
+
+
+var mybutton = document.getElementById("myBtn");
+window.onscroll = function() {scrollFunction()};
+function scrollFunction() {
+  if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+    // document.getElementById("nav").style.height = "60px";
+    // document.getElementById("logo").style.maxWidth = "100px";
+  } else {
+    // document.getElementById("nav").style.height = "100px";
+    // document.getElementById("nav").classList.remove("fadeInUp")
+    // document.getElementById("logo").style.maxWidth = "150px";
+  }
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+

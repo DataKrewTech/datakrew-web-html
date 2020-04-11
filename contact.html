@@ -18,53 +18,30 @@
       href="https://fonts.googleapis.com/css?family=Montserrat&display=swap"
       rel="stylesheet"
     />
-    <title>Document</title>
+    <link rel="stylesheet" href="animate.css">
+    <link rel="shortcut icon" href="datakrew-favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="datakrew-favicon.ico" type="image/x-icon" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    
+    <title>DataKrew</title>
   </head>
   <body>
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><svg style="fill: white;width: 25px;height: 25px;" viewBox="0 0 28 28" version="1.1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" xml:space="preserve"><path d="M26.297 20.797l-2.594 2.578c-0.391 0.391-1.016 0.391-1.406 0l-8.297-8.297-8.297 8.297c-0.391 0.391-1.016 0.391-1.406 0l-2.594-2.578c-0.391-0.391-0.391-1.031 0-1.422l11.594-11.578c0.391-0.391 1.016-0.391 1.406 0l11.594 11.578c0.391 0.391 0.391 1.031 0 1.422z"></path></svg></button>
     <div class="main-container">
-      <div class="contact-header">
+      <div class="contact-header ">
         <h1 class="title">Contact</h1>
         <div class="container">
-          <div class="form">
-            <input
-              name="name"
-              type="text"
-              placeholder="Your Name"
-              class="form-input name-in"
-            />
-            <span class="err name-err"></span>
-            <input
-              name="email"
-              type="text"
-              placeholder="Email Address"
-              class="form-input email-in"
-            />
-            <span class="err email-err"></span>
-            <input
-              name="subject"
-              type="text"
-              placeholder="Subject"
-              class="form-input subj-in"
-            />
-            <span class="err subj-err"></span>
-            <textarea
-              name="message"
-              placeholder="Your Message"
-              rows="7"
-              class="message-field msg-in"
-            ></textarea>
-            <span class="err msg-err"></span>
-            <button name="submit" class="submit submit-btn">
-              Send Message
-            </button>
-          </div>
-          <div class="address">
-            <div class="map-cont"></div>
-            <h3 class="subtitle">
-              Stop By For A Visit
+
+          <div class="address wow bounceInLeft slow">
+            <h3 class="subtitle con-info">
+              <!-- Stop By For A Visit -->
+              Contact Info
             </h3>
-            <div class="contact-hint">
-              <div class="icon-cont">
+            <div class="contact-hint contact-hint1">
+
+             <div class="icon-cont">
                 <img
                   src="https://cdn.zeplin.io/5e6a432713239d166440621b/assets/7523EF63-72E6-44AD-9FDD-6ECD5A8FE2C0.svg"
                   alt="icon"
@@ -73,7 +50,7 @@
               </div>
               <span class="txt">Location: <a href="https://g.page/DataKrew" target="_blank">#02-26, 1 Cleantech Loop, Singapore 637141</a></span>
             </div>
-            <div class="contact-hint">
+            <div class="contact-hint contact-hint2">
               <div class="icon-cont">
                 <img
                   src="https://cdn.zeplin.io/5e6a432713239d166440621b/assets/7333B527-65FC-4488-B095-399AD4694772.svg"
@@ -83,7 +60,7 @@
               </div>
               <span class="txt">Email: <a href="mailto:info@datakrew.com?Subject=Hello%20Datakrew" target="_top">info@datakrew.com</a></span>
             </div>
-            <div class="contact-hint">
+            <div class="contact-hint contact-hint3">
               <div class="icon-cont">
                 <img
                   src="https://cdn.zeplin.io/5e6a432713239d166440621b/assets/E426A995-3DA9-48C1-B71F-272C7977F505.svg"
@@ -93,35 +70,123 @@
               </div>
               <span class="txt">Phone: <a href="tel:+6598612535">+6598612535</a></span>
             </div>
+            <div>          
+              <h3 class="subtitle soc-info">     Social Contact         </h3>
+            </div>
             <div class="social">
               <div class="social-cont">
-                <img src="./assets/fb.svg" alt="social-icon" class="icon" />
+                <!-- <img src="./assets/fb.svg" alt="social-icon" class="icon" /> -->
+             <span class="socialcon-icon"><a href="#"><i class="fa fa-facebook fb"></i></a></span> 
+
               </div>
               <div class="social-cont">
-                <img
+                <!-- <img
                   src="./assets/twitter.png"
                   alt="social-icon"
                   class="icon"
-                />
+                /> -->
+             <span class="socialcon-icon"><a href="#"><i class="fa fa-twitter tw"></i></a></span> 
+
               </div>
               <div class="social-cont">
-                <img
+                <!-- <img
                   src="./assets/linkedin.png"
                   alt="social-icon"
                   class="icon"
-                />
+                /> -->
+             <span class="socialcon-icon"><a href="#"><i class="fa fa-linkedin ln"></i></a></span> 
+
               </div>
               <div class="social-cont">
-                <img src="./assets/github.png" alt="social-icon" class="icon" />
+                <!-- <img src="./assets/github.png" alt="social-icon" class="icon" /> -->
+             <span class="socialcon-icon"><a href="#"><i class="fa fa-github gh"></i></a></span> 
+
               </div>
             </div>
           </div>
+
+          <div class="form wow bounceInRight slow">
+
+            <div class="m-div">
+
+            <div class="input-div">
+            <input
+              name="name"
+              type="text"
+              placeholder="Name"
+              class="form-input name-in"
+            />
+            <span class="err name-err"></span>
+          </div>
+          <div class="input-div">
+            <input
+              name="email"
+              type="text"
+              placeholder="Work Email Address"
+              class="form-input email-in"
+            />
+          
+            <span class="err email-err"></span>
+
+          </div>
+        </div>
+
+        <div class="m-div">
+
+
+          <div class="input-div">
+            <input
+            name="mobile"
+            type="text"
+            placeholder="Mobile"
+            class="form-input mob-in"
+          />
+          <span class="err mob-err"></span>
+          </div>
+          
+          <div class="input-div">
+            <input
+              name="orgnisation"
+              type="text"
+              placeholder="Organisation Name"
+              class="form-input org-in"
+              
+            />
+            <span class="err org-err"></span>
+            </div>
+        </div>
+
+        <div class="m-div">
+            <div class="input-div"  style="width: 100%;">
+            <textarea
+              name="message"
+              placeholder="Your Message..."
+              rows="5"
+              class="message-field msg-in"
+             
+            ></textarea>
+          </div>
+        </div>
+            <!-- <span class="err msg-err"></span> -->
+            <button name="submit" class="submit submit-btn">
+              Send Message
+            </button>
+          </div>
+
         </div>
       </div>
+      <div class="contact-map wow bounceInLeft slow"> 
+        <div class="map-cont"></div>
+      </div>
     </div>
+   
     <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js?key="></script>
     <script src="index.js"></script>
     <script src="contact.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="jquery.js"></script>
+    <script src="wow.min.js"></script>
+    <script>new WOW().init();</script>
   </body>
 </html>

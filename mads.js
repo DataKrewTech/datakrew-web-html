@@ -149,7 +149,6 @@ const renderCategories = () => {
   for (let i = 0; i < categories.length; i++) {
     let indiCat = document.createElement('div')
     indiCat.classList.add('indi-cat')
-    indiCat.classList.add('animated')
     indiCat.innerHTML = `
     <div class="wrapper ${selectedAppCatIndex === i ? 'active-cat' : ''}">
     <div class="cat-icon-container">
@@ -160,7 +159,7 @@ const renderCategories = () => {
       />
     </div>
   </div>
-  <div class="cat-name">${categories[i].name}</div>
+  <div class="cat-name  ${selectedAppCatIndex === i ? 'apps-count-active' : ''}">${categories[i].name}</div>
   <div class="apps-count ${
     selectedAppCatIndex === i ? 'apps-count-active' : ''
   }">
@@ -189,8 +188,9 @@ const renderApps = () => {
   for (let i = 0; i < categories[selectedAppCatIndex].apps.length; i++) {
     let indiApp = document.createElement('div')
     indiApp.classList.add('app-detail')
-    indiApp.classList.add('animated')
-    indiApp.classList.add('bounceInRight')
+    indiApp.classList.add('wow')
+    indiApp.classList.add('bounceInUp')
+    indiApp.classList.add('slow')
     indiApp.innerHTML = `
             <div class="upper">
                 <div class="app-icon">
@@ -263,78 +263,26 @@ rightClick.addEventListener('click', () => {
   renderApps()
 })
 
-let madsLaptopImg = document.querySelector('.mads-laptop-img'
-)
+var mybutton = document.getElementById("myBtn");
+window.onscroll = function() {scrollFunction()};
+function scrollFunction() {
+  if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+    // document.getElementById("nav").style.height = "60px";
+    // document.getElementById("logo").style.maxWidth = "100px";
+  } else {
+    // document.getElementById("nav").style.height = "100px";
+    // document.getElementById("nav").classList.remove("fadeInUp")
+    // document.getElementById("logo").style.maxWidth = "150px";
+  }
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
 
-madsLaptopImg.addEventListener('mouseover', () => {
-  madsLaptopImg.classList.add('pulse')
-})
-madsLaptopImg.addEventListener('mouseout', () => {
-  madsLaptopImg.classList.remove('pulse')
-})
-
-window.addEventListener('scroll', function() {
-  var animationElements = document.querySelectorAll('.animation-element')
-  animationElements.forEach(function(element) {
-    var position = element.getBoundingClientRect();
-    if(position.top < window.innerHeight && position.bottom >= 0) {
-      if(element.classList.contains("feature-1")){
-        element.classList.add('bounceInLeft');
-      }
-      // if(element.classList.contains("feature-2")){
-      //   element.classList.add('bounceInDown');
-      // }
-      if(element.classList.contains("feature-3")){
-        element.classList.add('bounceInRight');
-      }
-      if(element.classList.contains("indi-cat")){
-        element.classList.add('bounceInDown');
-      }
-    }else{
-      if(element.classList.contains("feature-1")){
-        element.classList.remove('bounceInLeft');
-      }
-      // if(element.classList.contains("feature-2")){
-        // element.classList.remove('bounceInUp');
-      // }
-      if(element.classList.contains("feature-3")){
-        element.classList.remove('bounceInRight');
-      }
-      if(element.classList.contains("indi-cat")){
-        element.classList.remove('bounceInDown');
-      }
-    }
-  })
-
-  var categoryElements = document.querySelectorAll('.category-animated')
-  categoryElements.forEach(function(element) {
-    let position = element.getBoundingClientRect();
-    let parentDiv = element.getElementsByClassName("indi-cat");
-    let parentLeng = parentDiv.length;
-    if(position.top < window.innerHeight && position.bottom >= 0) {
-      for(i = 0; i< parentLeng; i++){
-        parentDiv[i].classList.add('bounceInUp');
-      }
-    }else{
-      for(i = 0; i< parentLeng; i++){
-        parentDiv[i].classList.remove('bounceInUp');
-      }
-    }
-  })
-  
-  var categoryAppElements = document.querySelectorAll('.category-apps')
-  categoryAppElements.forEach(function(element) {
-    let position = element.getBoundingClientRect();
-    let parentDiv = element.getElementsByClassName("app-detail");
-    let parentLeng = parentDiv.length;
-    if(position.top < window.innerHeight && position.bottom >= 0) {
-      for(i = 0; i< parentLeng; i++){
-        parentDiv[i].classList.add('bounceInUp');
-      }
-    }else{
-      for(i = 0; i< parentLeng; i++){
-        parentDiv[i].classList.remove('bounceInUp');
-      }
-    }
-  })
-});
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
