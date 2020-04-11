@@ -197,21 +197,25 @@ button {
 	border-radius: 10px;
 	-webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+	transition: all .3s ease-in-out;
 }
 .mads-demo .container .single-demo .demo-cont:hover {
 	background: #1c4784;
-	background: -webkit-linear-gradient(to right, #0da6ad, #1c4784); /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(
+	/* background: -webkit-linear-gradient(to right, #0da6ad, #1c4784); Chrome 10-25, Safari 5.1-6 */
+	/* background: linear-gradient(
 		to right,
 		#0da6ad,
 		#1c4784
-	); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	);  */
+	/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
-	-webkit-transform: translateY(-10px);
-	transform: translateY(-10px);
+	/* -webkit-transform: translateY(-10px); */
+	/* transform: translateY(-10px); */
 	border-color: transparent;
 	/* box-shadow: none; */
-	box-shadow: 0 0 10px #1c4784;
+	/* box-shadow: 0 0 10px #1c4784; */
+	box-shadow: 0 22px 44px 0 rgba(28, 71, 132, 0.49);
+	background-image: linear-gradient(134deg, #0da6ad, #1c4784);
 }
 
 .mads-demo .container .single-demo .demo-cont .img-cont .demo {
@@ -880,10 +884,11 @@ button {
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
+	transition: transform 400ms ease-in-out;
 }
 
 .mads-laptop-img:hover {
 	animation-name: "pulse";
 	transform: scale(1.1);
-	transition: transform 330ms ease-in-out;
+	transition: transform 400ms ease-in-out;
 }
