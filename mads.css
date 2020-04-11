@@ -37,6 +37,9 @@ button {
 .padding-left-40{
 	padding-left: 48px !important;
 }
+ .line-br{
+	 display: flex;
+ }
 /* .topbar .container .nav-items .item-container .item a:active{
 	color: red !important;
 } */
