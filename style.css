@@ -772,6 +772,13 @@ button {
     font-size: 1.6rem;
     line-height: 30px;
   }
+  .homepage-header .container .hero-details .hero-details-container .demo-request .demo-req-input{
+    padding: 10px 0px !important;
+    width: 44%;
+   }
+   .homepage-header .container .hero-details .hero-details-container .demo-request .demo-req-btn{
+     width: 56%;
+   }
 }
 
 @media (max-width: 400px) {
@@ -805,6 +812,13 @@ button {
     font-size: 10px;
     padding: 10px 20px;
     width: 44%;
+  }
+  .homepage-header .container .hero-details .hero-details-container .demo-request .demo-req-input{
+   padding: 10px 0px !important;
+   width: 44%;
+  }
+  .homepage-header .container .hero-details .hero-details-container .demo-request .demo-req-btn{
+    width: 56%;
   }
 }
 
