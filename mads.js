@@ -269,10 +269,35 @@ function scrollFunction() {
   if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
     // document.getElementById("nav").style.height = "60px";
     // document.getElementById("logo").style.maxWidth = "100px";
+    document.getElementById("nav").style.boxShadow = "0 7px 12px -12px #666";
+    document.getElementById("nav").style.transition = "0.8s";
+    document.getElementById("nav").style.backgroundColor = "#FFFFFF";
+    for (let i = 0; i <= 1; i++) {
+      document.getElementsByClassName("item-dropdown")[i].style.backgroundColor = "#fff";
+    }
+    for (let i = 0; i <= 5; i++) {
+      document.getElementsByClassName("act-tab")[i].style.color = "#000";
+      if (document.getElementsByClassName("item-drop-element")[i]) {
+        document.getElementsByClassName("item-drop-element")[i].style.color = "#000";
+      }
+    }
+    document.getElementsByClassName("menu")[0].setAttribute("src", "./assets/menu-black.png");
   } else {
     // document.getElementById("nav").style.height = "100px";
     // document.getElementById("nav").classList.remove("fadeInUp")
     // document.getElementById("logo").style.maxWidth = "150px";
+    document.getElementById("nav").style.backgroundColor = "#000";
+    document.getElementById("nav").style.transition = "0.8s";
+    for (let i = 0; i <= 1; i++) {
+      document.getElementsByClassName("item-dropdown")[i].style.backgroundColor = "#000";
+    }
+    for (let i = 0; i <= 5; i++) {
+      document.getElementsByClassName("act-tab")[i].style.color = "#fff";
+      if (document.getElementsByClassName("item-drop-element")[i]) {
+        document.getElementsByClassName("item-drop-element")[i].style.color = "#fff";
+      }
+    }  
+    document.getElementsByClassName("menu")[0].setAttribute("src", "./assets/menu-white.png");
   }
   if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
     mybutton.style.display = "block";
