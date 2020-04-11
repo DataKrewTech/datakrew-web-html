@@ -31,6 +31,85 @@ button {
   position: relative;
 }
 
+.mission-vission-bg{
+  background-image: linear-gradient(to right, #0da6ad, #1c4784);
+
+}
+
+
+
+.mission-vission-bg .container{
+    /* max-width: 1600px; */
+    /* max-width: 1500px; */
+    width: 70%;
+    margin: auto;
+    padding: 50px 50px;
+}
+.mission-vission-container{
+  display: flex;
+  width: 100%;
+  
+
+}
+.mission-vission-bg .container .mission-vission-container .mission-data{
+  width: 50%;
+  padding-right: 20px;
+  color: #fff;
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-image: linear-gradient(to bottom, transparent, #fff, transparent) 1 100%;
+  height: auto;
+ 
+
+
+}
+.mission-vission-bg .container .mission-vission-container .mission-data h2{
+  font-size: 36px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  font-weight: 700;
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.22;
+
+}
+.mission-vission-bg .container .mission-vission-container .mission-data p{
+  font-size: 18px;
+  margin-bottom: 20px;
+  font-weight: 400;
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.22;
+
+}
+.mission-vission-bg .container .mission-vission-container .vission-data{
+  width: 50%;
+  padding-left:50px;
+
+}
+
+.mission-vission-bg .container .mission-vission-container .vission-data h2{
+  font-size: 36px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  font-weight: 700;
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.22;
+
+
+}
+.mission-vission-bg .container .mission-vission-container .vission-data p{
+  font-size: 18px;
+  margin-bottom: 20px;
+  font-weight: 400;
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.22;
+
+}
+
+
 @media (max-width: 1500px) {
   html {
     font-size: 13px;
@@ -55,7 +134,7 @@ button {
 /* header */
 
 .header-about {
-  margin-bottom: 100px;
+  /* margin-bottom: 100px; */
 }
 /* .header-about .container .res-detail,
 .header-about .container .res-img-cont {
@@ -103,9 +182,10 @@ button {
 
 }
 .header-about .container .res-detail .about-info{
-    width: 60% !important;
+    width: 70%;
     margin: 0 auto;
     /* margin-bottom: 70px !important; */
+    padding: 0px 50px 50px;
   }
 
 .header-about .container .res-img-cont {
@@ -186,7 +266,7 @@ button {
   /* padding: 50px 0 70px 0; */
   padding: 70px 0px;
 
-  background: linear-gradient(
+  /* background: linear-gradient(
     to right,
     #1c4a86 0%,
     #1c4e87 4%,
@@ -202,7 +282,7 @@ button {
     #129aab 78%,
     #10a7b0 89%,
     #0fafb4 100%
-  );
+  ); */
 }
 
 .team .container {
