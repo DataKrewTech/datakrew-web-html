@@ -36,6 +36,30 @@ a {
 	background-color: #ffffff !important;
 }
 
+.applications-header .container .header-content .indi-application {
+	/* width: 22%; */
+	width: 16%;
+	padding: 40px 20px;
+	-webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+	transition: all .3s ease-in-out;
+}
+.applications-header .container .header-content .indi-application:hover {
+	/* background: #1c4784; */
+	/* background: -webkit-linear-gradient(to right, #0da6ad, #1c4784); 
+    background: linear-gradient(to right, #0da6ad, #1c4784); */
+	/* -webkit-transform: translateY(-10px);
+	transform: translateY(-10px); */
+	/* border-color: transparent; */
+	/* background:  #b3c6e2; */
+	/* background: -webkit-linear-gradient(to #84e1e6, #b3c6e2); */
+	/* background: linear-gradient(to right, #84e1e6, #b3c6e2); */
+	box-shadow: 0 22px 44px 0 rgba(28, 71, 132, 0.49);
+	background: -webkit-linear-gradient(134deg, #0da6ad, #1c4784); 
+	background-image: linear-gradient(134deg, #0da6ad, #1c4784);
+  border-color: transparent;
+}
+
 .applications-header .container .header-content .indi-application:hover .img-container {
 	border-color: white;
 }
