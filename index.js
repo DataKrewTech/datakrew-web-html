@@ -7,7 +7,7 @@ let mainContainer = document.querySelector('.main-container')
 const topbarContent = `
 <div class="container">
 <a href="index.html" class="logo-container">
-  <img src="assets/datakrew-logo.png" class="logo" id="logo" alt="logo" />
+  <img src="assets/datakrew-logo.png" class="logo" id="logo" alt="Datakrew" />
 </a>
 <div class="nav-items">
   <div class="item-container">
@@ -100,27 +100,29 @@ const footerContent = `
           <img src="./assets/datakrew-logo.png" alt="Datakrew" />
         </div>
         <div class="txt">
-          <b>Datakrew</b> is an innovative deep technology startup 
-            with strong roots in IoT, AI & data security. We enable 
-            large-scale secure IoT applications through data-driven 
-            <span>Monitoring</span>, <span>Automation</span>, <span>Diagnostics</span> 
-            and <span>Security</span> – MADS!
+          <b>Datakrew</b> is a deep tech startup with strong roots 
+          in IoT, AI & data security – we are a spin-off from NTU 
+          Singapore, supported by Enterprise Singapore.
         </div>
         <div class="social">
           <div class="link">
-            <span class="social-icon"><a href="#"><i class="fa fa-facebook"></i></a></span> 
+            <span class="social-icon"><a href="https://www.facebook.com/DataKrewTech" target="_blank">
+            <i class="fa fa-facebook"></i></a></span> 
 
           </div>
           <div class="link">
-            <span class="social-icon"><a href="#"><i class="fa fa-twitter"></i></a></span> 
+            <span class="social-icon"><a href="https://twitter.com/DataKrew" target="_blank">
+            <i class="fa fa-twitter"></i></a></span> 
 
           </div>
           <div class="link">
-            <span class="social-icon"><a href="#"><i class="fa fa-linkedin"></i></a></span> 
+            <span class="social-icon"><a href="https://linkedin.com/company/datakrew" target="_blank">
+            <i class="fa fa-linkedin"></i></a></span> 
 
           </div>
           <div class="link">
-            <span class="social-icon"><a href="#"><i class="fa fa-github"></i></a></span> 
+            <span class="social-icon"><a href="https://github.com/datakrewtech" target="_blank">
+            <i class="fa fa-github"></i></a></span> 
 
           </div>
         </div>
@@ -131,7 +133,7 @@ const footerContent = `
             <h3 class="title"><a href="index.html">HOME</a></h3>
           </div>
           <div class="mini-section">
-            <h3 class="title"><a href="index.html">MADS</a></h3>
+            <h3 class="title"><a href="mads.html">MADS</a></h3>
           </div>
           <div class="mini-section">
             <h3 class="title">CUSTOMERS</h3>
@@ -139,10 +141,10 @@ const footerContent = `
             <a href="solutions.html" class="link">Solutions</a>
           </div>
           <div class="mini-section">
-            <h3 class="title">COMPANY</h3>
-            <a href="about.html" class="link">About</a>
-            <a href="about.html#team" class="link">Team</a>
-            <a href="about.html#partners" class="link">Partners</a>
+            <h3 class="title"><a href="company.html">COMPANY</a></h3>
+            <a href="company.html#about" class="link">About</a>
+            <a href="company.html#team" class="link">Team</a>
+            <a href="company.html#partners" class="link">Partners</a>
           </div>
           <div class="mini-section">
             <h3 class="title"><a href="contact.html">CONTACT</a></h3>

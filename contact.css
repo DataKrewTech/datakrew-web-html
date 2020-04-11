@@ -29,7 +29,7 @@ button {
 }
 .m-div{
   display: flex;
-  width: 100%;
+  width: 106%;
 }
 .con-info{
   margin-right: 74px !important;
@@ -72,7 +72,7 @@ button {
 
   }
   .contact-header .container .address .contact-hint1{
-    margin-left: 18%;
+    /* margin-left: 18%; */
   }
 
 
@@ -129,15 +129,15 @@ button {
 
 .contact-header .container .form,
 .contact-header .container .address {
-  width: 54%;
+  width: 46%;
   padding: 20 30px 0 0;
   
 }
 .contact-header .container .form{
-  width: 46%;
+  width: 54%;
   background: #f3f8ff;
   /* padding: 40px  50px 20px 50px; */
-  padding: 70px 50px 40px 50px;
+  padding: 70px 20px 40px 20px;
   border-radius: 20px;
 
 }
@@ -428,7 +428,7 @@ border: solid 1px #0FAFB4;
 
 @media (max-width: 800px) {
   .contact-header .container .address .contact-hint1{
-    /* margin-left: 185px; */
+    margin-left: 100px;
     max-width: 56% !important;
   }
   .contact-header .container .address .contact-hint3{
@@ -455,8 +455,10 @@ border: solid 1px #0FAFB4;
 @media (max-width: 600px) {
 
   .contact-header .container .address .contact-hint1{
-    max-width: 100% !important;
-    margin-left: 66px !important;
+    /* max-width: 100% !important;
+    margin-left: 66px !important; */
+    max-width: 90% !important;
+    margin-left: 44px !important;
   }
   .main-footer .container .right-content .container .mini-section .title {
     color: #fff;
