@@ -133,6 +133,39 @@ a {
 	html {
 		font-size: 13px;
 	}
+	.middle-section .container .sub-section .details-container .title{
+		font-size: 28px !important;
+
+	}
+	.blue {
+		font-size: 28px !important;
+
+	}
+	.gold {
+		font-size: 28px !important;
+
+	}
+	.green{
+		font-size: 28px !important;
+
+	}
+	.red{
+		font-size: 28px !important;
+
+	}
+	.middle-section .container .sub-section .details-container .detail{
+		font-size: 14px !important;
+		line-height: 24px !important;
+	}
+	.solutions-header .container .title{
+		font-size: 28px !important;
+
+
+	}
+	.solutions-header .container .subtitle{
+		font-size: 14px !important;
+
+	}
 }
 
 @media (max-width: 1350px) {
@@ -146,7 +179,7 @@ a {
 		border-width: 5px !important;
 	}
 	.applications-header .container .header-content .indi-application .click {
-		font-size: 6px !important;
+		font-size: 4px !important;
 	}
 }
 
