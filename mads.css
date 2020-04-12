@@ -634,7 +634,7 @@ button {
 }
 
 .apps .container .apps-details .categories .indi-cat .wrapper {
-  padding: 20px 40px;
+  padding: 16%;
   border-radius: 3px;
   -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
@@ -927,7 +927,7 @@ button {
   }
 
   .apps .container .apps-details .categories .indi-cat .wrapper {
-    padding: 10%;
+    padding: 16% ;
     border-radius: 3px;
     -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
@@ -975,9 +975,9 @@ button {
 }
 
 @media (max-width: 400px) {
-  .apps .container .apps-details .categories .indi-cat .wrapper {
+  /* .apps .container .apps-details .categories .indi-cat .wrapper {
     padding: 10px 15px;
-  }
+  } */
   .apps .container .apps-details .categories .indi-cat .cat-name {
     font-size: 8px;
   }
