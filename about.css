@@ -168,9 +168,11 @@ button {
     font-size: 18px
 }
 .people-pic img {
-  max-height: 100%;
-  margin: 0 auto;
+  /* max-height: 100%;
+  margin: 0 auto; */
   border-radius: 50%;
+  height: 160px;
+  width: 160px;
 }
 
 
@@ -543,6 +545,15 @@ button {
 
   .team .container .main .member .role {
     font-size: 1rem;
+  }
+  .team-info{
+    display: flex;
+    flex-direction: column;
+  }
+  .team-profile-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
   }
 }
 
