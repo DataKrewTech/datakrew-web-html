@@ -386,6 +386,7 @@ button {
 	font-stretch: normal;
 	font-style: normal;
 	line-height: 30px;
+	margin-bottom: 50px;
 }
 
 @media (max-width: 1300px) {
@@ -940,4 +941,42 @@ button {
 	animation-name: "pulse";
 	transform: scale(1.1);
 	transition: transform 400ms ease-in-out;
+}
+
+
+
+
+ .features-copy{
+	display: grid;
+    grid-template-columns: 45% 45%;
+    grid-gap: 10%;
+}
+.features-copy .indi-feature-copy{
+	display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+    justify-content: space-between;
+}
+ .features-copy .indi-feature-copy .icon-container-copy{
+	width: 50%;
+}
+ .features-copy .indi-feature-copy .feature-text-copy{
+	width: 70% !important;
+    height: 45px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.13;
+    color: #1E1E1E;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 620px){ 
+	.features-copy{
+		display: grid;
+		grid-template-columns: 100%;
+		margin: 0 50px 50px;
+	}		
 }

@@ -20,6 +20,9 @@ button {
   border: none;
   cursor: pointer;
 }
+.line-br{
+  display: flex;
+}
 
 @media (max-width: 1500px) {
   html {
@@ -145,7 +148,8 @@ button {
   font-stretch: normal;
   font-style: normal;
   line-height: 1.66;
-  width: 305px;
+  /* width: 305px; */
+  width: 75%;
   /* height: 44px; */
 
 }
