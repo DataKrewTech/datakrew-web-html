@@ -636,3 +636,136 @@ button {
 		margin: 0 50px 50px;
 	}		
 }
+
+
+.tab-container{
+	padding: 0 50px;
+	margin: 0 auto;
+	width: 70%;
+
+}
+.tab-details{
+	width: 100%;
+	display: flex;
+    justify-content: space-between;
+}
+.tab-box{
+	width: 24%;
+	/* display: inline-flex; */
+	margin: 8px;
+
+}
+.utilities{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	border: 2px solid #2F3490;
+	border-radius: 10px;
+	/* box-shadow: 3px 3px 5px 6px #ccc; */
+	box-shadow: 3px 3px 5px 6px #eceaea;
+
+}
+.utilities a{
+	display: inline-flex;
+    align-items: center;
+}
+
+.manufacturing{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	border: 2px solid #800000;
+	border-radius: 10px;
+	/* box-shadow: 3px 3px 5px 6px #ccc; */
+	box-shadow: 3px 3px 5px 6px #eceaea;
+
+
+}
+.manufacturing a{
+	display: inline-flex;
+    align-items: center;
+}
+
+.cities{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	border: 2px solid #FFDF79;
+	border-radius: 10px;
+	/* box-shadow: 3px 3px 5px 6px #ccc; */
+	box-shadow: 3px 3px 5px 6px #eceaea;
+
+	
+}
+.cities a{
+	display: inline-flex;
+    align-items: center;
+}
+.energy{
+
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	border: 2px solid #64D4B3;
+	border-radius: 10px;
+	/* box-shadow: 3px 3px 5px 6px #ccc; */
+	box-shadow: 3px 3px 5px 6px #eceaea;	
+	
+}
+.energy a{
+	display: inline-flex;
+    align-items: center;
+}
+.svg-img{
+	width: 42%;
+	display: inline-flex;
+}
+.text{
+	width: 58%;
+	display: inline-flex;
+	font-family: 'Montserrat', sans-serif;
+	color: #1E1E1E;
+	font-size: 1rem;
+	font-weight: 600;
+	
+
+}
+.svg-img svg{ 
+	height: 80%;
+	width: 80%;
+	padding: 12%;
+	fill: url(#linear-gradient);
+	
+}
+.svg-img path{ 
+	height: 160px;
+	width: 160px;
+}
+
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait)  {
+
+	.tab-details{
+		display: flex;
+		flex-wrap: wrap;
+		width: 100%;
+	}
+	.tab-box{
+		width: 46%;
+		display: inline-flex;
+	
+	}
+
+}
+
+@media only screen and (min-width: 320px) and (max-width: 620px) {
+	.tab-details{
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.tab-box{
+		width: 100%;
+		/* display: inline-flex; */
+	
+	}
+
+}
