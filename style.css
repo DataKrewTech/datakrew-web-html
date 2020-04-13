@@ -23,6 +23,13 @@ button {
 .line-br{
   display: flex;
 }
+.web-shw{
+  display: block !important;
+}
+.mb-shw{
+  display: none !important;
+
+}
 
 @media (max-width: 1500px) {
   html {
@@ -786,6 +793,14 @@ button {
    .homepage-header .container .hero-details .hero-details-container .demo-request .demo-req-btn{
      width: 56%;
    }
+   .web-shw{
+    display: none !important;
+
+  }
+  .mb-shw{
+    display: block !important;
+  
+  }
 }
 
 @media (max-width: 400px) {
