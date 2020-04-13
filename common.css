@@ -165,6 +165,139 @@
   -moz-animation: all .5s ease-out;
 }
 
+.text-container {
+  font-family: 'Montserrat', sans-serif;
+  color: #646464;
+  font-size: 18px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.66;
+  margin-bottom: 20px;  
+}
+
+.text_1 {
+  animation: text1; 
+  font-weight: 600;
+}
+
+.text_2 {
+  animation: text2;
+  font-weight: 600;
+}
+
+.text_3 {
+  animation: text3;
+  font-weight: 600;
+}
+
+.text_4 {
+  animation: text4;
+  font-weight: 600;
+}
+
+.text_5 {
+  animation: text5;
+  font-weight: 600;
+}
+
+.text_6 {
+  animation: text6;
+  font-weight: 600;
+}
+
+.text_0 {
+  margin-right: 10px;
+}
+
+.text_0, .text_1, .text_2, .text_3, .text_4, .text_5, .text_6 {
+  overflow: hidden;
+  white-space: nowrap;
+  display: inline-block;
+  position: relative;
+  animation-duration: 20s;
+  animation-timing-function: steps(25, end);
+  animation-iteration-count: infinite;
+}
+
+.text_1::after, .text_2::after, .text_3::after, .text_4::after, .text_5::after, .text_6::after {
+  content: "|";
+  position: absolute;
+  right: 0;
+  animation: caret infinite;
+  animation-duration: 1s;
+  animation-timing-function: steps(1, end);
+}
+
+@keyframes text6 {
+  0%, 15%, 30%, 45%, 60%, 75%, 100% {
+    width: 0;
+  }
+  
+  80%, 90% {
+    width: 13.5em;
+  }
+}
+
+@keyframes text5 {
+  0%, 15%, 30%, 45%, 60%, 75%, 100% {
+    width: 0;
+  }
+  
+  65%, 70% {
+    width: 8.5em;
+  }
+}
+
+@keyframes text4 {
+  0%, 15%, 30%, 45%, 60%, 100% {
+    width: 0;
+  }
+  
+  50%, 55% {
+    width: 9em;
+  }
+}
+
+@keyframes text3 {
+  0%, 15%, 30%, 45%, 100% {
+    width: 0;
+  }
+  
+  35%, 40% {
+    width: 8.5em;
+  }
+}
+
+@keyframes text2 {
+  0%, 15%, 30%, 100% {
+    width: 0;
+  }
+  
+  20%, 25% {
+    width: 9.5em;
+  }
+}
+
+@keyframes text1 {
+  0%, 15%, 100% {
+    width: 0;
+  }
+  5%, 10% {
+    width: 6em;
+  }
+}
+
+@keyframes caret {
+  0%, 100% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+
 @-webkit-keyframes all {
   0% {
     opacity: 0;
