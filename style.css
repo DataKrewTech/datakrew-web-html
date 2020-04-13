@@ -421,6 +421,23 @@ button {
 }
 
 @media (max-width: 800px) {
+  .res-text-container {
+    font-family: 'Montserrat', sans-serif;
+    color: #000;
+    font-size: 19.2px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.66;
+    letter-spacing: 1px;
+    width: 85%;
+    display: flex;
+    justify-content: flex-start;
+  }
+  .res-container {
+    display: flex;
+    justify-content: center;
+  }
   .text-container {
     display: none;
   }
