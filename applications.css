@@ -638,6 +638,20 @@ button {
 }
 
 
+
+
+
+
+.hide-mob{
+	display: block;
+
+}
+.show-mob{
+	display: none !important;
+
+
+}
+
 .tab-container{
 	padding: 0 50px;
 	margin: 0 auto;
@@ -754,6 +768,21 @@ button {
 		display: inline-flex;
 	
 	}
+	.utilities { 
+		padding: 10% !important;
+	}
+	   
+	 .energy{ 
+		padding: 10% !important;
+	}
+
+	.cities{ 
+		padding: 10% !important;
+	}
+	.manufacturing{ 
+		padding: 10% !important;
+	}
+
 
 }
 
@@ -767,5 +796,27 @@ button {
 		/* display: inline-flex; */
 	
 	}
+
+	.hide-mob{
+		display: none !important;
+	}
+	.show-mob{
+		display: block !important;
+		max-width: 100% !important;
+		margin: 0 auto;
+		text-align: center;
+		padding: 12px 0px;
+		font-size: 12px;
+		font-weight: 700;
+
+	}
+	.svg-img{
+		width: 100%;
+		display: inline-flex;
+		/* margin: 0 auto !important; */
+		padding: 16%;
+		justify-content: center;
+	}
+
 
 }
