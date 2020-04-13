@@ -10,7 +10,7 @@
 
 body {
   background-color: #ffffff;
-  font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
 }
 
 li {
@@ -31,93 +31,80 @@ button {
   position: relative;
 }
 
-.mission-vission-bg{
+.mission-vission-bg {
   background-image: linear-gradient(to right, #0da6ad, #1c4784);
-
 }
 
-
-
-.mission-vission-bg .container{
-    /* max-width: 1600px; */
-    /* max-width: 1500px; */
-    width: 70%;
-    margin: auto;
-    padding: 50px 50px;
-}
-.mission-vission-container{
-  display: flex;
-  width: 100%;
-  
-
-}
-.mission-vission-bg .container .mission-vission-container .mission-data{
-  width: 50%;
-  padding-right:20px;
-  color: #fff;
-  border-right-width: 1px;
-  border-right-style: solid;
-  border-image: linear-gradient(to bottom, transparent, #fff, transparent) 1 100%;
-  height: auto;
- 
-
-
-}
-.mission-vission-bg .container .mission-vission-container .mission-data h2{
-  font-size: 36px;
-  text-transform: uppercase;
-  margin-bottom: 20px;
-  font-weight: 700;
-  color: #ffffff;
-  font-family: 'Montserrat', sans-serif;
-  line-height: 1.22;
-
-}
-.mission-vission-bg .container .mission-vission-container .mission-data p{
-  font-size: 18px;
-  margin-bottom: 20px;
-  font-weight: 400;
-  color: #ffffff;
-  font-family: 'Montserrat', sans-serif;
-  line-height: 1.22;
-
-}
-.mission-vission-bg .container .mission-vission-container .vission-data{
-  width: 50%;
-  padding-left:50px;
-
-}
-
-.mission-vission-bg .container .mission-vission-container .vission-data h2{
-  font-size: 36px;
-  text-transform: uppercase;
-  margin-bottom: 20px;
-  font-weight: 700;
-  color: #ffffff;
-  font-family: 'Montserrat', sans-serif;
-  line-height: 1.22;
-
-
-}
-.mission-vission-bg .container .mission-vission-container .vission-data p{
-  font-size: 18px;
-  margin-bottom: 20px;
-  font-weight: 400;
-  color: #ffffff;
-  font-family: 'Montserrat', sans-serif;
-  line-height: 1.22;
-
-}
-
-.team .container1{
+.mission-vission-bg .container {
+  /* max-width: 1600px; */
+  /* max-width: 1500px; */
   width: 70%;
   margin: auto;
   padding: 50px 50px;
 }
-.team .container1 .team-heading{
+.mission-vission-container {
+  display: flex;
+  width: 100%;
+}
+.mission-vission-bg .container .mission-vission-container .mission-data {
+  width: 50%;
+  padding-right: 20px;
+  color: #fff;
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-image: linear-gradient(to bottom, transparent, #fff, transparent) 1
+    100%;
+  height: auto;
+}
+.mission-vission-bg .container .mission-vission-container .mission-data h2 {
+  font-size: 36px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  font-weight: 700;
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.22;
+}
+.mission-vission-bg .container .mission-vission-container .mission-data p {
+  font-size: 18px;
+  margin-bottom: 20px;
+  font-weight: 400;
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.22;
+}
+.mission-vission-bg .container .mission-vission-container .vission-data {
+  width: 50%;
+  padding-left: 50px;
+}
+
+.mission-vission-bg .container .mission-vission-container .vission-data h2 {
+  font-size: 36px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  font-weight: 700;
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.22;
+}
+.mission-vission-bg .container .mission-vission-container .vission-data p {
+  font-size: 18px;
+  margin-bottom: 20px;
+  font-weight: 400;
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.22;
+}
+
+.team .container1 {
+  width: 70%;
+  margin: auto;
+  padding: 50px 50px;
+}
+.team .container1 .team-heading {
   text-align: center;
   padding: 50px 0px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: #242424;
   font-size: 36px;
   font-weight: bold;
@@ -125,62 +112,60 @@ button {
   font-style: normal;
   line-height: 1.22;
 }
-.team-profile-container{
+.team-profile-container {
   width: 100%;
   display: flex;
-
 }
-.profile-left-data{
-   width: 50%;
+.profile-left-data {
+  width: 50%;
 }
-.profile-right-data{
+.profile-right-data {
   width: 50%;
   margin-left: 24px;
 }
-.team-info{
+.team-info {
   display: flex;
   box-shadow: 0 8px 6px -8px #ccc;
   padding-bottom: 30px;
   margin-top: 50px;
 }
-.people{
+.people {
   width: 30%;
   display: flex;
-
+  align-items: center;
 }
-.people-text{
+.people-text {
   width: 70%;
   padding: 24px;
-
 }
 .people-text h3 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   text-transform: capitalize;
   color: #333;
   font-size: 24px;
 }
 
 .people-text h4 {
-  font-family: 'Montserrat', sans-serif;
-    text-transform: capitalize;
-    color: #666;
-    padding: 12px 0px;
-    font-size: 18px
+  font-family: "Montserrat", sans-serif;
+  text-transform: capitalize;
+  color: #666;
+  padding: 12px 0px;
+  font-size: 18px;
 }
 .people-pic img {
-  /* max-height: 100%;
-  margin: 0 auto; */
+  
   border-radius: 50%;
-  height: 100%;
-  width: 100%;
+  /* height: 100%;
+  width: 100%; */
+  height: 125px;
+  width: 125px;
 }
-
 
 @media (max-width: 1500px) {
   html {
     font-size: 13px;
   }
-  .designation{
+  .designation {
     font-weight: 500;
   }
 }
@@ -217,7 +202,7 @@ button {
   text-align: center;
   /* font-size: 3rem; */
   /* margin-bottom: 35px; */
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: #242424;
   font-size: 36px;
   font-weight: bold;
@@ -225,13 +210,13 @@ button {
   font-style: normal;
   line-height: 1.22;
   padding-top: 150px;
-	background-color: #f3f8ff;
+  background-color: #f3f8ff;
 }
 
 .header-about .container .res-detail {
   /* font-size: 2rem;
   line-height: 50px; */
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: #646464;
   font-size: 18px;
   font-weight: 500;
@@ -240,26 +225,22 @@ button {
   line-height: 30px;
   /* width: 60%;
   margin: 0 auto; */
-	background-color: #f3f8ff;
+  background-color: #f3f8ff;
   padding: 35px 0px;
-
-
-  
-
 }
-.header-about .container .res-detail .about-info{
-    width: 70%;
-    margin: 0 auto;
-    /* margin-bottom: 70px !important; */
-    padding: 0px 50px 50px;
-  }
+.header-about .container .res-detail .about-info {
+  width: 70%;
+  margin: 0 auto;
+  /* margin-bottom: 70px !important; */
+  padding: 0px 50px 50px;
+  text-align: justify;
+}
 
 .header-about .container .res-img-cont {
   margin-bottom: 0px;
   margin-left: 20%;
-  margin-right:  20%;
+  margin-right: 20%;
   padding-top: 35px !important;
-
 }
 .margin-left {
   margin-left: 20% !important;
@@ -267,7 +248,6 @@ button {
 .margin-right {
   margin-right: 20% !important;
 }
-
 
 .header-about .container .sec-img {
   text-align: right;
@@ -327,8 +307,6 @@ button {
 
 /* team */
 
-
-
 .team {
   /* margin-bottom: 100px; */
   /* padding: 50px 0 70px 0; */
@@ -365,7 +343,7 @@ button {
   text-align: center;
   font-size: 2.5rem;
   margin-bottom: 30px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: #fff;
 }
 
@@ -384,7 +362,6 @@ button {
   /* width: 15%; */
   width: 27%;
   margin-bottom: 16px;
-
 }
 
 .team .container .main .member .pic-cont {
@@ -402,7 +379,7 @@ button {
   font-size: 1.5rem;
   line-height: 30px;
   font-weight: 700;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   /* height: 50px; */
 }
 .designation {
@@ -410,9 +387,7 @@ button {
   font-size: 18px;
   padding-top: 8px;
   font-weight: 600;
-
 }
-
 
 .team .container .main .member .role {
   font-size: 1.4rem;
@@ -421,37 +396,33 @@ button {
 
 .team .container .main .member .pic-cont .pic {
   /* width: 100%; */
-    width: 225px;
-    height: 225px;
-    border-radius: 50% !important;
+  width: 225px;
+  height: 225px;
+  border-radius: 50% !important;
 }
-.socialprof-icon{
+.socialprof-icon {
   font-size: 24px;
-
 }
 
 .socialprof-icon a i {
   font-size: 20px;
-    line-height: 50px;
-    display: block;
-    width: 50px;
-    height: 50px;
-    transition: all .3s;
-    /* color:#2f3490; */
-    color:#fff;
-    border-radius: 100%;
-    outline: 0;
-    /* background-color: #ffffff; */
-    background-color: #000000;
+  line-height: 50px;
+  display: block;
+  width: 50px;
+  height: 50px;
+  transition: all 0.3s;
+  /* color:#2f3490; */
+  color: #fff;
+  border-radius: 100%;
+  outline: 0;
+  /* background-color: #ffffff; */
+  background-color: #000000;
 
-    margin: 0 auto;
-  
+  margin: 0 auto;
 }
-.socialprof-icon a i:hover{
- color: #ffffff;
- background-color: #fed136;
-
-
+.socialprof-icon a i:hover {
+  color: #ffffff;
+  background-color: #fed136;
 }
 
 .team .container .res-img-cont {
@@ -467,13 +438,12 @@ button {
     margin-bottom: 70px;
     /* width: 30%; */
     width: 48%;
-
   }
   .team .container .main .member .name {
     /* margin-bottom: 40px;
     font-size: 1.5rem;
     line-height: 30px; */
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 24px;
     font-weight: 600;
     font-stretch: normal;
@@ -484,7 +454,7 @@ button {
   .team .container .main .member .role {
     font-size: 1.4rem;
   }
-  .designation{
+  .designation {
     font-weight: 500;
   }
 }
@@ -524,7 +494,6 @@ button {
     margin-bottom: 50px;
     /* width: 30%; */
     width: 100%;
-
   }
 
   .team .container .main .member .pic-cont {
@@ -535,7 +504,7 @@ button {
     /* margin-bottom: 25px;
     font-size: 1.2rem;
     line-height: 25px; */
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 24px;
     font-weight: 600;
     font-stretch: normal;
@@ -546,11 +515,11 @@ button {
   .team .container .main .member .role {
     font-size: 1rem;
   }
-  .team-info{
+  .team-info {
     display: flex;
     flex-direction: column;
   }
-  .team-profile-container{
+  .team-profile-container {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -576,7 +545,7 @@ button {
   font-size: 2.5rem;
   text-align: center;
   margin-bottom: 80px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .partners .container .row-btn {
@@ -629,83 +598,182 @@ button {
   }
 }
 
-
-
-.social{
+.social {
   display: flex;
 }
-.social-cont{
+.social-cont {
   margin-right: 1rem;
-
 }
 
-.socialcon-icon{
+.socialcon-icon {
   font-size: 24px;
   text-align: center;
 }
 
 .socialcon-icon a i {
   font-size: 20px;
-    line-height: 42px;
-    display: block;
-    width: 40px;
-    height: 40px;
-    transition: all .3s;
-    /* color:#2f3490; */
-    /* color: #ffffff; */
-    border-radius: 100%;
-    outline: 0;
-    /* margin: 0 auto; */
-  
+  line-height: 42px;
+  display: block;
+  width: 40px;
+  height: 40px;
+  transition: all 0.3s;
+  /* color:#2f3490; */
+  /* color: #ffffff; */
+  border-radius: 100%;
+  outline: 0;
+  /* margin: 0 auto; */
 }
 
-.socialcon-icon a  .fb{
-  background-color: #3B5998 ;
+.socialcon-icon a .fb {
+  background-color: #3b5998;
   color: #ffffff;
-  
-  
+}
+.socialcon-icon a .fb:hover {
+  color: #3b5998;
+  /* background-color: #ffffff; */
+  background-color: #cad6e8;
+}
+.socialcon-icon a .tw {
+  background-color: #55acee;
+  color: #ffffff;
+}
+.socialcon-icon a .tw:hover {
+  color: #55acee;
+  /* background-color: #ffffff; */
+  background-color: #cad6e8;
+}
+.socialcon-icon a .ln {
+  background-color: #007bb5;
+  color: #ffffff;
+}
+.socialcon-icon a .ln:hover {
+  color: #007bb5;
+  /* background-color: #ffffff; */
+  background-color: #cad6e8;
+}
+.socialcon-icon a .gh {
+  background-color: #000000;
+  color: #ffffff;
+}
+.socialcon-icon a .gh:hover {
+  color: #000000;
+  /* background-color: #ffffff; */
+  background-color: #cad6e8;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 620px) {
+  .mission-vission-container {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
   }
-  .socialcon-icon a  .fb:hover{
-    color: #3B5998;
-    /* background-color: #ffffff; */
-    background-color: #cad6e8;
-  
-  
-  
+  .mission-vission-bg .container .mission-vission-container .mission-data {
+    display: flex;
+    width: 100%;
+    border-right: none !important;
   }
-  .socialcon-icon a  .tw{
-    background-color: #55ACEE ;
-    color: #ffffff;
-  
-    }
-    .socialcon-icon a  .tw:hover{
-     color: #55ACEE ;
-     /* background-color: #ffffff; */
-    background-color: #cad6e8;
-  
+  .mission-vission-bg .container .mission-vission-container .vission-data{
+    padding: 0 !important;
+    width: 100%;
+
     
-      }
-  .socialcon-icon a  .ln{
-      background-color: #007bb5 ;
-    color: #ffffff;
-  
-      }
-      .socialcon-icon a  .ln:hover{
-        color: #007bb5 ;
-        /* background-color: #ffffff; */
-    background-color: #cad6e8;
-  
+  }
+  .mission-vission-bg .container .mission-vission-container .mission-data p {
+    text-align: justify ;
+    /* font-family: auto; */
+  }
+  .mission-vission-bg .container .mission-vission-container .vission-data p{
+    text-align: justify ;
+    /* font-family: auto; */
+  }
+  .header-about{
+    margin-bottom: 0;
+  }
+  .header-about .container .res-detail{
+    margin-bottom: 0;
+
+  }
+  .header-about .container .title{
+      
+  }
+  .header-about .container .res-detail .about-info{
+    text-align: justify;
+    /* font-family: auto; */
+  }
+  .people{
+    width: 100% !important;
+  }
+  .profile-left-data{
+    width: 100% !important;
     
-        }
-  .socialcon-icon a  .gh{
-        background-color: #000000 ;
-    color: #ffffff;
-  
-        }
-        .socialcon-icon a  .gh:hover{
-        color: #000000 ;
-        /* background-color: #ffffff; */
-    background-color: #cad6e8;
-  
+  }
+  .profile-right-data{
+    width: 100% !important;
     
-          }
+  }
+  .mission-vission-bg .container .mission-vission-container .mission-data h2{
+    text-align: center;
+  }
+  .mission-vission-bg .container .mission-vission-container .vission-data h2{
+    text-align: center;
+
+  }
+  .header-about .container .res-detail .about-info{
+    width: 85%;
+  }
+  .mission-vission-bg .container{
+    width: 85%;
+
+  }
+  .team .container1{
+    width: 100%;
+    
+  }
+  .people-text{
+    width: 100%;
+    padding: 24px;
+    text-align: center;
+  }
+  .social{
+    justify-content: center;
+    display: flex;
+  }
+  .profile-right-data{
+    margin: 0 !important;
+  }
+  .people-pic{
+    height: 130px;
+    width: 206px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  
+
+}
+
+
+
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait) {
+  .header-about .container .res-detail{
+    margin-bottom: 0 !important;
+  }
+  .header-about{
+    margin-bottom: 0 !important;
+
+  }
+  .team .container1{
+    width: 96%;
+  }
+  .mission-vission-bg .container{
+    width: 86%;
+
+  }
+  .header-about .container .res-detail .about-info{
+    width: 86%;
+
+  }
+  .people{
+    width: 35%;
+  }
+}
