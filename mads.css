@@ -852,7 +852,7 @@ button {
   }
   .apps .container .apps-details .category-apps {
     grid-template-columns: 1fr 1fr ;
-    grid-gap: 1%;
+    grid-gap: 5%;
     /* height: auto !important; */
   }
 
