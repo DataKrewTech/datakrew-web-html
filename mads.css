@@ -340,6 +340,11 @@ button {
   display: grid;
   grid-template-columns: 48% 48%;
   grid-gap: 5%;
+  -ms-grid-gap: 5% !important;
+  -webkit-grid-gap: 5% !important;
+  -webkit-grid-template-columns: 46% 46%;
+  -ms-grid-template-columns: 46% 46%;
+
 }
 
 .about-mads .container .image-container .about-img {
@@ -700,7 +705,13 @@ button {
 .apps .container .apps-details .category-apps {
   display: grid;
 	grid-template-columns: 24% 24% 24% 24%;
-	grid-gap: 4%;
+  grid-gap: 4%;
+  -webkit-grid-template-columns: 22% 22% 22% 22% !important;
+  -ms-grid-template-columns: 22% 22% 22% 22% !important;
+  -ms-grid-gap: 4% !important;
+  -webkit-grid-gap: 4% !important;
+
+
   /* height: 340px; */
   /* display: flex;
   width: 100%; */
