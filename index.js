@@ -65,8 +65,9 @@ const navDropdownCont = `
           src="https://img.icons8.com/android/24/000000/sort-up.png"
         />
       </li>
-      <div class="sub-cust"><a href="solutions.html">SOLUTIONS</a></div>
       <div class="sub-cust"><a href="applications.html">APPLICATIONS</a></div>
+
+      <div class="sub-cust"><a href="solutions.html">SOLUTIONS</a></div>
       <li class="subdown subdownTwo">
         <span>COMPANY</span
         ><img

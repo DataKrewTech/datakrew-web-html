@@ -171,8 +171,8 @@ button {
   /* max-height: 100%;
   margin: 0 auto; */
   border-radius: 50%;
-  height: 160px;
-  width: 160px;
+  height: 100%;
+  width: 100%;
 }
 
 
