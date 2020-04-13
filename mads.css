@@ -851,8 +851,8 @@ button {
     line-height: 35px;
   }
   .apps .container .apps-details .category-apps {
-    grid-template-columns: 100%;
-    grid-gap: 1%;
+    grid-template-columns: 1fr 1fr ;
+    grid-gap: 5%;
     /* height: auto !important; */
   }
 

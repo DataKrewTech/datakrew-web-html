@@ -26,6 +26,13 @@ button {
 .line-br {
   display: flex;
 }
+.web-shw{
+  display: block !important;
+}
+.mb-shw{
+  display: none !important;
+
+}
 
 @media (max-width: 1500px) {
   html {
@@ -57,7 +64,7 @@ button {
 .homepage-header {
   /* height: 100vh; */
   /* background-color: rgb(255, 255, 255); */
-  background: linear-gradient(to right, rgb(209, 197, 240), #dffcf3);
+  /* background: linear-gradient(to right, rgb(209, 197, 240), #dffcf3); */
   /* opacity: 0.5; */
 }
 
@@ -208,9 +215,15 @@ button {
   background-color: #fff;
 }
 
-.homepage-header .container .hero-details .hero-details-container .demo-request, .homepage-header .container .hero-details .hero-details-container .success-email-cont {
-  /* background: #cad5e6; */
-  background: white;
+.homepage-header .container .hero-details .hero-details-container .demo-request,
+.homepage-header
+  .container
+  .hero-details
+  .hero-details-container
+  .success-email-cont {
+  background: #cad5e6;  
+  /* background: white; */
+
   display: flex;
   /* justify-content: center; */
   align-items: center;
@@ -514,9 +527,17 @@ button {
   .homepage-header .container .hero-details .hero-details-container .demo-request .demo-req-input {
     padding: 10px 0px !important;
     width: 44%;
+   }
+   .homepage-header .container .hero-details .hero-details-container .demo-request .demo-req-btn{
+     width: 56%;
+   }
+   .web-shw{
+    display: none !important;
+
   }
-  .homepage-header .container .hero-details .hero-details-container .demo-request .demo-req-btn {
-    width: 56%;
+  .mb-shw{
+    display: block !important;
+  
   }
 }
 
@@ -1174,4 +1195,27 @@ button {
   /* .partners .brands .brand {
     width: 100% !important;
   } */
+}
+
+@media (max-width: 320px) {
+  .text-container {
+    display: none;
+  }
+  .res-text-container {
+    font-family: 'Montserrat', sans-serif;
+    color: #000;
+    font-size: 8px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.66;
+    letter-spacing: 0.5px;
+    width: 90%;
+    display: flex;
+    justify-content: flex-start;
+  }
+  .res-container {
+    display: flex;
+    justify-content: center;
+  }  
 }
