@@ -528,6 +528,7 @@ button {
 
 .middle-section .container .sub-section .image-container .about-img {
 	width: 100%;
+	height: 90%;
 }
 
 .middle-section .container .sub-section .details-container {
@@ -628,7 +629,7 @@ button {
     font-stretch: normal;
     font-style: normal;
     line-height: 1.13;
-	color: #1E1E1E;
+	color: #646464;
 	padding: 8px 0px 0px 8px;
 }
 
