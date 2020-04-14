@@ -17,8 +17,8 @@ const topbarContent = `
     <li class="item"><a href="mads.html" class="act-tab mads" name="mads" id="act-tab">MADS</a></li>
   </div>
   <div class="item-container">
-    <li class="item act-tab customer">
-      <span class="act-tab txt" id="act-tab">CUSTOMERS</span>
+    <li class="item">
+      <span class="act-tab customer txt" id="act-tab">CUSTOMERS</span>
     </li>
     <ul class="item-dropdown">
       <li class="item-drop-ele"><a class="item-drop-element" href="applications.html">Applications</a></li>
@@ -131,24 +131,24 @@ const footerContent = `
       <div class="right-content">
         <div class="container">
           <div class="mini-section">
-            <h3 class="title"><a href="index.html">HOME</a></h3>
+            <h3 class="title"><a class="index" href="index.html">HOME</a></h3>
           </div>
           <div class="mini-section">
-            <h3 class="title"><a href="mads.html">MADS</a></h3>
+            <h3 class="title"><a class="mads" href="mads.html">MADS</a></h3>
           </div>
           <div class="mini-section">
-            <h3 class="title">CUSTOMERS</h3>
+            <h3 class="customer title">CUSTOMERS</h3>
             <a href="applications.html" class="link">Applications</a>
             <a href="solutions.html" class="link">Solutions</a>
           </div>
           <div class="mini-section">
-            <h3 class="title"><a href="company.html">COMPANY</a></h3>
+            <h3 class="title"><a class="company" href="company.html">COMPANY</a></h3>
             <a href="company.html#about" class="link">About</a>
             <a href="company.html#team" class="link">Team</a>
             <a href="company.html#partners" class="link">Partners</a>
           </div>
           <div class="mini-section">
-            <h3 class="title"><a href="contact.html">CONTACT</a></h3>
+            <h3 class="title"><a class="contact" href="contact.html">CONTACT</a></h3>
           </div>
         </div>
       </div>
