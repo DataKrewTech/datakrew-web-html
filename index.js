@@ -245,7 +245,10 @@ function scrollFunction() {
       document.getElementsByClassName("item-dropdown")[i].style.backgroundColor = "#fff";
     }
     for (let i = 0; i <= 5; i++) {
-      document.getElementsByClassName("act-tab")[i].style.color = "#000";
+      let actTab = document.getElementsByClassName("act-tab")[i]
+      if(actTab){
+        actTab.style.color = "#000";
+      }
       if (document.getElementsByClassName("item-drop-element")[i]) {
         document.getElementsByClassName("item-drop-element")[i].style.color = "#000";
       }
@@ -261,7 +264,10 @@ function scrollFunction() {
       document.getElementsByClassName("item-dropdown")[i].style.backgroundColor = "#000";
     }
     for (let i = 0; i <= 5; i++) {
-      document.getElementsByClassName("act-tab")[i].style.color = "#fff";
+      let actTab = document.getElementsByClassName("act-tab")[i]
+      if(actTab){
+        actTab.style.color = "#fff";
+      }
       if (document.getElementsByClassName("item-drop-element")[i]) {
         document.getElementsByClassName("item-drop-element")[i].style.color = "#fff";
       }
