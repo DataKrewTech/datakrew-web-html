@@ -139,6 +139,7 @@ button {
 .technology-box .inner-box .internal-box-container .tech-box{
   flex-grow: 1;
   flex-direction: row;
+  width: 33.33%;
   /* height: 30px; */
   padding: 60px 0px;
   text-align: center;
@@ -202,6 +203,7 @@ display: none;
   }
   
   .technology-box .inner-box .internal-box-container .tech-box{
+    width: 100%;
   }
   
   .technology-box .inner-box .internal-box-container .tech-box img{
