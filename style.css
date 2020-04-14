@@ -6,7 +6,7 @@
 
 body {
   background-color: rgb(249, 249, 249);
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 li {
@@ -74,6 +74,163 @@ button {
   background: linear-gradient(to right, #B49EE7, #2ebf91);
 
 } */
+
+.technology-box{
+  background-image: linear-gradient(to right,#1c4784,#10afb4);
+  width: 100%;
+  /* height: 300px; */
+  display: flex;
+}
+.technology-box .inner-box{
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 25px 0px;
+}
+
+.technology-box .inner-box .heading{
+  font-size: 36px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-weight: 900;
+  /* margin-bottom: 100px; */
+  font-family: 'Montserrat', sans-serif;
+  /* line-height: 50px; */
+}
+
+.technology-box .inner-box .text{
+  font-size: 19px;
+  text-align: center;
+  /* text-transform: capitalize; */
+  color: #ffffff;
+  /* margin-bottom: 100px; */
+  font-family: 'Montserrat', sans-serif;
+  /* line-height: 50px; */
+}
+
+.technology-box .inner-box .middle-line{
+  text-align: center;
+  margin: 10px 0px 20px 0px;
+}
+
+.technology-box .inner-box .middle-line img{
+  /* filter: hue-rotate(180deg); 
+  -webkit-filter:hue-rotate(180deg);  */
+}
+
+.technology-box .inner-box .internal-box-container{
+  background: #fff;
+  border-radius: 30px;
+  z-index: 2;
+  box-shadow: 0 0 10px rgba(15, 79, 95, .4);
+  width: 80%;
+  margin: 30px auto;
+  float: none;
+  display: flex;
+  /* flex-wrap: wrap; */
+  /* justify-content: ; */
+  left: 0;
+  right: 0;
+  /* padding: ; */
+  /* height: 200px; */
+}
+
+.technology-box .inner-box .internal-box-container .tech-box{
+  flex-grow: 1;
+  flex-direction: row;
+  /* height: 30px; */
+  padding: 60px 0px;
+  text-align: center;
+}
+
+.technology-box .inner-box .internal-box-container .tech-box img{
+  height: 85px;
+  width: 100px;
+}
+
+.technology-box .inner-box .internal-box-container .tech-box .text{
+  font-size: 16px;
+  text-align: center;
+  text-transform: uppercase;
+  color: black;
+  margin-top: 40px;
+  font-weight: bold !important;
+  /* margin-bottom: 100px; */
+  font-family: 'Montserrat', sans-serif;
+  /* line-height: 50px; */
+}
+
+.web-line-img{
+  height: 300px;
+  width: 1px;
+}
+
+.mobile-line-img{
+display: none;
+}
+
+@media(max-width:920px){
+  .technology-box{
+
+  }
+  .technology-box .inner-box{
+
+  }
+  
+  .technology-box .inner-box .heading{
+    font-size: 28px;
+  }
+  
+  .technology-box .inner-box .text{
+
+  }
+  
+  .technology-box .inner-box .middle-line{
+
+  }
+  
+  .technology-box .inner-box .middle-line img{
+    /* filter: hue-rotate(180deg); 
+    -webkit-filter:hue-rotate(180deg);  */
+  }
+  
+  .technology-box .inner-box .internal-box-container{
+
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  
+  .technology-box .inner-box .internal-box-container .tech-box{
+  }
+  
+  .technology-box .inner-box .internal-box-container .tech-box img{
+    height: 85px;
+    width: 100px;
+  }
+  
+  .technology-box .inner-box .internal-box-container .tech-box .text{
+    font-size: 16px;
+    text-align: center;
+    text-transform: uppercase;
+    color: black;
+    margin-top: 40px;
+    font-weight: bold !important;
+    /* margin-bottom: 100px; */
+    font-family: 'Montserrat', sans-serif;
+    /* line-height: 50px; */
+  }
+  
+  .web-line-img{
+    display: none;
+  }
+
+  .mobile-line-img{
+    width: 100%;
+    height: 1px;
+    display: block;
+  }
+}
 
 .text-heading1 {
   font-family: 'Montserrat', sans-serif;
@@ -175,7 +332,7 @@ button {
   -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   margin: 0 0 50px 0;
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   height: 50px;
   border-radius: 43px;
 }
@@ -197,7 +354,7 @@ button {
 .homepage-header .container .hero-details .hero-details-container .hero-explore .text {
   font-weight: bold;
   font-size: 20px;
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   margin-left: 10px;
 }
 
@@ -251,7 +408,7 @@ button {
 }
 
 .homepage-header .container .hero-details .hero-details-container .demo-request .demo-req-input {
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   border: none;
   padding: 10px 20px;
   background: transparent;
@@ -266,7 +423,7 @@ button {
 }
 
 .homepage-header .container .hero-details .hero-details-container .demo-request .demo-req-btn {
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   background: linear-gradient( to right, #1c4a86 0%, #1c4e87 4%, #1b5289 9%, #1b538a 9%, #1b578b 14%, #1a5d8e 20%, #186994 31%, #177499 41%, #167b9c 48%, #1486a1 60%, #1390a6 68%, #129aab 78%, #10a7b0 89%, #0fafb4 100%);
   color: #fff;
   font-weight: bold;
@@ -328,7 +485,8 @@ button {
   .homepage-header .container .hero-details .hero-details-container .hero-explore .text {
     font-weight: bold;
     font-size: 20px;
-    font-family: 'Nunito', sans-serif;
+
+    font-family: 'Montserrat', sans-serif;
     margin-left: 20px;
   }
   /* .homepage-header
@@ -480,15 +638,15 @@ button {
   .res-text-container {
     font-family: 'Montserrat', sans-serif;
     color: #000;
-    font-size: 10px;
+    font-size: 12px;
     font-weight: 500;
     font-stretch: normal;
     font-style: normal;
     line-height: 1.66;
     letter-spacing: 1px;
-    width: 85%;
+    width: 100%;
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
   }
   .res-container {
     display: flex;
@@ -570,7 +728,7 @@ button {
     letter-spacing: 1px;
     width: 100%;
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
   }
   .res-container {
     display: flex;
@@ -707,7 +865,7 @@ button {
 
 .homepage-middle-content .container .configuration .info .read-cs-btn {
   padding: 15px 30px;
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 25px;
   color: #fff;
   background: linear-gradient( to right, #1c4a86 0%, #1c4e87 4%, #1b5289 9%, #1b538a 9%, #1b578b 14%, #1a5d8e 20%, #186994 31%, #177499 41%, #167b9c 48%, #1486a1 60%, #1390a6 68%, #129aab 78%, #10a7b0 89%, #0fafb4 100%);
@@ -812,7 +970,7 @@ button {
 }
 
 .homepage-middle-content .container .easy-use .info .read-cs-btn {
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   padding: 15px 30px;
   font-size: 25px;
   color: #fff;
@@ -902,7 +1060,7 @@ button {
 
 .homepage-middle-content .container .quick-deployment .info .read-cs-btn {
   padding: 15px 30px;
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 25px;
   color: #fff;
   background: linear-gradient( to right, #1c4a86 0%, #1c4e87 4%, #1b5289 9%, #1b538a 9%, #1b578b 14%, #1a5d8e 20%, #186994 31%, #177499 41%, #167b9c 48%, #1486a1 60%, #1390a6 68%, #129aab 78%, #10a7b0 89%, #0fafb4 100%);
@@ -1054,9 +1212,9 @@ button {
   .homepage-middle-content .container .quick-deployment .info .text {
     font-size: 15px;
   }
-  .homepage-middle-content .container .easy-use, .homepage-middle-content .container .configuration, .homepage-middle-content .container .quick-deployment {
+  /* .homepage-middle-content .container .easy-use, .homepage-middle-content .container .configuration, .homepage-middle-content .container .quick-deployment {
     border-bottom: 1px solid #e5e5e5;
-  }
+  } */
 }
 
 @media (max-width: 500px) {
@@ -1221,15 +1379,15 @@ button {
   .res-text-container {
     font-family: 'Montserrat', sans-serif;
     color: #000;
-    font-size: 8px;
+    font-size: 12px;
     font-weight: 500;
     font-stretch: normal;
     font-style: normal;
     line-height: 1.66;
-    letter-spacing: 0.5px;
-    width: 90%;
+    letter-spacing: 1px;
+    width: 100%;
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
   }
   .res-container {
     display: flex;

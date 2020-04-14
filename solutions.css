@@ -10,7 +10,7 @@
 
 body {
 	background-color: rgb(249, 249, 249);
-	font-family: 'Nunito', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 }
 
 li {
@@ -601,6 +601,9 @@ a {
 }
  .features-copy .indi-feature-copy .icon-container-copy{
 	width: 50%;
+}
+.features-copy .indi-feature-copy .icon-container-copy img{
+	width: 60%;
 }
  .features-copy .indi-feature-copy .feature-text-copy{
 	width: 70% !important;
