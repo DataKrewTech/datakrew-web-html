@@ -1661,6 +1661,12 @@ display: none;
   -ms-color: #0FAFB4;
   -webkit-color: #0FAFB4;
 }
+
+
+.hide-for-web{
+  display: none !important;
+
+}
 @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait) {
   .tab-container1{
     width: 100%;
@@ -1669,7 +1675,7 @@ display: none;
     width: 100%;
   }
   .solution-container{
-    max-width: 80%;
+    max-width: 100%;
   }
   .solution-container1{
     max-width: 100%;
@@ -1684,5 +1690,89 @@ display: none;
   }
   .homepage-middle-content{
     margin-bottom: 12%;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 620px) {
+  
+
+  .hide-for-mob{
+    display: none !important;
+  }
+  .tab-details{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+  }
+  .tab-container{
+    width: 100%;
+    padding: 0 !important;
+  }
+  .tab-container1{
+    width: 100%;
+    padding: 0 !important;
+
+  }
+  .heading-text{
+    font-size: 16px;
+    padding: 0px 8px;
+  }
+  .para-text{
+    padding: 16px 0px 0px 0px !important;
+  }
+  .bg-color{
+    min-height: 168vh;
+  }
+  .solution-info{
+    width: 100%;
+    display: flex;
+    padding: 50px 0px;
+    align-items: center;
+    flex-direction: column;
+  }
+  .learn-btn{
+    width: 85%;
+  }
+  /* .svg-img svg{
+        height: auto;
+        width: 64%;
+  } */
+
+  .hide-for-web{
+    display: block !important;
+  }
+  .img-mob-left{
+    position: relative;
+    right: 74px;
+  }
+  .img-mob-right{
+    position: relative;
+    left: 74px;
+  }
+  .img-mob-left img{
+    height: 225px;
+
+  }
+  .img-mob-right img{
+    height: 225px;
+
+  }
+  .monitor{
+    background-color: white;
+  }
+  .automate{
+    background-color: white;
+  }
+  .diagnose{
+    background-color: white;
+  }
+  .secure{
+    background-color: white;
+  }
+  .tab-box{
+    height: 126px;
+    width: 126px;
   }
 }
