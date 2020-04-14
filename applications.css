@@ -615,6 +615,9 @@ button {
  .features-copy .indi-feature-copy .icon-container-copy{
 	width: 50%;
 }
+.features-copy .indi-feature-copy .icon-container-copy img{
+	width: 60%;
+}
  .features-copy .indi-feature-copy .feature-text-copy{
 	width: 70% !important;
     height: 45px;
