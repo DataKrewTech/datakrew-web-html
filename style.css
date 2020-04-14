@@ -792,6 +792,7 @@ display: none;
 
 .homepage-middle-content .container .configuration .img-container img {
   width: 100%;
+  height: 80%;
 }
 
 .homepage-middle-content .container .configuration .info {
@@ -899,6 +900,7 @@ display: none;
 
 .homepage-middle-content .container .easy-use .img-container img {
   width: 100%;
+  height: 80%;
 }
 
 .homepage-middle-content .container .easy-use .info {
@@ -988,6 +990,7 @@ display: none;
 
 .homepage-middle-content .container .quick-deployment .img-container img {
   width: 100%;
+  height: 80%;
 }
 
 .homepage-middle-content .container .quick-deployment .info {
