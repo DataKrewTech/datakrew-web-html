@@ -640,15 +640,15 @@ display: none;
   .res-text-container {
     font-family: 'Montserrat', sans-serif;
     color: #000;
-    font-size: 12px;
+    font-size: 10px;
     font-weight: 500;
     font-stretch: normal;
     font-style: normal;
     line-height: 1.66;
     letter-spacing: 1px;
-    width: 100%;
+    width: 90%;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
   }
   .res-container {
     display: flex;
@@ -728,9 +728,9 @@ display: none;
     font-style: normal;
     line-height: 1.66;
     letter-spacing: 1px;
-    width: 100%;
+    width: 90%;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
   }
   .res-container {
     display: flex;
@@ -1381,7 +1381,7 @@ display: none;
   .res-text-container {
     font-family: 'Montserrat', sans-serif;
     color: #000;
-    font-size: 12px;
+    font-size: 10px;
     font-weight: 500;
     font-stretch: normal;
     font-style: normal;
@@ -1389,7 +1389,7 @@ display: none;
     letter-spacing: 1px;
     width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
   }
   .res-container {
     display: flex;
