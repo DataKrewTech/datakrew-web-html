@@ -1055,9 +1055,9 @@ button {
   .homepage-middle-content .container .quick-deployment .info .text {
     font-size: 15px;
   }
-  .homepage-middle-content .container .easy-use, .homepage-middle-content .container .configuration, .homepage-middle-content .container .quick-deployment {
+  /* .homepage-middle-content .container .easy-use, .homepage-middle-content .container .configuration, .homepage-middle-content .container .quick-deployment {
     border-bottom: 1px solid #e5e5e5;
-  }
+  } */
 }
 
 @media (max-width: 500px) {
