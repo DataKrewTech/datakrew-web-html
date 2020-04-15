@@ -15,7 +15,7 @@ button svg {
 
 body {
 	background-color: rgb(249, 249, 249);
-	font-family: 'Nunito', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 }
 
 li {
@@ -528,6 +528,7 @@ button {
 
 .middle-section .container .sub-section .image-container .about-img {
 	width: 100%;
+	height: 90%;
 }
 
 .middle-section .container .sub-section .details-container {
@@ -568,6 +569,9 @@ button {
 	.padding-left-40 {
 		padding-left: 0px !important;
 	}
+	.tab-container .tab-details .text{
+		font-size: 12px !important;
+	}
 }
 
 @media (max-width: 1200px) {
@@ -592,6 +596,9 @@ button {
 	svg {
 		padding: 0 !important;
 	}
+	.tab-container .tab-details .text{
+		font-size: 10px !important;
+	}
 }
 
 @media (max-width: 900px) {
@@ -615,17 +622,19 @@ button {
  .features-copy .indi-feature-copy .icon-container-copy{
 	width: 50%;
 }
+.features-copy .indi-feature-copy .icon-container-copy img{
+	width: 60%;
+}
  .features-copy .indi-feature-copy .feature-text-copy{
 	width: 70% !important;
     height: 45px;
-
     font-family: 'Montserrat', sans-serif;
-    font-size: 15px;
+    font-size: 14px;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
     line-height: 1.13;
-	color: #1E1E1E;
+	color: #646464;
 	padding: 8px 0px 0px 8px;
 }
 
@@ -797,9 +806,6 @@ button {
 	}
 	.manufacturing{ 
 		padding: 10% !important;
-	}
-	.text{
-		font-size: 12px;
 	}
 
 
