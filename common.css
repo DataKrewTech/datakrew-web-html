@@ -76,6 +76,7 @@
   width: 100%;
   font-size: 16px !important;
   padding: 0 25px;
+  font-weight: bolder !important;
 }
 
 .topbar .container .nav-items .item-container .item:hover, .topbar .container .nav-items .item-container .item a:hover {

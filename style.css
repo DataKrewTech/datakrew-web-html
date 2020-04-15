@@ -1420,7 +1420,7 @@ display: none;
 .heading-text{
   padding: 50px 50px 30px 50px;
   text-align: center;
-  font-size: 20px;
+  font-size: 19px;
   font-family: 'Montserrat', sans-serif;
     font-weight: 600;
   font-style: normal;
@@ -1687,7 +1687,10 @@ display: none;
 
   
 }
-.left-side-img{
+.left-side-image{
+  text-align: left;
+}
+.right-side-image{
   text-align: right;
 }
 .left-side-img img{
