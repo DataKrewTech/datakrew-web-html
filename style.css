@@ -1687,12 +1687,14 @@ display: none;
 
   
 }
+.left-side-img{
+  text-align: right;
+}
 .left-side-img img{
   /* height: 100%; */
   width: auto;
   max-width: 83%;
   position: relative;
-  padding-right: 0px;
     top: -75px;
     /* top: -120px; */
 
