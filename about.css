@@ -51,6 +51,7 @@ button {
   padding-right: 20px;
   color: #fff;
   border-right-width: 1px;
+  border-left-width: 0px;
   border-right-style: solid;
   border-image: linear-gradient(to bottom, transparent, #fff, transparent) 1
     100%;

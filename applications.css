@@ -569,6 +569,9 @@ button {
 	.padding-left-40 {
 		padding-left: 0px !important;
 	}
+	.tab-container .tab-details .text{
+		font-size: 12px !important;
+	}
 }
 
 @media (max-width: 1200px) {
@@ -592,6 +595,9 @@ button {
 	}
 	svg {
 		padding: 0 !important;
+	}
+	.tab-container .tab-details .text{
+		font-size: 10px !important;
 	}
 }
 
@@ -800,9 +806,6 @@ button {
 	}
 	.manufacturing{ 
 		padding: 10% !important;
-	}
-	.text{
-		font-size: 12px;
 	}
 
 
