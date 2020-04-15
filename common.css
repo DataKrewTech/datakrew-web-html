@@ -234,6 +234,7 @@
   animation-duration: 20s;
   animation-timing-function: steps(25, end);
   animation-iteration-count: infinite;
+  font-family: Gotham, Tahma, sans-serif;
 }
 
 .text_1::after, .text_2::after, .text_3::after, .text_4::after, .text_5::after, .text_6::after {
