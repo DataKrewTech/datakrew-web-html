@@ -35,8 +35,12 @@ const topbarContent = `
     </ul>
   </div>
   <div class="item-container">
-    <li class="item"><a href="contact.html" class="act-tab contact"  name="contact" id="act-tab">CONTACT</a></li>
+    <a href="contact.html" class="act-tab contact"  name="contact" id="act-tab">CONTACT</a>
   </div>
+  <div class="item-container">
+  <a href="contact.html"><button id="req-demo-btn">REQUEST DEMO</button></a>
+  </div>
+
 </div>
 <div class="res-menu">
   <img src="./assets/menu-white.png" class="menu" />
