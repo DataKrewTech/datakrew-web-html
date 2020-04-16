@@ -1459,6 +1459,7 @@ display: none;
   width: 100%;
   position: relative;
   z-index: 7;
+  margin-bottom: 7%;
 
 
 }
@@ -1766,6 +1767,7 @@ display: none;
   }
   .solution-container{
     max-width: 100%;
+    margin-bottom: 20%;
   }
   .solution-container1{
     max-width: 100%;
@@ -1815,7 +1817,7 @@ display: none;
     padding: 16px 0px 0px 0px !important;
   }
   .bg-color{
-    min-height: 185vh;
+    min-height: 176vh;
   }
   .solution-info{
     width: 100%;
