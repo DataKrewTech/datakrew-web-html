@@ -8,25 +8,25 @@ let categories = [
         name: 'CALCULATOR',
         brand: 'Rey',
         icon:
-          'https://cdn.zeplin.io/5e6a432713239d166440621b/assets/85E72143-FBD4-409F-B484-052D065F74C7.png'
+        './assets/mads/1-Core-1-AppStore.svg'
       },
       {
         name: 'PDF Reader',
         brand: 'N4no.com',
         icon:
-          'https://cdn.zeplin.io/5e6a432713239d166440621b/assets/1B5B2F6C-1719-4289-A20C-25B35A8B97C8.png'
+        './assets/mads/1-Core-2-Settings.svg'
       },
       {
         name: 'Sasha Morse Code',
         brand: 'Sashalab',
         icon:
-          'https://cdn.zeplin.io/5e6a432713239d166440621b/assets/3923DC37-CA51-4AF7-BB39-AFD7BA03A1D6.png'
+        './assets/mads/1-Core-3-Support.svg'
       },
       {
         name: 'CALCULATOR',
         brand: 'Christian Waadt',
         icon:
-          'https://cdn.zeplin.io/5e6a432713239d166440621b/assets/B22D70E8-6156-407A-88A7-54964DD47F69.png'
+        './assets/mads/1-Core-4-HeyMADS.svg'
       }
     ]
   },
@@ -39,20 +39,45 @@ let categories = [
         name: 'CALCULATOR',
         brand: 'Rey',
         icon:
-          'https://cdn.zeplin.io/5e6a432713239d166440621b/assets/85E72143-FBD4-409F-B484-052D065F74C7.png'
+        './assets/mads/2-Productivity-1-Dashboards.svg'
       },
       {
         name: 'PDF Reader',
         brand: 'N4no.com',
         icon:
-          'https://cdn.zeplin.io/5e6a432713239d166440621b/assets/1B5B2F6C-1719-4289-A20C-25B35A8B97C8.png'
+        './assets/mads/2-Productivity-2-Digital-Twin.svg'
       },
       {
         name: 'Sasha Morse Code',
         brand: 'Sashalab',
         icon:
-          'https://cdn.zeplin.io/5e6a432713239d166440621b/assets/3923DC37-CA51-4AF7-BB39-AFD7BA03A1D6.png'
+        './assets/mads/2-Productivity-3-Task-Organiser.svg'
+      },
+      {
+        name: 'PDF Reader',
+        brand: 'N4no.com',
+        icon:
+        './assets/mads/2-Productivity-4-Report-Wizard.svg'
+      },
+      {
+        name: 'PDF Reader',
+        brand: 'N4no.com',
+        icon:
+        './assets/mads/2-Productivity-5-Alerts-Reminders.svg'
+      },
+      {
+        name: 'PDF Reader',
+        brand: 'N4no.com',
+        icon:
+        './assets/mads/2-Productivity-6-Madsbook.svg'
+      },
+      {
+        name: 'PDF Reader',
+        brand: 'N4no.com',
+        icon:
+        './assets/mads/2-Productivity-7-VR-Simulator.svg'
       }
+      
     ]
   },
   {
@@ -64,14 +89,41 @@ let categories = [
         name: 'CALCULATOR',
         brand: 'Rey',
         icon:
-          'https://cdn.zeplin.io/5e6a432713239d166440621b/assets/85E72143-FBD4-409F-B484-052D065F74C7.png'
+        './assets/mads/3-Management-1-File-Manager.svg'
       },
       {
         name: 'PDF Reader',
         brand: 'N4no.com',
         icon:
-          'https://cdn.zeplin.io/5e6a432713239d166440621b/assets/1B5B2F6C-1719-4289-A20C-25B35A8B97C8.png'
-      }
+        './assets/mads/3-Management-2-IoT-Manager.svg'
+      },
+      {
+        name: 'CALCULATOR',
+        brand: 'Rey',
+        icon:
+        './assets/mads/3-Management-3-Role-Manager.svg'
+      },
+      {
+        name: 'CALCULATOR',
+        brand: 'Rey',
+        icon:
+        './assets/mads/3-Management-4-Entity-Manager.svg'
+      },
+      {
+        name: 'CALCULATOR',
+        brand: 'Rey',
+        icon:
+        './assets/mads/3-Management-5-Tool-Manager.svg'
+
+      },
+      {
+        name: 'CALCULATOR',
+        brand: 'Rey',
+        icon:
+        './assets/mads/3-Management-6-Widget-Manager.svg'
+
+      },
+
     ]
   },
   {
@@ -83,8 +135,21 @@ let categories = [
         name: 'CALCULATOR',
         brand: 'Rey',
         icon:
-          'https://cdn.zeplin.io/5e6a432713239d166440621b/assets/85E72143-FBD4-409F-B484-052D065F74C7.png'
+        './assets/mads/4-Analytics-1-Data-Cruncher.svg'
+      },
+      {
+        name: 'CALCULATOR',
+        brand: 'Rey',
+        icon:
+        './assets/mads/4-Analytics-2-AI-Engine.svg'
+      },
+      {
+        name: 'CALCULATOR',
+        brand: 'Rey',
+        icon:
+        './assets/mads/4-Analytics-3-Usage-Analyser.svg'
       }
+      
     ]
   },
   {
@@ -96,20 +161,40 @@ let categories = [
         name: 'CALCULATOR',
         brand: 'Rey',
         icon:
-          'https://cdn.zeplin.io/5e6a432713239d166440621b/assets/85E72143-FBD4-409F-B484-052D065F74C7.png'
+        './assets/mads/5-Smart-1-MADS-Secure.svg'
       },
       {
         name: 'PDF Reader',
         brand: 'N4no.com',
         icon:
-          'https://cdn.zeplin.io/5e6a432713239d166440621b/assets/1B5B2F6C-1719-4289-A20C-25B35A8B97C8.png'
+        './assets/mads/5-Smart-2-Login-Tracker.svg'
       },
       {
         name: 'Sasha Morse Code',
         brand: 'Sashalab',
         icon:
-          'https://cdn.zeplin.io/5e6a432713239d166440621b/assets/3923DC37-CA51-4AF7-BB39-AFD7BA03A1D6.png'
+        './assets/mads/5-Smart-3-Network-Analyser.svg'
+      },
+      {
+        name: 'PDF Reader',
+        brand: 'N4no.com',
+        icon:
+        './assets/mads/5-Smart-4-Secure-Share.svg'
+      },
+      {
+        name: 'PDF Reader',
+        brand: 'N4no.com',
+        icon:
+        './assets/mads/5-Smart-5-App-Locker.svg'
+      },
+      {
+        name: 'PDF Reader',
+        brand: 'N4no.com',
+        icon:
+        './assets/mads/5-Smart-6-Password-Manager.svg'
+
       }
+
     ]
   },
   {
@@ -121,14 +206,20 @@ let categories = [
         name: 'CALCULATOR',
         brand: 'Rey',
         icon:
-          'https://cdn.zeplin.io/5e6a432713239d166440621b/assets/85E72143-FBD4-409F-B484-052D065F74C7.png'
+        './assets/mads/6-General-1-Calendar.svg'
       },
       {
         name: 'PDF Reader',
         brand: 'N4no.com',
         icon:
-          'https://cdn.zeplin.io/5e6a432713239d166440621b/assets/1B5B2F6C-1719-4289-A20C-25B35A8B97C8.png'
-      }
+        './assets/mads/6-General-2-Calculator.svg'
+      },
+      {
+        name: 'CALCULATOR',
+        brand: 'Rey',
+        icon:
+          './assets/mads/6-General-3-Chat-App.svg'
+      },
     ]
   }
 ]
