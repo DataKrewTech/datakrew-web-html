@@ -728,6 +728,7 @@ display: none;
     display: block !important;
   
   }
+
 }
 
 @media (max-width: 400px) {
@@ -1877,6 +1878,9 @@ display: none;
   }
   .svg-img svg{
     padding: 24%;
+  }
+  .padding-left-40{
+    padding-left: 0 !important;
   }
 }
 @media only screen and (min-width: 1200px) and (max-width: 1500px) {
