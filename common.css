@@ -10,7 +10,7 @@
   /* -webkit-box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.2);
     -moz-box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.2);
     box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.2); */
-  font-family: 'Roboto', sans-serif;
+ font-family: 'Montserrat', sans-serif;
 }
 
 .res-topbar {
@@ -76,6 +76,7 @@
   width: 100%;
   font-size: 16px !important;
   padding: 0 25px;
+  font-weight: bolder !important;
 }
 
 .topbar .container .nav-items .item-container .item:hover, .topbar .container .nav-items .item-container .item a:hover {
@@ -112,17 +113,26 @@
   opacity: 1;
   padding: 15px;
   font-size: 17px;
-  font-weight: bold;
+  font-weight: none;
   color: #fff;
 }
 
-.topbar .container .nav-items .item-container .item-dropdown .item-drop-ele a {
+/* .topbar .container .nav-items .item-container .item-dropdown .item-drop-ele a {
   color: #fff;
   text-decoration: none;
 }
 
-.topbar .container .nav-items .item-container .item-dropdown .item-drop-ele:hover a {
+.topbar .container .nav-items .item-container .item-dropdown .item-drop-ele:hover a{
   color: #4eb6bc;
+} */
+
+.topbar .container .nav-items .item-container .item-dropdown .item-drop-ele .item-drop-element {
+  color: #fff;
+  text-decoration: none;
+}
+
+.topbar .container .nav-items .item-container .item-dropdown .item-drop-ele:hover .item-drop-element {
+  color: #4eb6bc !important;
 }
 
 /* .cus-up,
@@ -140,7 +150,12 @@
   color: #4eb6bc;
 }
 
-.topbar .container .nav-items .item-container .item a {
+/* .topbar .container .nav-items .item-container .item a {
+  color: #fff;
+  text-decoration: none;
+} */
+
+.topbar .container .nav-items .item-container .item .act-tab {
   color: #fff;
   text-decoration: none;
 }
@@ -149,6 +164,150 @@
   display: block;
   -webkit-animation: all .5s ease-out;
   -moz-animation: all .5s ease-out;
+}
+
+.text-container {
+  font-family: 'Montserrat', sans-serif;
+  color: #000;
+  font-size: 18px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.66;
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+  width: 110%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.text_1 {
+  animation: text1;
+  font-weight: 600;
+  text-transform: capitalize;
+  text-align: left;
+}
+
+.text_2 {
+  animation: text2;
+  font-weight: 600;
+  text-transform: capitalize;
+  text-align: left;
+}
+
+.text_3 {
+  animation: text3;
+  font-weight: 600;
+  text-transform: capitalize;
+  text-align: left;
+}
+
+.text_4 {
+  animation: text4;
+  font-weight: 600;
+  text-transform: capitalize;
+  text-align: left;
+}
+
+.text_5 {
+  animation: text5;
+  font-weight: 600;
+  text-transform: capitalize;
+  text-align: left;
+}
+
+.text_6 {
+  animation: text6;
+  font-weight: 600;
+  text-transform: capitalize;
+  text-align: left;
+}
+
+.text_0 {
+  margin-right: 8px;
+}
+
+.text_0, .text_1, .text_2, .text_3, .text_4, .text_5, .text_6 {
+  overflow: hidden;
+  white-space: nowrap;
+  display: inline-block;
+  position: relative;
+  animation-duration: 20s;
+  animation-timing-function: steps(25, end);
+  animation-iteration-count: infinite;
+  font-family: Gotham, Tahma, sans-serif;
+}
+
+.text_1::after, .text_2::after, .text_3::after, .text_4::after, .text_5::after, .text_6::after {
+  content: "|";
+  /* position: absolute; */
+  right: 0;
+  animation: caret infinite;
+  animation-duration: 1s;
+  animation-timing-function: steps(1, end);
+}
+
+@keyframes text6 {
+  0%, 15%, 30%, 45%, 60%, 75%, 100% {
+    width: 0;
+  }
+  80%, 90% {
+    width: 62%;
+  }
+}
+
+@keyframes text5 {
+  0%, 15%, 30%, 45%, 60%, 75%, 100% {
+    width: 0;
+  }
+  65%, 70% {
+    width: 41%;
+  }
+}
+
+@keyframes text4 {
+  0%, 15%, 30%, 45%, 60%, 100% {
+    width: 0;
+  }
+  50%, 55% {
+    width: 43%;
+  }
+}
+
+@keyframes text3 {
+  0%, 15%, 30%, 45%, 100% {
+    width: 0;
+  }
+  35%, 40% {
+    width: 42%;
+  }
+}
+
+@keyframes text2 {
+  0%, 15%, 30%, 100% {
+    width: 0;
+  }
+  20%, 25% {
+    width: 47%;
+  }
+}
+
+@keyframes text1 {
+  0%, 15%, 100% {
+    width: 0;
+  }
+  5%, 10% {
+    width: 30%;
+  }
+}
+
+@keyframes caret {
+  0%, 100% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
 }
 
 @-webkit-keyframes all {
@@ -193,18 +352,32 @@
   display: none;
 }
 
-.applications-header .container .header-content .indi-application:hover {
-  background: #1c4784;
-  background: -webkit-linear-gradient(to right, #0da6ad, #1c4784);
-  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #0da6ad, #1c4784);
-  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  -webkit-transform: translateY(-10px);
-  transform: translateY(-10px);
-  border-color: transparent;
-}
+/* .applications-header .container .header-content .indi-application:hover { */
+
+/* background: #1c4784; */
+
+/* background: -webkit-linear-gradient(to right, #0da6ad, #1c4784); */
+
+/* Chrome 10-25, Safari 5.1-6 */
+
+/* background: linear-gradient(to right, #0da6ad, #1c4784); */
+
+/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+/* -webkit-transform: translateY(-10px); */
+
+/* transform: translateY(-10px); */
+
+/* box-shadow: 0 22px 44px 0 rgba(28, 71, 132, 0.49);
+	background-image: linear-gradient(134deg, #0da6ad, #1c4784);
+  border-color: transparent; */
+
+/* } */
 
 @media (max-width: 1100px) {
+   .text-container {
+     display: none;
+   }
   .topbar .container .logo-container {
     width: 20%;
     padding: 0 0;
@@ -305,7 +478,7 @@
 
 .main-footer {
   background-color: #000;
-  font-family: 'Roboto', sans-serif;
+ font-family: 'Montserrat', sans-serif;
   height: 324px;
   display: flex;
   justify-content: center;
@@ -571,3 +744,19 @@
 #myBtn:hover {
   background-color: #555;
 }
+
+
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait) {
+.text_0 {
+  margin-left: 120px !important;
+}
+}
+
+@media only screen and (min-width: 320px) and (max-width: 620px) {
+
+  .text_0 {
+    margin-left: 60px !important;
+  }
+}
+
+
