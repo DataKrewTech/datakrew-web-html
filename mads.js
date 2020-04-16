@@ -191,7 +191,7 @@ let categories = [
         name: 'PDF Reader',
         brand: 'N4no.com',
         icon:
-        './assets/mads/5-Smart-6-Password-Manager'
+        './assets/mads/5-Smart-6-Password-Manager.svg'
 
       }
 
