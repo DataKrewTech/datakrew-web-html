@@ -801,7 +801,7 @@ display: none;
   display: grid;
   grid-template-columns: 45% 45%;
   margin-bottom: 70px;
-  grid-gap: 10%;
+  grid-gap: 4%;
 
   -ms-display: grid;
   -ms-grid-template-columns: 45% 45%;
@@ -1721,8 +1721,8 @@ display: none;
 }
 .left-side-img img{
   /* height: 100%; */
-  width: auto;
-  max-width: 83%;
+  /* width: auto;
+  max-width: 83%; */
   position: relative;
     top: -75px;
     /* top: -120px; */
