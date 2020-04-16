@@ -99,6 +99,9 @@ function initialize() {
     }
   )
 }
+{/* <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCTpOHHbUpcqgqsSzq0-dNyZQcP3_ARfms"
+async defer></script> */}
+
 google.maps.event.addDomListener(window, 'load', initialize)
 
 
@@ -151,4 +154,5 @@ function topFunction() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 }
+
 

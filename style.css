@@ -151,7 +151,7 @@ button {
 }
 
 .technology-box .inner-box .internal-box-container .tech-box .text{
-  font-size: 16px;
+  font-size: 14px;
   text-align: center;
   text-transform: uppercase;
   color: black;
@@ -160,6 +160,7 @@ button {
   /* margin-bottom: 100px; */
   font-family: 'Montserrat', sans-serif;
   /* line-height: 50px; */
+  padding: 0px 24px;
 }
 
 .web-line-img{
@@ -221,6 +222,7 @@ display: none;
     /* margin-bottom: 100px; */
     font-family: 'Montserrat', sans-serif;
     /* line-height: 50px; */
+    padding: 0px 8px;
   }
   
   .web-line-img{
@@ -273,7 +275,7 @@ display: none;
   margin: auto;
   grid-gap: 10%;
   /* padding: 0 50px; */
-  padding: 150px 0px;
+  padding: 150px 0px 70px 0px;
   /* padding-top: 25vh; */
 }
 
@@ -693,6 +695,7 @@ display: none;
 @media (max-width: 600px) {
   .homepage-header .container {
     padding-top: 100px;
+    padding-bottom: 0 !important;
   }
   .homepage-header .container .res-detail .res-hero-title {
     font-size: 2.7rem;
@@ -1858,3 +1861,5 @@ display: none;
     height:  6%;
   }
 }
+
+
