@@ -908,12 +908,12 @@ display: none;
 
 .homepage-middle-content .container .easy-use {
   display: grid;
-  grid-template-columns: 45% 45%;
+  grid-template-columns: 48% 48%;
   margin-bottom: 70px;
-  grid-gap: 10%;
+  grid-gap: 4%;
 
-  -ms-grid-gap: 10% !important;
-  -webkit-grid-gap: 10% !important;
+  -ms-grid-gap: 12% !important;
+  -webkit-grid-gap: 12% !important;
   -webkit-grid-template-columns: 44% 44%;
   -ms-grid-template-columns: 44% 44%;
 }
