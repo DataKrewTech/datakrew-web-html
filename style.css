@@ -1703,7 +1703,7 @@ display: none;
 .bg-color{
   position: absolute;
   background-color:#eff1f4;
-  min-height: 6%;
+  min-height: 5%;
   width: 100%;
   z-index: 4;  
 }
