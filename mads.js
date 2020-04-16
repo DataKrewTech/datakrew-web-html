@@ -5,25 +5,25 @@ let categories = [
       'https://cdn.zeplin.io/5e6a432713239d166440621b/assets/39A46530-F7FF-4990-98FF-4C3075E225BA.svg',
     apps: [
       {
-        name: 'CALCULATOR',
+        name: 'AppStore',
         brand: 'Rey',
         icon:
         './assets/mads/1-Core-1-AppStore.svg'
       },
       {
-        name: 'PDF Reader',
+        name: 'Settings',
         brand: 'N4no.com',
         icon:
         './assets/mads/1-Core-2-Settings.svg'
       },
       {
-        name: 'Sasha Morse Code',
+        name: 'Support',
         brand: 'Sashalab',
         icon:
         './assets/mads/1-Core-3-Support.svg'
       },
       {
-        name: 'CALCULATOR',
+        name: 'HeyMADS!',
         brand: 'Christian Waadt',
         icon:
         './assets/mads/1-Core-4-HeyMADS.svg'
@@ -36,43 +36,43 @@ let categories = [
       'https://cdn.zeplin.io/5e6a432713239d166440621b/assets/2852DB3D-8EF6-4307-B173-F9A5C52A9552.svg',
     apps: [
       {
-        name: 'CALCULATOR',
+        name: 'Dashboards',
         brand: 'Rey',
         icon:
         './assets/mads/2-Productivity-1-Dashboards.svg'
       },
       {
-        name: 'PDF Reader',
+        name: 'Digital Twin',
         brand: 'N4no.com',
         icon:
         './assets/mads/2-Productivity-2-Digital-Twin.svg'
       },
       {
-        name: 'Sasha Morse Code',
+        name: 'Task Organiser',
         brand: 'Sashalab',
         icon:
         './assets/mads/2-Productivity-3-Task-Organiser.svg'
       },
       {
-        name: 'PDF Reader',
+        name: 'Report Wizard',
         brand: 'N4no.com',
         icon:
         './assets/mads/2-Productivity-4-Report-Wizard.svg'
       },
       {
-        name: 'PDF Reader',
+        name: 'Alerts-n-Reminders',
         brand: 'N4no.com',
         icon:
         './assets/mads/2-Productivity-5-Alerts-Reminders.svg'
       },
       {
-        name: 'PDF Reader',
+        name: 'Madsbook',
         brand: 'N4no.com',
         icon:
         './assets/mads/2-Productivity-6-Madsbook.svg'
       },
       {
-        name: 'PDF Reader',
+        name: 'VR Simulator',
         brand: 'N4no.com',
         icon:
         './assets/mads/2-Productivity-7-VR-Simulator.svg'
@@ -86,38 +86,38 @@ let categories = [
       'https://cdn.zeplin.io/5e6a432713239d166440621b/assets/9905D2E9-21E3-4209-94AC-8B130DCBDA94.svg',
     apps: [
       {
-        name: 'CALCULATOR',
+        name: 'File Manager',
         brand: 'Rey',
         icon:
         './assets/mads/3-Management-1-File-Manager.svg'
       },
       {
-        name: 'PDF Reader',
+        name: 'IoT Manager',
         brand: 'N4no.com',
         icon:
         './assets/mads/3-Management-2-IoT-Manager.svg'
       },
       {
-        name: 'CALCULATOR',
+        name: 'Role Manager',
         brand: 'Rey',
         icon:
         './assets/mads/3-Management-3-Role-Manager.svg'
       },
       {
-        name: 'CALCULATOR',
+        name: 'Entity Manager',
         brand: 'Rey',
         icon:
         './assets/mads/3-Management-4-Entity-Manager.svg'
       },
       {
-        name: 'CALCULATOR',
+        name: 'Tool Manager',
         brand: 'Rey',
         icon:
         './assets/mads/3-Management-5-Tool-Manager.svg'
 
       },
       {
-        name: 'CALCULATOR',
+        name: 'Widget Manager',
         brand: 'Rey',
         icon:
         './assets/mads/3-Management-6-Widget-Manager.svg'
@@ -132,19 +132,19 @@ let categories = [
       'https://cdn.zeplin.io/5e6a432713239d166440621b/assets/1E2076A5-30E5-4CF8-BF47-4D30F7894FE5.svg',
     apps: [
       {
-        name: 'CALCULATOR',
+        name: 'Data Cruncher',
         brand: 'Rey',
         icon:
         './assets/mads/4-Analytics-1-Data-Cruncher.svg'
       },
       {
-        name: 'CALCULATOR',
+        name: 'AI Engine',
         brand: 'Rey',
         icon:
         './assets/mads/4-Analytics-2-AI-Engine.svg'
       },
       {
-        name: 'CALCULATOR',
+        name: 'Usage Analyser',
         brand: 'Rey',
         icon:
         './assets/mads/4-Analytics-3-Usage-Analyser.svg'
@@ -158,37 +158,37 @@ let categories = [
       'https://cdn.zeplin.io/5e6a432713239d166440621b/assets/DCC72D89-A0DF-44F7-8E7F-8407F6CD5F3A.svg',
     apps: [
       {
-        name: 'CALCULATOR',
+        name: 'MADS Secure',
         brand: 'Rey',
         icon:
         './assets/mads/5-Smart-1-MADS-Secure.svg'
       },
       {
-        name: 'PDF Reader',
+        name: 'Login Tracker',
         brand: 'N4no.com',
         icon:
         './assets/mads/5-Smart-2-Login-Tracker.svg'
       },
       {
-        name: 'Sasha Morse Code',
+        name: 'Network Analyser',
         brand: 'Sashalab',
         icon:
         './assets/mads/5-Smart-3-Network-Analyser.svg'
       },
       {
-        name: 'PDF Reader',
+        name: 'Secure Share',
         brand: 'N4no.com',
         icon:
         './assets/mads/5-Smart-4-Secure-Share.svg'
       },
       {
-        name: 'PDF Reader',
+        name: 'App Locker',
         brand: 'N4no.com',
         icon:
         './assets/mads/5-Smart-5-App-Locker.svg'
       },
       {
-        name: 'PDF Reader',
+        name: 'Password Manager',
         brand: 'N4no.com',
         icon:
         './assets/mads/5-Smart-6-Password-Manager.svg'
@@ -203,19 +203,19 @@ let categories = [
       'https://cdn.zeplin.io/5e6a432713239d166440621b/assets/D8F3B1C6-2324-4093-90B0-2E8416AAEE13.svg',
     apps: [
       {
-        name: 'CALCULATOR',
+        name: 'Calendar',
         brand: 'Rey',
         icon:
         './assets/mads/6-General-1-Calendar.svg'
       },
       {
-        name: 'PDF Reader',
+        name: 'Calculator',
         brand: 'N4no.com',
         icon:
         './assets/mads/6-General-2-Calculator.svg'
       },
       {
-        name: 'CALCULATOR',
+        name: 'Chat App',
         brand: 'Rey',
         icon:
           './assets/mads/6-General-3-Chat-App.svg'
@@ -292,18 +292,24 @@ const renderApps = () => {
                 />
                 </div>
                 <div class="main-details">
+                <!-- 
                 <h4 class="cat-name">
                   ${categories[selectedAppCatIndex].name}
                 </h4>
+                -->
                 <h4 class="app-name">${categories[selectedAppCatIndex].apps[i].name}</h4>
+                <!-- 
                 <div class="company-name">${categories[selectedAppCatIndex].apps[i].brand}</div>
+                -->
                 </div>
             </div>
+            <!-- 
             <p class="detail">
                 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
                 diam nonumy eirmod tempor invidunt ut labore et dolore magna
                 aliquyam erat, sed diam voluptua.
             </p>
+            -->
         `
 
     appsContainer.appendChild(indiApp)
