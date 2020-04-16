@@ -79,10 +79,10 @@ const navDropdownCont = `
           src="https://img.icons8.com/android/24/000000/sort-up.png"
         />
       </li>
-      <div class="sub-comp"><a href="about.html">ABOUT</a></div>
-      <div class="sub-comp"><a href="about.html#team">TEAM</a></div>
+      <div class="sub-comp"><a href="company.html">ABOUT</a></div>
+      <div class="sub-comp"><a href="company.html#team">TEAM</a></div>
       <div class="sub-comp">
-        <a href="about.html#partners">PARTNERS</a>
+        <a href="company.html#partners">PARTNERS</a>
       </div>
       <li><a href="contact.html">CONTACT</a></li>
 `

@@ -432,10 +432,10 @@ border: solid 1px #0FAFB4;
     max-width: 56% !important;
   }
   .contact-header .container .address .contact-hint3{
-    margin-right: 30px;
+    margin-right: 44px;
   }
   .contact-header .container .address .contact-hint2{
-    margin-right: 10px;
+    /* margin-right: 10px; */
 
   }
   .socialcon-icon a i{
@@ -477,7 +477,7 @@ border: solid 1px #0FAFB4;
     margin-left: 76px;
   }
   .contact-header .container .address .contact-hint3{
-    margin-right: 30px;
+    margin-right: 44px !important;
   }
   .contact-header .container .form .submit:hover {
     font-weight: bold;
