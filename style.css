@@ -33,6 +33,9 @@ button {
   display: none !important;
 
 }
+.padding-left-40 {
+	padding-left: 48px !important;
+}
 
 @media (max-width: 1500px) {
   html {
