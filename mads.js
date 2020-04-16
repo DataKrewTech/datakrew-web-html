@@ -59,24 +59,24 @@ let categories = [
         icon:
         './assets/mads/2-Productivity-4-Report-Wizard.svg'
       },
-      {
-        name: 'PDF Reader',
-        brand: 'N4no.com',
-        icon:
-        './assets/mads/2-Productivity-5-Alerts-Reminders.svg'
-      },
-      {
-        name: 'PDF Reader',
-        brand: 'N4no.com',
-        icon:
-        './assets/mads/2-Productivity-6-Madsbook.svg'
-      },
-      {
-        name: 'PDF Reader',
-        brand: 'N4no.com',
-        icon:
-        './assets/mads/2-Productivity-7-VR-Simulator.svg'
-      }
+      // {
+      //   name: 'PDF Reader',
+      //   brand: 'N4no.com',
+      //   icon:
+      //   './assets/mads/2-Productivity-5-Alerts-Reminders.svg'
+      // },
+      // {
+      //   name: 'PDF Reader',
+      //   brand: 'N4no.com',
+      //   icon:
+      //   './assets/mads/2-Productivity-6-Madsbook.svg'
+      // },
+      // {
+      //   name: 'PDF Reader',
+      //   brand: 'N4no.com',
+      //   icon:
+      //   './assets/mads/2-Productivity-7-VR-Simulator.svg'
+      // }
       
     ]
   },
@@ -109,20 +109,20 @@ let categories = [
         icon:
         './assets/mads/3-Management-4-Entity-Manager.svg'
       },
-      {
-        name: 'CALCULATOR',
-        brand: 'Rey',
-        icon:
-        './assets/mads/3-Management-5-Tool-Manager.svg'
+      // {
+      //   name: 'CALCULATOR',
+      //   brand: 'Rey',
+      //   icon:
+      //   './assets/mads/3-Management-5-Tool-Manager.svg'
 
-      },
-      {
-        name: 'CALCULATOR',
-        brand: 'Rey',
-        icon:
-        './assets/mads/3-Management-6-Widget-Manager.svg'
+      // },
+      // {
+      //   name: 'CALCULATOR',
+      //   brand: 'Rey',
+      //   icon:
+      //   './assets/mads/3-Management-6-Widget-Manager.svg'
 
-      },
+      // },
 
     ]
   },
@@ -181,19 +181,19 @@ let categories = [
         icon:
         './assets/mads/5-Smart-4-Secure-Share.svg'
       },
-      {
-        name: 'PDF Reader',
-        brand: 'N4no.com',
-        icon:
-        './assets/mads/5-Smart-5-App-Locker.svg'
-      },
-      {
-        name: 'PDF Reader',
-        brand: 'N4no.com',
-        icon:
-        './assets/mads/5-Smart-6-Password-Manager.svg'
+      // {
+      //   name: 'PDF Reader',
+      //   brand: 'N4no.com',
+      //   icon:
+      //   './assets/mads/5-Smart-5-App-Locker.svg'
+      // },
+      // {
+      //   name: 'PDF Reader',
+      //   brand: 'N4no.com',
+      //   icon:
+      //   './assets/mads/5-Smart-6-Password-Manager.svg'
 
-      }
+      // }
 
     ]
   },
