@@ -831,6 +831,10 @@ a {
 	.middle-section .container{
 		width: 85%;
 	}
+	.tab-box{
+		width: 20%;
+		display: block;
+	}
 
 
 
