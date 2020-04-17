@@ -159,6 +159,8 @@ button {
   font-family: 'Montserrat', sans-serif;
   /* background-color: #f6fbff; */
   border-radius: 10px;
+  background-color: white !important;
+  text-indent: inherit !important;
 }
 
 .contact-header .container .form .submit {

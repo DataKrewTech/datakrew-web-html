@@ -38,8 +38,54 @@ const topbarContent = `
     <a href="contact.html" class="act-tab contact"  name="contact" id="act-tab">CONTACT</a>
   </div>
   <div class="item-container">
-  <a href="contact.html"><button id="req-demo-btn">REQUEST DEMO</button></a>
+  <a href="#open-modal"><button id="req-demo-btn">REQUEST DEMO</button></a>
   </div>
+
+  <div id="open-modal" class="modal-window">
+  <div>
+    <a href="#" title="Close" class="modal-close">Close</a>
+    <div id="open-modal">
+  <form id="contact-form" class="contact-form" action="#" method="post">
+    <ul>
+
+      <li class="name">
+        <input type="text" class="input-name" name="name" placeholder="ie. XYZ" spellcheck="false" min-length="2" max-length="40" required />
+        <label for="name">Name</label>
+        <span class="notification"></span>
+        <span class="required"><strong><small><em> (required)</em></small></strong></span>
+        <span class="char-counter"></span>
+      </li>
+      <li class="email">
+        <input type="email" class="input-email" name="email" placeholder="ie. my@email.com" spellcheck="false" min-length="2" max-length="30" required />
+        <label for="email">Email</label>
+        <span class="notification"></span>
+        <span class="required"><strong><small><em> (required)</em></small></strong></span>
+        <span class="char-counter"></span>
+      </li>
+      <li class="mobile">
+      <input type="number" class="input-mob" name="Mob-no" placeholder="ie. 1234567890" spellcheck="false" min-length="10" max-length="10" required />
+      <label for="name">Mob-No</label>
+      <span class="notification"></span>
+      <span class="required"><strong><small><em> (required)</em></small></strong></span>
+      <span class="char-counter"></span>
+    </li>
+    <li class="company">
+    <input type="text" class="input-company" name="Company-name" placeholder="ie. DataKrew" spellcheck="false" min-length="2" max-length="40" required />
+    <label for="name">Company-Name</label>
+    <span class="notification"></span>
+    <span class="required"><strong><small><em> (required)</em></small></strong></span>
+    <span class="char-counter"></span>
+  </li>
+    </ul>
+    <!-- Submit -->
+    <div class="form-btn">
+      <input id="input-submit" class="input-submit" type="submit" value="Submit" id="submit" />
+    </div>
+  </form>
+</div>
+
+    </div>
+    </div>
 
 
 
