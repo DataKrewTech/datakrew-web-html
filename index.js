@@ -44,12 +44,13 @@ const topbarContent = `
   <div id="open-modal" class="modal-window">
   <div>
     <a href="#" title="Close" class="modal-close">Close</a>
-    <div id="open-modal">
-  <form id="contact-form" class="contact-form" action="#" method="post">
+    <div id="open-modal" class="fade">
+  <form id="contact-form" class="contact-form"   action="https://formspree.io/mbjaebko"
+  method="POST">
     <ul>
 
       <li class="name">
-        <input type="text" class="input-name" name="name" placeholder="ie. XYZ" spellcheck="false" min-length="2" max-length="40" required />
+        <input type="text" class="input-name" name="name" placeholder="ie. your name" min-length="2" max-length="40" required />
         <label for="name">Name</label>
         <span class="notification"></span>
         <span class="required"><strong><small><em> (required)</em></small></strong></span>
@@ -63,24 +64,29 @@ const topbarContent = `
         <span class="char-counter"></span>
       </li>
       <li class="mobile">
-      <input type="number" class="input-mob" name="Mob-no" placeholder="ie. 1234567890" spellcheck="false" min-length="10" max-length="10" required />
+      <input type="number" class="input-mob" name="mobNo" placeholder="ie. 1234567890" spellcheck="false" min-length="10" max-length="12" required />
       <label for="name">Mob-No</label>
       <span class="notification"></span>
       <span class="required"><strong><small><em> (required)</em></small></strong></span>
       <span class="char-counter"></span>
     </li>
     <li class="company">
-    <input type="text" class="input-company" name="Company-name" placeholder="ie. DataKrew" spellcheck="false" min-length="2" max-length="40" required />
+    <input type="text" class="input-company" name="CompanyName" placeholder="ie. DataKrew" spellcheck="false" min-length="2" max-length="40" required />
     <label for="name">Company-Name</label>
     <span class="notification"></span>
     <span class="required"><strong><small><em> (required)</em></small></strong></span>
     <span class="char-counter"></span>
   </li>
     </ul>
+    <input type="hidden" name="_cc" value="roy@datakrew.com">
+        <input type="hidden" name="_cc" value="sumanta@datakrew.com">
     <!-- Submit -->
     <div class="form-btn">
       <input id="input-submit" class="input-submit" type="submit" value="Submit" id="submit" />
     </div>
+  
+    <p id="my-form-status"></p>
+  
   </form>
 </div>
 
@@ -342,4 +348,45 @@ function topFunction() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 }
+
+
+
+  window.addEventListener("DOMContentLoaded", function() {
+    // get the form elements defined in your form HTML above
+    var form = document.getElementById("contact-form");
+    var button = document.getElementById("input-submit");
+    var status = document.getElementById("my-form-status");
+    // Success and Error functions for after the form is submitted
+    function success() {
+      form.reset();
+      button.style = "display: none ";
+      status.innerHTML = "Thanks!";
+    }
+    function error() {
+      status.innerHTML = "Oops! There was a problem.";
+    }
+    // handle the form submission event
+    form.addEventListener("submit", function(ev) {
+      ev.preventDefault();
+      var data = new FormData(form);
+      ajax(form.method, form.action, data, success, error);
+    });
+  });
+  // helper function for sending an AJAX request
+  function ajax(method, url, data, success, error) {
+    var xhr = new XMLHttpRequest();
+    xhr.open(method, url);
+    xhr.setRequestHeader("Accept", "application/json");
+    xhr.onreadystatechange = function() {
+      if (xhr.readyState !== XMLHttpRequest.DONE) return;
+      if (xhr.status === 200) {
+        success(xhr.response, xhr.responseType);
+      } else {
+        error(xhr.status, xhr.response, xhr.responseType);
+      }
+    };
+    xhr.send(data);
+  }
+
+
 

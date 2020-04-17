@@ -794,6 +794,12 @@
 
 }
 
+#my-form-status{
+  color: #000;
+  font-weight: 600;
+  font-size: 16px;
+}
+
 
 .modal-close{
   float: right;
@@ -804,17 +810,19 @@
 
 .modal-window {
   position: fixed;
-  background-color: rgba(255, 255, 255, 0.25);
+  background-color: #000000ba;
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
-  z-index: 999;
+  z-index: 1040;
   visibility: hidden;
   opacity: 0;
   pointer-events: none;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
+  width: 100vw;
+  height: 100vh;
 }
 .modal-window:target {
   visibility: visible;
@@ -1206,4 +1214,12 @@ input[type=submit] {
         opacity: 0;
     }
 }
+
+.fade{
+  -webkit-transition: opacity .15s linear;
+  transition: opacity .15s linear;
+}
+
+
+
 
