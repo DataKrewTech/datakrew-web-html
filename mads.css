@@ -852,8 +852,11 @@ button {
   }
   .apps .container .apps-details .category-apps {
     grid-template-columns: 1fr 1fr ;
-    grid-gap: 5%;
+    grid-gap: 0% !important; 
     /* height: auto !important; */
+  }
+  .apps .container .apps-details .category-apps .app-detail{
+    margin: 20px 10px;
   }
 
   .apps .container .apps-details .category-apps .app-detail .upper .app-icon {
@@ -1052,3 +1055,17 @@ button {
     margin: 0 50px 50px;
   }
 } */
+
+
+
+@media screen and (-webkit-min-device-pixel-ratio:0) { 
+  /* Safari and Chrome */
+  .apps .container .apps-details .category-apps .app-detail{
+      margin: 4% !important;
+  } 
+
+  /* Safari only override */
+  ::i-block-chrome,.apps .container .apps-details .category-apps .app-detail{
+      margin: 5% !important;
+  } 
+}

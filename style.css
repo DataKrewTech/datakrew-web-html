@@ -33,6 +33,9 @@ button {
   display: none !important;
 
 }
+.padding-left-40 {
+	padding-left: 48px !important;
+}
 
 @media (max-width: 1500px) {
   html {
@@ -277,6 +280,11 @@ display: none;
   /* padding: 0 50px; */
   padding: 150px 0px 70px 0px;
   /* padding-top: 25vh; */
+  
+  -ms-grid-gap: 10% !important;
+  -webkit-grid-gap: 10% !important;
+  -webkit-grid-template-columns: 44% 44%;
+  -ms-grid-template-columns: 44% 44%;
 }
 
 .homepage-header .container .res-detail {
@@ -720,6 +728,7 @@ display: none;
     display: block !important;
   
   }
+
 }
 
 @media (max-width: 400px) {
@@ -792,7 +801,15 @@ display: none;
   display: grid;
   grid-template-columns: 45% 45%;
   margin-bottom: 70px;
-  grid-gap: 10%;
+  grid-gap: 4%;
+
+  -ms-display: grid;
+  -ms-grid-template-columns: 45% 45%;
+  -ms-grid-gap: 10%;
+
+  -webkit-display: grid;
+  -webkit-grid-template-columns: 45% 45%;
+  -webkit-grid-gap: 10%;
 }
 
 .homepage-middle-content .container .configuration .img-container img {
@@ -895,9 +912,14 @@ display: none;
 
 .homepage-middle-content .container .easy-use {
   display: grid;
-  grid-template-columns: 45% 45%;
+  grid-template-columns: 48% 48%;
   margin-bottom: 70px;
-  grid-gap: 10%;
+  grid-gap: 4%;
+
+  -ms-grid-gap: 12% !important;
+  -webkit-grid-gap: 12% !important;
+  -webkit-grid-template-columns: 44% 44%;
+  -ms-grid-template-columns: 44% 44%;
 }
 
 .homepage-middle-content .container .easy-use .img-container {
@@ -1438,6 +1460,7 @@ display: none;
   width: 100%;
   position: relative;
   z-index: 7;
+  margin-bottom: 7%;
 
 
 }
@@ -1680,7 +1703,7 @@ display: none;
 .bg-color{
   position: absolute;
   background-color:#eff1f4;
-  min-height: 6%;
+  min-height: 5%;
   width: 100%;
   z-index: 4;  
 }
@@ -1697,9 +1720,9 @@ display: none;
   text-align: right;
 }
 .left-side-img img{
-  /* height: 100%; */
-  width: auto;
-  max-width: 83%;
+  height: 100%;
+  /* width: auto;
+  max-width: 83%; */
   position: relative;
     top: -75px;
     /* top: -120px; */
@@ -1745,6 +1768,7 @@ display: none;
   }
   .solution-container{
     max-width: 100%;
+    margin-bottom: 20%;
   }
   .solution-container1{
     max-width: 100%;
@@ -1794,7 +1818,7 @@ display: none;
     padding: 16px 0px 0px 0px !important;
   }
   .bg-color{
-    min-height: 185vh;
+    min-height: 176vh;
   }
   .solution-info{
     width: 100%;
@@ -1854,6 +1878,9 @@ display: none;
   }
   .svg-img svg{
     padding: 24%;
+  }
+  .padding-left-40{
+    padding-left: 0 !important;
   }
 }
 @media only screen and (min-width: 1200px) and (max-width: 1500px) {

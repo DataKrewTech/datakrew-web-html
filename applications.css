@@ -727,7 +727,7 @@ button {
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
-	border: 2px solid #FFDF79;
+	border: 2px solid #E1B731;
 	border-radius: 10px;
 	/* box-shadow: 3px 3px 5px 6px #ccc; */
 	box-shadow: 3px 3px 5px 6px #eceaea;
@@ -851,6 +851,11 @@ button {
 	}
 	.middle-section .container{
 		width: 85%;
+	}
+	.tab-box{
+		width: 20%;
+		display: block;
+	
 	}
 
 }

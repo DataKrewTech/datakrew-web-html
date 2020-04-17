@@ -114,6 +114,9 @@
             </div>
           </div>
 
+          <form id="my-form"
+          action="https://formspree.io/xknvawdr"
+          method="POST">
           <div class="form wow bounceInRight slow">
 
             <div class="m-div">
@@ -130,7 +133,7 @@
           <div class="input-div">
             <input
               name="email"
-              type="text"
+              type="email"
               placeholder="Work Email Address"
               class="form-input email-in"
             />
@@ -176,26 +179,68 @@
             ></textarea>
           </div>
         </div>
+        <input type="hidden" name="_cc" value="roy@datakrew.com">
+        <input type="hidden" name="_cc" value="sumanta@datakrew.com">
             <!-- <span class="err msg-err"></span> -->
-            <button name="submit" class="submit submit-btn">
+            <button id="my-form-button" name="submit" class="submit submit-btn">
               Send Message
             </button>
+            <p id="my-form-status"></p>
           </div>
+          </form>
 
         </div>
       </div>
       <div class="contact-map wow bounceInLeft slow"> 
-        <div class="map-cont"></div>
+        <div class="map-cont">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9821.339461854937!2d103.68941963814842!3d1.3544508362544823!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da0fa89222478b%3A0xfa7dde8a849ac650!2sDataKrew%20Pte.%20Ltd.!5e0!3m2!1sen!2sin!4v1587034581234!5m2!1sen!2sin" width="100%" height="380" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div>
       </div>
     </div>
    
     <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key="></script>
     <script src="index.js"></script>
-    <script src="contact.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script src="jquery.js"></script>
     <script src="wow.min.js"></script>
     <script>new WOW().init();</script>
+    <script>
+      window.addEventListener("DOMContentLoaded", function() {
+        // get the form elements defined in your form HTML above
+        var form = document.getElementById("my-form");
+        var button = document.getElementById("my-form-button");
+        var status = document.getElementById("my-form-status");
+        // Success and Error functions for after the form is submitted
+        function success() {
+          form.reset();
+          button.style = "display: none ";
+          status.innerHTML = "Thanks!";
+        }
+        function error() {
+          status.innerHTML = "Oops! There was a problem.";
+        }
+        // handle the form submission event
+        form.addEventListener("submit", function(ev) {
+          ev.preventDefault();
+          var data = new FormData(form);
+          ajax(form.method, form.action, data, success, error);
+        });
+      });
+      // helper function for sending an AJAX request
+      function ajax(method, url, data, success, error) {
+        var xhr = new XMLHttpRequest();
+        xhr.open(method, url);
+        xhr.setRequestHeader("Accept", "application/json");
+        xhr.onreadystatechange = function() {
+          if (xhr.readyState !== XMLHttpRequest.DONE) return;
+          if (xhr.status === 200) {
+            success(xhr.response, xhr.responseType);
+          } else {
+            error(xhr.status, xhr.response, xhr.responseType);
+          }
+        };
+        xhr.send(data);
+      }
+    </script>
   </body>
 </html>

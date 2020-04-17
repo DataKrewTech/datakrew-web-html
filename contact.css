@@ -134,7 +134,7 @@ button {
   
 }
 .contact-header .container .form{
-  width: 54%;
+  width: 100%;
   background: #f3f8ff;
   /* padding: 40px  50px 20px 50px; */
   padding: 70px 20px 40px 20px;
@@ -434,10 +434,10 @@ border: solid 1px #0FAFB4;
     max-width: 56% !important;
   }
   .contact-header .container .address .contact-hint3{
-    margin-right: 30px;
+    margin-right: 44px;
   }
   .contact-header .container .address .contact-hint2{
-    margin-right: 10px;
+    /* margin-right: 10px; */
 
   }
   .socialcon-icon a i{
@@ -479,7 +479,7 @@ border: solid 1px #0FAFB4;
     margin-left: 76px;
   }
   .contact-header .container .address .contact-hint3{
-    margin-right: 30px;
+    margin-right: 44px !important;
   }
   .contact-header .container .form .submit:hover {
     font-weight: bold;
