@@ -41,6 +41,10 @@ const topbarContent = `
   <a href="contact.html"><button id="req-demo-btn">REQUEST DEMO</button></a>
   </div>
 
+
+
+
+
 </div>
 <div class="res-menu">
   <img src="./assets/menu-white.png" class="menu" />
@@ -50,7 +54,7 @@ const topbarContent = `
 
 let topbarEle = document.createElement('nav')
 topbarEle.classList.add('topbar')
-topbarEle.setAttribute('id', 'nav')
+topbarEle.setAttribute('id', 'nav','req-demo-btn')
 topbarEle.innerHTML = topbarContent
 mainContainer.prepend(topbarEle)
 
@@ -245,6 +249,8 @@ function scrollFunction() {
     // document.getElementById("nav").style.height = "60px";
     // document.getElementById("logo").style.maxWidth = "100px";
     document.getElementById("nav").style.backgroundColor = "#FFFFFF";
+    document.getElementById("req-demo-btn").style.backgroundColor = "#000000";
+
     for (let i = 0; i <= 1; i++) {
       document.getElementsByClassName("item-dropdown")[i].style.backgroundColor = "#fff";
     }
