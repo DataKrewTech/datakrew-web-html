@@ -63,7 +63,7 @@ const topbarContent = `
    <div class="input-data">
    <span><i class="fa fa-question-circle icon-2" aria-hidden="true"></i></span>
 
-   <select name="helpYou"
+   <select name="canWeHelpYouWith"
            class="">
            <option value="help" class="" selected="selected">What can we help you with?</option>
            <option value="Request a Demo">Request a Demo</option>
@@ -84,7 +84,7 @@ const topbarContent = `
 
 
    <div class="input-data">
-   <span><i class="fa fa-question-circle icon-3" aria-hidden="true"></i></span>
+   <span><i class="fa fa-briefcase icon-3" aria-hidden="true"></i></span>
    <input type="text" class="input-name" name="companyName" placeholder="Company Name" min-length="2" max-length="40" required />
    <span class="notification"></span>
    <span class="required"><strong><small><em> (required)</em></small></strong></span>
@@ -95,7 +95,7 @@ const topbarContent = `
    <div class="input-data">
    <span><i class="fa fa-question-circle icon-4" aria-hidden="true"></i></span>
 
-   <select name="intrestedIn" 
+   <select name="productAreYouInterestedIn" 
            class="" aria-required="true" aria-invalid="false">
            <option value="interest" class="gf_placeholder">Which product are you interested in?</option>
            <option value="MADS Platform">MADS Platform</option>
@@ -111,7 +111,7 @@ const topbarContent = `
 
 
    <div class="input-data">
-   <span><i class="fa fa-question-circle icon-5" aria-hidden="true"></i></span>
+   <span><i class="fa fa-envelope icon-5" aria-hidden="true"></i></span>
 
 
    <input type="email" class="input-name" name="workEmail" placeholder="Work Email" min-length="2" max-length="40" required />
@@ -124,7 +124,7 @@ const topbarContent = `
    <div class="input-data">
    <span><i class="fa fa-question-circle icon-6" aria-hidden="true"></i></span>
 
-   <select name="bestDescribe" 
+   <select name="BestDescribesYou" 
         class="" aria-required="true" aria-invalid="true">
         <option value="best" selected="selected" class="gf_placeholder">What best describes you?
         </option>
@@ -146,7 +146,7 @@ const topbarContent = `
 
    <div class="input-data">
    <span><i class="fa fa-phone icon-7" aria-hidden="true"></i></span>
-   <input type="number" class="input-name" name="phone" placeholder="Phone" min-length="2" max-length="40" required />
+   <input type="number" class="input-name" name="phoneNo" placeholder="Phone" min-length="2" max-length="40" required />
    <span class="notification"></span>
    <span class="required"><strong><small><em> (required)</em></small></strong></span>
    <span class="char-counter"></span>
@@ -154,7 +154,7 @@ const topbarContent = `
 
    <div class="input-data">
    <span><i class="fa fa-question-circle icon-8" aria-hidden="true"></i></span>
-   <textarea name="textarea"
+   <textarea name="message"
    class="textarea " placeholder="Message ..." aria-required="true"
    aria-invalid="true" rows="7" cols="20"></textarea>
    </div>
