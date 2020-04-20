@@ -888,7 +888,7 @@
   text-align: center !important;
   padding: 0 !important;
   display: block !important;
-
+  font-weight: 600;
   color: #fff;
   background: linear-gradient(
     to right,

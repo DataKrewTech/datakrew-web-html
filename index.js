@@ -63,9 +63,9 @@ const topbarContent = `
    <div class="input-data">
    <span><i class="fa fa-question-circle icon-2" aria-hidden="true"></i></span>
 
-   <select name="input_1" id="input_1_1"
+   <select name="helpYou"
            class="">
-           <option value="" class="" selected="selected">What can we help you with?</option>
+           <option value="help" class="" selected="selected">What can we help you with?</option>
            <option value="Request a Demo">Request a Demo</option>
            <option value="Licensing the Platform">Licensing the Platform</option>
            <option value="Pricing">Pricing</option>
@@ -95,9 +95,9 @@ const topbarContent = `
    <div class="input-data">
    <span><i class="fa fa-question-circle icon-4" aria-hidden="true"></i></span>
 
-   <select name="input_1" id="input_1_1"
-           class="medium gfield_select" aria-required="true" aria-invalid="false">
-           <option value="" class="gf_placeholder">Which product are you interested in?</option>
+   <select name="intrestedIn" 
+           class="" aria-required="true" aria-invalid="false">
+           <option value="interest" class="gf_placeholder">Which product are you interested in?</option>
            <option value="MADS Platform">MADS Platform</option>
            <option value="MADS Apps">MADS Apps</option>
            <option value="ITUS Secure Edge">ITUS Secure Edge</option>
@@ -124,9 +124,9 @@ const topbarContent = `
    <div class="input-data">
    <span><i class="fa fa-question-circle icon-6" aria-hidden="true"></i></span>
 
-   <select name="input_5" id="input_1_5"
-        class="medium gfield_select" aria-required="true" aria-invalid="true">
-        <option value="" selected="selected" class="gf_placeholder">What best describes you?
+   <select name="bestDescribe" 
+        class="" aria-required="true" aria-invalid="true">
+        <option value="best" selected="selected" class="gf_placeholder">What best describes you?
         </option>
         <option value="Solutions Provider">Solutions Provider</option>
         <option value="System Integrator">System Integrator</option>
@@ -154,22 +154,22 @@ const topbarContent = `
 
    <div class="input-data">
    <span><i class="fa fa-question-circle icon-8" aria-hidden="true"></i></span>
-   <textarea name="input_8"
-   id="input_1_8" class="textarea medium" placeholder="Message ..." aria-required="true"
+   <textarea name="textarea"
+   class="textarea " placeholder="Message ..." aria-required="true"
    aria-invalid="true" rows="7" cols="20"></textarea>
    </div>
 
     </ul>
-    <input type="hidden" name="_cc" value="amol@stack-avenue.com">
-        <input type="hidden" name="_cc" value="amol@stack-avenue.com">
+    <input type="hidden" name="_cc" value="roy@datakrew.com">
+    <input type="hidden" name="_cc" value="sumanta@datakrew.com">
     <!-- Submit -->
 
     
     <div class="submit-btn-div">
-      <input id="input-submit" class="input-submit" type="submit" value="SEND MESSAGE" id="submit" />
+      <input id="input-submit" class="input-submit" type="submit" value="Request" id="submit" />
     </div>
   
-    <p id="my-form-status"></p>
+    <p id="my-form-status" style="text-align:center; margin-top:20px"></p>
   
   </form>
 </div>
