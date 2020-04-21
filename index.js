@@ -157,7 +157,7 @@ const topbarContent = `
    <span class="span-icon span-icon11"><i class="fa fa-question-circle icon-8" aria-hidden="true"></i></span>
    <textarea name="message"
    class="textarea " placeholder="Message ..." aria-required="true"
-   aria-invalid="true" rows="7" cols="20"></textarea>
+   aria-invalid="true" rows="3" cols="20"></textarea>
    </div>
 
     </ul>

@@ -844,7 +844,8 @@
 }
 .modal-window > div {
   /* width: 600px; */
-  width: 1040px;
+  /* width: 1040px; */
+  width: 64vw;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -1133,6 +1134,11 @@ border: solid 1px #0FAFB4;
   -webkit-transition: opacity .15s linear;
   transition: opacity .15s linear;
   margin-top: -30px;
+}
+@media only screen and (min-width: 1100px) and (max-width: 1439px) {
+.modal-window > div {
+ width: 80vw;
+}
 }
 
 
