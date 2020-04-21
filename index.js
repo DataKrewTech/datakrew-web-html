@@ -52,7 +52,7 @@ const topbarContent = `
    <ul>
 
    <div class="input-data">
-   <span> <i class="fa fa-user-circle icon-1" aria-hidden="true"></i></span>
+   <span class="span-icon"> <i class="fa fa-user-circle icon-1" aria-hidden="true"></i></span>
 
    <input type="text" class="input-name form-control" name="fullName" placeholder="Full Name" min-length="2" max-length="40" required />
    <span class="notification"></span>
@@ -61,7 +61,7 @@ const topbarContent = `
    </div>
 
    <div class="input-data">
-   <span><i class="fa fa-question-circle icon-2" aria-hidden="true"></i></span>
+   <span class="span-icon"><i class="fa fa-question-circle icon-2" aria-hidden="true"></i></span>
 
    <select name="canWeHelpYouWith"
            class="">
@@ -75,7 +75,7 @@ const topbarContent = `
             <option value="Other" >Other</option>
             
     </select>
-    <i class="fa fas fa-angle-down icon-11"></i> 
+    <span class="span-icon1"><i class="fa fas fa-angle-down icon-11"></i></span>
   
    
   
@@ -84,7 +84,7 @@ const topbarContent = `
 
 
    <div class="input-data">
-   <span><i class="fa fa-briefcase icon-3" aria-hidden="true"></i></span>
+   <span class="span-icon"><i class="fa fa-briefcase icon-3" aria-hidden="true"></i></span>
    <input type="text" class="input-name" name="companyName" placeholder="Company Name" min-length="2" max-length="40" required />
    <span class="notification"></span>
    <span class="required"><strong><small><em> (required)</em></small></strong></span>
@@ -93,7 +93,7 @@ const topbarContent = `
 
 
    <div class="input-data">
-   <span><i class="fa fa-question-circle icon-4" aria-hidden="true"></i>
+   <span class="span-icon"><i class="fa fa-question-circle icon-4" aria-hidden="true"></i>
    </span>
 
    <select name="productAreYouInterestedIn" 
@@ -105,14 +105,14 @@ const topbarContent = `
            <option value="HULK USB Key">HULK USB Key</option>
                                    
     </select>
-    <i class="fa fas fa-angle-down icon-13"></i> 
+    <span class="span-icon1"><i class="fa fas fa-angle-down icon-12"></i> </span>
    </div>
 
 
 
 
    <div class="input-data">
-   <span><i class="fa fa-envelope icon-5" aria-hidden="true"></i></span>
+   <span  class="span-icon"><i class="fa fa-envelope icon-5" aria-hidden="true"></i></span>
 
 
    <input type="email" class="input-name" name="workEmail" placeholder="Work Email" min-length="2" max-length="40" required />
@@ -123,7 +123,7 @@ const topbarContent = `
 
 
    <div class="input-data">
-   <span><i class="fa fa-question-circle icon-6" aria-hidden="true"></i></span>
+   <span class="span-icon"><i class="fa fa-question-circle icon-6" aria-hidden="true"></i></span>
 
    <select name="BestDescribesYou" 
         class="" aria-required="true" aria-invalid="true">
@@ -141,20 +141,20 @@ const topbarContent = `
         <option value="Other">Other</option>
 
     </select>
-   <span> <i class="fa fas fa-angle-down icon-12"></i> </span>
+   <span class="span-icon1"> <i class="fa fas fa-angle-down icon-13"></i> </span>
      </div>
 
 
    <div class="input-data">
-   <span><i class="fa fa-phone icon-7" aria-hidden="true"></i></span>
+   <span  class="span-icon"><i class="fa fa-phone icon-7" aria-hidden="true"></i></span>
    <input type="number" class="input-name" name="phoneNo" placeholder="Phone" min-length="2" max-length="40" required />
    <span class="notification"></span>
    <span class="required"><strong><small><em> (required)</em></small></strong></span>
    <span class="char-counter"></span>
    </div>
 
-   <div class="input-data">
-   <span><i class="fa fa-question-circle icon-8" aria-hidden="true"></i></span>
+   <div class="input-data input-data1">
+   <span class="span-icon span-icon11"><i class="fa fa-question-circle icon-8" aria-hidden="true"></i></span>
    <textarea name="message"
    class="textarea " placeholder="Message ..." aria-required="true"
    aria-invalid="true" rows="7" cols="20"></textarea>
