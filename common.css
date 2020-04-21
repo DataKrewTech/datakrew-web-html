@@ -1004,16 +1004,16 @@ border: solid 1px #0FAFB4;
     margin-top: 12px;
 }
 .input-data{
-  width: 44%;
-  margin: 8px 24px;
+  width: 47%;
+  margin: 4px 8px;
   display: inline-flex;
   vertical-align: top;
   align-items: center;
   position: relative;
 }
 .input-data1{
-  width: 44%;
-  margin: 8px 24px;
+  width: 47%;
+  margin: 4px 8px;
   display: inline-flex;
   vertical-align: top;
   align-items: flex-start !important;
