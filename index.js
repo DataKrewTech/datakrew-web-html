@@ -35,7 +35,7 @@ const topbarContent = `
     </ul>
   </div>
   <div class="item-container">
-    <a href="contact.html" class="act-tab contact"  name="contact" id="act-tab">CONTACT</a>
+  <li class="item"><a href="contact.html" class="act-tab contact"  name="contact" id="act-tab">CONTACT</a> </li>
   </div>
   <div class="item-container">
   <a href="#open-modal"><button id="req-demo-btn">REQUEST DEMO</button></a>
@@ -93,7 +93,8 @@ const topbarContent = `
 
 
    <div class="input-data">
-   <span><i class="fa fa-question-circle icon-4" aria-hidden="true"></i></span>
+   <span><i class="fa fa-question-circle icon-4" aria-hidden="true"></i>
+   </span>
 
    <select name="productAreYouInterestedIn" 
            class="" aria-required="true" aria-invalid="false">
