@@ -44,7 +44,7 @@ const topbarContent = `
   <div id="open-modal" class="modal-window">
   <div>
     <a href="#" title="Close" class="modal-close icon-close">
-    <i class="fa fa-times"></i>
+    <i class="fa fa-times" style="padding-right: 10px"></i>
     </a>
     <div id="open-modal" class="fade">
   <form id="contact-form" class="contact-form"   action="https://formspree.io/mbjaebko"
