@@ -44,7 +44,7 @@ const topbarContent = `
   <div id="open-modal" class="modal-window">
   <div>
     <a href="#" title="Close" class="modal-close icon-close">
-    <i class="fa fa-times" style="padding-right: 12px; position:relative;top:-44px"></i>
+    <i class="fa fa-times" style="padding-right: 2px; position:relative;top:-44px"></i>
     </a>
     <div id="open-modal" class="fade">
   <form id="contact-form" class="contact-form"   action="https://formspree.io/mbjaebko"
@@ -123,7 +123,8 @@ const topbarContent = `
 
 
    <div class="input-data">
-   <span class="span-icon"><i class="fa fa-question-circle icon-6" aria-hidden="true"></i></span>
+   <span class="span-icon">
+   <i class="fa fa-building  icon-6" aria-hidden="true"></i></span>
 
    <select name="BestDescribesYou" 
         class="" aria-required="true" aria-invalid="true">
