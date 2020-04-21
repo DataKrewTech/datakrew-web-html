@@ -852,7 +852,7 @@
           transform: translate(-50%, -50%);
   /* padding: 2em; */
   background: #f3f8ff;
-  padding: 2em 2rem 4rem 2rem;
+  padding: 4rem  2em 2rem 2rem;
 }
 .modal-window header {
   font-weight: bold;
@@ -1098,45 +1098,14 @@ border: solid 1px #0FAFB4;
   background-color: #fff;
 }
 
-@media (min-width: 0px) and (max-width: 767px) {
-    h1 {
-        font-size: 1.75em;
-    }
 
-    label {
-        font-size: .9em;
-    }
-
-    #contact-form {
-        position: relative;
-        width: 300px;
-        margin: 15px auto;
-        /* padding: 45px 20px 30px; */
-        background-color: #FFF;
-        padding: 20px 0px;
-
-    }
-
-    .required {
-        margin-top: -24px;
-        margin-left: 76%;
-    }
-
-    textarea:focus ~ .required,
-    textarea:not(:focus) ~ .required {
-        margin-top: -24px;
-    }
-
-    textarea:focus ~ .required { opacity: 1; }
-    textarea:not(:focus) ~ .required { opacity: 0; }
-}
 
 @media (min-width: 768px) {
     #contact-form {
-        position: relative;
+        /* position: relative; */
         width: 100%;
         /* margin: 30px auto; */
-        margin: 4px 0px 30px  0px ;
+        /* margin: 4px 0px 30px  0px ; */
         padding: 45px 16px 30px;
         background-color: #FFF;
     }
