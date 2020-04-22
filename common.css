@@ -1116,15 +1116,15 @@ border: solid 1px #0FAFB4;
 
 }
 ::-webkit-input-placeholder { /* Edge */
-  color:#93989c;
+  color:#93989c !important;
 }
 
 :-ms-input-placeholder { /* Internet Explorer 10-11 */
-  color:#93989c;
+  color:#93989c !important;
 }
 
 ::placeholder {
-  color:#93989c;
+  color:#93989c !important;
 }
 
 
