@@ -837,7 +837,8 @@
   opacity: 0;
   pointer-events: none;
   -webkit-transition: all 0.3s;
-  transition: all 0.3s;
+  /* transition: all 0.3s; */
+  transition: all 1.2s ease-in-out;
   width: 100vw;
   height: 100vh;
 }
@@ -917,6 +918,8 @@
   border-radius: 50px;
   -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+
 }
 .input-submit:hover {
 font-weight: bold;

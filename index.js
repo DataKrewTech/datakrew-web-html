@@ -162,8 +162,7 @@ const topbarContent = `
    </div>
 
     </ul>
-    <input type="hidden" name="_cc" value="roy@datakrew.com">
-    <input type="hidden" name="_cc" value="sumanta@datakrew.com">
+    <input type="hidden" name="_cc" value="amolrajbhosale07@gmail.com">
     <!-- Submit -->
 
     
@@ -463,6 +462,7 @@ window.addEventListener("DOMContentLoaded", function () {
     form.reset();
     button.style = "display: none ";
     status.innerHTML = "Thank you for the enquiry, Our Team will reach back to you shortly...";
+    modalClose();
   }
   function error() {
     status.innerHTML = "Oops! There was a problem.";
