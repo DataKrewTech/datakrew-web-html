@@ -37,7 +37,7 @@ const topbarContent = `
   <div class="item-container">
   <li class="item"><a href="contact.html" class="act-tab contact"  name="contact" id="act-tab">CONTACT</a> </li>
   </div>
-  <div class="item-container">
+  <div class="item-container" style="padding-left: 16px">
   <a href="#open-modal"><button id="req-demo-btn">REQUEST DEMO</button></a>
   </div>
 
@@ -391,8 +391,9 @@ function scrollFunction() {
     document.getElementById("nav").style.transition = "0.8s";
     // document.getElementById("nav").style.height = "60px";
     // document.getElementById("logo").style.maxWidth = "100px";
+    document.getElementById("req-demo-btn").style.color = "#000000";
+    document.getElementById("req-demo-btn").style.borderColor = "#000000";
     document.getElementById("nav").style.backgroundColor = "#FFFFFF";
-    document.getElementById("req-demo-btn").style.backgroundColor = "#000000";
 
     for (let i = 0; i <= 1; i++) {
       document.getElementsByClassName("item-dropdown")[
@@ -417,6 +418,8 @@ function scrollFunction() {
     // document.getElementById("nav").classList.remove("fadeInUp")
     // document.getElementById("logo").style.maxWidth = "150px";
     document.getElementById("nav").style.backgroundColor = "#000";
+    document.getElementById("req-demo-btn").style.color = "#ffffff";
+    document.getElementById("req-demo-btn").style.borderColor = "#ffffff";
     document.getElementById("nav").style.transition = "0.8s";
     for (let i = 0; i <= 1; i++) {
       document.getElementsByClassName("item-dropdown")[

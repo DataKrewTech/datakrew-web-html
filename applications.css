@@ -855,7 +855,15 @@ button {
 	.tab-box{
 		width: 20%;
 		display: block;
+		height: 100%;
 	
+	/* }
+	.tab-box:hover{
+		height: 66px;
+
 	}
+	.utilities{
+		box-shadow: none;
+	} */
 
 }

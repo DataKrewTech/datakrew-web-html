@@ -239,6 +239,9 @@
   animation-timing-function: steps(25, end);
   animation-iteration-count: infinite;
   font-family: Gotham, Tahma, sans-serif;
+  /* font-family: 'Montserrat', sans-serif;
+  color: #646464;
+  font-size: 18px; */
 }
 
 .text_1::after, .text_2::after, .text_3::after, .text_4::after, .text_5::after, .text_6::after {
@@ -769,7 +772,7 @@
   font-weight: 700;
     font-family: 'Montserrat', sans-serif;
   font-size: 14px;
-  color: #fff !important;
+  color: #fff;
   background: linear-gradient( to right, #1c4a86 0%, #1c4e87 4%, #1b5289 9%, #1b538a 9%, #1b578b 14%, #1a5d8e 20%, #186994 31%, #177499 41%, #167b9c 48%, #1486a1 60%, #1390a6 68%, #129aab 78%, #10a7b0 89%, #0fafb4 100%);
   border-radius: 50px !important;
   /* margin: 24px 0px !important; */
@@ -791,7 +794,7 @@
   -ms-color: #0FAFB4;
   -webkit-color: #0FAFB4; */
   color: #0FAFB4 !important;
-  border: solid 2px #0FAFB4;
+  border: solid 2px #0FAFB4 !important;
 
 
 }
@@ -1113,15 +1116,15 @@ border: solid 1px #0FAFB4;
 
 }
 ::-webkit-input-placeholder { /* Edge */
-  color: black;
+  color:#93989c;
 }
 
 :-ms-input-placeholder { /* Internet Explorer 10-11 */
-  color: black;
+  color:#93989c;
 }
 
 ::placeholder {
-  color: black;
+  color:#93989c;
 }
 
 
