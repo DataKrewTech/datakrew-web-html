@@ -162,7 +162,8 @@ const topbarContent = `
    </div>
 
     </ul>
-    <input type="hidden" name="_cc" value="amolrajbhosale07@gmail.com">
+    <input type="hidden" name="_cc" value="roy@datakrew.com">
+    <input type="hidden" name="_cc" value="sumanta@datakrew.com">
     <!-- Submit -->
 
     
