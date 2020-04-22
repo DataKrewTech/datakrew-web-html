@@ -603,7 +603,9 @@ display: none;
     font-style: normal;
     line-height: 1.66;
     letter-spacing: 1px;
-    width: 85%;
+    /* width: 85%; */
+    width: 96%;
+
     display: flex;
     justify-content: flex-start;
   }
@@ -743,7 +745,8 @@ display: none;
     font-style: normal;
     line-height: 1.66;
     letter-spacing: 1px;
-    width: 90%;
+    /* width: 70%; */
+    width: 96%;
     display: flex;
     justify-content: flex-start;
   }
