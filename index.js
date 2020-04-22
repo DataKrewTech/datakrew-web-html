@@ -462,7 +462,7 @@ window.addEventListener("DOMContentLoaded", function () {
   function success() {
     form.reset();
     button.style = "display: none ";
-    status.innerHTML = "Thanks!";
+    status.innerHTML = "Thank you for the enquiry, Our Team will reach back to you shortly...";
   }
   function error() {
     status.innerHTML = "Oops! There was a problem.";
