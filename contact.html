@@ -23,6 +23,8 @@
     <link rel="icon" href="datakrew-favicon.ico" type="image/x-icon" />
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./build/css/intlTelInput.css">
+    <link rel="stylesheet" href="./build/css/demo.css">
 
     <meta
       name="description"
@@ -35,6 +37,7 @@
     </title>
      
     <title>Contact Datakrew - We're waiting to hear from you!</title>
+    
   </head>
   <body>
     <button onclick="topFunction()" id="myBtn" title="Go to top"><svg style="fill: white;width: 25px;height: 25px;" viewBox="0 0 28 28" version="1.1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" xml:space="preserve"><path d="M26.297 20.797l-2.594 2.578c-0.391 0.391-1.016 0.391-1.406 0l-8.297-8.297-8.297 8.297c-0.391 0.391-1.016 0.391-1.406 0l-2.594-2.578c-0.391-0.391-0.391-1.031 0-1.422l11.594-11.578c0.391-0.391 1.016-0.391 1.406 0l11.594 11.578c0.391 0.391 0.391 1.031 0 1.422z"></path></svg></button>
@@ -114,6 +117,7 @@
             </div>
           </div>
 
+
           <form id="my-form"
           action="https://formspree.io/xknvawdr"
           method="POST">
@@ -147,12 +151,14 @@
 
 
           <div class="input-div">
-            <input
+            <!-- <input
             name="mobile"
-            type="text"
+            type="tel"
+            id="phone" name="phone" 
             placeholder="Mobile"
             class="form-input mob-in"
-          />
+          /> -->
+          <input id="phone" name="phone" type="tel" maxlength="13" required>
           <span class="err mob-err"></span>
           </div>
           
@@ -183,6 +189,8 @@
         <input type="hidden" name="_cc" value="sumanta@datakrew.com"> -->
 
         <input type="hidden" name="_cc" value="amolrajbhosale07@gmail.com">
+        <input type="hidden" name="_cc" value="amol@stack-avenue.com">
+
 
 
             <!-- <span class="err msg-err"></span> -->
@@ -246,5 +254,34 @@
         xhr.send(data);
       }
     </script>
+
+
+<script src="build/js/intlTelInput.js"></script>
+<script>
+  var input = document.querySelector("#phone");
+  window.intlTelInput(input, {
+    // allowDropdown: false,
+    // autoHideDialCode: false,
+    // autoPlaceholder: "off",
+    // dropdownContainer: document.body,
+    // excludeCountries: ["us"],
+    // formatOnDisplay: false,
+    // geoIpLookup: function(callback) {
+    //   $.get("http://ipinfo.io", function() {}, "jsonp").always(function(resp) {
+    //     var countryCode = (resp && resp.country) ? resp.country : "";
+    //     callback(countryCode);
+    //   });
+    // },
+    // hiddenInput: "full_number",
+    // initialCountry: "auto",
+    // localizedCountries: { 'de': 'Deutschland' },
+    nationalMode: false,
+    // onlyCountries: ['us', 'gb', 'ch', 'ca', 'do'],
+    placeholderNumberType: "MOBILE",
+    // preferredCountries: ['cn', 'jp'],
+    // separateDialCode: true,
+    utilsScript: "./build/js/utils.js",
+  });
+</script>
   </body>
 </html>
