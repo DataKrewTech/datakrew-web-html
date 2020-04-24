@@ -37,9 +37,19 @@
   color: #000;
   width: 100%;
 }
-input:focus{
+input:focus {
   border-color: coral !important;
 }
+textarea:focus {
+  border-color: coral !important;
+}
+input:focus{
+  box-shadow: 6px 9px 16px 15px #eceaea !important;
+}
+textarea:focus {
+  box-shadow: 6px 9px 16px 15px #eceaea !important;
+}
+
 
 .topbar .container .logo-container {
   width: 15%;
