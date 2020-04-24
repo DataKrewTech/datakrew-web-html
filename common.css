@@ -52,6 +52,9 @@ input:focus{
 textarea:focus {
   box-shadow: 6px 9px 16px 15px #eceaea !important;
 }
+select:focus {
+  box-shadow: 6px 9px 16px 15px #eceaea !important;
+}
 a:focus{
   border-color: none !important;
 }

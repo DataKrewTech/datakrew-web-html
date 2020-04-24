@@ -463,7 +463,7 @@ window.addEventListener("DOMContentLoaded", function () {
     form.reset();
     button.style = "display: none ";
     status.innerHTML = "Thank you for the enquiry, Our Team will reach back to you shortly...";
-    modalClose();
+    // modalClose();
   }
   function error() {
     status.innerHTML = "Oops! There was a problem.";
