@@ -34,7 +34,12 @@ button {
 .con-info{
   margin-right: 74px !important;
 }
-/* .soc-info{
+
+ input:focus{
+  box-shadow: 6px 9px 16px 15px #eceaea !important;
+}
+/* .
+soc-info{
   margin-right: 100px !important;
 } */
 .contact-header .container .address .contact-hint1 .icon-cont img{
@@ -461,7 +466,7 @@ border: solid 1px #0FAFB4;
     /* max-width: 100% !important;
     margin-left: 66px !important; */
     max-width: 90% !important;
-    margin-left: 44px !important;
+    margin-left: 22px !important;
   }
   .main-footer .container .right-content .container .mini-section .title {
     color: #fff;
@@ -477,7 +482,7 @@ border: solid 1px #0FAFB4;
     font-size: 12px;
   }
   .contact-header .container .address .contact-hint1{
-    margin-left: 76px;
+    margin-left: 22px;
   }
   .contact-header .container .address .contact-hint3{
     margin-right: 44px !important;
@@ -679,7 +684,7 @@ display: flex;
 @media (max-width: 400px){
 .contact-header .container .address .contact-hint1 {
     max-width: 86% !important;
-    margin-left: 4px !important;
+    margin-left: -18px !important;
 }
 }
 

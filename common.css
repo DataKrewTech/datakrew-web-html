@@ -37,6 +37,9 @@
   color: #000;
   width: 100%;
 }
+input:focus{
+  border-color: coral !important;
+}
 
 .topbar .container .logo-container {
   width: 15%;
@@ -45,7 +48,8 @@
 
 .topbar .container .logo-container .logo {
   max-width: 150px;
-  width: 45%;
+  /* width: 45%; */
+  width: 60%;
   height: 45%;
 }
 
@@ -390,7 +394,8 @@
   }
   .topbar .container .logo-container .logo {
     max-width: 150px;
-    width: 50%;
+    /* width: 50%; */
+    width: 76%;
     height: 50%;
   }
   .topbar .container .nav-items {
@@ -922,48 +927,18 @@
 
 }
 .input-submit:hover {
-font-weight: bold;
-background: -webkit-linear-gradient(
-  to right,
-  #1c4a86 0%,
-  #1c4e87 4%,
-  #1b5289 9%,
-  #1b538a 9%,
-  #1b578b 14%,
-  #1a5d8e 20%,
-  #186994 31%,
-  #177499 41%,
-  #167b9c 48%,
-  #1486a1 60%,
-  #1390a6 68%,
-  #129aab 78%,
-  #10a7b0 89%,
-  #0fafb4 100%
-);
--webkit-text-fill-color: transparent;
--webkit-background-clip: text;
--webkit-border-image: -webkit-linear-gradient(
-  to right,
-  #1c4a86 0%,
-  #1c4e87 4%,
-  #1b5289 9%,
-  #1b538a 9%,
-  #1b578b 14%,
-  #1a5d8e 20%,
-  #186994 31%,
-  #177499 41%,
-  #167b9c 48%,
-  #1486a1 60%,
-  #1390a6 68%,
-  #129aab 78%,
-  #10a7b0 89%,
-  #0fafb4 100%
-);
--webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-border: solid 1px #0FAFB4;
-
-}
+  font-weight: bold;
+  /* background: -webkit-linear-gradient( to right, #1c4a86 0%, #1c4e87 4%, #1b5289 9%, #1b538a 9%, #1b578b 14%, #1a5d8e 20%, #186994 31%, #177499 41%, #167b9c 48%, #1486a1 60%, #1390a6 68%, #129aab 78%, #10a7b0 89%, #0fafb4 100%);
+  background-color: #fff;
+  -webkit-text-fill-color: transparent; */
+  -webkit-background-clip: text;
+  -webkit-border-image: -webkit-linear-gradient( to right, #1c4a86 0%, #1c4e87 4%, #1b5289 9%, #1b538a 9%, #1b578b 14%, #1a5d8e 20%, #186994 31%, #177499 41%, #167b9c 48%, #1486a1 60%, #1390a6 68%, #129aab 78%, #10a7b0 89%, #0fafb4 100%) !important  ;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border: solid 1px #0FAFB4 !important;
+  color: #0FAFB4 !important;
+  
+  -webkit-color: #0FAFB4 !important;}
 
 /*NOTIFICATIONS*/
 .required {
