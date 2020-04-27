@@ -26,6 +26,10 @@
     <link rel="stylesheet" href="./build/css/intlTelInput.css">
     <link rel="stylesheet" href="./build/css/demo.css">
 
+
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script src='https://www.google.com/recaptcha/api.js' async defer></script>
+
     <meta
       name="description"
       content="Request a demo, schedule a briefing or speak with a domain expert - at Datakrew we're always reachable. Drop us a line or give us a buzz."
@@ -119,7 +123,7 @@
 
 
           <form id="my-form"
-          action="https://formspree.io/xknvawdr"
+          action="https://formspree.io/xqkyzelg"
           method="POST">
           <div class="form wow bounceInRight slow">
 
@@ -158,7 +162,7 @@
             placeholder="Mobile"
             class="form-input mob-in"
           /> -->
-          <input id="phone" name="phone" type="tel" maxlength="13" required>
+          <input id="phone" name="phone" type="tel" minlength="10" maxlength="10" required>
           <span class="err mob-err"></span>
           </div>
           
@@ -191,15 +195,18 @@
         <input type="hidden" name="_cc" value="amolrajbhosale07@gmail.com">
         <input type="hidden" name="_cc" value="amol@stack-avenue.com">
 
-
+        <!-- <div class="g-recaptcha" data-sitekey="6LfQzu4UAAAAAAtzy9DT9IvszD0Iv8Z3BUj"></div>
+        <input type="button" onclick="checkRecaptcha();" value="submit" id="my-form-button" name="submit" class="submit submit-btn"></input> -->
 
             <!-- <span class="err msg-err"></span> -->
             <button id="my-form-button" name="submit" class="submit submit-btn">
               Send Message
             </button>
-            <p id="my-form-status"></p>
           </div>
           </form>
+            
+            <div id="show-status" class="show-status"> Amol</div>
+
 
         </div>
       </div>
@@ -226,7 +233,11 @@
         function success() {
           form.reset();
           button.style = "display: none ";
+          form.style = "display: none "
           status.innerHTML = "Thanks!";
+          // status.classList.add("form-status")
+          status.style ="display: block "
+
         }
         function error() {
           status.innerHTML = "Oops! There was a problem.";
@@ -279,9 +290,36 @@
     // onlyCountries: ['us', 'gb', 'ch', 'ca', 'do'],
     placeholderNumberType: "MOBILE",
     // preferredCountries: ['cn', 'jp'],
-    // separateDialCode: true,
+    separateDialCode: true,
     utilsScript: "./build/js/utils.js",
   });
 </script>
+
+<script> 
+  function checkRecaptcha() {
+    var response = grecaptcha.getResponse();
+    if(response.length == 0) { 
+      //reCaptcha not verified
+      alert("no pass"); 
+    }
+    else { 
+      //reCaptch verified
+      alert("pass"); 
+    }
+  }
+  
+  // implement on the backend
+  function backend_API_challenge() {
+      var response = grecaptcha.getResponse();
+      $.ajax({
+          type: "POST",
+          url: 'https://www.google.com/recaptcha/api/siteverify',
+          data: {"secret" : "6LfQzu4UAAAAAK42xwQux51aQGlZYYusnTr41nZ6", "response" : response, "remoteip":"localhost"},
+          contentType: 'application/x-www-form-urlencoded',
+          success: function(data) { console.log(data); }
+      });
+  }
+  </script>
+
   </body>
 </html>

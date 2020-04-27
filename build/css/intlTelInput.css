@@ -83,7 +83,10 @@
     padding-right: 6px;
     padding-left: 52px;
     margin-left: 0; 
-     border-radius:10px;}
+     border-radius:10px;
+     font-weight: 600;
+     font-size: 16px;
+    }
   .iti--allow-dropdown .iti__flag-container, .iti--separate-dial-code .iti__flag-container {
     right: auto;
     left: 0; }

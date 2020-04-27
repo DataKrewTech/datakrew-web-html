@@ -57,6 +57,7 @@ select:focus {
 }
 a:focus{
   border-color: none !important;
+  outline-color: snow !important;
 }
 
 
