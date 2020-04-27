@@ -2,6 +2,41 @@
 
 // Email Validator
 
+
+
+	
+$(document).ready(function() { 
+ 
+  $('#btn-submit').click(function() {  
+ 
+    $(".error").hide();
+    var hasError = false;
+    var emailReg = /^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/;
+    var emailblockReg =
+     /^([\w-\.]+@(?!gmail.com)(?!yahoo.com)(?!hotmail.com)([\w-]+\.)+[\w-]{2,4})?$/;
+ 
+    var emailaddressVal = $("#UserEmail").val();
+    if(emailaddressVal == '') {
+      $("#UserEmail").after('<span class="error err">Please enter your email address.</span>');
+      hasError = true;
+    }
+ 
+    else if(!emailReg.test(emailaddressVal)) {
+      $("#UserEmail").after('<span class="error err">Enter a valid email address.</span>');
+      hasError = true;
+    }
+ 
+    else if(!emailblockReg.test(emailaddressVal)) {
+      $("#UserEmail").after('<span class="error err">No yahoo, gmail or hotmail emails.</span>');
+      hasError = true
+    } 
+ 
+    if(hasError == true) { return false; }
+ 
+    });
+});
+    // </script>
+
 function validateEmail(email) {
   var re = /\S+@\S+\.\S+/
   return re.test(email)
@@ -36,7 +71,7 @@ let validateForm = () => {
     hasErr = true
   }
 
-  if (!validateEmail(email.value)) {
+  if (!validateEmail(UserEmaill.value)) {
     errors.emailErr = 'Email is Not Valid'
     hasErr = true
   }
@@ -78,7 +113,7 @@ submitBtn.addEventListener('click', () => {
     orgErr.innerHTML = ''
     msgErr.innerHTML = ''
     name.value = ''
-    email.value = ''
+    UserEmail.value = ''
     mobile.value = ''
     orgnisation.value = ''
     message.value = ''

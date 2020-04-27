@@ -139,14 +139,16 @@
             <span class="err name-err"></span>
           </div>
           <div class="input-div">
-            <input
+            <!-- <input
               name="email"
               type="email"
               placeholder="Work Email Address"
               class="form-input email-in"
-            />
+            /> -->
           
+            <input type="email" name="UserEmail" id="UserEmail" placeholder="Work Email Address" value="" size="32" class="form-input " />
             <span class="err email-err"></span>
+
 
           </div>
         </div>
@@ -195,12 +197,14 @@
         <input type="hidden" name="_cc" value="amol@stack-avenue.com">
 
         <!-- <div class="g-recaptcha" data-sitekey="6LfQzu4UAAAAAAtzy9DT9IvszD0Iv8Z3BUj"></div>
-        <input type="button" onclick="checkRecaptcha();" value="submit" id="my-form-button" name="submit" class="submit submit-btn"></input> -->
+        <input type="button" onclick="checkRecaptcha();" value="Send Message" id="my-form-button" name="submit" class="submit submit-btn"></input> -->
 
             <!-- <span class="err msg-err"></span> -->
-            <button id="my-form-button" name="submit" class="submit submit-btn">
-              Send Message
-            </button>
+            <input type="submit" value="Send Message" id="btn-submit"  name="submit" class="submit submit-btn">
+              
+           
+            <!-- <input type="submit" value="Submit" id="btn-submit" /> -->
+
             <p id="my-form-status" style="text-align:center; margin-top:20px"></p>
           </div>
           </form>
@@ -225,11 +229,16 @@
     <script src="jquery.js"></script>
     <script src="wow.min.js"></script>
     <script>new WOW().init();</script>
+
+
     <script>
+
+
+
       window.addEventListener("DOMContentLoaded", function() {
         // get the form elements defined in your form HTML above
         var form = document.getElementById("my-form");
-        var button = document.getElementById("my-form-button");
+        var button = document.getElementById("btn-submit");
         var status = document.getElementById("my-form-status");
         console.log(status);
         // Success and Error functions for after the form is submitted
@@ -320,6 +329,8 @@
       });
   }
   </script>
+
+  
 
   </body>
 </html>
