@@ -2,11 +2,12 @@
 
 // Email Validator
 
-
 function validateEmail(email) {
   var re = /\S+@\S+\.\S+/
   return re.test(email)
 }
+
+
 
 let name = document.querySelector('.name-in')
 let email = document.querySelector('.email-in')
@@ -19,7 +20,6 @@ let emailErr = document.querySelector('.email-err')
 let mobErr = document.querySelector('.mob-err')
 let orgErr = document.querySelector('.org-err')
 let msgErr = document.querySelector('.msg-err')
-
 let validateForm = () => {
   let errors = {
     nameErr: '',
@@ -45,6 +45,10 @@ let validateForm = () => {
     errors.mobErr = 'Mobile no is Not Valid'
     hasErr = true
   }
+  if (mobile.value.length <10) {
+    errors.mobErr = 'Mobile no. should be 10 digit'
+    hasErr = true
+  }
   if (!orgnisation.value.length) {
     errors.orgErr = 'Enter Organisation'
     hasErr = true
@@ -65,7 +69,9 @@ let validateForm = () => {
 }
 
 submitBtn.addEventListener('click', () => {
+  console.log("sss");
   if (!validateForm()) {
+  
     nameErr.innerHTML = ''
     emailErr.innerHTML = ''
     mobErr.innerHTML = ''
@@ -153,5 +159,7 @@ function topFunction() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 }
+
+
 
 

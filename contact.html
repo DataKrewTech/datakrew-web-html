@@ -162,7 +162,7 @@
             placeholder="Mobile"
             class="form-input mob-in"
           /> -->
-          <input id="phone" name="phone" type="tel" minlength="10" maxlength="10" required>
+          <input id="phone" name="phone" type="tel" minlength="10" maxlength="10" class="mob-in" required>
           <span class="err mob-err"></span>
           </div>
           
@@ -192,7 +192,6 @@
         <!-- <input type="hidden" name="_cc" value="roy@datakrew.com">
         <input type="hidden" name="_cc" value="sumanta@datakrew.com"> -->
 
-        <input type="hidden" name="_cc" value="amolrajbhosale07@gmail.com">
         <input type="hidden" name="_cc" value="amol@stack-avenue.com">
 
         <!-- <div class="g-recaptcha" data-sitekey="6LfQzu4UAAAAAAtzy9DT9IvszD0Iv8Z3BUj"></div>
@@ -202,10 +201,11 @@
             <button id="my-form-button" name="submit" class="submit submit-btn">
               Send Message
             </button>
+            <p id="my-form-status" style="text-align:center; margin-top:20px"></p>
           </div>
           </form>
             
-            <div id="show-status" class="show-status"> Amol</div>
+            <!-- <div id="my-form-status"></div> -->
 
 
         </div>
@@ -219,6 +219,8 @@
    
     <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js"></script>
     <script src="index.js"></script>
+    <script src="contact.js"></script>
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script src="jquery.js"></script>
     <script src="wow.min.js"></script>
@@ -229,15 +231,13 @@
         var form = document.getElementById("my-form");
         var button = document.getElementById("my-form-button");
         var status = document.getElementById("my-form-status");
+        console.log(status);
         // Success and Error functions for after the form is submitted
         function success() {
           form.reset();
           button.style = "display: none ";
-          form.style = "display: none "
+          // form.style = "display: none ";
           status.innerHTML = "Thanks!";
-          // status.classList.add("form-status")
-          status.style ="display: block "
-
         }
         function error() {
           status.innerHTML = "Oops! There was a problem.";
