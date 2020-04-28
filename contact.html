@@ -285,6 +285,13 @@
   validMsg = document.querySelector("#valid-msg");
   var errorMap = ["Please enter a valid number", "Invalid country code", "Please enter a valid number", "Please enter a valid number", "Invalid number"];
   var iti =   window.intlTelInput(input, {
+    initialCountry: "auto",
+    geoIpLookup: function(callback) {
+      $.get('https://ipinfo.io', function() {}, "jsonp").always(function(resp) {
+        var countryCode = (resp && resp.country) ? resp.country : "";
+        callback(countryCode);
+      });
+    },
       nationalMode: false,
       placeholderNumberType: "MOBILE",
       separateDialCode: true,
