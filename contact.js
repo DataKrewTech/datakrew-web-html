@@ -9,17 +9,17 @@ $(document).ready(function() {
 		var emailReg = /^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/;
 		var emailblockReg = /^([\w-\.]+@(?!gmail.com)(?!yahoo.com)(?!hotmail.com)([\w-]+\.)+[\w-]{2,4})?$/;
 
-		var emailaddressVal = $('#UserEmail').val();
-		if (emailaddressVal == '') {
-			$('#UserEmail').after('<span class="error err">Please enter your email address.</span>');
-			hasError = true;
-		} else if (!emailReg.test(emailaddressVal)) {
-			$('#UserEmail').after('<span class="error err">Enter a valid email address.</span>');
-			hasError = true;
-		} else if (!emailblockReg.test(emailaddressVal)) {
-			$('#UserEmail').after('<span class="error err">Enter a valid email address.</span>');
-			hasError = true;
-		}
+		// var emailaddressVal = $('#UserEmail').val();
+		// if (emailaddressVal == '') {
+		// 	$('#UserEmail').after('<span class="error err">Please enter your email address.</span>');
+		// 	hasError = true;
+		// } else if (!emailReg.test(emailaddressVal)) {
+		// 	$('#UserEmail').after('<span class="error err">Enter a valid email address.</span>');
+		// 	hasError = true;
+		// } else if (!emailblockReg.test(emailaddressVal)) {
+		// 	$('#UserEmail').after('<span class="error err">Enter a valid email address.</span>');
+		// 	hasError = true;
+		// }
 
 		if (hasError == true) {
 			return false;
@@ -60,7 +60,7 @@ let validateForm = () => {
 		hasErr = true;
 	}
 
-	if (!validateEmail(UserEmaill.value)) {
+	if (!validateEmail(email.value)) {
 		errors.emailErr = 'Email is Not Valid';
 		hasErr = true;
 	}
@@ -78,10 +78,6 @@ let validateForm = () => {
 		hasErr = true;
 	}
 
-	if (message.value.length < 14) {
-		errors.msgErr = 'Message Should be Atleast 15 Characters';
-		hasErr = true;
-	}
 	nameErr.innerHTML = errors.nameErr;
 	emailErr.innerHTML = errors.emailErr;
 	mobErr.innerHTML = errors.mobErr;
@@ -100,7 +96,7 @@ submitBtn.addEventListener('click', () => {
 		orgErr.innerHTML = '';
 		msgErr.innerHTML = '';
 		name.value = '';
-		UserEmail.value = '';
+		// UserEmail.value = '';
 		mobile.value = '';
 		orgnisation.value = '';
 		message.value = '';
@@ -142,7 +138,9 @@ function scrollFunction() {
 			document.getElementsByClassName('item-dropdown')[i].style.backgroundColor = '#fff';
 		}
 		for (let i = 0; i <= 5; i++) {
-			document.getElementsByClassName('act-tab')[i].style.color = '#000';
+			document.getElementsByClassName('act-tab')[i]
+				? (document.getElementsByClassName('act-tab')[i].style.color = '#000')
+				: '';
 			if (document.getElementsByClassName('item-drop-element')[i]) {
 				document.getElementsByClassName('item-drop-element')[i].style.color = '#000';
 			}
@@ -158,7 +156,9 @@ function scrollFunction() {
 			document.getElementsByClassName('item-dropdown')[i].style.backgroundColor = '#000';
 		}
 		for (let i = 0; i <= 5; i++) {
-			document.getElementsByClassName('act-tab')[i].style.color = '#fff';
+			document.getElementsByClassName('act-tab')[i]
+				? (document.getElementsByClassName('act-tab')[i].style.color = '#fff')
+				: '';
 			if (document.getElementsByClassName('item-drop-element')[i]) {
 				document.getElementsByClassName('item-drop-element')[i].style.color = '#fff';
 			}
