@@ -32,6 +32,13 @@ button {
   display: flex;
   width: 106%;
 }
+
+.form-status{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
 .con-info{
   margin-right: 74px !important;
 }

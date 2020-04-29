@@ -121,11 +121,12 @@
             </div>
           </div>
 
-
+ 
+          <div class="form">
           <form id="my-form"
           action="https://formspree.io/xqkyzelg"
           method="POST">
-          <div class="form wow bounceInRight slow">
+          <div class=" wow bounceInRight slow">
 
             <div class="m-div">
 
@@ -209,9 +210,12 @@
 
           </div>
           </form>
-          <p id="my-form-status" style="text-align:center; margin-top:20px"></p>
+
+          <div id="my-form-status" class="form-status"></div>
             
             <!-- <div id="my-form-status"></div> -->
+        </div>
+
 
 
         </div>
@@ -242,6 +246,8 @@
         var form = document.getElementById("my-form");
         var button = document.getElementById("btn-submit");
         var status = document.getElementById("my-form-status");
+        // var formMsg = document.getElementsByClassName("form");
+
         let name;
 
         console.log(form);
@@ -250,7 +256,8 @@
           form.reset();
           button.style = "display: none ";
           form.style = "display: none ";
-          status.innerHTML = name + "Thanks!";
+          // formMsg.style = "display: flex;justify-content: center;align-items: center;"
+          status.innerHTML = name + '\xa0\xa0\xa0' + "your query has been submitted, Our Team will get back to you shortly";
         }
         function error() {
           status.innerHTML = "Oops! There was a problem.";
