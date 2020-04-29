@@ -37,7 +37,7 @@ const topbarContent = `
   <div class="item-container">
   <li class="item"><a href="contact.html" class="act-tab contact"  name="contact" id="act-tab">CONTACT</a> </li>
   </div>
-  <div class="g-recaptcha" data-sitekey="6LdQge8UAAAAAMnI9QqIsRDsmy1j1_JZUfgbX6L8"></div>
+
   <div class="item-container" style="padding-left: 16px">
   <a href="#open-modal"><button id="req-demo-btn">REQUEST DEMO</button></a>
   </div>
@@ -171,9 +171,8 @@ const topbarContent = `
     </ul>
     <input type="hidden" name="_cc" value="amol@stack-avenue.com">
  
-    <!-- Submit -->
-
-    
+    <div class="g-recaptcha" data-sitekey="6LdQge8UAAAAAMnI9QqIsRDsmy1j1_JZUfgbX6L8"></div>
+    <!-- Submit -->    
     <div class="submit-btn-div">
       <input id="input-submit" class="input-submit" type="submit" value="Request" id="submit" />
     </div>
