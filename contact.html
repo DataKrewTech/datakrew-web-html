@@ -207,9 +207,9 @@
            
             <!-- <input type="submit" value="Submit" id="btn-submit" /> -->
 
-            <p id="my-form-status" style="text-align:center; margin-top:20px"></p>
           </div>
           </form>
+          <p id="my-form-status" style="text-align:center; margin-top:20px"></p>
             
             <!-- <div id="my-form-status"></div> -->
 
@@ -242,13 +242,15 @@
         var form = document.getElementById("my-form");
         var button = document.getElementById("btn-submit");
         var status = document.getElementById("my-form-status");
-        // console.log(status);
+        let name;
+
+        console.log(form);
         // Success and Error functions for after the form is submitted
         function success() {
           form.reset();
           button.style = "display: none ";
-          // form.style = "display: none ";
-          status.innerHTML = "Thanks!";
+          form.style = "display: none ";
+          status.innerHTML = name + "Thanks!";
         }
         function error() {
           status.innerHTML = "Oops! There was a problem.";
@@ -257,6 +259,8 @@
         form.addEventListener("submit", function(ev) {
           ev.preventDefault();
           var data = new FormData(form);
+        // console.log(data.get('name'));
+          name=data.get('name');
           ajax(form.method, form.action, data, success, error);
         });
       });
