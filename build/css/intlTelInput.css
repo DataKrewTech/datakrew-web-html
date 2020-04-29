@@ -1,7 +1,7 @@
 .iti {
    width: 95%;
-   margin: 15px 0px;
-  
+   /* margin: 15px 0px; */
+   margin: 15px 0px 25px 0px;
   position: relative;
   display: inline-block; }
   .iti * {
@@ -88,10 +88,11 @@
 
     margin-left: 0; 
      border-radius:10px;
-     font-weight: 600;
-     font-size: 16px;
-      /* font-size: 9px; */
-  font-family: 'Montserrat', sans-serif !important;
+     /* font-weight: 600; */
+     color: black;
+     /* font-size: 16px; */
+     font-size: 1.1rem;
+     font-family: 'Montserrat', sans-serif !important;
 
      
     }
