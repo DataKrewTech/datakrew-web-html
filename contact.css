@@ -609,15 +609,15 @@ border: solid 1px #0FAFB4;
   .contact-header .container .form,
   .contact-header .container .address {
     width: 100%;
-    /* padding: 0px; */
-    padding: 0px 16px;
+    padding: 28px;
+    /* padding: 0px 16px; */
 
     margin-bottom: 50px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: 30px;
+    /* padding-top: 30px; */
   }
   .contact-header .container{
     /* padding: 0 30px; */
@@ -767,3 +767,10 @@ color: #ffffff;
 
   
         }
+        @media only screen and (min-width: 320px) and (max-width: 620px) {
+
+        .iti-mobile .iti--container{
+            width: 84% !important;
+        }
+      }
+
