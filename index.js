@@ -457,8 +457,9 @@ window.addEventListener('DOMContentLoaded', function() {
 		form.reset();
     button.style = 'display: none ';
     form.style = "display: none ";
+    status.style = "padding: 20% 16px; ";
     // status.innerHTML = 'Thank you for the enquiry, Our Team will reach back to you shortly...';
-    status.innerHTML = name + '\xa0\xa0\xa0' + "your query has been submitted, Our Team will get back to you shortly";
+    status.innerHTML = name + '\xa0\xa0' + "your query has been submitted," +'<br>'+ "Our Team will get back to you shortly";
     
 		// modalClose();
 	}
