@@ -171,7 +171,7 @@ const topbarContent = `
     </ul>
     <input type="hidden" name="_cc" value="amol@stack-avenue.com">
  
-    <div class="g-recaptcha" data-sitekey="6LfQzu4UAAAAAAtzy9DT9IvszD0Iv8Z3BUj"></div>
+    <div class="g-recaptcha" data-sitekey="6LfQzu4UAAAAAAtzy9DT9IvszD0Iv8Z3BUj-P7_V"></div>
     <!-- Submit -->    
     <div class="submit-btn-div">
       <input id="input-submit" class="input-submit" type="submit" value="Request" id="submit" />
