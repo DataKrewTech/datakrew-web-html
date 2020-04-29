@@ -270,7 +270,7 @@
           button.style = "display: none ";
           form.style = "display: none ";
                  // formMsg.style = "display: flex;justify-content: center;align-items: center;"
-          status.innerHTML = name + '\xa0\xa0\xa0' + "your query has been submitted, Our Team will get back to you shortly";
+          status.innerHTML = name + '\xa0\xa0\xa0' + "your query has been submitted," +'<br>'+ "Our Team will get back to you shortly";
         }
         function error() {
           status.innerHTML = "Oops! There was a problem.";
@@ -281,7 +281,6 @@
           var data = new FormData(form);
         // console.log(data.get('name'));
           name=data.get('name');
-          name.style="color = '#4eb6bc';"
           ajax(form.method, form.action, data, success, error);
         });
       });
