@@ -1,6 +1,6 @@
 // resuable section
 
-let mainContainer = document.querySelector(".main-container");
+let mainContainer = document.querySelector('.main-container');
 
 // topbar
 
@@ -147,11 +147,10 @@ const topbarContent = `
 
 
    <div class="input-data">
-   <span  class="span-icon"><i class="fa fa-phone icon-7" aria-hidden="true"></i></span>
-   <input type="number" class="input-name" name="phoneNo" placeholder="Phone" min-length="2" max-length="40" required />
-   <span class="notification"></span>
-   <span class="required"><strong><small><em> (required)</em></small></strong></span>
-   <span class="char-counter"></span>
+   <input id="Mphone" name="Mphone" type="number"  class="mob-in" required>
+   <span class="err mob-err"></span>
+   <span id="valid-msg" class="hide"></span>
+   <span class="err mob-err" id="error-msg" class="hide"></span>
    </div>
 
    <div class="input-data input-data1">
@@ -190,9 +189,9 @@ const topbarContent = `
 </div>
 `;
 
-let topbarEle = document.createElement("nav");
-topbarEle.classList.add("topbar");
-topbarEle.setAttribute("id", "nav", "req-demo-btn");
+let topbarEle = document.createElement('nav');
+topbarEle.classList.add('topbar');
+topbarEle.setAttribute('id', 'nav', 'req-demo-btn');
 topbarEle.innerHTML = topbarContent;
 mainContainer.prepend(topbarEle);
 
@@ -233,8 +232,8 @@ const navDropdownCont = `
       <li><a href="contact.html">CONTACT</a></li>
 `;
 
-let navDropdownEle = document.createElement("ul");
-navDropdownEle.classList.add("res-nav-items");
+let navDropdownEle = document.createElement('ul');
+navDropdownEle.classList.add('res-nav-items');
 navDropdownEle.innerHTML = navDropdownCont;
 topbarEle.after(navDropdownEle);
 
@@ -301,8 +300,8 @@ const footerContent = `
     </div>
 `;
 
-let footerEle = document.createElement("footer");
-footerEle.classList.add("main-footer");
+let footerEle = document.createElement('footer');
+footerEle.classList.add('main-footer');
 footerEle.innerHTML = footerContent;
 mainContainer.appendChild(footerEle);
 
@@ -310,206 +309,197 @@ mainContainer.appendChild(footerEle);
 let dropDownOpen = false;
 let showSubDownOne = false;
 let showSubDownTwo = false;
-let resNavDropdown = document.querySelector(".main-container .res-nav-items");
-let subdownOne = document.querySelector(".subdownOne");
-let subdownTwo = document.querySelector(".subdownTwo");
+let resNavDropdown = document.querySelector('.main-container .res-nav-items');
+let subdownOne = document.querySelector('.subdownOne');
+let subdownTwo = document.querySelector('.subdownTwo');
 
-document
-  .querySelector(".topbar .container .res-menu")
-  .addEventListener("click", () => {
-    if (dropDownOpen) {
-      resNavDropdown.classList.remove("block");
-      resNavDropdown.classList.add("none");
-      dropDownOpen = false;
-    } else {
-      resNavDropdown.classList.remove("none");
-      resNavDropdown.classList.add("block");
-      dropDownOpen = true;
-    }
-  });
-
-subdownOne.addEventListener("click", () => {
-  let subDownCustItem = document.querySelectorAll(".sub-cust");
-  if (showSubDownOne) {
-    subDownCustItem.forEach((item) => {
-      item.classList.remove("block");
-      item.classList.add("none");
-      document.querySelector(".cus-up").classList.remove("block");
-      document.querySelector(".cus-up").classList.add("none");
-      document.querySelector(".cus-down").classList.remove("none");
-      document.querySelector(".cus-down").classList.add("block");
-      showSubDownOne = false;
-    });
-  } else {
-    subDownCustItem.forEach((item) => {
-      item.classList.remove("none");
-      item.classList.add("block");
-      document.querySelector(".cus-up").classList.remove("none");
-      document.querySelector(".cus-up").classList.add("block");
-      document.querySelector(".cus-down").classList.remove("block");
-      document.querySelector(".cus-down").classList.add("none");
-      showSubDownOne = true;
-    });
-  }
+document.querySelector('.topbar .container .res-menu').addEventListener('click', () => {
+	if (dropDownOpen) {
+		resNavDropdown.classList.remove('block');
+		resNavDropdown.classList.add('none');
+		dropDownOpen = false;
+	} else {
+		resNavDropdown.classList.remove('none');
+		resNavDropdown.classList.add('block');
+		dropDownOpen = true;
+	}
 });
 
-subdownTwo.addEventListener("click", () => {
-  let subDownCompItem = document.querySelectorAll(".sub-comp");
-  if (showSubDownTwo) {
-    subDownCompItem.forEach((item) => {
-      item.classList.remove("block");
-      item.classList.add("none");
-      document.querySelector(".comp-up").classList.remove("block");
-      document.querySelector(".comp-up").classList.add("none");
-      document.querySelector(".comp-down").classList.remove("none");
-      document.querySelector(".comp-down").classList.add("block");
-      showSubDownTwo = false;
-    });
-  } else {
-    subDownCompItem.forEach((item) => {
-      item.classList.remove("none");
-      item.classList.add("block");
-      document.querySelector(".comp-up").classList.remove("none");
-      document.querySelector(".comp-up").classList.add("block");
-      document.querySelector(".comp-down").classList.remove("block");
-      document.querySelector(".comp-down").classList.add("none");
-      showSubDownTwo = true;
-    });
-  }
+subdownOne.addEventListener('click', () => {
+	let subDownCustItem = document.querySelectorAll('.sub-cust');
+	if (showSubDownOne) {
+		subDownCustItem.forEach((item) => {
+			item.classList.remove('block');
+			item.classList.add('none');
+			document.querySelector('.cus-up').classList.remove('block');
+			document.querySelector('.cus-up').classList.add('none');
+			document.querySelector('.cus-down').classList.remove('none');
+			document.querySelector('.cus-down').classList.add('block');
+			showSubDownOne = false;
+		});
+	} else {
+		subDownCustItem.forEach((item) => {
+			item.classList.remove('none');
+			item.classList.add('block');
+			document.querySelector('.cus-up').classList.remove('none');
+			document.querySelector('.cus-up').classList.add('block');
+			document.querySelector('.cus-down').classList.remove('block');
+			document.querySelector('.cus-down').classList.add('none');
+			showSubDownOne = true;
+		});
+	}
 });
 
-var mybutton = document.getElementById("myBtn");
-window.onscroll = function () {
-  scrollFunction();
+subdownTwo.addEventListener('click', () => {
+	let subDownCompItem = document.querySelectorAll('.sub-comp');
+	if (showSubDownTwo) {
+		subDownCompItem.forEach((item) => {
+			item.classList.remove('block');
+			item.classList.add('none');
+			document.querySelector('.comp-up').classList.remove('block');
+			document.querySelector('.comp-up').classList.add('none');
+			document.querySelector('.comp-down').classList.remove('none');
+			document.querySelector('.comp-down').classList.add('block');
+			showSubDownTwo = false;
+		});
+	} else {
+		subDownCompItem.forEach((item) => {
+			item.classList.remove('none');
+			item.classList.add('block');
+			document.querySelector('.comp-up').classList.remove('none');
+			document.querySelector('.comp-up').classList.add('block');
+			document.querySelector('.comp-down').classList.remove('block');
+			document.querySelector('.comp-down').classList.add('none');
+			showSubDownTwo = true;
+		});
+	}
+});
+
+var mybutton = document.getElementById('myBtn');
+window.onscroll = function() {
+	scrollFunction();
 };
 function scrollFunction() {
-  if (
-    document.body.scrollTop > 100 ||
-    document.documentElement.scrollTop > 100
-  ) {
-    document.getElementById("nav").style.boxShadow = "0 7px 12px -12px #666";
-    document.getElementById("nav").style.transition = "0.8s";
-    // document.getElementById("nav").style.height = "60px";
-    // document.getElementById("logo").style.maxWidth = "100px";
-    document.getElementById("req-demo-btn").style.color = "#000000";
-    document.getElementById("req-demo-btn").style.borderColor = "#000000";
-    document.getElementById("nav").style.backgroundColor = "#FFFFFF";
+	if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+		document.getElementById('nav').style.boxShadow = '0 7px 12px -12px #666';
+		document.getElementById('nav').style.transition = '0.8s';
+		// document.getElementById("nav").style.height = "60px";
+		// document.getElementById("logo").style.maxWidth = "100px";
+		document.getElementById('req-demo-btn').style.color = '#000000';
+		document.getElementById('req-demo-btn').style.borderColor = '#000000';
+		document.getElementById('nav').style.backgroundColor = '#FFFFFF';
 
-    for (let i = 0; i <= 1; i++) {
-      document.getElementsByClassName("item-dropdown")[
-        i
-      ].style.backgroundColor = "#fff";
-    }
-    for (let i = 0; i <= 5; i++) {
-      let actTab = document.getElementsByClassName("act-tab")[i];
-      if (actTab) {
-        actTab.style.color = "#000";
-      }
-      if (document.getElementsByClassName("item-drop-element")[i]) {
-        document.getElementsByClassName("item-drop-element")[i].style.color =
-          "#000";
-      }
-    }
-    document
-      .getElementsByClassName("menu")[0]
-      .setAttribute("src", "./assets/menu-black.png");
-  } else {
-    // document.getElementById("nav").style.height = "100px";
-    // document.getElementById("nav").classList.remove("fadeInUp")
-    // document.getElementById("logo").style.maxWidth = "150px";
-    document.getElementById("nav").style.backgroundColor = "#000";
-    document.getElementById("req-demo-btn").style.color = "#ffffff";
-    document.getElementById("req-demo-btn").style.borderColor = "#ffffff";
-    document.getElementById("nav").style.transition = "0.8s";
-    for (let i = 0; i <= 1; i++) {
-      document.getElementsByClassName("item-dropdown")[
-        i
-      ].style.backgroundColor = "#000";
-    }
-    for (let i = 0; i <= 5; i++) {
-      let actTab = document.getElementsByClassName("act-tab")[i];
-      if (actTab) {
-        actTab.style.color = "#fff";
-      }
-      if (document.getElementsByClassName("item-drop-element")[i]) {
-        document.getElementsByClassName("item-drop-element")[i].style.color =
-          "#fff";
-      }
-    }
-    document
-      .getElementsByClassName("menu")[0]
-      .setAttribute("src", "./assets/menu-white.png");
-  }
-  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-    mybutton.style.display = "block";
-  } else {
-    mybutton.style.display = "none";
-  }
+		for (let i = 0; i <= 1; i++) {
+			document.getElementsByClassName('item-dropdown')[i].style.backgroundColor = '#fff';
+		}
+		for (let i = 0; i <= 5; i++) {
+			let actTab = document.getElementsByClassName('act-tab')[i];
+			if (actTab) {
+				actTab.style.color = '#000';
+			}
+			if (document.getElementsByClassName('item-drop-element')[i]) {
+				document.getElementsByClassName('item-drop-element')[i].style.color = '#000';
+			}
+		}
+		document.getElementsByClassName('menu')[0].setAttribute('src', './assets/menu-black.png');
+	} else {
+		// document.getElementById("nav").style.height = "100px";
+		// document.getElementById("nav").classList.remove("fadeInUp")
+		// document.getElementById("logo").style.maxWidth = "150px";
+		document.getElementById('nav').style.backgroundColor = '#000';
+		document.getElementById('req-demo-btn').style.color = '#ffffff';
+		document.getElementById('req-demo-btn').style.borderColor = '#ffffff';
+		document.getElementById('nav').style.transition = '0.8s';
+		for (let i = 0; i <= 1; i++) {
+			document.getElementsByClassName('item-dropdown')[i].style.backgroundColor = '#000';
+		}
+		for (let i = 0; i <= 5; i++) {
+			let actTab = document.getElementsByClassName('act-tab')[i];
+			if (actTab) {
+				actTab.style.color = '#fff';
+			}
+			if (document.getElementsByClassName('item-drop-element')[i]) {
+				document.getElementsByClassName('item-drop-element')[i].style.color = '#fff';
+			}
+		}
+		document.getElementsByClassName('menu')[0].setAttribute('src', './assets/menu-white.png');
+	}
+	if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+		mybutton.style.display = 'block';
+	} else {
+		mybutton.style.display = 'none';
+	}
 }
 
 // When the user clicks on the button, scroll to the top of the document
 function topFunction() {
-  document.body.scrollTop = 0;
-  document.documentElement.scrollTop = 0;
+	document.body.scrollTop = 0;
+	document.documentElement.scrollTop = 0;
 }
 
-window.addEventListener("DOMContentLoaded", function () {
-  // get the form elements defined in your form HTML above
-  var form = document.getElementById("contact-form");
-  var button = document.getElementById("input-submit");
-  var status = document.getElementById("my-form-status");
-  // Success and Error functions for after the form is submitted
-  function success() {
-    form.reset();
-    button.style = "display: none ";
-    status.innerHTML = "Thank you for the enquiry, Our Team will reach back to you shortly...";
-    // modalClose();
-  }
-  function error() {
-    status.innerHTML = "Oops! There was a problem.";
-  }
-  // handle the form submission event
-  form.addEventListener("submit", function (ev) {
-    ev.preventDefault();
-    var data = new FormData(form);
-    ajax(form.method, form.action, data, success, error);
-  });
+window.addEventListener('DOMContentLoaded', function() {
+	// get the form elements defined in your form HTML above
+	var form = document.getElementById('contact-form');
+	var button = document.getElementById('input-submit');
+	var status = document.getElementById('my-form-status');
+	// Success and Error functions for after the form is submitted
+	function success() {
+		form.reset();
+		button.style = 'display: none ';
+		status.innerHTML = 'Thank you for the enquiry, Our Team will reach back to you shortly...';
+		// modalClose();
+	}
+	function error() {
+		status.innerHTML = 'Oops! There was a problem.';
+	}
+	// handle the form submission event
+	form.addEventListener('submit', function(ev) {
+		ev.preventDefault();
+		var data = new FormData(form);
+		ajax(form.method, form.action, data, success, error);
+	});
 });
 // helper function for sending an AJAX request
 function ajax(method, url, data, success, error) {
-  var xhr = new XMLHttpRequest();
-  xhr.open(method, url);
-  xhr.setRequestHeader("Accept", "application/json");
-  xhr.onreadystatechange = function () {
-    if (xhr.readyState !== XMLHttpRequest.DONE) return;
-    if (xhr.status === 200) {
-      success(xhr.response, xhr.responseType);
-    } else {
-      error(xhr.status, xhr.response, xhr.responseType);
-    }
-  };
-  xhr.send(data);
+	var xhr = new XMLHttpRequest();
+	xhr.open(method, url);
+	xhr.setRequestHeader('Accept', 'application/json');
+	xhr.onreadystatechange = function() {
+		if (xhr.readyState !== XMLHttpRequest.DONE) return;
+		if (xhr.status === 200) {
+			success(xhr.response, xhr.responseType);
+		} else {
+			error(xhr.status, xhr.response, xhr.responseType);
+		}
+	};
+	xhr.send(data);
 }
 
-
-
 function modalClose() {
-  if (location.hash == '#open-modal') {
-      location.hash = '';
-  }
+	if (location.hash == '#open-modal') {
+		location.hash = '';
+	}
 }
 
 document.addEventListener('keyup', function(e) {
-  if (e.keyCode == 27) {
-      modalClose();
-  }
+	if (e.keyCode == 27) {
+		modalClose();
+	}
 });
 
 var modal = document.querySelector('#open-modal');
-modal.addEventListener('click', function(e) {
-  modalClose();
-}, false);
+modal.addEventListener(
+	'click',
+	function(e) {
+		modalClose();
+	},
+	false
+);
 
-modal.children[0].addEventListener('click', function(e) {
-  e.stopPropagation();
-}, false);
+modal.children[0].addEventListener(
+	'click',
+	function(e) {
+		e.stopPropagation();
+	},
+	false
+);

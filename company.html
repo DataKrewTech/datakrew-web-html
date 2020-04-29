@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="about.css" />
     <link rel="stylesheet" href="common.css">
+    <link rel="stylesheet" href="./build/css/intlTelInput.css">
     <link
       href="https://fonts.googleapis.com/css?family=Nunito&display=swap"
       rel="stylesheet"
@@ -393,6 +394,48 @@
     <script src="wow.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script src="jquery.js"></script>
+    <script src="build/js/intlTelInput.js"></script>
+    <script>
+      var input = document.querySelector("#Mphone");
+      errorMsg = document.querySelector("#error-msg"),
+      validMsg = document.querySelector("#valid-msg");
+      var errorMap = ["Please enter a valid number", "Invalid country code", "Please enter a valid number", "Please enter a valid number", "Invalid number"];
+      var iti =   window.intlTelInput(input, {
+        initialCountry: "auto",
+        geoIpLookup: function(callback) {
+          $.get('https://ipinfo.io', function() {}, "jsonp").always(function(resp) {
+            var countryCode = (resp && resp.country) ? resp.country : "";
+            callback(countryCode);
+          });
+        },
+          nationalMode: false,
+          placeholderNumberType: "MOBILE",
+          separateDialCode: true,
+          utilsScript: "./build/js/utils.js",
+        });
+
+      var reset = function() {
+        input.classList.remove("error");
+        errorMsg.innerHTML = "";
+        errorMsg.classList.add("hide");
+        validMsg.classList.add("hide");
+      };
+
+      // on blur: validate
+      input.addEventListener('blur', function() {
+        reset();
+        if (input.value.trim()) {
+          if (iti.isValidNumber()) {
+            validMsg.classList.remove("hide");
+          } else {
+            input.classList.add("error");
+            var errorCode = iti.getValidationError();
+            errorMsg.innerHTML = errorMap[errorCode];
+            errorMsg.classList.remove("hide");
+          }
+        }
+      });
+    </script>
     <script>new WOW().init();</script>
   </body>
 </html>
