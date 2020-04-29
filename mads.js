@@ -364,11 +364,13 @@ var mybutton = document.getElementById("myBtn");
 window.onscroll = function() {scrollFunction()};
 function scrollFunction() {
   if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
-    // document.getElementById("nav").style.height = "60px";
-    // document.getElementById("logo").style.maxWidth = "100px";
-    document.getElementById("nav").style.boxShadow = "0 7px 12px -12px #666";
-    document.getElementById("nav").style.transition = "0.8s";
-    document.getElementById("nav").style.backgroundColor = "#FFFFFF";
+    document.getElementById('nav').style.boxShadow = '0 7px 12px -12px #666';
+		document.getElementById('nav').style.transition = '0.8s';
+		// document.getElementById("nav").style.height = "60px";
+		// document.getElementById("logo").style.maxWidth = "100px";
+		document.getElementById('req-demo-btn').style.color = '#000000';
+		document.getElementById('req-demo-btn').style.borderColor = '#000000';
+		document.getElementById('nav').style.backgroundColor = '#FFFFFF';
     for (let i = 0; i <= 1; i++) {
       document.getElementsByClassName("item-dropdown")[i].style.backgroundColor = "#fff";
     }
@@ -383,11 +385,13 @@ function scrollFunction() {
     }
     document.getElementsByClassName("menu")[0].setAttribute("src", "./assets/menu-black.png");
   } else {
-    // document.getElementById("nav").style.height = "100px";
-    // document.getElementById("nav").classList.remove("fadeInUp")
-    // document.getElementById("logo").style.maxWidth = "150px";
-    document.getElementById("nav").style.backgroundColor = "#000";
-    document.getElementById("nav").style.transition = "0.8s";
+ 		// document.getElementById("nav").style.height = "100px";
+		// document.getElementById("nav").classList.remove("fadeInUp")
+		// document.getElementById("logo").style.maxWidth = "150px";
+		document.getElementById('nav').style.backgroundColor = '#000';
+		document.getElementById('req-demo-btn').style.color = '#ffffff';
+		document.getElementById('req-demo-btn').style.borderColor = '#ffffff';
+		document.getElementById('nav').style.transition = '0.8s';
     for (let i = 0; i <= 1; i++) {
       document.getElementsByClassName("item-dropdown")[i].style.backgroundColor = "#000";
     }

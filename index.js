@@ -180,7 +180,7 @@ const topbarContent = `
 
   
   </form>
-  <div  id="status-form" class="status-text"></div>
+  <div  id="status-form" class="status-text contact-form"></div>
 
 </div>
 
