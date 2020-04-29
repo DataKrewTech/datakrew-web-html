@@ -73,25 +73,14 @@ let validateForm = () => {
 		hasErr = true;
 	}
 
-	if (!mobile.value.length) {
-		errors.mobErr = 'Mobile no is Not Valid';
-		hasErr = true;
-	}
-	if (mobile.value.length < 10) {
-		errors.mobErr = 'Mobile no. should be 10 digit';
-		hasErr = true;
-	}
-	if (!mobile.value.length) {
-		errors.mobErr1 = 'Mobile no is Not Valid';
-		hasErr = true;
-	}
-	if (mobile.value.length < 10) {
-		errors.mobErr1 = 'Mobile no. should be 10 digit';
+	if (!orgnisation.value.length) {
+		errors.orgErr = 'Enter Organisation';
 		hasErr = true;
 	}
 
-	if (!orgnisation.value.length) {
-		errors.orgErr = 'Enter Organisation';
+	if (mobErr1.innerText != '') {
+		mobErr1.classList.remove('hide');
+		errors.mobErr1 = 'Please enter a valid number';
 		hasErr = true;
 	}
 
@@ -99,8 +88,8 @@ let validateForm = () => {
 	emailErr.innerHTML = errors.emailErr;
 	mobErr.innerHTML = errors.mobErr;
 	mobErr.innerHTML = errors.mobErr;
-	mobErr1.innerHTML = errors.mobErr;
-	mobErr1.innerHTML = errors.mobErr;
+	mobErr1.innerHTML = errors.mobErr1;
+
 	orgErr.innerHTML = errors.orgErr;
 	msgErr.innerHTML = errors.msgErr;
 	return hasErr;
