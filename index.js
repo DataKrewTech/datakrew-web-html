@@ -37,6 +37,7 @@ const topbarContent = `
   <div class="item-container">
   <li class="item"><a href="contact.html" class="act-tab contact"  name="contact" id="act-tab">CONTACT</a> </li>
   </div>
+  <div class="g-recaptcha" data-sitekey="6LdQge8UAAAAAMnI9QqIsRDsmy1j1_JZUfgbX6L8"></div>
   <div class="item-container" style="padding-left: 16px">
   <a href="#open-modal"><button id="req-demo-btn">REQUEST DEMO</button></a>
   </div>
@@ -450,17 +451,18 @@ window.addEventListener('DOMContentLoaded', function() {
 	// get the form elements defined in your form HTML above
 	var form = document.getElementById('contact-form');
 	var button = document.getElementById('input-submit');
-  var status = document.getElementById('status-form');
-  let name;
+	var status = document.getElementById('status-form');
+	let name;
 	// Success and Error functions for after the form is submitted
 	function success() {
 		form.reset();
-    button.style = 'display: none ';
-    form.style = "display: none ";
-    status.style = "padding: 20% 16px; ";
-    // status.innerHTML = 'Thank you for the enquiry, Our Team will reach back to you shortly...';
-    status.innerHTML = name + '\xa0\xa0' + "your query has been submitted," +'<br>'+ "Our Team will get back to you shortly";
-    
+		button.style = 'display: none ';
+		form.style = 'display: none ';
+		status.style = 'padding: 20% 16px; ';
+		// status.innerHTML = 'Thank you for the enquiry, Our Team will reach back to you shortly...';
+		status.innerHTML =
+			name + '\xa0\xa0' + 'your query has been submitted,' + '<br>' + 'Our Team will get back to you shortly';
+
 		// modalClose();
 	}
 	function error() {
@@ -469,8 +471,8 @@ window.addEventListener('DOMContentLoaded', function() {
 	// handle the form submission event
 	form.addEventListener('submit', function(ev) {
 		ev.preventDefault();
-    var data = new FormData(form);
-    name=data.get('fullName');
+		var data = new FormData(form);
+		name = data.get('fullName');
 		ajax(form.method, form.action, data, success, error);
 	});
 });
