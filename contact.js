@@ -88,7 +88,7 @@ let validateForm = () => {
 };
 
 submitBtn.addEventListener('click', () => {
-	console.log('sss');
+	// console.log('sss');
 	if (!validateForm()) {
 		nameErr.innerHTML = '';
 		emailErr.innerHTML = '';
