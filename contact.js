@@ -35,13 +35,19 @@ function validateEmail(email) {
 
 let name = document.querySelector('.name-in');
 let email = document.querySelector('.email-in');
+let email1 = document.querySelector('.email-in1');
+
 let mobile = document.querySelector('.mob-in');
+let mobile1 = document.querySelector('.mob-in1');
+
 let orgnisation = document.querySelector('.org-in');
 let message = document.querySelector('.msg-in');
 let submitBtn = document.querySelector('.submit-btn');
 let nameErr = document.querySelector('.name-err');
 let emailErr = document.querySelector('.email-err');
 let mobErr = document.querySelector('.mob-err');
+let mobErr1 = document.querySelector('.mob-err1');
+
 let orgErr = document.querySelector('.org-err');
 let msgErr = document.querySelector('.msg-err');
 let validateForm = () => {
@@ -49,6 +55,8 @@ let validateForm = () => {
 		nameErr: '',
 		emailErr: '',
 		mobErr: '',
+		mobErr1: '',
+
 		orgErr: '',
 		msgErr: ''
 	};
@@ -73,6 +81,15 @@ let validateForm = () => {
 		errors.mobErr = 'Mobile no. should be 10 digit';
 		hasErr = true;
 	}
+	if (!mobile.value.length) {
+		errors.mobErr1 = 'Mobile no is Not Valid';
+		hasErr = true;
+	}
+	if (mobile.value.length < 10) {
+		errors.mobErr1 = 'Mobile no. should be 10 digit';
+		hasErr = true;
+	}
+
 	if (!orgnisation.value.length) {
 		errors.orgErr = 'Enter Organisation';
 		hasErr = true;
@@ -82,6 +99,8 @@ let validateForm = () => {
 	emailErr.innerHTML = errors.emailErr;
 	mobErr.innerHTML = errors.mobErr;
 	mobErr.innerHTML = errors.mobErr;
+	mobErr1.innerHTML = errors.mobErr;
+	mobErr1.innerHTML = errors.mobErr;
 	orgErr.innerHTML = errors.orgErr;
 	msgErr.innerHTML = errors.msgErr;
 	return hasErr;
@@ -93,6 +112,8 @@ submitBtn.addEventListener('click', () => {
 		nameErr.innerHTML = '';
 		emailErr.innerHTML = '';
 		mobErr.innerHTML = '';
+		mobErr1.innerHTML = '';
+
 		orgErr.innerHTML = '';
 		msgErr.innerHTML = '';
 		name.value = '';

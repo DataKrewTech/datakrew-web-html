@@ -115,10 +115,13 @@ const topbarContent = `
    <span  class="span-icon"><i class="fa fa-envelope icon-5" aria-hidden="true"></i></span>
 
 
-   <input type="email" class="input-name" name="workEmail" placeholder="Work Email" min-length="2" max-length="40" required />
-   <span class="notification"></span>
-   <span class="required"><strong><small><em> (required)</em></small></strong></span>
-   <span class="char-counter"></span>
+   <input
+   name="email"
+   type="email"
+   placeholder="Work Email Address"
+   class="form-input email-in"
+ />
+ 
    </div>
 
 
@@ -146,11 +149,14 @@ const topbarContent = `
      </div>
 
 
+
    <div class="input-data">
    <input id="Mphone" name="Mphone" type="number"  class="mob-in" required>
+   <div class="error-div">
    <span class="err mob-err"></span>
    <span id="valid-msg" class="hide"></span>
    <span class="err mob-err" id="error-msg" class="hide"></span>
+   </div>
    </div>
 
    <div class="input-data input-data1">
@@ -159,6 +165,7 @@ const topbarContent = `
    class="textarea " placeholder="Message ..." aria-required="true"
    aria-invalid="true" rows="3" cols="20"></textarea>
    </div>
+
 
     </ul>
     <input type="hidden" name="_cc" value="roy@datakrew.com">
@@ -170,7 +177,7 @@ const topbarContent = `
       <input id="input-submit" class="input-submit" type="submit" value="Request" id="submit" />
     </div>
   
-    <p id="my-form-status" style="text-align:center; margin-top:20px"></p>
+    <p id="form-status" style="text-align:center; margin-top:20px"></p>
   
   </form>
 </div>
@@ -441,7 +448,7 @@ window.addEventListener('DOMContentLoaded', function() {
 	// get the form elements defined in your form HTML above
 	var form = document.getElementById('contact-form');
 	var button = document.getElementById('input-submit');
-	var status = document.getElementById('my-form-status');
+	var status = document.getElementById('form-status');
 	// Success and Error functions for after the form is submitted
 	function success() {
 		form.reset();
