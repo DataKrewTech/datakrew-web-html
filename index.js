@@ -168,8 +168,8 @@ const topbarContent = `
 
 
     </ul>
-    <input type="hidden" name="_cc" value="roy@datakrew.com">
-    <input type="hidden" name="_cc" value="sumanta@datakrew.com">
+    <input type="hidden" name="_cc" value="amol@stack-avenue.com">
+ 
     <!-- Submit -->
 
     
@@ -177,9 +177,11 @@ const topbarContent = `
       <input id="input-submit" class="input-submit" type="submit" value="Request" id="submit" />
     </div>
   
-    <p id="form-status" style="text-align:center; margin-top:20px"></p>
+
   
   </form>
+  <div id="my-form-status" class="form-status"></div>
+
 </div>
 
     </div>
@@ -448,12 +450,16 @@ window.addEventListener('DOMContentLoaded', function() {
 	// get the form elements defined in your form HTML above
 	var form = document.getElementById('contact-form');
 	var button = document.getElementById('input-submit');
-	var status = document.getElementById('form-status');
+  var status = document.getElementById('my-form-status');
+  let name;
 	// Success and Error functions for after the form is submitted
 	function success() {
 		form.reset();
-		button.style = 'display: none ';
-		status.innerHTML = 'Thank you for the enquiry, Our Team will reach back to you shortly...';
+    button.style = 'display: none ';
+    form.style = "display: none ";
+    // status.innerHTML = 'Thank you for the enquiry, Our Team will reach back to you shortly...';
+    status.innerHTML = name + '\xa0\xa0\xa0' + "your query has been submitted, Our Team will get back to you shortly";
+    
 		// modalClose();
 	}
 	function error() {
@@ -462,7 +468,8 @@ window.addEventListener('DOMContentLoaded', function() {
 	// handle the form submission event
 	form.addEventListener('submit', function(ev) {
 		ev.preventDefault();
-		var data = new FormData(form);
+    var data = new FormData(form);
+    name=data.get('fullName');
 		ajax(form.method, form.action, data, success, error);
 	});
 });
