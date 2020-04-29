@@ -180,7 +180,7 @@ const topbarContent = `
 
   
   </form>
-  <div id="my-form-status" class="form-status"></div>
+  <div  id="status-form" class="status-text"></div>
 
 </div>
 
@@ -450,7 +450,7 @@ window.addEventListener('DOMContentLoaded', function() {
 	// get the form elements defined in your form HTML above
 	var form = document.getElementById('contact-form');
 	var button = document.getElementById('input-submit');
-  var status = document.getElementById('my-form-status');
+  var status = document.getElementById('status-form');
   let name;
 	// Success and Error functions for after the form is submitted
 	function success() {
