@@ -831,6 +831,16 @@ a:focus{
   font-size: 18px;
   line-height: 32px;
 }
+.status-text{
+  color: #000;
+  /* font-weight: 600; */
+  font-size: 18px;
+  line-height: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
 
 
 .modal-close{
