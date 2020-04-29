@@ -46,6 +46,20 @@ soc-info{
 .contact-header .container .address .contact-hint1 .icon-cont img{
   /* padding-bottom: 40px; */
 }
+::-webkit-input-placeholder { /* Edge */
+  font-weight: 400 !important;
+  font-family: 'Montserrat', sans-serif !important;
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  font-weight: 400 !important;
+  font-family: 'Montserrat', sans-serif !important;
+}
+
+::placeholder {
+  font-weight: 400 !important;
+  font-family: 'Montserrat', sans-serif !important;
+}
 
 
 @media (max-width: 1500px) {
@@ -328,10 +342,11 @@ border: solid 1px #0FAFB4;
 
 .err {
   color: red;
-  font-weight: bold;
+  /* font-weight: bold; */
   margin: 0 0 20px 0 !important;
   /* text-align: center; */
   /* display: block; */
+  display: inherit;
   white-space: pre;
   padding-left: 24px;
 }
@@ -467,7 +482,7 @@ border: solid 1px #0FAFB4;
     /* max-width: 100% !important;
     margin-left: 66px !important; */
     max-width: 90% !important;
-    margin-left: 22px !important;
+    margin-left: 38px !important;
   }
   .main-footer .container .right-content .container .mini-section .title {
     color: #fff;
@@ -486,7 +501,7 @@ border: solid 1px #0FAFB4;
     margin-left: 22px;
   }
   .contact-header .container .address .contact-hint3{
-    margin-right: 44px !important;
+    margin-right: 22px !important;
   }
   .contact-header .container .form .submit:hover {
     font-weight: bold;

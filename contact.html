@@ -164,7 +164,7 @@
             placeholder="Mobile"
             class="form-input mob-in"
           /> -->
-          <input id="phone" name="phone" type="tel"  class="mob-in" required>
+          <input id="phone" name="phone" type="number"  class="mob-in" required>
           <span class="err mob-err"></span>
           <span id="valid-msg" class="hide"></span>
           <span class="err mob-err" id="error-msg" class="hide"></span>
@@ -198,7 +198,7 @@
 
         <input type="hidden" name="_cc" value="amol@stack-avenue.com">
 
-        <div class="g-recaptcha" data-sitekey="6Lendu8UAAAAAFuRPfwPOxOaR_G_qrfAzGCdRG3S"></div>
+        <!-- <div class="g-recaptcha" data-sitekey="6Lendu8UAAAAAFuRPfwPOxOaR_G_qrfAzGCdRG3S"></div> -->
 
         <!-- <input type="button" onclick="checkRecaptcha();" value="Send Message" id="my-form-button" name="submit" class="submit submit-btn"></input> -->
             <span class="err msg-err"></span>
@@ -242,7 +242,7 @@
         var form = document.getElementById("my-form");
         var button = document.getElementById("btn-submit");
         var status = document.getElementById("my-form-status");
-        console.log(status);
+        // console.log(status);
         // Success and Error functions for after the form is submitted
         function success() {
           form.reset();

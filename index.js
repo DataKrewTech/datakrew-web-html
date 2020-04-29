@@ -47,7 +47,7 @@ const topbarContent = `
     <i class="fa fa-times" style="padding-right: 2px; position:relative;top:-44px"></i>
     </a>
     <div id="open-modal" class="fade">
-  <form id="contact-form" class="contact-form"   action="https://formspree.io/mbjaebko"
+  <form id="contact-form" class="contact-form"   action="https://formspree.io/xqkyzelg"
   method="POST">
    <ul>
 

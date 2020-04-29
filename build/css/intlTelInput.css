@@ -58,6 +58,8 @@
     .iti__country-list--dropup {
       bottom: 100%;
       margin-bottom: -1px; }
+
+
     @media (max-width: 500px) {
       .iti__country-list {
         white-space: normal; } }
@@ -81,19 +83,29 @@
     margin-right: 6px; }
   .iti--allow-dropdown input, .iti--allow-dropdown input[type=text], .iti--allow-dropdown input[type=tel], .iti--separate-dial-code input, .iti--separate-dial-code input[type=text], .iti--separate-dial-code input[type=tel] {
     padding-right: 6px;
-    padding-left: 52px;
+    /* padding-left: 52px; */
+    padding-left: 99px !important;
+
     margin-left: 0; 
      border-radius:10px;
      font-weight: 600;
      font-size: 16px;
+      /* font-size: 9px; */
+  font-family: 'Montserrat', sans-serif !important;
+
+     
     }
   .iti--allow-dropdown .iti__flag-container, .iti--separate-dial-code .iti__flag-container {
     right: auto;
-    left: 0; }
+    /* left: 0;  */
+    left: 18px; 
+
+  }
   .iti--allow-dropdown .iti__flag-container:hover {
     cursor: pointer; }
     .iti--allow-dropdown .iti__flag-container:hover .iti__selected-flag {
-      background-color: rgba(0, 0, 0, 0.05); }
+      background-color: rgba(0, 0, 0, 0.05); 
+    }
   .iti--allow-dropdown input[disabled] + .iti__flag-container:hover,
   .iti--allow-dropdown input[readonly] + .iti__flag-container:hover {
     cursor: default; }
@@ -101,9 +113,13 @@
     .iti--allow-dropdown input[readonly] + .iti__flag-container:hover .iti__selected-flag {
       background-color: transparent; }
   .iti--separate-dial-code .iti__selected-flag {
-    background-color: rgba(0, 0, 0, 0.05); }
+    /* background-color: rgba(0, 0, 0, 0.05);  */
+  }
   .iti--separate-dial-code .iti__selected-dial-code {
-    margin-left: 6px; }
+    margin-left: 6px; 
+  font-family: 'Montserrat', sans-serif !important;
+
+  }
   .iti--container {
     position: absolute;
     top: -1000px;
@@ -933,3 +949,26 @@
 
 .iti__flag.iti__np {
   background-color: transparent; }
+
+
+
+  @media only screen and (min-width: 320px) and (max-width: 620px){ 
+  .iti--allow-dropdown input, .iti--allow-dropdown input[type=text], .iti--allow-dropdown input[type=tel], .iti--separate-dial-code input, .iti--separate-dial-code input[type=text], .iti--separate-dial-code input[type=tel] {
+   
+    font-size: 9px;
+  font-family: 'Montserrat', sans-serif !important;
+
+  }
+  .iti--separate-dial-code .iti__selected-dial-code{
+    font-size: 9px;
+  font-family: 'Montserrat', sans-serif !important;
+
+  }
+
+  .iti--allow-dropdown input, .iti--allow-dropdown input[type=text], .iti--allow-dropdown input[type=tel], .iti--separate-dial-code input, .iti--separate-dial-code input[type=text], .iti--separate-dial-code input[type=tel] {
+    padding-left: 64px !important;
+  }
+  .iti--allow-dropdown .iti__flag-container, .iti--separate-dial-code .iti__flag-container{
+    left: 0 !important;
+  }
+}
