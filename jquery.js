@@ -12,5 +12,8 @@ $(document).ready(function(){
         $('.company').addClass('active-tab');
     }else if(key == "contact.html"){
         $('.contact').addClass('active-tab');
+    }else {
+        $('.index').addClass('active-tab');
+
     }
 });

@@ -308,6 +308,8 @@ button {
 
 /* team */
 
+
+
 .team {
   /* margin-bottom: 100px; */
   /* padding: 50px 0 70px 0; */
@@ -672,6 +674,13 @@ button {
     display: flex;
     width: 100%;
     border-right: none !important;
+    -ms-border-right: none !important;
+    -webkit-border-right: none !important;
+    /* border-style: none;
+    border-width: 0px;
+    border-color: transparent; */
+    border-image: none !important;
+
   }
   .mission-vission-bg .container .mission-vission-container .vission-data{
     padding: 0 !important;

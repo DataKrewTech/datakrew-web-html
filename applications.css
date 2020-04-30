@@ -852,5 +852,53 @@ button {
 	.middle-section .container{
 		width: 85%;
 	}
+	.tab-box{
+		width: 20%;
+		display: block;
+		height: 100%;
+	
+	}
+
+	.utilities:hover{
+		box-shadow: 0 22px 44px 0 rgba(28, 71, 132, 0.49);
+		background: -webkit-linear-gradient(134deg, #0da6ad, #1c4784);
+		background-image: linear-gradient(134deg, #0da6ad, #1c4784);
+		border-color: transparent;
+		border-radius: 10px;
+	}
+	.manufacturing:hover{
+		box-shadow: 0 22px 44px 0 rgba(28, 71, 132, 0.49);
+		background: -webkit-linear-gradient(134deg, #0da6ad, #1c4784);
+		background-image: linear-gradient(134deg, #0da6ad, #1c4784);
+		border-color: transparent;
+		border-radius: 10px;
+	}
+	.cities:hover{
+		box-shadow: 0 22px 44px 0 rgba(28, 71, 132, 0.49);
+		background: -webkit-linear-gradient(134deg, #0da6ad, #1c4784);
+		background-image: linear-gradient(134deg, #0da6ad, #1c4784);
+		border-color: transparent;
+		border-radius: 10px;
+	}
+	.energy:hover{
+		box-shadow: 0 22px 44px 0 rgba(28, 71, 132, 0.49);
+		background: -webkit-linear-gradient(134deg, #0da6ad, #1c4784);
+		background-image: linear-gradient(134deg, #0da6ad, #1c4784);
+		border-color: transparent;
+		border-radius: 10px;
+	}
+	.tab-box:hover{
+		/* box-shadow: 0 22px 44px 0 rgba(28, 71, 132, 0.49);
+		background: -webkit-linear-gradient(134deg, #0da6ad, #1c4784);
+		background-image: linear-gradient(134deg, #0da6ad, #1c4784);
+		border-color: transparent;
+		border-radius: 10px; */
+		box-shadow: none;
+		background: none;
+		background-image: none;
+		border-color: transparent;
+		border-radius: none;
+
+	}
 
 }
