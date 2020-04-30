@@ -43,6 +43,8 @@
   /* font-weight: 600; */
   font-size: 18px;
   line-height: 32px;
+  text-align: justify;
+  font-family: auto;
 }
 .status-text {
   color: #0a88c0;
@@ -53,6 +55,8 @@
   justify-content: center;
   align-items: center;
   height: 100%;
+  /* text-align: justify;
+  font-family: auto; */
 
 }
 #status-form{
