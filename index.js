@@ -48,7 +48,7 @@ const topbarContent = `
     <i class="fa fa-times" style="padding-right: 2px; position:relative;top:-44px"></i>
     </a>
     <div id="open-modal" class="fade">
-  <form id="contact-form" class="contact-form"   action="https://formspree.io/xqkyzelg"
+  <form id="contact-form" class="contact-form"   action="https://formspree.io/mbjaebko"
   method="POST">
    <ul>
 
@@ -171,7 +171,7 @@ const topbarContent = `
     </ul>
     <input type="hidden" name="_cc" value="amol@stack-avenue.com">
  
-    <div class="g-recaptcha" data-sitekey="6Lendu8UAAAAAFuRPfwPOxOaR_G_qrfAzGCdRG3S"></div>
+    <div class="g-recaptcha" data-sitekey="6LdQge8UAAAAAMnI9QqIsRDsmy1j1_JZUfgbX6L8"></div>
     <!-- Submit -->    
     <div class="submit-btn-div">
       <input id="input-submit" class="input-submit" type="submit" value="Request" id="submit" />
