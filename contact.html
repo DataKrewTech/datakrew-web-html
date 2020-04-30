@@ -179,9 +179,8 @@
             class="form-input mob-in"
           /> -->
           <input id="phone" name="phone" type="number"  class="mob-in" required>
-          <span class="err mob-err1"></span>
-          <span id="valid-msg" class="hide"></span>
-          <span class="err mob-err1" id="error-msg1" class="hide"></span>
+          <span id="valid-msg1" class="hide"></span>
+          <span class="err mob-err1" id="error-msg1"></span>
           </div>
           
           <div class="input-div">
@@ -212,7 +211,7 @@
 
         <input type="hidden" name="_cc" value="amol@stack-avenue.com">
 
-        <!-- <div class="g-recaptcha" data-sitekey="6Lendu8UAAAAAFuRPfwPOxOaR_G_qrfAzGCdRG3S"></div> -->
+        <div class="g-recaptcha" data-sitekey="6Lendu8UAAAAAFuRPfwPOxOaR_G_qrfAzGCdRG3S"></div>
 
         <!-- <input type="button" onclick="checkRecaptcha();" value="Send Message" id="my-form-button" name="submit" class="submit submit-btn"></input> -->
             <span class="err msg-err"></span>
@@ -305,8 +304,8 @@
 <script src="build/js/intlTelInput.js"></script>
 <script>
   var input = document.querySelector("#phone");
-  errorMsg = document.querySelector("#error-msg"),
-  validMsg = document.querySelector("#valid-msg");
+  errorMsg1 = document.querySelector("#error-msg1"),
+  validMsg1 = document.querySelector("#valid-msg1");
   var errorMap = ["Please enter a valid number", "Invalid country code", "Please enter a valid number", "Please enter a valid number", "Invalid number"];
   var iti =   window.intlTelInput(input, {
     initialCountry: "auto",
@@ -324,9 +323,9 @@
 
   var reset = function() {
     input.classList.remove("error");
-    errorMsg.innerHTML = "";
-    errorMsg.classList.add("hide");
-    validMsg.classList.add("hide");
+    errorMsg1.innerHTML = "";
+    errorMsg1.classList.add("hide");
+    validMsg1.classList.add("hide");
   };
 
   // on blur: validate
@@ -334,23 +333,24 @@
     reset();
     if (input.value.trim()) {
       if (iti.isValidNumber()) {
-        validMsg.classList.remove("hide");
+        validMsg1.classList.remove("hide");
+        errorMsg1.innerHTML = '';
       } else {
         input.classList.add("error");
         var errorCode = iti.getValidationError();
-        errorMsg.innerHTML = errorMap[errorCode];
-        errorMsg.classList.remove("hide");
+        errorMsg1.innerHTML = errorMap[errorCode] ? errorMap[errorCode] : 'Please enter a valid number';
+        errorMsg1.classList.remove("hide");
       }
     }
   });
 </script>
 
 <script>
-  var input = document.querySelector("#Mphone");
+  var Minput = document.querySelector("#Mphone");
   errorMsg = document.querySelector("#error-msg"),
   validMsg = document.querySelector("#valid-msg");
   var errorMap = ["Please enter a valid number", "Invalid country code", "Please enter a valid number", "Please enter a valid number", "Invalid number"];
-  var iti =   window.intlTelInput(input, {
+  var instance =   window.intlTelInput(Minput, {
     initialCountry: "auto",
     geoIpLookup: function(callback) {
       $.get('https://ipinfo.io', function() {}, "jsonp").always(function(resp) {
@@ -365,22 +365,22 @@
     });
 
   var reset = function() {
-    input.classList.remove("error");
+    Minput.classList.remove("error");
     errorMsg.innerHTML = "";
     errorMsg.classList.add("hide");
     validMsg.classList.add("hide");
   };
 
   // on blur: validate
-  input.addEventListener('blur', function() {
+  Minput.addEventListener('blur', function() {
     reset();
-    if (input.value.trim()) {
-      if (iti.isValidNumber()) {
+    if (Minput.value.trim()) {
+      if (instance.isValidNumber()) {
         validMsg.classList.remove("hide");
       } else {
-        input.classList.add("error");
-        var errorCode = iti.getValidationError();
-        errorMsg.innerHTML = errorMap[errorCode];
+        Minput.classList.add("error");
+        var errorCode = instance.getValidationError();
+        errorMsg.innerHTML = errorMap[errorCode] ? errorMap[errorCode] : 'Please enter a valid number';
         errorMsg.classList.remove("hide");
       }
     }
