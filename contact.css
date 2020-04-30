@@ -313,6 +313,7 @@ soc-info{
 	margin-left: 30px;
 	font-size: 1.2rem;
 	/* text-align: justify; */
+	font-family: 'Montserrat', sans-serif !important;
 }
 
 .contact-header .container .address .social {
@@ -457,7 +458,9 @@ soc-info{
     margin-right: 44px;
   }
   .contact-header .container .address .contact-hint2{
-    margin-right: 20px;
+	/* margin-right: 20px; */
+    margin-right: 0px;
+	
 
   }
   .socialcon-icon a i{
