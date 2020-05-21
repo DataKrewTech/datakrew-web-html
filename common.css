@@ -1280,3 +1280,10 @@ a:focus {
     width: 80vw;
   }
 }
+
+.covid-color{
+  color: yellow !important;
+}
+.covid-color:hover{
+  color: #4eb6bc !important;
+}
