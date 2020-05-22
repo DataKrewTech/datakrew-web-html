@@ -39,7 +39,7 @@ const topbarContent = `
   </div>
 
   <div class="item-container">
-  <li class="item"><a href="http://hygia.care/" class="act-tab covid-color"  name="COVID 19" id="act-tab" target="_blank">COVID 19</a> </li>
+  <li class="item"><a href="https://hygia.care/" class="act-tab covid-color"  name="COVID 19" id="act-tab" target="_blank">COVID-19</a> </li>
   </div>
 
   <div class="item-container" style="padding-left: 16px">
@@ -243,7 +243,7 @@ const navDropdownCont = `
         <a href="company.html#partners">PARTNERS</a>
       </div>
       <li><a href="contact.html">CONTACT</a></li>
-      <li><a href="http://hygia.care/" target="_blank" class="covid-color">COVID 19</a></li>
+      <li><a href="https://hygia.care/" target="_blank" class="covid-color">COVID-19</a></li>
 `;
 
 let navDropdownEle = document.createElement('ul');
@@ -310,7 +310,7 @@ const footerContent = `
             <h3 class="title"><a class="contact" href="contact.html">CONTACT</a></h3>
           </div>
       <div class="mini-section">
-      <h3 class="title"><a class="covid-color"  href="http://hygia.care/" target="_blank">COVID 19</a></h3>
+      <h3 class="title"><a class="covid-color"  href="https://hygia.care/" target="_blank">COVID-19</a></h3>
 
     </div>
         </div>
