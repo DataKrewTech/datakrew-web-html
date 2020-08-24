@@ -143,11 +143,16 @@ soc-info{
 	display: flex;
 	/* max-width: 1600px; */
 	/* max-width: 1500px; */
-	width: 70%;
+	/* width: 70%; */
+	width: 75%;
 	padding: 0 50px;
 	margin: auto;
 
 	padding-top: 50px !important;
+}
+
+.contact-header  .container .address .Country-location{
+	width: 45%;
 }
 
 .contact-header .container .form,
@@ -282,6 +287,17 @@ soc-info{
 	font-family: 'Montserrat', sans-serif;
 	color: #242424;
 	font-size: 24px;
+	font-weight: bold;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.22;
+}
+
+.contact-header .container .address .Country-location{
+	margin-bottom: 10px;
+	font-size: 20px;
+	font-family: 'Montserrat', sans-serif;
+	color: #242424;
 	font-weight: bold;
 	font-stretch: normal;
 	font-style: normal;
@@ -454,8 +470,9 @@ soc-info{
     margin-left: 58px;
     max-width: 56% !important;
   }
-  .contact-header .container .address .contact-hint3{
-    margin-right: 44px;
+  .contact-header .container .address .contact-hint3 .ipad{
+	margin-right: 16px !important;
+	/* width: 45%; */
   }
   .contact-header .container .address .contact-hint2{
 	/* margin-right: 20px; */
@@ -643,6 +660,7 @@ soc-info{
 	.contact-header .container .address .social {
 		margin-right: 30px !important;
 	}
+	
 }
 
 .contact-map {
@@ -699,6 +717,17 @@ soc-info{
     max-width: 86% !important;
     margin-left: 4px !important;
 }
+.contact-header .container .address .Country-location{
+	max-width: 90%;
+}
+.contact-header .container .address .contact-hint3{
+	max-width: 86%;
+	margin-right: 0px !important;
+}
+.contact-header .container .address .contact-hint2{
+	max-width: 86%;
+}
+
 }
 
 .socialcon-icon a .fb {
@@ -742,3 +771,4 @@ soc-info{
 		width: 84% !important;
 	}
 }
+
