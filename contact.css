@@ -151,6 +151,10 @@ soc-info{
 	padding-top: 50px !important;
 }
 
+.contact-header  .container .address .Country-location{
+	width: 45%;
+}
+
 .contact-header .container .form,
 .contact-header .container .address {
 	width: 46%;
@@ -466,8 +470,9 @@ soc-info{
     margin-left: 58px;
     max-width: 56% !important;
   }
-  .contact-header .container .address .contact-hint3{
-    margin-right: 44px;
+  .contact-header .container .address .contact-hint3 .ipad{
+	margin-right: 16px !important;
+	/* width: 45%; */
   }
   .contact-header .container .address .contact-hint2{
 	/* margin-right: 20px; */
@@ -655,6 +660,7 @@ soc-info{
 	.contact-header .container .address .social {
 		margin-right: 30px !important;
 	}
+	
 }
 
 .contact-map {
@@ -765,3 +771,4 @@ soc-info{
 		width: 84% !important;
 	}
 }
+
