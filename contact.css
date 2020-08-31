@@ -94,7 +94,19 @@ soc-info{
 		width: 94% !important;
 	}
 	.contact-map {
-		width: 94% !important;
+		width: 90% !important;
+		flex-wrap: wrap;
+		height: 100% !important;
+
+	}
+
+	.contact-map .map-cont{
+		margin-right: 0px !important;
+    	margin-bottom: 10px;
+	}
+	.contact-map .map-cont1{
+		margin-left: 0px !important;
+    	margin-top: 10px;
 	}
 	.contact-header .container .address .contact-hint1 {
 		/* margin-left: 18%; */
@@ -576,7 +588,25 @@ soc-info{
 	}
 	.contact-map {
 		width: 100% !important;
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+		height: 100% !important;
+
 	}
+	.contact-map .map-cont{
+		width: 100%;
+		height: 100%;
+		margin-bottom: 10px;
+		margin-right: 0px !important;
+	}
+	.contact-map .map-cont1{
+		width: 100%;
+		height: 100%;
+		margin-top: 10px;
+		margin-left: 0px !important;
+	}
+
 	.soc-info {
 		margin-right: 48px !important;
 	}
@@ -682,6 +712,13 @@ soc-info{
 	width: 100%;
 	height: 100%;
 	border-radius: 16px;
+	margin-right: 20px;
+}
+.contact-map .map-cont1{
+	width: 100%;
+	height: 100%;
+	border-radius: 16px;
+	margin-left: 20px;
 }
 .socialcon-icon {
 	font-size: 24px;
