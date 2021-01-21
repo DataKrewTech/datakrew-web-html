@@ -27,10 +27,10 @@ const topbarContent = `
       <span class="act-tab customer txt" id="act-tab">SOLUTIONS</span>
     </li>
     <ul class="item-dropdown">
-      <li class="item-drop-ele"><a class="item-drop-element" href="https://enersave.io" target="_blank">Energy Automation</a></li>
-      <li class="item-drop-ele"><a class="item-drop-element" href="http://loc8.asia" target="_blank">Fleet Tracking</a></li>
-      <li class="item-drop-ele"><a class="item-drop-element" href="#">Predictive Maintenance</a></li>
-      <li class="item-drop-ele"><a class="item-drop-element" href="https://hygia.care" target="_blank">Hygia – COVID19 Response</a></li>
+      <li class="item-drop-ele"><a class="item-drop-element" href="EnergyAutomation.html" target="_blank">Energy Automation</a></li>
+      <li class="item-drop-ele"><a class="item-drop-element" href="FleetTracking.html" target="_blank">Fleet Tracking</a></li>
+      <li class="item-drop-ele"><a class="item-drop-element" href="PredictiveMaintenance.html">Predictive Maintenance</a></li>
+      <li class="item-drop-ele"><a class="item-drop-element" href="HygiaCare.html" target="_blank">Hygia – COVID19 Response</a></li>
     </ul>
   </div>
   <div class="item-container">
