@@ -349,6 +349,7 @@ display: none;
   font-family: 'Montserrat', sans-serif;
   height: 50px;
   border-radius: 43px;
+  width: 240px;
 }
 
 .homepage-header .container .hero-details .hero-details-container .hero-explore:hover {

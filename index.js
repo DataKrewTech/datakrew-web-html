@@ -14,15 +14,33 @@ const topbarContent = `
     <li class="item"><a href="index.html" class="act-tab index" name="home" id="act-tab" >HOME</a></li>
   </div>
   <div class="item-container">
-    <li class="item"><a href="mads.html" class="act-tab mads" name="mads" id="act-tab">MADS</a></li>
+    <li class="item">
+      <span class="act-tab customer txt" id="act-tab">PRODUCTS</span>
+    </li>
+    <ul class="item-dropdown">
+      <li class="item-drop-ele"><a class="item-drop-element" href="itus.html">ITUS Secure IoT Nodes and Gateway</a></li>
+      <li class="item-drop-ele"><a class="item-drop-element" href="mads.html">MADS No-code IoT Platform</a></li>
+    </ul>
+  </div>
+  <div class="item-container">
+    <li class="item">
+      <span class="act-tab customer txt" id="act-tab">SOLUTIONS</span>
+    </li>
+    <ul class="item-dropdown">
+      <li class="item-drop-ele"><a class="item-drop-element" href="https://enersave.io" target="_blank">Energy Automation</a></li>
+      <li class="item-drop-ele"><a class="item-drop-element" href="http://loc8.asia" target="_blank">Fleet Tracking</a></li>
+      <li class="item-drop-ele"><a class="item-drop-element" href="#">Predictive Maintenance</a></li>
+      <li class="item-drop-ele"><a class="item-drop-element" href="https://hygia.care" target="_blank">Hygia – COVID19 Response</a></li>
+    </ul>
   </div>
   <div class="item-container">
     <li class="item">
       <span class="act-tab customer txt" id="act-tab">CUSTOMERS</span>
     </li>
     <ul class="item-dropdown">
-      <li class="item-drop-ele"><a class="item-drop-element" href="applications.html">Applications</a></li>
-      <li class="item-drop-ele"><a class="item-drop-element" href="solutions.html">Solutions</a>
+      <li class="item-drop-ele"><a class="item-drop-element" href="#">Our Clients</a></li>
+      <li class="item-drop-ele"><a class="item-drop-element" href="applications.html">Industries We Serve</a></li>
+      <li class="item-drop-ele"><a class="item-drop-element" href="solutions.html">Customer Benefits</a>
       </li>
     </ul>
   </div>
@@ -31,14 +49,15 @@ const topbarContent = `
     <ul class="item-dropdown">
       <li class="item-drop-ele"><a class="item-drop-element" href="company.html#about" >About</a></li>
       <li class="item-drop-ele"><a class="item-drop-element" href="company.html#team">Team</a> </li>
-      <li class="item-drop-ele"><a class="item-drop-element" href="company.html#partners">Partners</a> </li>
+      <li class="item-drop-ele"><a class="item-drop-element" href="company.html#partners">Ecosystem</a></li>
+      <li class="item-drop-ele"><a class="item-drop-element" href="https://datakrew.blog" target="_blank">Blog</a></li>
     </ul>
   </div>
   <div class="item-container">
   <li class="item"><a href="contact.html" class="act-tab contact"  name="contact" id="act-tab">CONTACT</a> </li>
   </div>
 
-  <div class="item-container">
+  <div class="item-container" style="display:none;">
   <li class="item"><a href="https://hygia.care/" class="act-tab covid-color"  name="COVID 19" id="act-tab" target="_blank">COVID-19</a> </li>
   </div>
 
