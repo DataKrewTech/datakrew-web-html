@@ -38,7 +38,7 @@ const topbarContent = `
       <span class="act-tab customer txt" id="act-tab">CUSTOMERS</span>
     </li>
     <ul class="item-dropdown">
-      <li class="item-drop-ele"><a class="item-drop-element" href="#">Our Clients</a></li>
+      <li class="item-drop-ele"><a class="item-drop-element" href="OurClient.html">Our Clients</a></li>
       <li class="item-drop-ele"><a class="item-drop-element" href="applications.html">Industries We Serve</a></li>
       <li class="item-drop-ele"><a class="item-drop-element" href="solutions.html">Customer Benefits</a>
       </li>
@@ -49,7 +49,7 @@ const topbarContent = `
     <ul class="item-dropdown">
       <li class="item-drop-ele"><a class="item-drop-element" href="company.html#about" >About</a></li>
       <li class="item-drop-ele"><a class="item-drop-element" href="company.html#team">Team</a> </li>
-      <li class="item-drop-ele"><a class="item-drop-element" href="company.html#partners">Ecosystem</a></li>
+      <li class="item-drop-ele"><a class="item-drop-element" href="company.html#Ecosystem">Ecosystem</a></li>
       <li class="item-drop-ele"><a class="item-drop-element" href="https://datakrew.blog" target="_blank">Blog</a></li>
     </ul>
   </div>
@@ -435,7 +435,7 @@ function scrollFunction() {
 				actTab.style.color = '#000';
 			}
 			if (document.getElementsByClassName('item-drop-element')[i]) {
-				document.getElementsByClassName('item-drop-element')[i].style.color = '#000';
+				document.getElementsByClassName('item-drop-element')[i].style.color = '#fff';
 			}
 		}
 		document.getElementsByClassName('menu')[0].setAttribute('src', './assets/menu-black.png');
