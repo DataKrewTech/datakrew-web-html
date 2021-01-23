@@ -15,7 +15,7 @@ const topbarContent = `
   </div>
   <div class="item-container">
     <li class="item">
-      <span class="act-tab customer txt" id="act-tab">PRODUCTS</span>
+      <span class="act-tab products txt" id="act-tab">PRODUCTS</span>
     </li>
     <ul class="item-dropdown">
       <li class="item-drop-ele"><a class="item-drop-element" href="itus.html">ITUS Secure IoT Nodes and Gateway</a></li>
@@ -24,13 +24,13 @@ const topbarContent = `
   </div>
   <div class="item-container">
     <li class="item">
-      <span class="act-tab customer txt" id="act-tab">SOLUTIONS</span>
+      <span class="act-tab solutions txt" id="act-tab">SOLUTIONS</span>
     </li>
     <ul class="item-dropdown">
-      <li class="item-drop-ele"><a class="item-drop-element" href="EnergyAutomation.html" target="_blank">Energy Automation</a></li>
-      <li class="item-drop-ele"><a class="item-drop-element" href="FleetTracking.html" target="_blank">Fleet Tracking</a></li>
+      <li class="item-drop-ele"><a class="item-drop-element" href="EnergyAutomation.html">Energy Automation</a></li>
+      <li class="item-drop-ele"><a class="item-drop-element" href="FleetTracking.html">Fleet Tracking</a></li>
       <li class="item-drop-ele"><a class="item-drop-element" href="PredictiveMaintenance.html">Predictive Maintenance</a></li>
-      <li class="item-drop-ele"><a class="item-drop-element" href="HygiaCare.html" target="_blank">Hygia – COVID19 Response</a></li>
+      <li class="item-drop-ele"><a class="item-drop-element" href="HygiaCare.html">Hygia – COVID19 Response</a></li>
     </ul>
   </div>
   <div class="item-container">
@@ -39,8 +39,8 @@ const topbarContent = `
     </li>
     <ul class="item-dropdown">
       <li class="item-drop-ele"><a class="item-drop-element" href="OurClient.html">Our Clients</a></li>
-      <li class="item-drop-ele"><a class="item-drop-element" href="applications.html">Industries We Serve</a></li>
-      <li class="item-drop-ele"><a class="item-drop-element" href="solutions.html">Customer Benefits</a>
+      <li class="item-drop-ele"><a class="item-drop-element" href="Industries.html">Industries We Serve</a></li>
+      <li class="item-drop-ele"><a class="item-drop-element" href="Benefits.html">Customer Benefits</a>
       </li>
     </ul>
   </div>
@@ -242,9 +242,9 @@ const navDropdownCont = `
           src="https://img.icons8.com/android/24/000000/sort-up.png"
         />
       </li>
-      <div class="sub-cust"><a href="applications.html">APPLICATIONS</a></div>
+      <div class="sub-cust"><a href="Industries.html">APPLICATIONS</a></div>
 
-      <div class="sub-cust"><a href="solutions.html">SOLUTIONS</a></div>
+      <div class="sub-cust"><a href="Benefits.html">SOLUTIONS</a></div>
       <li class="subdown subdownTwo">
         <span>COMPANY</span
         ><img
@@ -316,8 +316,8 @@ const footerContent = `
           </div>
           <div class="mini-section">
             <h3 class="customer title">CUSTOMERS</h3>
-            <a href="applications.html" class="link">Applications</a>
-            <a href="solutions.html" class="link">Solutions</a>
+            <a href="Industries.html" class="link">Applications</a>
+            <a href="Benefits.html" class="link">Solutions</a>
           </div>
           <div class="mini-section">
             <h3 class="title"><a class="company" href="company.html">COMPANY</a></h3>
