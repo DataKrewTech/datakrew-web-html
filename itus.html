@@ -34,7 +34,24 @@
     <title>
      ITUS Secure IoT Nodes and Gateway
     </title>
+    <script>
+        function openCity(evt, cityName) {
+            var i, tabcontent, tablinks;
+            tabcontent = document.getElementsByClassName("tabcontent");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+            }
+            tablinks = document.getElementsByClassName("tablinks");
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace(" active", "");
+            }
+            document.getElementById(cityName).style.display = "block";
+            evt.currentTarget.className += " active";
+        }
 
+        // Get the element with id="defaultOpen" and click on it
+        document.getElementById("defaultOpen").click();
+    </script>
 </head>
 
 <body>
@@ -246,7 +263,7 @@
                 </div>
             </div>
         </section>
-        <section class="apps" id="meet-the-apps">
+        <section class="apps products" id="meet-the-apps">
             <div class="container">
                 <h2 class="title">MEET THE PRODUCT</h2>
                 <p class="msg">
@@ -254,17 +271,79 @@
                     it!
                 </p>
                 <div class="apps-details">
-                    <div class="wrapper">
-                        <div class="left">
-                            <img src="./assets/left.svg" alt="left" class="left-icon" />
-                        </div>
-                        <div class="categories wow bounceInRight slow">
-                        </div>
-                        <div class="right">
-                            <img src="./assets/right.svg" alt="right" class="right-icon" />
-                        </div>
+                    <div class="brdContainer">
+                        <ul class="clearfix dashBrdTab product-tab">
+                            <li>
+                                <a href="javascript: void(0);" onclick="openCity(event, 'London')" class="tablinks active">
+                                    <div class="manuItem">
+                                        <div class="imgDiv">
+                                            <img src="assets/laptop.svg" id="analogue" alt="">
+                                        </div>
+                                        <p>ANALOGUE NODES</p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript: void(0);" onclick="openCity(event, 'Paris')" class="tablinks">
+                                    <div class="manuItem">
+                                        <div class="imgDiv">
+                                            <img src="assets/laptop.svg" id="analogue" alt="">
+                                        </div>
+                                        <p>ANALOGUE NODES</p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript: void(0);" onclick="openCity(event, 'Tokyo')" class="tablinks">
+                                    <div class="manuItem">
+                                        <div class="imgDiv">
+                                            <img src="assets/laptop.svg" id="analogue" alt="">
+                                        </div>
+                                        <p>ANALOGUE NODES</p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript: void(0);" onclick="openCity(event, 'India')" class="tablinks">
+                                    <div class="manuItem">
+                                        <div class="imgDiv">
+                                            <img src="assets/laptop.svg" id="analogue" alt="">
+                                        </div>
+                                        <p>ANALOGUE NODES</p>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
                     </div>
-                    <div class="category-apps">
+                    <div class="tab-info product-tab-info">
+                        <div id="London" class="tabcontent" style="display: block;">
+                            <div class="prod-info">
+                                <h3 class="conTitle">Metrics for the CXO</h3>
+                                <p>The Intelligent Plant Framework™ from Covacsis Technologies is a state-of-the-art platform that provides a 360° visibility
+                                of the manufacturing floor in real time.</p>
+                            </div>
+                        </div>
+                        <div id="Paris" class="tabcontent">
+                            <div class="prod-info">
+                                <h3 class="conTitle">Plant Manager</h3>
+                                <p>The Intelligent Plant Framework™ from Covacsis Technologies is a state-of-the-art platform that provides a 360° visibility
+                                of the manufacturing floor in real time.</p>
+                            </div>
+                        </div>
+                        <div id="Tokyo" class="tabcontent">
+                            <div class="class="prod-info"">
+                                <h3 class="conTitle">Floor Manager</h3>
+                                <p>The Intelligent Plant Framework™ from Covacsis Technologies is a state-of-the-art platform that provides a 360° visibility
+                                of the manufacturing floor in real time.</p>
+                            </div>
+                        </div>
+                        <div id="India" class="tabcontent">
+                            <div class="prod-info">
+                                <h3 class="conTitle">Metrics for the Engineering Team</h3>
+                                <p>The Intelligent Plant Framework™ from Covacsis Technologies is a state-of-the-art platform that provides a 360° visibility
+                                of the manufacturing floor in real time.</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

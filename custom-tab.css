@@ -59,6 +59,7 @@
 
 .dashBrdTab {
     display: flex;
+    justify-content: center;
 }
 
 .dashBrdTab li {
@@ -68,8 +69,8 @@
 .dashBrdTab a {
     position: relative;
     display: block;
-    padding: 23px 10px;
-    font-size: 18px;
+    padding: 15px 10px;
+    font-size: 16px;
     line-height: 22px;
     border-left: 1px solid #e9eaec;
     color: #666;

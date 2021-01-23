@@ -45,7 +45,7 @@
     <title>
        Predictive Maintenance
     </title>
-<script>
+  <script>
       function openCity(evt, cityName) {
         var i, tabcontent, tablinks;
         tabcontent = document.getElementsByClassName("tabcontent");
@@ -62,7 +62,7 @@
 
       // Get the element with id="defaultOpen" and click on it
       document.getElementById("defaultOpen").click();
-</script>
+  </script>
   </head>
   <body>
     <button onclick="topFunction()" id="myBtn" title="Go to top"><svg style="fill: white;width: 25px;height: 25px;" viewBox="0 0 28 28" version="1.1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" xml:space="preserve"><path d="M26.297 20.797l-2.594 2.578c-0.391 0.391-1.016 0.391-1.406 0l-8.297-8.297-8.297 8.297c-0.391 0.391-1.016 0.391-1.406 0l-2.594-2.578c-0.391-0.391-0.391-1.031 0-1.422l11.594-11.578c0.391-0.391 1.016-0.391 1.406 0l11.594 11.578c0.391 0.391 0.391 1.031 0 1.422z"></path></svg></button>
@@ -113,6 +113,11 @@
                   <span class="dropArrow"></span>
                 </a>
               </li>
+              <li>
+                <a href="javascript: void(0);" onclick="openCity(event, 'India')" class="tablinks">Engineering Team
+                  <span class="dropArrow"></span>
+                </a>
+              </li>
             </ul>
             <span class="lightShadow botLitShadow"></span>
           </div>
@@ -122,7 +127,7 @@
           <div id="London" class="tabcontent" style="display: block;">
             <div class="infoSec">
               <div class="lCol">
-                <img src="assets/automation.svg" width="300" alt="Metrics for the CXO">
+                <img src="assets/automation.svg" width="200" alt="Metrics for the CXO">
               </div>
               <div class="rCol">
                 <h3 class="conTitle">Metrics for the CXO</h3>
@@ -136,7 +141,7 @@
           <div id="Paris" class="tabcontent">
             <div class="infoSec">
               <div class="lCol">
-                <img src="assets/cities.svg" width="300" alt="Plant Manager">
+                <img src="assets/cities.svg" width="200" alt="Plant Manager">
               </div>
               <div class="rCol">
                 <h3 class="conTitle">Plant Manager</h3>
@@ -150,10 +155,23 @@
           <div id="Tokyo" class="tabcontent">
             <div class="infoSec">
               <div class="lCol">
-                <img src="assets/utilities.svg" width="300" alt="Floor Manager">
+                <img src="assets/utilities.svg" width="200" alt="Floor Manager">
               </div>
               <div class="rCol">
                 <h3 class="conTitle">Floor Manager</h3>
+                <p>The Intelligent Plant Framework™ from Covacsis Technologies is a state-of-the-art platform that provides a 360° visibility
+                  of the manufacturing floor in real time.</p>
+              </div>
+              <!-- rCol -->
+            </div>
+          </div>
+          <div id="India" class="tabcontent">
+            <div class="infoSec">
+              <div class="lCol">
+                <img src="assets/utilities.svg" width="200" alt="Floor Manager">
+              </div>
+              <div class="rCol">
+                <h3 class="conTitle">Metrics for the Engineering Team</h3>
                 <p>The Intelligent Plant Framework™ from Covacsis Technologies is a state-of-the-art platform that provides a 360° visibility
                   of the manufacturing floor in real time.</p>
               </div>
