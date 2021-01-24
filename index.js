@@ -230,7 +230,34 @@ mainContainer.prepend(topbarEle);
 // nav dropdown
 const navDropdownCont = `
       <li><a href="index.html">HOME</a></li>
-      <li><a href="mads.html">MADS</a></li>
+      <li class="subdown subdownThree">
+        <span>MADS</span>
+        <img
+          class="prod-down block"
+          src="https://img.icons8.com/android/24/000000/sort-down.png"
+        />
+        <img
+          class="prod-up none"
+          src="https://img.icons8.com/android/24/000000/sort-up.png"
+        />
+      </li>
+      <div class="sub-prod"><a href="itus.html">ITUS Secure IoT Nodes and Gateway</a></div>
+      <div class="sub-prod"><a href="mads.html">MADS No-code IoT Platform</a></div>
+      <li class="subdown subdownFour">
+        <span>SOLUTIONS</span>
+        <img
+          class="solu-down block"
+          src="https://img.icons8.com/android/24/000000/sort-down.png"
+        />
+        <img
+          class="solu-up none"
+          src="https://img.icons8.com/android/24/000000/sort-up.png"
+        />
+      </li>
+      <div class="sub-solu"><a href="EnergyAutomation.html">Energy Automation</a></div>
+      <div class="sub-solu"><a href="FleetTracking.html">Fleet Tracking</a></div>
+      <div class="sub-solu"><a href="PredictiveMaintenance.html">Predictive Maintenance</a></div>
+      <div class="sub-solu"><a href="HygiaCare.html">Hygia – COVID19 Response</a></div>
       <li class="subdown subdownOne">
         <span>CUSTOMERS</span
         ><img
@@ -242,9 +269,9 @@ const navDropdownCont = `
           src="https://img.icons8.com/android/24/000000/sort-up.png"
         />
       </li>
-      <div class="sub-cust"><a href="Industries.html">APPLICATIONS</a></div>
-
-      <div class="sub-cust"><a href="Benefits.html">SOLUTIONS</a></div>
+      <div class="sub-cust"><a href="OurClient.html">Our Clients</a></div>
+      <div class="sub-cust"><a href="Industries.html">Industries We Serve</a></div>
+      <div class="sub-cust"><a href="Benefits.html">Customer Benefits</a></div>
       <li class="subdown subdownTwo">
         <span>COMPANY</span
         ><img
@@ -256,13 +283,12 @@ const navDropdownCont = `
           src="https://img.icons8.com/android/24/000000/sort-up.png"
         />
       </li>
-      <div class="sub-comp"><a href="company.html">ABOUT</a></div>
+      <div class="sub-comp"><a href="company.html#about">About</a></div>
       <div class="sub-comp"><a href="company.html#team">TEAM</a></div>
-      <div class="sub-comp">
-        <a href="company.html#partners">PARTNERS</a>
-      </div>
+      <div class="sub-comp"><a href="company.html#Ecosystem">Ecosystem</a></div>
+      <div class="sub-comp"><a href="https://datakrew.blog" target="_blank">Blog</a></div>
       <li><a href="contact.html">CONTACT</a></li>
-      <li><a href="https://hygia.care/" target="_blank" class="covid-color">COVID-19</a></li>
+      <li style="display:none;"><a href="https://hygia.care/" target="_blank" class="covid-color">COVID-19</a></li>
 `;
 
 let navDropdownEle = document.createElement('ul');
@@ -346,9 +372,13 @@ mainContainer.appendChild(footerEle);
 let dropDownOpen = false;
 let showSubDownOne = false;
 let showSubDownTwo = false;
+let showSubDownThree = false;
+let showSubDownFour = false;
 let resNavDropdown = document.querySelector('.main-container .res-nav-items');
 let subdownOne = document.querySelector('.subdownOne');
 let subdownTwo = document.querySelector('.subdownTwo');
+let subdownThree = document.querySelector('.subdownThree');
+let subdownFour = document.querySelector('.subdownFour');
 
 document.querySelector('.topbar .container .res-menu').addEventListener('click', () => {
 	if (dropDownOpen) {
@@ -360,6 +390,54 @@ document.querySelector('.topbar .container .res-menu').addEventListener('click',
 		resNavDropdown.classList.add('block');
 		dropDownOpen = true;
 	}
+});
+subdownFour.addEventListener('click', () => {
+  let subDownCustItem = document.querySelectorAll('.sub-solu');
+  if (subdownFour) {
+    subDownCustItem.forEach((item) => {
+      item.classList.remove('block');
+      item.classList.add('none');
+      document.querySelector('.solu-up').classList.remove('block');
+      document.querySelector('.solu-up').classList.add('none');
+      document.querySelector('.solu-down').classList.remove('none');
+      document.querySelector('.solu-down').classList.add('block');
+      subdownFour = false;
+    });
+  } else {
+    subDownCustItem.forEach((item) => {
+      item.classList.remove('none');
+      item.classList.add('block');
+      document.querySelector('.solu-up').classList.remove('none');
+      document.querySelector('.solu-up').classList.add('block');
+      document.querySelector('.solu-down').classList.remove('block');
+      document.querySelector('.solu-down').classList.add('none');
+      subdownFour = true;
+    });
+  }
+});
+subdownThree.addEventListener('click', () => {
+  let subDownCustItem = document.querySelectorAll('.sub-prod');
+  if (subdownThree) {
+    subDownCustItem.forEach((item) => {
+      item.classList.remove('block');
+      item.classList.add('none');
+      document.querySelector('.prod-up').classList.remove('block');
+      document.querySelector('.prod-up').classList.add('none');
+      document.querySelector('.prod-down').classList.remove('none');
+      document.querySelector('.prod-down').classList.add('block');
+      subdownThree = false;
+    });
+  } else {
+    subDownCustItem.forEach((item) => {
+      item.classList.remove('none');
+      item.classList.add('block');
+      document.querySelector('.prod-up').classList.remove('none');
+      document.querySelector('.prod-up').classList.add('block');
+      document.querySelector('.prod-down').classList.remove('block');
+      document.querySelector('.prod-down').classList.add('none');
+      subdownThree = true;
+    });
+  }
 });
 
 subdownOne.addEventListener('click', () => {
@@ -411,6 +489,8 @@ subdownTwo.addEventListener('click', () => {
 		});
 	}
 });
+
+
 
 var mybutton = document.getElementById('myBtn');
 window.onscroll = function() {

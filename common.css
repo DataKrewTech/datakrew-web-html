@@ -31,7 +31,7 @@
 .main-container .res-nav-items {
     display: none;
     position: fixed;
-    top: 100px;
+    top: 59px;
     left: 0;
     background-color: #fff;
     color: #000;
@@ -468,7 +468,9 @@ a:focus {
 }
 
 .sub-cust,
-.sub-comp {
+.sub-comp,
+.sub-prod,
+.sub-solu {
     display: none;
 }
 
@@ -533,7 +535,9 @@ a:focus {
         font-weight: bold;
     }
     .main-container .res-nav-items .sub-cust,
-    .main-container .res-nav-items .sub-comp {
+    .main-container .res-nav-items .sub-comp,
+    .main-container .res-nav-items .sub-prod,
+    .main-container .res-nav-items .sub-solu {
         background-color: #eee;
         text-decoration: none;
         color: rgb(71, 71, 71);
@@ -544,7 +548,9 @@ a:focus {
         font-weight: bold;
     }
     .sub-cust a,
-    .sub-comp a {
+    .sub-comp a,
+    .sub-prod a,
+    .sub-solu a {
         width: 100%;
         color: rgb(71, 71, 71);
         display: block;
@@ -576,7 +582,9 @@ a:focus {
         font-weight: bold;
     }
     .main-container .res-nav-items .sub-cust,
-    .main-container .res-nav-items .sub-comp {
+    .main-container .res-nav-items .sub-comp,
+    .main-container .res-nav-items .sub-prod,
+    .main-container .res-nav-items .sub-solu {
         background-color: #eee;
         text-decoration: none;
         color: rgb(71, 71, 71);
@@ -587,7 +595,9 @@ a:focus {
         font-weight: bold;
     }
     .sub-cust a,
-    .sub-comp a {
+    .sub-comp a,
+    .sub-prod a,
+    .sub-solu a {
         width: 100%;
         color: rgb(71, 71, 71);
         display: block;
