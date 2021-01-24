@@ -1428,4 +1428,29 @@ a:focus {
     .apps.products .container {
         width: 100%;
     }
+    .custom-tab-sec .dashBrdTab {
+        flex-flow: column;
+    }
+    .custom-tab-sec .dropArrow {
+        display: none !important;
+    }
+}
+
+@media (max-width: 992px) {
+    .custom-tab-sec .dashBrdTab li {
+        width: auto;
+    }
+    .custom-tab-sec .dashBrdTab a {
+        height: 100%;
+    }
+    .custom-tab-sec .infoSec {
+        flex-wrap: wrap;
+    }
+    .custom-tab-sec .infoSec .rCol {
+        padding-left: 0;
+        text-align: center;
+    }
+    .custom-tab-sec .infoSec .lCol {
+        margin-bottom: 30px;
+    }
 }

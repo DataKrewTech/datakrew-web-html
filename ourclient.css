@@ -222,4 +222,13 @@
     .main .container-fluid img {
         margin-bottom: 15px
     }
+    .main ul {
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 992px) {
+    .main {
+        width: 90%;
+    }
 }

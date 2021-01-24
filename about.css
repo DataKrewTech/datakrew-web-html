@@ -910,6 +910,7 @@ button {
 .team-wrapper .other-member .st-member-meta {
     height: 40px;
 }
+
 .team-wrapper .other-member .st-member-info {
     font-size: 12px;
 }
@@ -932,5 +933,18 @@ button {
     }
     .people {
         width: 50%;
+    }
+}
+
+@media (max-width: 768px) {
+    .team .container1 {
+        padding: 50px 0px;
+    }
+    .st-member-meta {
+        height: 35px;
+    }
+    .st-member-name {
+        font-size: 14px;
+        margin-bottom: 0;
     }
 }
