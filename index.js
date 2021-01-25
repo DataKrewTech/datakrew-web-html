@@ -18,8 +18,8 @@ const topbarContent = `
       <span class="act-tab products txt" id="act-tab">PRODUCTS</span>
     </li>
     <ul class="item-dropdown">
-      <li class="item-drop-ele"><a class="item-drop-element" href="itus.html">ITUS Secure IoT Nodes and Gateway</a></li>
       <li class="item-drop-ele"><a class="item-drop-element" href="mads.html">MADS No-code IoT Platform</a></li>
+      <li class="item-drop-ele"><a class="item-drop-element" href="itus.html">ITUS Secure IoT Nodes and Gateway</a></li>
     </ul>
   </div>
   <div class="item-container">
@@ -29,7 +29,7 @@ const topbarContent = `
     <ul class="item-dropdown">
       <li class="item-drop-ele"><a class="item-drop-element" href="EnergyAutomation.html">Energy Automation</a></li>
       <li class="item-drop-ele"><a class="item-drop-element" href="FleetTracking.html">Fleet Tracking</a></li>
-      <li class="item-drop-ele"><a class="item-drop-element" href="PredictiveMaintenance.html">Predictive Maintenance</a></li>
+      <li class="item-drop-ele" style="display:none;"><a class="item-drop-element" href="PredictiveMaintenance.html">Predictive Maintenance</a></li>
       <li class="item-drop-ele"><a class="item-drop-element" href="HygiaCare.html">Hygia – COVID19 Response</a></li>
     </ul>
   </div>
@@ -241,8 +241,8 @@ const navDropdownCont = `
           src="https://img.icons8.com/android/24/000000/sort-up.png"
         />
       </li>
-      <div class="sub-prod"><a href="itus.html">ITUS Secure IoT Nodes and Gateway</a></div>
       <div class="sub-prod"><a href="mads.html">MADS No-code IoT Platform</a></div>
+      <div class="sub-prod"><a href="itus.html">ITUS Secure IoT Nodes and Gateway</a></div>
       <li class="subdown subdownFour">
         <span>SOLUTIONS</span>
         <img
@@ -256,7 +256,7 @@ const navDropdownCont = `
       </li>
       <div class="sub-solu"><a href="EnergyAutomation.html">Energy Automation</a></div>
       <div class="sub-solu"><a href="FleetTracking.html">Fleet Tracking</a></div>
-      <div class="sub-solu"><a href="PredictiveMaintenance.html">Predictive Maintenance</a></div>
+      <div class="sub-solu"><a href="PredictiveMaintenance.html" style="display:none;">Predictive Maintenance</a></div>
       <div class="sub-solu"><a href="HygiaCare.html">Hygia – COVID19 Response</a></div>
       <li class="subdown subdownOne">
         <span>CUSTOMERS</span
@@ -334,30 +334,32 @@ const footerContent = `
       </div>
       <div class="right-content">
         <div class="container">
+          
           <div class="mini-section">
-            <h3 class="title"><a class="index" href="index.html">HOME</a></h3>
+            <h3 class="title">PRODUCTS</h3>
+            <a href="mads.html" class="link">MADS No-code IoT Platform</a>
+            <a href="itus.html" class="link">ITUS Secure IoT Nodes and Gateway</a>
           </div>
           <div class="mini-section">
-            <h3 class="title"><a class="mads" href="mads.html">MADS</a></h3>
+            <h3 class="title">SOLUTION</h3>
+            <a href="EnergyAutomation.html" class="link">Energy Automation</a>
+            <a href="FleetTracking.html" class="link">Fleet Tracking</a>
+            <a href="PredictiveMaintenance.html" class="link" style="display:none;">Predictive Maintenance</a>
+            <a href="HygiaCare.html" class="link">Hygia – COVID19 Response</a>
           </div>
           <div class="mini-section">
             <h3 class="customer title">CUSTOMERS</h3>
-            <a href="Industries.html" class="link">Applications</a>
-            <a href="Benefits.html" class="link">Solutions</a>
+            <a href="OurClient.html" class="link">Our Clients</a>
+            <a href="Industries.html" class="link">Industries We Serve</a>
+            <a href="Benefits.html" class="link">Customer Benefits</a>
           </div>
           <div class="mini-section">
-            <h3 class="title"><a class="company" href="company.html">COMPANY</a></h3>
+            <h3 class="title">COMPANY</h3>
             <a href="company.html#about" class="link">About</a>
             <a href="company.html#team" class="link">Team</a>
-            <a href="company.html#partners" class="link">Partners</a>
+            <a href="company.html#Ecosystem" class="link">Ecosystem</a>
+            <a href="https://datakrew.blog" class="link" target="_blank">Blog</a>
           </div>
-          <div class="mini-section">
-            <h3 class="title"><a class="contact" href="contact.html">CONTACT</a></h3>
-          </div>
-      <div class="mini-section">
-      <h3 class="title"><a class="covid-color"  href="https://hygia.care/" target="_blank">COVID-19</a></h3>
-
-    </div>
         </div>
       </div>
     </div>

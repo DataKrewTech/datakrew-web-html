@@ -628,7 +628,7 @@ a:focus {
     margin: auto;
     display: grid;
     grid-template-columns: 35% 65%;
-    width: 90%;
+    width: 93%;
     height: 85%;
 }
 
@@ -699,7 +699,7 @@ a:focus {
     color: white;
     text-decoration: none;
     margin-bottom: 30px;
-    font-size: 15px;
+    font-size: 14px;
 }
 
 .main-footer .container .right-content .container .mini-section .link:hover {
@@ -1412,6 +1412,11 @@ a:focus {
     font-size: 14px;
     line-height: 1.5;
     color: #888;
+}
+
+.middle-wrap {
+    position: relative;
+    min-height: calc(100vh - 706px);
 }
 
 @media (max-width: 480px) {

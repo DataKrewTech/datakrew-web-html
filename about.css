@@ -103,7 +103,7 @@ button {
 }
 
 .team .container1 {
-    width: 90%;
+    width: 70%;
     margin: auto;
     padding: 50px 50px;
 }
@@ -757,16 +757,16 @@ button {
 /*team css*/
 
 .team-wrapper {
-    text-align: center;
+    /* text-align: center; */
 }
 
 .st-member.st-style1 {
     position: relative;
-    border-radius: 5px;
+    border-radius: 8px;
     overflow: hidden;
     transition: all 0.3s ease;
     width: 30%;
-    margin: 10px;
+    margin: 12px;
     display: inline-block;
 }
 
@@ -884,14 +884,24 @@ button {
     background: #000;
 }
 
-.team-wrapper .top-member {}
+.team-wrapper .top-member {
+    /* text-align: center; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 .team-wrapper .top-member .st-member.st-style1 {}
 
-.team-wrapper .other-member {}
+.team-wrapper .other-member {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
 
 .team-wrapper .other-member .st-member.st-style1 {
-    width: 123px;
+    /* width: 123px; */
 }
 
 .team-wrapper .other-member .st-member-name {
