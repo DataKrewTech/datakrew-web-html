@@ -1264,14 +1264,14 @@ a:focus {
 .slider-wrap {
     width: 70%;
     margin: auto;
-    height: 240px;
+    /* height: 240px; */
     margin: 50px auto;
 }
 
 .slider-wrap img {
     width: 100%;
-    height: 100%;
-    object-fit: cover;
+    height: auto;
+    /* object-fit: cover; */
 }
 
 .btn-web-link-wrap {
