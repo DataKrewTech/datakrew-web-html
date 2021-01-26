@@ -14,15 +14,33 @@ const topbarContent = `
     <li class="item"><a href="index.html" class="act-tab index" name="home" id="act-tab" >HOME</a></li>
   </div>
   <div class="item-container">
-    <li class="item"><a href="mads.html" class="act-tab mads" name="mads" id="act-tab">MADS</a></li>
+    <li class="item">
+      <span class="act-tab products txt" id="act-tab">PRODUCTS</span>
+    </li>
+    <ul class="item-dropdown">
+      <li class="item-drop-ele"><a class="item-drop-element" href="mads.html">MADS No-code IoT Platform</a></li>
+      <li class="item-drop-ele"><a class="item-drop-element" target="_blank" href="https://drive.google.com/file/d/1uCzd-k9CXCZV82U3tbfyvJOkW9A44NOA/view">ITUS Secure IoT Nodes and Gateway</a></li>
+    </ul>
+  </div>
+  <div class="item-container">
+    <li class="item">
+      <span class="act-tab solutions txt" id="act-tab">SOLUTIONS</span>
+    </li>
+    <ul class="item-dropdown">
+      <li class="item-drop-ele"><a class="item-drop-element" href="EnergyAutomation.html">Energy Automation</a></li>
+      <li class="item-drop-ele"><a class="item-drop-element" href="FleetTracking.html">Fleet Tracking</a></li>
+      <li class="item-drop-ele" style="display:none;"><a class="item-drop-element" href="PredictiveMaintenance.html">Predictive Maintenance</a></li>
+      <li class="item-drop-ele"><a class="item-drop-element" href="HygiaCare.html">COVID-19 Response</a></li>
+    </ul>
   </div>
   <div class="item-container">
     <li class="item">
       <span class="act-tab customer txt" id="act-tab">CUSTOMERS</span>
     </li>
     <ul class="item-dropdown">
-      <li class="item-drop-ele"><a class="item-drop-element" href="applications.html">Applications</a></li>
-      <li class="item-drop-ele"><a class="item-drop-element" href="solutions.html">Solutions</a>
+      <li class="item-drop-ele"><a class="item-drop-element" href="OurClient.html">Clients & Case-Studies</a></li>
+      <li class="item-drop-ele"><a class="item-drop-element" href="Industries.html">Industries We Serve</a></li>
+      <li class="item-drop-ele"><a class="item-drop-element" href="Benefits.html">Customer Benefits</a>
       </li>
     </ul>
   </div>
@@ -31,15 +49,16 @@ const topbarContent = `
     <ul class="item-dropdown">
       <li class="item-drop-ele"><a class="item-drop-element" href="company.html#about" >About</a></li>
       <li class="item-drop-ele"><a class="item-drop-element" href="company.html#team">Team</a> </li>
-      <li class="item-drop-ele"><a class="item-drop-element" href="company.html#partners">Partners</a> </li>
+      <li class="item-drop-ele"><a class="item-drop-element" href="company.html#Ecosystem">Ecosystem</a></li>
+      <li class="item-drop-ele"><a class="item-drop-element" href="https://datakrew.blog" target="_blank">Blog</a></li>
     </ul>
   </div>
   <div class="item-container">
   <li class="item"><a href="contact.html" class="act-tab contact"  name="contact" id="act-tab">CONTACT</a> </li>
   </div>
 
-  <div class="item-container">
-  <li class="item"><a href="https://hygia.care/" class="act-tab covid-color"  name="COVID 19" id="act-tab" target="_blank">COVID-19</a> </li>
+  <div class="item-container" style="display:none;">
+  <li class="item"><a href="https://hygia.care/" class="act-tab covid-color" name="COVID 19" id="act-tab" target="_blank">COVID-19</a> </li>
   </div>
 
   <div class="item-container" style="padding-left: 16px">
@@ -211,7 +230,34 @@ mainContainer.prepend(topbarEle);
 // nav dropdown
 const navDropdownCont = `
       <li><a href="index.html">HOME</a></li>
-      <li><a href="mads.html">MADS</a></li>
+      <li class="subdown subdownThree">
+        <span>MADS</span>
+        <img
+          class="prod-down block"
+          src="https://img.icons8.com/android/24/000000/sort-down.png"
+        />
+        <img
+          class="prod-up none"
+          src="https://img.icons8.com/android/24/000000/sort-up.png"
+        />
+      </li>
+      <div class="sub-prod"><a href="mads.html">MADS No-code IoT Platform</a></div>
+      <div class="sub-prod"><a target="_blank" href="https://drive.google.com/file/d/1uCzd-k9CXCZV82U3tbfyvJOkW9A44NOA/view">ITUS Secure IoT Nodes and Gateway</a></div>
+      <li class="subdown subdownFour">
+        <span>SOLUTIONS</span>
+        <img
+          class="solu-down block"
+          src="https://img.icons8.com/android/24/000000/sort-down.png"
+        />
+        <img
+          class="solu-up none"
+          src="https://img.icons8.com/android/24/000000/sort-up.png"
+        />
+      </li>
+      <div class="sub-solu"><a href="EnergyAutomation.html">Energy Automation</a></div>
+      <div class="sub-solu"><a href="FleetTracking.html">Fleet Tracking</a></div>
+      <div class="sub-solu"><a href="PredictiveMaintenance.html" style="display:none;">Predictive Maintenance</a></div>
+      <div class="sub-solu"><a href="HygiaCare.html">COVID-19 Response</a></div>
       <li class="subdown subdownOne">
         <span>CUSTOMERS</span
         ><img
@@ -223,9 +269,9 @@ const navDropdownCont = `
           src="https://img.icons8.com/android/24/000000/sort-up.png"
         />
       </li>
-      <div class="sub-cust"><a href="applications.html">APPLICATIONS</a></div>
-
-      <div class="sub-cust"><a href="solutions.html">SOLUTIONS</a></div>
+      <div class="sub-cust"><a href="OurClient.html">Clients & Case-Studies</a></div>
+      <div class="sub-cust"><a href="Industries.html">Industries We Serve</a></div>
+      <div class="sub-cust"><a href="Benefits.html">Customer Benefits</a></div>
       <li class="subdown subdownTwo">
         <span>COMPANY</span
         ><img
@@ -237,13 +283,12 @@ const navDropdownCont = `
           src="https://img.icons8.com/android/24/000000/sort-up.png"
         />
       </li>
-      <div class="sub-comp"><a href="company.html">ABOUT</a></div>
+      <div class="sub-comp"><a href="company.html#about">About</a></div>
       <div class="sub-comp"><a href="company.html#team">TEAM</a></div>
-      <div class="sub-comp">
-        <a href="company.html#partners">PARTNERS</a>
-      </div>
+      <div class="sub-comp"><a href="company.html#Ecosystem">Ecosystem</a></div>
+      <div class="sub-comp"><a href="https://datakrew.blog" target="_blank">Blog</a></div>
       <li><a href="contact.html">CONTACT</a></li>
-      <li><a href="https://hygia.care/" target="_blank" class="covid-color">COVID-19</a></li>
+      <li style="display:none;"><a href="https://hygia.care/" target="_blank" class="covid-color">COVID-19</a></li>
 `;
 
 let navDropdownEle = document.createElement('ul');
@@ -289,30 +334,32 @@ const footerContent = `
       </div>
       <div class="right-content">
         <div class="container">
+          
           <div class="mini-section">
-            <h3 class="title"><a class="index" href="index.html">HOME</a></h3>
+            <h3 class="title">PRODUCTS</h3>
+            <a href="mads.html" class="link">MADS No-code IoT Platform</a>
+            <a target="_blank" href="https://drive.google.com/file/d/1uCzd-k9CXCZV82U3tbfyvJOkW9A44NOA/view" class="link">ITUS Secure IoT Nodes and Gateway</a>
           </div>
           <div class="mini-section">
-            <h3 class="title"><a class="mads" href="mads.html">MADS</a></h3>
+            <h3 class="title">SOLUTION</h3>
+            <a href="EnergyAutomation.html" class="link">Energy Automation</a>
+            <a href="FleetTracking.html" class="link">Fleet Tracking</a>
+            <a href="PredictiveMaintenance.html" class="link" style="display:none;">Predictive Maintenance</a>
+            <a href="HygiaCare.html" class="link">COVID-19 Response</a>
           </div>
           <div class="mini-section">
             <h3 class="customer title">CUSTOMERS</h3>
-            <a href="applications.html" class="link">Applications</a>
-            <a href="solutions.html" class="link">Solutions</a>
+            <a href="OurClient.html" class="link">Clients & Case-Studies</a>
+            <a href="Industries.html" class="link">Industries We Serve</a>
+            <a href="Benefits.html" class="link">Customer Benefits</a>
           </div>
           <div class="mini-section">
-            <h3 class="title"><a class="company" href="company.html">COMPANY</a></h3>
+            <h3 class="title">COMPANY</h3>
             <a href="company.html#about" class="link">About</a>
             <a href="company.html#team" class="link">Team</a>
-            <a href="company.html#partners" class="link">Partners</a>
+            <a href="company.html#Ecosystem" class="link">Ecosystem</a>
+            <a href="https://datakrew.blog" class="link" target="_blank">Blog</a>
           </div>
-          <div class="mini-section">
-            <h3 class="title"><a class="contact" href="contact.html">CONTACT</a></h3>
-          </div>
-      <div class="mini-section">
-      <h3 class="title"><a class="covid-color"  href="https://hygia.care/" target="_blank">COVID-19</a></h3>
-
-    </div>
         </div>
       </div>
     </div>
@@ -327,9 +374,13 @@ mainContainer.appendChild(footerEle);
 let dropDownOpen = false;
 let showSubDownOne = false;
 let showSubDownTwo = false;
+let showSubDownThree = false;
+let showSubDownFour = false;
 let resNavDropdown = document.querySelector('.main-container .res-nav-items');
 let subdownOne = document.querySelector('.subdownOne');
 let subdownTwo = document.querySelector('.subdownTwo');
+let subdownThree = document.querySelector('.subdownThree');
+let subdownFour = document.querySelector('.subdownFour');
 
 document.querySelector('.topbar .container .res-menu').addEventListener('click', () => {
 	if (dropDownOpen) {
@@ -341,6 +392,54 @@ document.querySelector('.topbar .container .res-menu').addEventListener('click',
 		resNavDropdown.classList.add('block');
 		dropDownOpen = true;
 	}
+});
+subdownFour.addEventListener('click', () => {
+  let subDownCustItem = document.querySelectorAll('.sub-solu');
+  if (subdownFour) {
+    subDownCustItem.forEach((item) => {
+      item.classList.remove('block');
+      item.classList.add('none');
+      document.querySelector('.solu-up').classList.remove('block');
+      document.querySelector('.solu-up').classList.add('none');
+      document.querySelector('.solu-down').classList.remove('none');
+      document.querySelector('.solu-down').classList.add('block');
+      subdownFour = false;
+    });
+  } else {
+    subDownCustItem.forEach((item) => {
+      item.classList.remove('none');
+      item.classList.add('block');
+      document.querySelector('.solu-up').classList.remove('none');
+      document.querySelector('.solu-up').classList.add('block');
+      document.querySelector('.solu-down').classList.remove('block');
+      document.querySelector('.solu-down').classList.add('none');
+      subdownFour = true;
+    });
+  }
+});
+subdownThree.addEventListener('click', () => {
+  let subDownCustItem = document.querySelectorAll('.sub-prod');
+  if (subdownThree) {
+    subDownCustItem.forEach((item) => {
+      item.classList.remove('block');
+      item.classList.add('none');
+      document.querySelector('.prod-up').classList.remove('block');
+      document.querySelector('.prod-up').classList.add('none');
+      document.querySelector('.prod-down').classList.remove('none');
+      document.querySelector('.prod-down').classList.add('block');
+      subdownThree = false;
+    });
+  } else {
+    subDownCustItem.forEach((item) => {
+      item.classList.remove('none');
+      item.classList.add('block');
+      document.querySelector('.prod-up').classList.remove('none');
+      document.querySelector('.prod-up').classList.add('block');
+      document.querySelector('.prod-down').classList.remove('block');
+      document.querySelector('.prod-down').classList.add('none');
+      subdownThree = true;
+    });
+  }
 });
 
 subdownOne.addEventListener('click', () => {
@@ -393,6 +492,8 @@ subdownTwo.addEventListener('click', () => {
 	}
 });
 
+
+
 var mybutton = document.getElementById('myBtn');
 window.onscroll = function() {
 	scrollFunction();
@@ -416,7 +517,7 @@ function scrollFunction() {
 				actTab.style.color = '#000';
 			}
 			if (document.getElementsByClassName('item-drop-element')[i]) {
-				document.getElementsByClassName('item-drop-element')[i].style.color = '#000';
+				document.getElementsByClassName('item-drop-element')[i].style.color = '#fff';
 			}
 		}
 		document.getElementsByClassName('menu')[0].setAttribute('src', './assets/menu-black.png');

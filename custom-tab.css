@@ -1,0 +1,116 @@
+.tab {
+    overflow: hidden;
+    border-top: 1px solid #e9eaec;
+    border-bottom: 1px solid #e9eaec;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+.wrap-tab {
+    max-width: 940px;
+    margin: 0 auto;
+}
+
+/* Style the buttons inside the tab */
+
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+
+.tab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+
+.tab button.active {
+    background-color: #ccc;
+}
+
+/* Style the tab content */
+
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border-top: none;
+}
+
+.brdContainer {
+    border-top: 1px solid #e9eaec;
+    border-bottom: 1px solid #e9eaec;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+.brdContainer .wrap {
+    position: relative;
+    max-width: 70%;
+    margin: 0 auto;
+}
+
+.dashBrdTab {
+    display: flex;
+    justify-content: center;
+}
+
+.dashBrdTab li {
+    width: 25%;
+}
+
+.dashBrdTab a {
+    position: relative;
+    display: block;
+    padding: 15px 10px;
+    font-size: 16px;
+    line-height: 22px;
+    border-left: 1px solid #e9eaec;
+    color: #666;
+    text-align: center;
+}
+
+.dashBrdTab a:hover {
+    background-color: #f0f0f0;
+}
+
+.dashBrdTab a:last-child {
+    border-right: 1px solid #e9eaec;
+}
+
+.dashBrdTab .active {
+    background-color: #f0f0f0;
+}
+
+.dropArrow {
+    display: none;
+    background: url(assets/drop-grey-icon.png) no-repeat;
+    position: absolute;
+    width: 15px;
+    height: 8px;
+    left: 48%;
+    bottom: -8px;
+    z-index: 10;
+}
+
+.dashBrdTab .active .dropArrow {
+    display: block;
+}
+
+.botLitShadow {
+    background-image: url(../images/background/light-shadow.png);
+    bottom: -8px;
+}
+
+.tab-info {
+    width: 70%;
+    margin: auto;
+    border: 0;
+}
