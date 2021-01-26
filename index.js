@@ -19,7 +19,7 @@ const topbarContent = `
     </li>
     <ul class="item-dropdown">
       <li class="item-drop-ele"><a class="item-drop-element" href="mads.html">MADS No-code IoT Platform</a></li>
-      <li class="item-drop-ele"><a class="item-drop-element" href="itus.html">ITUS Secure IoT Nodes and Gateway</a></li>
+      <li class="item-drop-ele"><a class="item-drop-element" target="_blank" href="https://drive.google.com/file/d/1uCzd-k9CXCZV82U3tbfyvJOkW9A44NOA/view">ITUS Secure IoT Nodes and Gateway</a></li>
     </ul>
   </div>
   <div class="item-container">
@@ -30,7 +30,7 @@ const topbarContent = `
       <li class="item-drop-ele"><a class="item-drop-element" href="EnergyAutomation.html">Energy Automation</a></li>
       <li class="item-drop-ele"><a class="item-drop-element" href="FleetTracking.html">Fleet Tracking</a></li>
       <li class="item-drop-ele" style="display:none;"><a class="item-drop-element" href="PredictiveMaintenance.html">Predictive Maintenance</a></li>
-      <li class="item-drop-ele"><a class="item-drop-element" href="HygiaCare.html">Hygia – COVID19 Response</a></li>
+      <li class="item-drop-ele"><a class="item-drop-element" href="HygiaCare.html">COVID-19 Response</a></li>
     </ul>
   </div>
   <div class="item-container">
@@ -38,7 +38,7 @@ const topbarContent = `
       <span class="act-tab customer txt" id="act-tab">CUSTOMERS</span>
     </li>
     <ul class="item-dropdown">
-      <li class="item-drop-ele"><a class="item-drop-element" href="OurClient.html">Our Clients</a></li>
+      <li class="item-drop-ele"><a class="item-drop-element" href="OurClient.html">Clients & Case-Studies</a></li>
       <li class="item-drop-ele"><a class="item-drop-element" href="Industries.html">Industries We Serve</a></li>
       <li class="item-drop-ele"><a class="item-drop-element" href="Benefits.html">Customer Benefits</a>
       </li>
@@ -58,7 +58,7 @@ const topbarContent = `
   </div>
 
   <div class="item-container" style="display:none;">
-  <li class="item"><a href="https://hygia.care/" class="act-tab covid-color"  name="COVID 19" id="act-tab" target="_blank">COVID-19</a> </li>
+  <li class="item"><a href="https://hygia.care/" class="act-tab covid-color" name="COVID 19" id="act-tab" target="_blank">COVID-19</a> </li>
   </div>
 
   <div class="item-container" style="padding-left: 16px">
@@ -242,7 +242,7 @@ const navDropdownCont = `
         />
       </li>
       <div class="sub-prod"><a href="mads.html">MADS No-code IoT Platform</a></div>
-      <div class="sub-prod"><a href="itus.html">ITUS Secure IoT Nodes and Gateway</a></div>
+      <div class="sub-prod"><a target="_blank" href="https://drive.google.com/file/d/1uCzd-k9CXCZV82U3tbfyvJOkW9A44NOA/view">ITUS Secure IoT Nodes and Gateway</a></div>
       <li class="subdown subdownFour">
         <span>SOLUTIONS</span>
         <img
@@ -257,7 +257,7 @@ const navDropdownCont = `
       <div class="sub-solu"><a href="EnergyAutomation.html">Energy Automation</a></div>
       <div class="sub-solu"><a href="FleetTracking.html">Fleet Tracking</a></div>
       <div class="sub-solu"><a href="PredictiveMaintenance.html" style="display:none;">Predictive Maintenance</a></div>
-      <div class="sub-solu"><a href="HygiaCare.html">Hygia – COVID19 Response</a></div>
+      <div class="sub-solu"><a href="HygiaCare.html">COVID-19 Response</a></div>
       <li class="subdown subdownOne">
         <span>CUSTOMERS</span
         ><img
@@ -269,7 +269,7 @@ const navDropdownCont = `
           src="https://img.icons8.com/android/24/000000/sort-up.png"
         />
       </li>
-      <div class="sub-cust"><a href="OurClient.html">Our Clients</a></div>
+      <div class="sub-cust"><a href="OurClient.html">Clients & Case-Studies</a></div>
       <div class="sub-cust"><a href="Industries.html">Industries We Serve</a></div>
       <div class="sub-cust"><a href="Benefits.html">Customer Benefits</a></div>
       <li class="subdown subdownTwo">
@@ -338,18 +338,18 @@ const footerContent = `
           <div class="mini-section">
             <h3 class="title">PRODUCTS</h3>
             <a href="mads.html" class="link">MADS No-code IoT Platform</a>
-            <a href="itus.html" class="link">ITUS Secure IoT Nodes and Gateway</a>
+            <a target="_blank" href="https://drive.google.com/file/d/1uCzd-k9CXCZV82U3tbfyvJOkW9A44NOA/view" class="link">ITUS Secure IoT Nodes and Gateway</a>
           </div>
           <div class="mini-section">
             <h3 class="title">SOLUTION</h3>
             <a href="EnergyAutomation.html" class="link">Energy Automation</a>
             <a href="FleetTracking.html" class="link">Fleet Tracking</a>
             <a href="PredictiveMaintenance.html" class="link" style="display:none;">Predictive Maintenance</a>
-            <a href="HygiaCare.html" class="link">Hygia – COVID19 Response</a>
+            <a href="HygiaCare.html" class="link">COVID-19 Response</a>
           </div>
           <div class="mini-section">
             <h3 class="customer title">CUSTOMERS</h3>
-            <a href="OurClient.html" class="link">Our Clients</a>
+            <a href="OurClient.html" class="link">Clients & Case-Studies</a>
             <a href="Industries.html" class="link">Industries We Serve</a>
             <a href="Benefits.html" class="link">Customer Benefits</a>
           </div>
