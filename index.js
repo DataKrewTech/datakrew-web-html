@@ -100,12 +100,8 @@ const topbarContent = `
             
     </select>
     <span class="span-icon1"><i class="fa fas fa-angle-down icon-11"></i></span>
-  
-   
-  
+
    </div>
-
-
 
    <div class="input-data">
    <span class="span-icon"><i class="fa fa-briefcase icon-3" aria-hidden="true"></i></span>
@@ -125,15 +121,11 @@ const topbarContent = `
            <option value="interest" class="gf_placeholder">Which product are you interested in?</option>
            <option value="MADS Platform">MADS Platform</option>
            <option value="MADS Apps">MADS Apps</option>
-           <option value="ITUS Secure Edge">ITUS Secure Edge</option>
-           <option value="HULK USB Key">HULK USB Key</option>
+           <option value="ITUS Nodes and Gateway">ITUS Nodes and Gateway</option>
                                    
     </select>
     <span class="span-icon1"><i class="fa fas fa-angle-down icon-12"></i> </span>
    </div>
-
-
-
 
    <div class="input-data">
    <span  class="span-icon"><i class="fa fa-envelope icon-5" aria-hidden="true"></i></span>
@@ -231,7 +223,7 @@ mainContainer.prepend(topbarEle);
 const navDropdownCont = `
       <li><a href="index.html">HOME</a></li>
       <li class="subdown subdownThree">
-        <span>MADS</span>
+        <span>PRODUCTS</span>
         <img
           class="prod-down block"
           src="https://img.icons8.com/android/24/000000/sort-down.png"
