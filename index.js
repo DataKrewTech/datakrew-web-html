@@ -276,7 +276,7 @@ const navDropdownCont = `
         />
       </li>
       <div class="sub-comp"><a href="company.html#about">About</a></div>
-      <div class="sub-comp"><a href="company.html#team">TEAM</a></div>
+      <div class="sub-comp"><a href="company.html#team">Team</a></div>
       <div class="sub-comp"><a href="company.html#Ecosystem">Ecosystem</a></div>
       <div class="sub-comp"><a href="https://datakrew.blog" target="_blank">Blog</a></div>
       <li><a href="contact.html">CONTACT</a></li>
