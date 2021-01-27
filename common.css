@@ -791,6 +791,7 @@ a:focus {
     .main-footer .container .left-content .brand-icon {
         width: 35%;
         margin-bottom: 35px;
+        margin-top: 50px;
     }
     .main-footer .container .left-content .txt {
         font-size: 14px;
@@ -1280,20 +1281,35 @@ a:focus {
 }
 
 .btn-web-link-wrap .btn-style {
-    display: inline-block;
-    background: #4aacb8;
-    padding: 10px 20px;
-    border-radius: 4px;
-    font-size: 16px;
-    color: #fff;
+    width: 170px;
+    height: 60px;
     border: 1px solid #4aacb8;
     transition: 0.5s;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.4rem;
+    color: #fff;
+    background: linear-gradient( to right, #1c4a86 0%, #1c4e87 4%, #1b5289 9%, #1b538a 9%, #1b578b 14%, #1a5d8e 20%, #186994 31%, #177499 41%, #167b9c 48%, #1486a1 60%, #1390a6 68%, #129aab 78%, #10a7b0 89%, #0fafb4 100%);
+    border-radius: 50px;
+    margin: 24px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
 }
 
 .btn-web-link-wrap .btn-style:hover {
-    background: #fff;
-    color: #4aacb8;
-    border: 1px solid #4aacb8;
+    font-weight: bold;
+    background: -webkit-linear-gradient( to right, #1c4a86 0%, #1c4e87 4%, #1b5289 9%, #1b538a 9%, #1b578b 14%, #1a5d8e 20%, #186994 31%, #177499 41%, #167b9c 48%, #1486a1 60%, #1390a6 68%, #129aab 78%, #10a7b0 89%, #0fafb4 100%);
+    background-color: #fff;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-border-image: -webkit-linear-gradient( to right, #1c4a86 0%, #1c4e87 4%, #1b5289 9%, #1b538a 9%, #1b578b 14%, #1a5d8e 20%, #186994 31%, #177499 41%, #167b9c 48%, #1486a1 60%, #1390a6 68%, #129aab 78%, #10a7b0 89%, #0fafb4 100%);
+    -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border: solid 1px #0FAFB4;
+    -ms-color: #0FAFB4;
+    -webkit-color: #0FAFB4;
 }
 
 .custom-tab-sec {
@@ -1457,5 +1473,24 @@ a:focus {
     }
     .custom-tab-sec .infoSec .lCol {
         margin-bottom: 30px;
+    }
+    .main-footer {
+        height: 100%;
+    }
+    .main-footer .container {
+        display: block;
+        height: 100%;
+    }
+    .main-footer .container .right-content .container {
+        padding: 0;
+        display: flex;
+        width: 100%;
+        margin-top: 40px;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .main-footer .container .right-content .container .mini-section {
+        width: 50%;
+        padding: 0 10px;
     }
 }

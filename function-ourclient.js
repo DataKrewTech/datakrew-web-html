@@ -1,5 +1,5 @@
 /** code by webdevtrick ( https://webdevtrick.com ) **/
-const listItems = document.querySelectorAll('.main li');
+const listItems = document.querySelectorAll('.main ul li');
 const allimages = document.querySelectorAll('.main .list-content .images');
 
 function toggleActiveClass(active) {
