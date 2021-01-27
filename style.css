@@ -1736,7 +1736,7 @@ display: none;
 }
 .learn-btn{
   height: 60px;
-  width: 36%;
+  width: 170px;
   font-weight: 700;
     font-family: 'Montserrat', sans-serif;
   font-size: 1.4rem;
@@ -1786,9 +1786,9 @@ display: none;
     margin-top: 80px;
   }
   
-  .learn-btn{
+  /* .learn-btn{
     width: 60%;
-  }
+  } */
   .heading-text{
     padding: 10px !important;
     font-size: 18px;
@@ -1838,9 +1838,9 @@ display: none;
     align-items: center;
     flex-direction: column;
   }
-  .learn-btn{
+  /* .learn-btn{
     width: 85%;
-  }
+  } */
   /* .svg-img svg{
         height: auto;
         width: 64%;
