@@ -2,7 +2,7 @@ let categories = [
   {
     name: 'Core',
     img:
-      'https://cdn.zeplin.io/5e6a432713239d166440621b/assets/39A46530-F7FF-4990-98FF-4C3075E225BA.svg',
+      'assets/mads/core.svg',
     apps: [
       {
         name: 'AppStore',
@@ -33,7 +33,7 @@ let categories = [
   {
     name: 'Productivity',
     img:
-      'https://cdn.zeplin.io/5e6a432713239d166440621b/assets/2852DB3D-8EF6-4307-B173-F9A5C52A9552.svg',
+      'assets/mads/Productivity.svg',
     apps: [
       {
         name: 'Dashboards',
@@ -83,7 +83,7 @@ let categories = [
   {
     name: 'Management',
     img:
-      'https://cdn.zeplin.io/5e6a432713239d166440621b/assets/9905D2E9-21E3-4209-94AC-8B130DCBDA94.svg',
+      'assets/mads/Management.svg',
     apps: [
       {
         name: 'File Manager',
@@ -129,7 +129,7 @@ let categories = [
   {
     name: 'Analytics',
     img:
-      'https://cdn.zeplin.io/5e6a432713239d166440621b/assets/1E2076A5-30E5-4CF8-BF47-4D30F7894FE5.svg',
+      'assets/mads/Analytics.svg',
     apps: [
       {
         name: 'Data Cruncher',
@@ -155,7 +155,7 @@ let categories = [
   {
     name: 'Security',
     img:
-      'https://cdn.zeplin.io/5e6a432713239d166440621b/assets/DCC72D89-A0DF-44F7-8E7F-8407F6CD5F3A.svg',
+      'assets/mads/Security.svg',
     apps: [
       {
         name: 'MADS Secure',
@@ -200,7 +200,7 @@ let categories = [
   {
     name: 'General',
     img:
-      'https://cdn.zeplin.io/5e6a432713239d166440621b/assets/D8F3B1C6-2324-4093-90B0-2E8416AAEE13.svg',
+      'assets/mads/General.svg',
     apps: [
       {
         name: 'Calendar',

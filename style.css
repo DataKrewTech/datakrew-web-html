@@ -1736,14 +1736,19 @@ display: none;
 }
 .learn-btn{
   height: 60px;
-  width: 36%;
+  width: 170px;
   font-weight: 700;
     font-family: 'Montserrat', sans-serif;
   font-size: 1.4rem;
   color: #fff;
+  background: -webkit-linear-gradient( to right, #1c4a86 0%, #1c4e87 4%, #1b5289 9%, #1b538a 9%, #1b578b 14%, #1a5d8e 20%, #186994 31%, #177499 41%, #167b9c 48%, #1486a1 60%, #1390a6 68%, #129aab 78%, #10a7b0 89%, #0fafb4 100%);
   background: linear-gradient( to right, #1c4a86 0%, #1c4e87 4%, #1b5289 9%, #1b538a 9%, #1b578b 14%, #1a5d8e 20%, #186994 31%, #177499 41%, #167b9c 48%, #1486a1 60%, #1390a6 68%, #129aab 78%, #10a7b0 89%, #0fafb4 100%);
   border-radius: 50px;
-  margin: 24px 0px;
+  margin: 24px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
 }
 
 .learn-btn:hover{
@@ -1781,9 +1786,9 @@ display: none;
     margin-top: 80px;
   }
   
-  .learn-btn{
+  /* .learn-btn{
     width: 60%;
-  }
+  } */
   .heading-text{
     padding: 10px !important;
     font-size: 18px;
@@ -1833,9 +1838,9 @@ display: none;
     align-items: center;
     flex-direction: column;
   }
-  .learn-btn{
+  /* .learn-btn{
     width: 85%;
-  }
+  } */
   /* .svg-img svg{
         height: auto;
         width: 64%;

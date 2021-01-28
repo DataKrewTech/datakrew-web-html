@@ -248,7 +248,7 @@ const navDropdownCont = `
       </li>
       <div class="sub-solu"><a href="EnergyAutomation.html">Energy Automation</a></div>
       <div class="sub-solu"><a href="FleetTracking.html">Fleet Tracking</a></div>
-      <div class="sub-solu"><a href="PredictiveMaintenance.html" style="display:none;">Predictive Maintenance</a></div>
+      <div class="sub-solu" style="display:none !important;"><a href="PredictiveMaintenance.html">Predictive Maintenance</a></div>
       <div class="sub-solu"><a href="HygiaCare.html">COVID-19 Response</a></div>
       <li class="subdown subdownOne">
         <span>CUSTOMERS</span
