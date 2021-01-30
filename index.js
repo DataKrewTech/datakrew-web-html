@@ -18,8 +18,8 @@ const topbarContent = `
       <span class="act-tab products txt" id="act-tab">PRODUCTS</span>
     </li>
     <ul class="item-dropdown">
-      <li class="item-drop-ele"><a class="item-drop-element" href="mads.html">MADS No-code IoT Platform</a></li>
-      <li class="item-drop-ele"><a class="item-drop-element" href="itus.html">ITUS Secure IoT Nodes and Gateway</a></li>
+      <li class="item-drop-ele"><a class="item-drop-element" href="mads.html">MADS IoT Platform OS</a></li>
+      <li class="item-drop-ele"><a class="item-drop-element" href="itus.html">ITUS IoT Node and Gateway</a></li>
     </ul>
   </div>
   <div class="item-container">
@@ -233,8 +233,8 @@ const navDropdownCont = `
           src="https://img.icons8.com/android/24/000000/sort-up.png"
         />
       </li>
-      <div class="sub-prod"><a href="mads.html">MADS No-code IoT Platform</a></div>
-      <div class="sub-prod"><a href="itus.html">ITUS Secure IoT Nodes and Gateway</a></div>
+      <div class="sub-prod"><a href="mads.html">MADS IoT Platform OS</a></div>
+      <div class="sub-prod"><a href="itus.html">ITUS IoT Node and Gateway</a></div>
       <li class="subdown subdownFour">
         <span>SOLUTIONS</span>
         <img
@@ -329,8 +329,8 @@ const footerContent = `
           
           <div class="mini-section">
             <h3 class="title">PRODUCTS</h3>
-            <a href="mads.html" class="link">MADS No-code IoT Platform</a>
-            <a href="itus.html" class="link">ITUS Secure IoT Nodes and Gateway</a>
+            <a href="mads.html" class="link">MADS IoT Platform OS</a>
+            <a href="itus.html" class="link">ITUS IoT Node and Gateway</a>
           </div>
           <div class="mini-section">
             <h3 class="title">SOLUTION</h3>
