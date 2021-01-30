@@ -19,7 +19,7 @@ const topbarContent = `
     </li>
     <ul class="item-dropdown">
       <li class="item-drop-ele"><a class="item-drop-element" href="mads.html">MADS No-code IoT Platform</a></li>
-      <li class="item-drop-ele"><a class="item-drop-element" target="_blank" href="https://drive.google.com/file/d/1uCzd-k9CXCZV82U3tbfyvJOkW9A44NOA/view">ITUS Secure IoT Nodes and Gateway</a></li>
+      <li class="item-drop-ele"><a class="item-drop-element" href="itus.html">ITUS Secure IoT Nodes and Gateway</a></li>
     </ul>
   </div>
   <div class="item-container">
@@ -234,7 +234,7 @@ const navDropdownCont = `
         />
       </li>
       <div class="sub-prod"><a href="mads.html">MADS No-code IoT Platform</a></div>
-      <div class="sub-prod"><a target="_blank" href="https://drive.google.com/file/d/1uCzd-k9CXCZV82U3tbfyvJOkW9A44NOA/view">ITUS Secure IoT Nodes and Gateway</a></div>
+      <div class="sub-prod"><a href="itus.html">ITUS Secure IoT Nodes and Gateway</a></div>
       <li class="subdown subdownFour">
         <span>SOLUTIONS</span>
         <img
@@ -330,7 +330,7 @@ const footerContent = `
           <div class="mini-section">
             <h3 class="title">PRODUCTS</h3>
             <a href="mads.html" class="link">MADS No-code IoT Platform</a>
-            <a target="_blank" href="https://drive.google.com/file/d/1uCzd-k9CXCZV82U3tbfyvJOkW9A44NOA/view" class="link">ITUS Secure IoT Nodes and Gateway</a>
+            <a href="itus.html" class="link">ITUS Secure IoT Nodes and Gateway</a>
           </div>
           <div class="mini-section">
             <h3 class="title">SOLUTION</h3>
